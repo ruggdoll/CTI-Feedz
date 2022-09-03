@@ -1,2 +1,2 @@
 # FED-CTI
-Just CTI Feeds from all over
+Just CTI Feeds from all over the interweb
