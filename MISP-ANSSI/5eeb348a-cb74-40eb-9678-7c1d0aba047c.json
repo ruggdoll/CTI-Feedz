@@ -1,0 +1,2152 @@
+{
+  "Event": {
+    "date": "2020-05-28",
+    "uuid": "5eeb348a-cb74-40eb-9678-7c1d0aba047c",
+    "publish_timestamp": "1656918312",
+    "published": true,
+    "analysis": "0",
+    "extends_uuid": "",
+    "info": "[CERT-FR] Le code malveillant Dridex : origines et usages",
+    "timestamp": "1656512183",
+    "threat_level_id": "4",
+    "Orgc": {
+      "uuid": "56bdf779-46f8-4353-bdf9-2bb95bce2212",
+      "name": "CERT-FR"
+    },
+    "Tag": [
+      {
+        "colour": "#f89595",
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "cossi:TLP=\"white\""
+      },
+      {
+        "colour": "#008e63",
+        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
+      },
+      {
+        "colour": "#00714f",
+        "name": "cossi:fiabilite=\"Bonne\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:malpedia=\"Dridex\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "3b1a0eaf-f0bc-4b23-9064-05957d4e5a08",
+        "type": "comment",
+        "to_ids": true,
+        "value": "Dridex, apparu en juin 2014, est la cinqui\u00e8me variante du code malveillant Bugat actif de 2010 \u00e0 2013, agr\u00e9- ment\u00e9 de particularit\u00e9s propres \u00e0 GameOverZeuS (GoZ), actif jusqu\u2019en 2014.",
+        "comment": "",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Other",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#00af7a",
+            "name": "DescriptionTechnique"
+          }
+        ]
+      },
+      {
+        "uuid": "5f8a5951-a6a7-45de-a6a1-419643958726",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "admin@belpay.by",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "cec7ce12-8f0c-43a4-98af-513f6272a8aa",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "faber@imaba.nl",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "50696644-2d5c-47d0-ad41-1f74fb00200f",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "s.palani@itifsl.co.in",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "ecebfb53-8e5e-4e5f-889b-335cf486f478",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "yportocarrero@elevenca.com",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "187cfe9f-f20a-4cd1-b24e-9a488aa6755a",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "tom@blackburnpowerltd.co.uk",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "267fff12-c222-4b3a-8a16-e6b29fcfe59f",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "pranab@pdrassocs.com",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "0ec688d5-ada9-41fb-8652-736a4242f530",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "admin@sevpazarlama.com",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "c353122f-a86b-491f-867a-3242b84cbbab",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "farid@abc-telecom.az",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "4782fce2-e83c-4900-93fa-4f4a3f808ba6",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "bounce@bestvaluestore.org",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "42c52199-2273-4c3a-93fe-642d67915918",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "web1587p16@mail.flw-buero.at",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "7ea44a0e-2155-48ca-95ce-27b4b1b4b8e4",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "fabianurquiza@correo.dalvear.com.ar",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "9e7df87e-0764-4a14-882a-f5dcd3e89892",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "info@melvale.co.uk",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "dddaf64d-6e25-457a-8864-9e306d21ad5b",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "faturamento@sidestecaminhoes.com.br",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "501b6024-e328-44c7-bd7e-086fe0ee628c",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "cariola72@teletu.it",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "c54a706d-4e8f-4865-9aa8-5955036fa027",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "info@golfprogroup.com",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "43b8e0d0-1f09-4b57-b2a0-bd55e1c8f156",
+        "type": "email-src",
+        "to_ids": true,
+        "value": "info@antonioscognamiglio.it",
+        "comment": "Campagne hame\u00e7onnage Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Payload delivery",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#8a0064",
+            "name": "kill-chain:Delivery"
+          },
+          {
+            "colour": "#00714f",
+            "name": "cossi:fiabilite=\"Bonne\""
+          }
+        ]
+      },
+      {
+        "uuid": "e12fb93d-bafe-45ee-bcdf-5b32b4091902",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://owenti.com/fprl.exe",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "6aef4dd9-f3c4-478c-88a2-0c1ddb8e4b92",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://tamboe.net/frap.exe",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "f3e2c89f-2f22-41d7-815d-b3cbcd545e9e",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://owenti.com/fprl.bin",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "e4bb5746-3476-4faa-89a3-051209d53b6e",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://saitepy.com/glps.exe",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "68eb375a-bee2-4adf-8925-a958de816979",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://klerber.com/glps.exe",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "b5c18af3-ed1d-459c-b0e3-c521a5b5ddde",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://fdistus.com/glps.exe",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "e1ed9577-6053-4873-84eb-0907cb1e7007",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://uprevoy.com/opxe.exe",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "df7acd5f-98b2-4489-87db-2a0a6c0d5e27",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://typrer.com/qrpt.exe",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "8b500f66-8622-45bf-b1d9-8c020865ed47",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://urefere.org/opxe.exe",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "d2ed1804-3b75-4481-a5da-80e4d80d54d7",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://inesmoreira.pt/img/galeria/beloura/123.bin",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "b2f416c6-8f13-4efc-b990-ce8285d41537",
+        "type": "url",
+        "to_ids": true,
+        "value": "https://masteronare.com/function.php?3b3988df-c05b-4fca-93cc-8f82af0e3d2b",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "148a0c0f-13b9-4dc4-9620-50bbb7bd5845",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://bienvenidosnewyork.com/app.php",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "333de011-621d-45cf-9e1f-86754bf04c7b",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://photoflip.co.in/lndex.php",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "780b8f9f-ae6e-4400-913b-6bb427163899",
+        "type": "url",
+        "to_ids": true,
+        "value": "http://everestedu.org/lndex.php",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "9660e2fc-6abd-46fc-9cdd-6c0a126ad490",
+        "type": "url",
+        "to_ids": true,
+        "value": "https://thinkunicorn.com/wp-admin/css/colors/fish/HraXJHWvJbyTvdLwdaAu/0ev7Bg.bin",
+        "comment": "DoppelDridex (botnet ID 40300)",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "2e44467b-f60b-4695-b0ea-080dce3ab04e",
+        "type": "url",
+        "to_ids": true,
+        "value": "https://unfocusedprints.co.kr/HraXJHWvJbyTvdLwdaAu/0ev7Bg.bin",
+        "comment": "DoppelDridex (botnet ID 40300)",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "62fa7c5a-1545-437a-8fae-51174bc63b7c",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "62.149.158.252",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "aa8aafc1-2cc6-42be-b683-8244ffdb4dc6",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "177.34.32.109",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "9f4edbf2-600f-47d6-8707-c50208404ef3",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "2.138.111.86",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "199129ce-ecd0-459a-8a48-71b1de1f4127",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "122.172.96.18",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "e6e4c604-5017-4d08-be0e-4abd2b19b043",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "69.93.243.5",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "827b0ac4-4630-4068-a570-94086278b98c",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "200.43.183.102",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "6926d35d-0549-49d4-8c62-13832190202f",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "79.124.76.30",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472714",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "15285ca2-4efe-4390-aa49-9109156fdc32",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "188.125.166.114",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "7913723e-b9f7-4e74-986a-c4a6060af622",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "37.59.52.64",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "1d9ac419-6e53-4feb-9431-7e4750655bfa",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "50.28.35.36",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "c10e266d-7ca0-4904-92e9-2aa5bbe5bd47",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "154.70.39.158",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "b67cf54b-3e83-4722-8523-ead6b59ff972",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "108.29.37.11",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "0a05f87f-e684-4c57-97d4-dc3c71616aad",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "65.112.218.2",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "ba121871-41cd-4733-bc6b-a03943302d34",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "47.254.236.15",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "1915b007-f620-400e-bc57-810569b107bf",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "194.99.22.193",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "ae6a7181-71f0-4f7e-91ca-62d60b8a39e9",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "178.63.67.20",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "0b251bb9-993c-4ca1-a375-08ae2315e7b9",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "5.127.14.171",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "b70ea915-6196-49ee-83e2-3edad2a3f75f",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "34.213.221.29",
+        "comment": "Dridex",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "85f277eb-441a-4ee0-b01d-5e419ec4ac4d",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "209.40.205.12",
+        "comment": "DoppelDridex (botnet ID 40300)",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "d527e5d4-2ed4-4df0-964c-3e549f0ad490",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "79.143.178.194",
+        "comment": "DoppelDridex (botnet ID 40300)",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "7e27db6c-49ee-44b2-9f19-c11f00bcf9c2",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "188.165.247.187",
+        "comment": "DoppelDridex (botnet ID 40300)",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "6c84ae16-0829-4553-ab66-4439f0095046",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "185.234.52.170",
+        "comment": "DoppelDridex (botnet ID 40300)",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "8db1cd6f-a5fb-4150-9b9d-5dc6e54c2330",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "199.101.86.6",
+        "comment": "DoppelDridex (botnet ID 40300)",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "345f1b2c-8884-45e3-8e13-81821754dd16",
+        "type": "ip-dst",
+        "to_ids": true,
+        "value": "176.10.250.88",
+        "comment": "DoppelDridex (botnet ID 40300)",
+        "disable_correlation": false,
+        "timestamp": "1592472715",
+        "category": "Network activity",
+        "deleted": false
+      },
+      {
+        "uuid": "665d6d86-f2a5-46df-a161-287ac46073d8",
+        "type": "comment",
+        "to_ids": true,
+        "value": "2020-01-01",
+        "comment": "",
+        "disable_correlation": false,
+        "timestamp": "1592841402",
+        "category": "Other",
+        "deleted": false,
+        "Tag": [
+          {
+            "colour": "#000000",
+            "name": "cossi:relevantTimespan=\"from\""
+          }
+        ]
+      }
+    ],
+    "Object": [
+      {
+        "uuid": "52c1fa86-cc43-4369-8544-1954f238bec0",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name: 'Fiddler.exe' File Size: 162304 Dridex (botnet ID 199 ou 501)",
+        "name": "file",
+        "timestamp": "1592558322",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "78976310-4b5e-4aa5-9880-cfa89e7f00e3",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "7239da273d3a3bfd8d169119670bb745",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558322",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "cecbf001-48fa-4da4-8b9f-d498ff451d7d",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "f624d419671b8eef94241bd010a1ca0c22950fec",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558322",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "c7a7a03e-279c-495b-911b-25fded135a52",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "aadb5217c4c9316b90ce4eb5f2b52f72d34d426d66ce00c9addaef1654853acf",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558322",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec82f2-cb90-4ca6-96a3-264a0aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "162304",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558322",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "cdf09d4c-38f7-43d6-a04e-e9cfc36cf0d7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:'Fiddler.exe' File Size: 163328 Dridex (botnet ID 199 ou 501)",
+        "name": "file",
+        "timestamp": "1592558394",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "63871aca-22a9-4e27-988f-0ecee0dd7393",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "72fe19810a9089cd1ec3ac5ddda22d3f",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558394",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "efa517c4-8598-405c-87a2-7bdf78b2c5b8",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "cecbd09b389a6f4e3ac7a81a9280e1893a6066ae",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558394",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "7c62fc8d-f9a9-4b10-ba94-4aec55db31c9",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "cd32a737fcba8198d43fed5a68348f983f7713f79574a710deb7759e5a1301eb",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558394",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec833a-1c20-4bff-a3ca-94a90aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "163328",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558394",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "bdf949a5-8008-4795-b5fc-61f26de8ed1e",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:'api', 'apisets', 'FQbdHGT8.exe' File Size: 163328 Dridex (botnet ID 199 ou 501)",
+        "name": "file",
+        "timestamp": "1592558412",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "5f4c70f5-01b8-48fd-86b4-2621d7135f18",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "72fe19810a9089cd1ec3ac5ddda22d3f",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558412",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "19cd855c-1dde-4994-9f96-a0936cfe60fc",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "cecbd09b389a6f4e3ac7a81a9280e1893a6066ae",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558412",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "08f0afd0-bfb4-4e32-8f8e-bedddd34a72f",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "cd32a737fcba8198d43fed5a68348f983f7713f79574a710deb7759e5a1301eb",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558412",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec834c-1d4c-499a-a997-264a0aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "163328",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558412",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "94a06b01-4eab-4215-b463-e7a017d6483a",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:'HPDJSLK', 'IA4DIPGM.EXE' File Size: 180224 Dridex (botnet ID 199 ou 501)",
+        "name": "file",
+        "timestamp": "1592558226",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "796f8f2e-f68d-4ffb-a4e6-6608e784a8ae",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "c8bb08283e55aed151417a9ad1bc7ad9",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558226",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "21300afa-161e-497d-863e-110ac8ec1833",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "57f8fe479206f195b630cf8232a0c0e9c5a47977",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558226",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "69e8dc64-55b7-43fd-b54f-47d75cc938d9",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "6362084f61fa6a41b8b01b7c62215ad41a2623b69572ce558c33bffaa21f0af9",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558226",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec8292-7f0c-4184-ba98-c46c0aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "180224",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558226",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "5d15f592-cb37-4a9d-8633-cf2803a4b6b5",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:'d3dx81ab.dll' File Size: 1032192 Dridex (botnet ID 199 ou 501)",
+        "name": "file",
+        "timestamp": "1592558428",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "cacd27c2-d8c1-417e-b4e6-a21bd78901ac",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "6e05e84c7a993880409d7a0324c10e74",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558428",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "4a56b9b1-d920-4269-bead-06c7b1de426b",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "4cac8146d54c5e47ec1c31a04c3cafdec9fbf209",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558428",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "1e81a844-b935-4495-8aa5-5911e34858b7",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "ffb1150bbb28d53f325b00445be935cd657c1d8061ba73e91af5b343b6c0d438",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558428",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec835c-8098-4684-8d06-dada0aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "1032192",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558428",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "7114a3d0-e858-4b84-92d8-eaeb76ee9389",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "Dridex (botnet ID 199 ou 501)",
+        "name": "file",
+        "timestamp": "1592558472",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "84630227-0db3-411f-a784-64ed8502dd12",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "63d4834f453ffd63336f0851a9d4c632",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558472",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "752a3080-26ed-4862-aecc-b45bfdc0b54c",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:'QK9BAv2j.exe', 'HPDJSLK' File Size: 188416 Dridex (botnet ID 199 ou 501)",
+        "name": "file",
+        "timestamp": "1592558358",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "c64a6404-ff40-4fa7-9839-d45f8beb9704",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "0ef5c94779cd7861b5e872cd5e922311",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558358",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "4fbea41f-d140-4291-9fb0-4b60d44a74a5",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "5b4b7a6f33d3188ae5211a4432d2a5c84c1da10e",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558358",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "a2d63c15-15fd-4ad9-b889-f602bca56e9c",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "741087126c1c7edec3d0a3bc3f490723a4f410e9a278444c812e7f79013bb996",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558358",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec8316-9b80-419f-a707-9ab40aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "188416",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558358",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "4bb76fc2-d15d-4fcd-8204-5e85ab5fb421",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:'spLauncher\u2019,\u20190ev7Bg.bin\u2019,\u2019secpi15.exe\u2019 File Size: 338944 DoppelDridex (botnet ID 40300)",
+        "name": "file",
+        "timestamp": "1592558192",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "6c22073b-658f-4177-8a3e-9a3e266cc048",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "9aa3089af134627ef48b178db606268a",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558192",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "a9c02046-817b-4b0b-afc0-100679a28304",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "1348d76072280a489cc8d6a15aeb3617b59585ba",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558192",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "66cd455c-d86f-4aeb-a346-9b531cbb2398",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "06b8638fdd478672cfe140221233cacfae6d2890446a5c57c8b1317a27d2a036",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558192",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec8270-94c4-4edb-8123-264a0aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "338944",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558192",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "fee966d8-91e0-46d2-85a4-0f481c6ce262",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:'FreeStudioManager.exe' File Size: 246816 Dridex",
+        "name": "file",
+        "timestamp": "1592558339",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "87471c34-cca9-4a1b-858c-11d90fa3587d",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "e614a69d706913376ab2bb20a703dcf5",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558339",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "d18e7c70-2aa0-4762-b987-f09942822a24",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "3a83bb68be29e1f18fc9d328d952fd228abfae2a",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558339",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "eab985e2-7299-48c5-ba7c-703ef64ad0c7",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "4fccd38f504290cf5c70e7336071a90a064303c7fdf5c17f7c38001768bce115",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558339",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec8303-64f0-4467-a72a-c4050aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "246816",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558339",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "82c7de47-97d3-4615-9ced-ece8a871d202",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:'FIREFOX.TMP' File Size: 212992 Dridex (botnet ID 199)",
+        "name": "file",
+        "timestamp": "1592558133",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "be32126d-e9b4-4a15-b70a-c313f282eef0",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "d0409052256c6efc85b155f58cc03f70",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558133",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "7a74600b-a629-4e01-afe2-c5050efd4942",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "3ab42ca8ce81f9df0c4f7cd807528c5dd0fb5108",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558133",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "d7180dc4-2a40-4d86-977e-312becdb763e",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "1d778359ab155cb190b9f2a7086c3bcb4082aa195ff8f754dae2d665fd20aa05",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558133",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec8235-4564-45f3-bd38-dada0aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "212992",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558133",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "d6435e9d-d606-4cf0-a7a0-96cc76e64447",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:\u2018IlkxzYVaIX.dll\u2019,\u2019Wo.dll\u2019,\u2019mVwEiAJObI.dll\u2019 File Size: 273920 Dridex",
+        "name": "file",
+        "timestamp": "1592558306",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "c63b404a-c03c-4d12-ad23-2c803518fceb",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "63fc3f7b571459c5d5e3ad1eb89f3d84",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558306",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "96763bce-5042-4985-9c93-30ba00e272bd",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "80196cf93443c1bd5b5b4bba58842848366731ad",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558306",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "b3a90f86-edfa-4ed1-bde1-30c0b5047aba",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "abf99a028dae6812f6f0ca633d7424ce9272dfcfbebf6b518c1e6c97f872f3e7",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558306",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec82e2-f818-4cc4-aa37-94a90aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "273920",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558306",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "39320e13-1f4b-4170-a10a-b4cdc7d1c941",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:\u2018streams\u2019,\u2019streams.exe\u2019,\u2019DUI70.dll\u2019 File Size: 1069056 Dridex",
+        "name": "file",
+        "timestamp": "1592558288",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "9bc98805-0a5c-436a-b096-92c9edef9a20",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "369638ac700f3c41ebaba447d4048ff8",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558288",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "a4af8b24-5870-4221-8bac-5ced18b357b4",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "6c50a1abf9dc992e74a73279d40fb1a09368cdfe",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558288",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "0d037649-2cf3-4d82-914b-cf18b993c9b8",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "6712500bb0de148a99ec940160d3d61850e2ce3803adca8f39e9fa8621b8ea6f",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558288",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec82d0-5100-4835-8429-c3d10aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "1069056",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558288",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "16b85cf2-194e-48c7-b7e8-a047a6076913",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:\u2018streams\u2019,\u2019streams.exe\u2019,\u2019UxTheme.dll\u2019 File Size: 786432 Dridex",
+        "name": "file",
+        "timestamp": "1592558270",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "2c40237c-ccf7-4eae-971a-a3c653e7a9fb",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "bd5cfa593ed87901f8184eaa44c0a8b8",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558270",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "29c79935-1cbe-4c0a-ad05-c3320d70ecbe",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "963a57fb83ca6361624fb057058ea4fb538015dc",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558270",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "63338a36-ddb8-49cf-8f0f-cd0abcda68bd",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "86bcfce2dd342e9a1c04cfc65731d40ed1c397a4ec47bd9f5b41771297d81100",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558270",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec82bf-e8e4-4d85-8a55-c3d20aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "786432",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558271",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "25a0dec4-6221-4df7-b446-ca6d2450a79c",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:\u2018streams\u2019,\u2019streams.exe\u2019,\u2019dxgi.dll\u2019 File Size: 782336 Dridex",
+        "name": "file",
+        "timestamp": "1592558255",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "dcd20b65-7f6f-4fe6-aae4-e036bc654cb5",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "7c9f3e0b96ce134ab482818a8ec3033a",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558255",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "0fe0991a-bd30-4fbf-b4eb-16c50ab93fb7",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "c22fd99c995885e7656eb66cf1b043e737385cce",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558255",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "b0203c9b-4d23-4a6a-9ab0-653d63878c03",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "005e77a55b8f1bf4049d6231c2349a01d019b46f47b6930103458a2aadd1bfa6",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558255",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec82af-45a4-4076-9725-dada0aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "782336",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558255",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "d6ae80fc-887f-411d-9c58-5d6795f3d0e0",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:\u2018lbmm4rh4.exe\u2019,\u2019aswBoot\u2019,\u2019aswBoot.exe\u2019 File Size: 266416 Dridex",
+        "name": "file",
+        "timestamp": "1592558240",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "e7749596-2dbb-4fa1-9b77-35dd0020e7af",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "323f7a38cd55ef78e2e2d9e037b0171f",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558240",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "6823ee5c-6d95-4d25-b9a0-7f46b259315f",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "f5e129381be88ddec7a17dc57ce138ff1f252423",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558240",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5435dc9e-7a90-409e-8f82-ae16407a79bc",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "a1388cb3e6ae68a6130ae12f9db4881238c97718875a3362b6bc5788e61c6663",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558240",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec82a0-9468-4519-97d1-9ab40aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "266416",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558240",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "35eb1195-ede6-4e06-9623-7e04d690f9b4",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:\u2018VDIME\u2019,\u2019VDIME.DLL\u2019,\u2019ktyaowm.bin\u2019,\u2019frllo.bin\u2019 File Size: 208896 Dridex",
+        "name": "file",
+        "timestamp": "1592558208",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "60cc9d24-d36a-407a-b280-4d3e8bfeef26",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "6285579d7082c55871b4b9dbe735255a",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558208",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "e13f4d03-ee7b-476c-9807-573b00189223",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "13cbfa1d79184d1cea84aef59e5c856117fd91c2",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558208",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "89d20682-2c38-4e5c-a33a-45979bd6dddf",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "ca087f46f97cd465f46e4ccb04181e6eae7b2c751ae7fd9e262191b979728ccc",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558208",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec8280-fe34-4ede-9a59-26490aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "208896",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558208",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      },
+      {
+        "uuid": "751237ae-883c-476e-95ae-7f7dcb90c993",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "template_version": "15",
+        "comment": "File Name:\u2018Caff54e1.exe\u2019,\u2019ktyaowm.bin\u2019,\u2019pvmbihu.bin\u2019 File Size: 217088 Dridex",
+        "name": "file",
+        "timestamp": "1592558174",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "deleted": false,
+        "Attribute": [
+          {
+            "uuid": "fbed2952-4906-455f-973e-693b29ac58f8",
+            "object_relation": "md5",
+            "type": "md5",
+            "to_ids": true,
+            "value": "c1986a52bc76c58ea099873f6464caf9",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558174",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "683f26d9-b2fe-4512-9f9e-6ff5959396d1",
+            "object_relation": "sha1",
+            "type": "sha1",
+            "to_ids": true,
+            "value": "f1a543664d8872b53103e07ef659e45d3faa397c",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558174",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "9688157b-9760-40b1-a5ea-0f1f304bcfb1",
+            "object_relation": "sha256",
+            "type": "sha256",
+            "to_ids": true,
+            "value": "4ad0998882a3fbd3412f0c740faebb8ef78bec4c3e566650424c40a878e6a23a",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558174",
+            "category": "Payload delivery",
+            "deleted": false,
+            "Tag": [
+              {
+                "colour": "#8a0064",
+                "name": "kill-chain:Delivery"
+              }
+            ]
+          },
+          {
+            "uuid": "5eec825e-3074-415a-8c6a-c3cf0aba047c",
+            "object_relation": "size-in-bytes",
+            "type": "size-in-bytes",
+            "to_ids": false,
+            "value": "217088",
+            "comment": "",
+            "disable_correlation": false,
+            "timestamp": "1592558174",
+            "category": "Other",
+            "deleted": false
+          }
+        ]
+      }
+    ]
+  }
+}
