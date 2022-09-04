@@ -5,7 +5,7 @@ Some _TLP:White_ CTI Feeds
 - [CISCO Talos Blacklisted IP](http://www.talosintelligence.com/documents/ip-blacklist)
 - [Blocklist.de Blacklisted IP](https://lists.blocklist.de/lists/all.txt)
 - [Abuse.ch C2 Botnets IP](https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.json)
-
+- [Alienvault Reputation IP blacklist](http://reputation.alienvault.com/reputation.data)
 
 Update is scheduled everyday at noon
 
