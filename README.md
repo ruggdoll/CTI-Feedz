@@ -2,6 +2,7 @@
 Some _TLP:White_ CTI Feeds
 - [MISP-ANSSI](https://misp.cert.ssi.gouv.fr/feed-misp/)
 - [Azure-Sentinel](https://github.com/Azure/Azure-Sentinel/tree/master/Sample%20Data/Feeds)
+- [CISCO Talos Blacklisted IP](http://www.talosintelligence.com/documents/ip-blacklist)
 
 
 Update is scheduled everyday at noon
