@@ -12,7 +12,8 @@ Update is scheduled everyday at noon
 
 __TODO__ :
 - Add more feeds
-- One way or another I'll fiddle with 
+- Turn TXTs in JSON
+- One way or another fiddle with 
   - [CISA AIS Ressources](https://www.cisa.gov/ais)
   - [MISP-CIRCL](https://www.circl.lu/doc/misp/feed-osint/) (but I have to deal with the 100Mb cap here)
 
