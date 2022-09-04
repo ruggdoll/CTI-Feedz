@@ -7,7 +7,7 @@ Some _TLP:White_ CTI Feeds
 - [Abuse.ch C2 Botnets IP](https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.json)
 - [Alienvault Reputation IP blacklist](http://reputation.alienvault.com/reputation.data)
 
-Update is scheduled everyday at noon
+Update is scheduled hourly
 
 
 __TODO__ :
