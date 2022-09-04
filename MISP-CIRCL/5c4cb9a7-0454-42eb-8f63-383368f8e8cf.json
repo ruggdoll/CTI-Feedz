@@ -1,0 +1,546 @@
+{
+  "Event": {
+    "date": "2019-01-26",
+    "timestamp": "1621849995",
+    "analysis": "0",
+    "uuid": "5c4cb9a7-0454-42eb-8f63-383368f8e8cf",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1622020145",
+    "info": "2019-01-25: Lazarus Pakistan Toolkits",
+    "threat_level_id": "2",
+    "Orgc": {
+      "uuid": "5bfa439e-c978-4dcd-b474-73f568f8e8cf",
+      "name": "VK-Intel"
+    },
+    "Tag": [
+      {
+        "colour": "#e0b538",
+        "name": "Actor: Lazarus"
+      },
+      {
+        "colour": "#302c04",
+        "name": "DPRK"
+      },
+      {
+        "colour": "#403c80",
+        "name": "Malware: PowerRatankba,b"
+      },
+      {
+        "colour": "#7036f2",
+        "name": "PowerShell Installer"
+      },
+      {
+        "colour": "#2be799",
+        "name": "Keylogger"
+      },
+      {
+        "colour": "#b11b8a",
+        "name": "Country: Pakistan"
+      },
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#0071c3",
+        "name": "osint:lifetime=\"perpetual\""
+      },
+      {
+        "colour": "#0087e8",
+        "name": "osint:certainty=\"50\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#13eb00",
+        "name": "misp-galaxy:threat-actor=\"Lazarus Group\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:malpedia=\"PowerRatankba\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-intrusion-set=\"Lazarus Group\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:malpedia=\"Lazarus\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-intrusion-set=\"Lazarus Group - G0032\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-intrusion-set=\"Lazarus Group\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"PowerRatankba\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload delivery",
+        "timestamp": "1548532135",
+        "comment": "",
+        "uuid": "5c4cb9a7-3684-4f00-bff9-383368f8e8cf",
+        "value": "c9ed87e9f99c631cda368f6f329ee27e",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1548532274",
+        "comment": "Lazarus Tools",
+        "uuid": "5c4cba32-e9e4-4bbf-8396-383068f8e8cf",
+        "value": "c9ed87e9f99c631cda368f6f329ee27e",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1548532274",
+        "comment": "Lazarus Tools",
+        "uuid": "5c4cba32-070c-42ba-a0e0-383068f8e8cf",
+        "value": "5cc28f3f32e7274f13378a724a5ec33a",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1548532274",
+        "comment": "Lazarus Tools",
+        "uuid": "5c4cba32-0238-4c6d-b8e2-383068f8e8cf",
+        "value": "2025d91c1cdd33db576b2c90ef4067c7",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1548532356",
+        "comment": "C2",
+        "uuid": "5c4cba84-aed4-452e-8eb2-4e2768f8e8cf",
+        "value": "https://ecombox.store/tbl_add.php?action=cgetpsa",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1548532356",
+        "comment": "C2",
+        "uuid": "5c4cba84-c3c8-422c-a870-4e2768f8e8cf",
+        "value": "https://ecombox.store/tbl_add.php?action=cgetrun",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1548585989",
+        "comment": "Yara for Keylogger",
+        "uuid": "5c4cbbd2-1258-453f-b07d-383068f8e8cf",
+        "value": "rule APT_Lazarus_Keylogger {\r\n   meta:\r\n      description = \"Detects possible Lazarus Keylogger\"\r\n      author = \"@VK_Intel\"\r\n      date = \"2019-01-25\"\r\n  strings:\r\n\t$s0 = \"%s%s\" fullword ascii wide\r\n\t$s1 = \"[ENTER]\" fullword ascii wide \r\n\t$s2 = \"[EX]\" fullword ascii wide\r\n\t$s3 = \"%02d:%02d\" fullword ascii wide\r\n        \r\n      \r\n\t$dll0 = \"PSLogger.dll\" fullword ascii wide\r\n\t$dll1 = \"capture_x64.dll\" fullword ascii wide        \r\n\t$exe = \"PSLogger.exe\" fullword ascii wide\r\n        \r\n condition:\r\n\tuint16(0) == 0x5a4d and all of ($s*) and (1 of ($dll*) or $exe)\r\n  }",
+        "to_ids": false,
+        "type": "yara",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1548586255",
+        "comment": "Original MISP event",
+        "uuid": "5c4d8bce-3e80-4dc4-9820-436102de0b81",
+        "value": "https://github.com/k-vitali/apt_lazarus_toolkits/blob/master/2019-01-26.lazarus_pakistan_misp_vk.json",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          },
+          {
+            "colour": "#0082e1",
+            "name": "osint:certainty=\"75\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1548586254",
+        "comment": "Original blog post",
+        "uuid": "5c4d8bf5-85c8-4424-a35f-4dd602de0b81",
+        "value": "https://www.vkremez.com/2019/01/lets-learn-dissecting-lazarus.html",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          },
+          {
+            "colour": "#0082e1",
+            "name": "osint:certainty=\"75\""
+          }
+        ]
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1548586035",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "49032699-f4cf-4808-a272-9ca316968a35",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1621849995",
+            "comment": "",
+            "uuid": "5c4d8c34-3a40-4bb6-bf80-4ee802de0b81",
+            "object_uuid": "49032699-f4cf-4808-a272-9ca316968a35",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "c3f88cfe-b795-4813-aaf3-3e8dcc5aceb6"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "30a7f4f9-7042-409b-89fd-5bbbb1071402",
+            "value": "c9ed87e9f99c631cda368f6f329ee27e",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "b3c9ea66-7f0e-41d4-9275-44f1aadb2996",
+            "value": "943feef623db1143f4b9c957fee4c94753cfb6a5",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "fdedfbee-bab6-464b-86d7-c3ad7ef6f3ab",
+            "value": "802efe9c41909354921009bd54be7dcf1ee14fcfaf62dacbcdaafbe051a711e3",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1548586036",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "c3f88cfe-b795-4813-aaf3-3e8dcc5aceb6",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "7b3cc6f2-b07f-457e-b07b-d540d8411068",
+            "value": "2019-01-26T18:54:38",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "a0ecf930-b40e-4994-a828-67700f5f7c7e",
+            "value": "https://www.virustotal.com/file/802efe9c41909354921009bd54be7dcf1ee14fcfaf62dacbcdaafbe051a711e3/analysis/1548528878/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "44dca040-d0e5-4292-9239-670b5be27c9b",
+            "value": "2/56",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1548586036",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "a45c3106-dec5-404d-acfc-8d00abde20c1",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1621849995",
+            "comment": "",
+            "uuid": "5c4d8c34-a3f8-4ee5-ad31-4caf02de0b81",
+            "object_uuid": "a45c3106-dec5-404d-acfc-8d00abde20c1",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "f8013005-dcd4-4c9f-9277-143df2440b9b"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "a5c6b587-af55-4ded-bb5e-247a219f79d5",
+            "value": "2025d91c1cdd33db576b2c90ef4067c7",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "d157e754-e19f-4480-8f86-0113748ab373",
+            "value": "ec80c302c91c6caf5343cfd3fabf43b0bbd067a5",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "d0476a87-7a08-4cad-866c-9b2f38e8a8de",
+            "value": "bed916831e8c9babfb6d08644058a61e3547d621f847c081309f616aed06c2fe",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1548586036",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "f8013005-dcd4-4c9f-9277-143df2440b9b",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "44f0d1c6-d716-4e81-9349-5d1f1de27808",
+            "value": "2019-01-25T21:10:16",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "2e44c2c4-bb77-4f87-a9d0-5162e7ce0712",
+            "value": "https://www.virustotal.com/file/bed916831e8c9babfb6d08644058a61e3547d621f847c081309f616aed06c2fe/analysis/1548450616/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "e80a9946-d609-4362-b9e4-ff861a117761",
+            "value": "3/68",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1548586036",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "88a6f7a4-9334-4ba6-af2d-93defaae48d4",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1621849995",
+            "comment": "",
+            "uuid": "5c4d8c34-e44c-4f98-83d0-4d8502de0b81",
+            "object_uuid": "88a6f7a4-9334-4ba6-af2d-93defaae48d4",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "de16e29f-b02f-4768-a6a2-18ea57310af0"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "818bd3a8-031c-47e6-8574-23e832fc625f",
+            "value": "5cc28f3f32e7274f13378a724a5ec33a",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "a1be4cc8-c1c4-41c3-aae7-24b91913daad",
+            "value": "32292b4e125287a6567e3879d53d0d8d82bcdf01",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "74d6e72e-02c3-45ff-8f90-6a69a73d5b70",
+            "value": "18f0ad8c58558d6eb8129f32cbc2905d0b63822185506b7c3bca49d423d837c7",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1548586036",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "de16e29f-b02f-4768-a6a2-18ea57310af0",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "e37a032b-0abd-4860-a6fd-5e6a98537472",
+            "value": "2019-01-26T22:25:46",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "4c46bec8-3b2d-4494-a2de-12288573a536",
+            "value": "https://www.virustotal.com/file/18f0ad8c58558d6eb8129f32cbc2905d0b63822185506b7c3bca49d423d837c7/analysis/1548541546/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1548586036",
+            "comment": "",
+            "uuid": "ab18849e-cd56-4123-b59e-5086417c0d7f",
+            "value": "3/56",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

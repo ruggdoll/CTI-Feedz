@@ -1,0 +1,484 @@
+{
+  "Event": {
+    "date": "2017-11-29",
+    "timestamp": "1512356424",
+    "analysis": "2",
+    "uuid": "5a214d9a-ed50-4a33-8812-491a950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1514467579",
+    "info": "OSINT - Fake Windows Troubleshooting Support Scam Uploads Screenshots & Uses Paypal",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1512132229",
+        "comment": "",
+        "uuid": "5a214dd9-0f8c-48c0-b299-492c950d210f",
+        "value": "A new tech support scam has been discovered that shows a fake BSOD, or Blue Screen of Death, on the infected computer and then displays an application that pretends to be a Troubleshooter for Windows. This Troubleshooter will then state that your computer cannot be fixed, blocks you from using Windows, and prompts you to purchase a program using PayPal to fix the \"detected problems\" and unlock the screen.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512132257",
+        "comment": "",
+        "uuid": "5a214e5a-cae4-4fb6-a72c-48cf950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/fake-windows-troubleshooting-support-scam-uploads-screenshots-and-uses-paypal/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-1370-4213-9807-4856950d210f",
+        "value": "http://hitechnovation.com/Extra/Downloads/BSOD.exe",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-86f0-404d-ae51-4953950d210f",
+        "value": "http://hitechnovation.com/Extra/Downloads/csrvc.exe",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-c7c8-4ccb-9d52-47f3950d210f",
+        "value": "http://hitechnovation.com/Extra/Downloads/adwizz.exe",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-bda0-43aa-adce-44b7950d210f",
+        "value": "http://hitechnovation.com/Extra/Downloads/Troubleshoot.exe",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-d894-4f87-a651-4cd6950d210f",
+        "value": "http://hitechnovation.com/extra/downloads/scshtrv.exe",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-0110-4c25-85c9-463e950d210f",
+        "value": "http://hitechnovation.com/Extra/Downloads/Windows%20Chat%20Support.exe",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-bd6c-44c1-a51e-474a950d210f",
+        "value": "http://hitechnovation.com/thankyou.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-c154-48fb-8661-43f4950d210f",
+        "value": "http://hitechnovation.com/Downloads/DList.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-3130-47b9-8209-4a8e950d210f",
+        "value": "http://freegeoip.net/xml",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512134080",
+        "comment": "Network Connections",
+        "uuid": "5a2155c0-75f0-431b-80eb-4edb950d210f",
+        "value": "ftp://182.50.132.48",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512134316",
+        "comment": "",
+        "uuid": "5a2156ad-4e20-4ae2-a900-458d950d210f",
+        "value": "%Temp%\\csrvc\\BSOD.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512134317",
+        "comment": "",
+        "uuid": "5a2156ad-4934-47c8-a301-4e1b950d210f",
+        "value": "%Temp%\\csrvc\\csrvc.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512134317",
+        "comment": "",
+        "uuid": "5a2156ad-29bc-4081-9ea4-4c81950d210f",
+        "value": "%Temp%\\csrvc\\csrvc.InstallLog",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512134317",
+        "comment": "",
+        "uuid": "5a2156ad-a598-4489-b7cd-48e7950d210f",
+        "value": "%Temp%\\csrvc\\csrvc.InstallState",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512134317",
+        "comment": "",
+        "uuid": "5a2156ad-4650-47b2-b440-4897950d210f",
+        "value": "%Temp%\\csrvc\\scshtrv.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512134317",
+        "comment": "",
+        "uuid": "5a2156ad-8f00-4a67-ace8-4d4a950d210f",
+        "value": "%Temp%\\csrvc\\Troubleshoot.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512134317",
+        "comment": "",
+        "uuid": "5a2156ad-bb74-4e42-bacb-4036950d210f",
+        "value": "%PROGRAMFILES%\\adwizz\\adwizz.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Persistence mechanism",
+        "timestamp": "1512134317",
+        "comment": "",
+        "uuid": "5a2156ad-1f7c-4ed1-be78-40b9950d210f",
+        "value": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\adwizz",
+        "to_ids": false,
+        "type": "regkey",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Persistence mechanism",
+        "timestamp": "1512134317",
+        "comment": "",
+        "uuid": "5a2156ad-36d0-4ff2-8200-4368950d210f",
+        "value": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\csrvc",
+        "to_ids": false,
+        "type": "regkey",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Persistence mechanism",
+        "timestamp": "1512134317",
+        "comment": "",
+        "uuid": "5a2156ad-d080-4b04-998e-4bce950d210f",
+        "value": "HKLM\\SYSTEM\\CurrentControlSet\\services\\csrvc",
+        "to_ids": false,
+        "type": "regkey",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1512132838",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5a2150e6-d8d0-41aa-878e-4f9d950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "5",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1512132838",
+            "comment": "",
+            "uuid": "5a2150e6-604c-4781-8b44-4021950d210f",
+            "value": "adwizz.exe",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1512132838",
+            "comment": "",
+            "uuid": "5a2150e6-a08c-43ec-bdd6-4c0b950d210f",
+            "value": "5becf86e5ad1703345fa243458f6a3b6189619f87e67ffab6bc874d6bdf7c03f",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1512132981",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5a215175-0b44-43ae-88c8-f375950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "5",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1512132981",
+            "comment": "",
+            "uuid": "5a215175-2d34-42d7-8aa4-f375950d210f",
+            "value": "BSOD.exe",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1512132981",
+            "comment": "",
+            "uuid": "5a215175-e998-47d6-8d5a-f375950d210f",
+            "value": "9a95f7e477cede36981a6a1e01a849d9c6aeac3985ee3a492cf4136bb6dab69c",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1512133098",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5a2151ea-d8fc-41fd-bf32-4369950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "5",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1512133098",
+            "comment": "",
+            "uuid": "5a2151ea-0424-42b0-a35d-4338950d210f",
+            "value": "csrvc.exe",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1512133098",
+            "comment": "",
+            "uuid": "5a2151ea-e8c4-435a-a412-4b8a950d210f",
+            "value": "1b1e48f2ee9940c1965c00ee1226fd7c3b9ee9c179ba29b9aeb586c6211cb223",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1512133362",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5a2152f2-f344-43b3-af64-4d98950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "5",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1512133363",
+            "comment": "",
+            "uuid": "5a2152f3-1fe0-440f-b99a-4535950d210f",
+            "value": "scshtrv.exe",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1512133363",
+            "comment": "",
+            "uuid": "5a2152f3-73e8-4808-b345-4b23950d210f",
+            "value": "0cc8ad791dc4061ce1f492d651ed2a9baeed02413c5940240bf47bb023f509ef",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1512134048",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5a2155a0-5950-434e-b70e-4a1b950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "5",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1512134048",
+            "comment": "",
+            "uuid": "5a2155a0-2fac-417a-bbd9-4724950d210f",
+            "value": "Troubleshoot.exe",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1512134048",
+            "comment": "",
+            "uuid": "5a2155a0-e864-48d6-8473-40dd950d210f",
+            "value": "f34185d5124690815f089b06cc1629a3d1a42cd7d51aee602823c98e03116a98",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

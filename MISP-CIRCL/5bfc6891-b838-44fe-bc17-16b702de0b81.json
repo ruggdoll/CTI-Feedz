@@ -1,0 +1,169 @@
+{
+  "Event": {
+    "date": "2018-11-26",
+    "timestamp": "1543270394",
+    "analysis": "2",
+    "uuid": "5bfc6891-b838-44fe-bc17-16b702de0b81",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1543270402",
+    "info": "OSINT - `event-stream` dependency attack steals wallets from users of copay",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00a0a0",
+        "name": "ecsirt:intrusions=\"application-compromise\""
+      },
+      {
+        "colour": "#0029ff",
+        "name": "estimative-language:confidence-in-analytic-judgment=\"high\""
+      },
+      {
+        "colour": "#001fc2",
+        "name": "estimative-language:likelihood-probability=\"almost-certain\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1543268515",
+        "comment": "",
+        "uuid": "5bfc68a3-19e0-4f70-81d4-48d502de0b81",
+        "value": "https://github.com/bitpay/copay/issues/9346#issuecomment-441749542",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1543268542",
+        "comment": "\"HTTP POST traffic on port 8080 to copayapi.host (which currently resolves to 51.38.112.212 and previously resolved to 145.249.104.239) or 111.90.151.134 indicates compromised and exfiltrated wallet private keys.\"",
+        "uuid": "5bfc68be-0b50-47a2-a33e-16c502de0b81",
+        "value": "copayapi.host",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1543268543",
+        "comment": "\"HTTP POST traffic on port 8080 to copayapi.host (which currently resolves to 51.38.112.212 and previously resolved to 145.249.104.239) or 111.90.151.134 indicates compromised and exfiltrated wallet private keys.\"",
+        "uuid": "5bfc68bf-51a0-4f93-84ff-16c502de0b81",
+        "value": "51.38.112.212",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1543268543",
+        "comment": "\"HTTP POST traffic on port 8080 to copayapi.host (which currently resolves to 51.38.112.212 and previously resolved to 145.249.104.239) or 111.90.151.134 indicates compromised and exfiltrated wallet private keys.\"",
+        "uuid": "5bfc68bf-4798-421d-b09f-16c502de0b81",
+        "value": "145.249.104.239",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1543268544",
+        "comment": "\"HTTP POST traffic on port 8080 to copayapi.host (which currently resolves to 51.38.112.212 and previously resolved to 145.249.104.239) or 111.90.151.134 indicates compromised and exfiltrated wallet private keys.\"",
+        "uuid": "5bfc68c0-af3c-4165-8243-16c502de0b81",
+        "value": "111.90.151.134",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Attribution",
+        "timestamp": "1543268846",
+        "comment": "copayapi.host's SOA record indicates the domain registrant's email address is \"kvlguuvh@sharklasers.co\" (very likely a throwaway email address).",
+        "uuid": "5bfc68ef-2698-4780-b1f5-45c902de0b81",
+        "value": "kvlguuvh@sharklasers.co",
+        "to_ids": true,
+        "type": "dns-soa-email",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Social network",
+        "timestamp": "1543268635",
+        "comment": "The GitHub account of the event-stream hijacker: https://github.com/right9ctrl (email address right9ctrl@outlook.com)",
+        "uuid": "5bfc691b-da14-4228-997c-40e802de0b81",
+        "value": "right9ctrl",
+        "to_ids": false,
+        "type": "github-username",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1543268714",
+        "comment": "The NPM account of the event-stream hijacker: https://www.npmjs.com/~right9ctrlh",
+        "uuid": "5bfc696a-2a8c-4e1d-9f1c-4ef902de0b81",
+        "value": "https://www.npmjs.com/~right9ctrl",
+        "to_ids": false,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1543268733",
+        "comment": "The GitHub repo for the malicious flat-map package: https://github.com/hugeglass/flatmap-stream",
+        "uuid": "5bfc697d-ab8c-4a6b-9083-453702de0b81",
+        "value": "https://github.com/hugeglass/flatmap-stream",
+        "to_ids": false,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1543268752",
+        "comment": "",
+        "uuid": "5bfc6990-28ec-4517-a397-4b8502de0b81",
+        "value": "https://www.npmjs.com/~hugeglass",
+        "to_ids": false,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1543268789",
+        "comment": "",
+        "uuid": "5bfc69b5-bd34-40c5-a2da-42e202de0b81",
+        "value": "https://github.com/dominictarr/event-stream/issues/116",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Attribution",
+        "timestamp": "1543268830",
+        "comment": "",
+        "uuid": "5bfc69de-2090-455c-8b3c-45b102de0b81",
+        "value": "right9ctrl@outlook.com",
+        "to_ids": false,
+        "type": "whois-registrant-email",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

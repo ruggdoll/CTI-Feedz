@@ -1,0 +1,196 @@
+{
+  "Event": {
+    "date": "2017-12-01",
+    "timestamp": "1512388614",
+    "analysis": "2",
+    "uuid": "5a252fea-cbdc-425d-ba82-436a950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1512391963",
+    "info": "OSINT - Test Cryptomix Ransomware Variant Released",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"CryptoMix\""
+      },
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a253125-44a8-461e-babb-4e7f950d210f",
+        "value": "0b2f5f6e61a81c9a872827e5ea1fd5ea05ca470b55975267b00033251dc79c1b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a253125-0fb8-4839-9845-43d4950d210f",
+        "value": "_HELP_INSTRUCTION.TXT",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a253125-dd28-4b39-ac53-4904950d210f",
+        "value": "%ALLUSERSPROFILE%\\[random].exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a253125-355c-44f8-b921-4831950d210f",
+        "value": "test757@tuta.io",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a253125-d8d0-4831-af33-4f4a950d210f",
+        "value": "test757@protonmail.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a253125-6110-487f-be6b-4668950d210f",
+        "value": "test757xz@yandex.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a253125-c4c8-48c8-ad37-43ca950d210f",
+        "value": "test757xy@yandex.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a253125-7184-4745-a474-4842950d210f",
+        "value": "test757@consultant.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a25313e-2f3c-4233-94c9-4e2c950d210f",
+        "value": "Today, MalwareHunterTeam discovered a new variant of the CryptoMix ransomware that appends the .TEST extension to encrypted files and changes the contact emails used by the ransomware. \r\n\r\nIn this article I will provide a brief summary of any changes that have occurred in this new variant.  As we are always looking for weaknesses, if you are a victim of this variant and decide to pay the ransom, please send us the decryptor so we can take a look at it. You can also discuss or receive support for Cryptomix ransomware infections in our dedicated Cryptomix Help & Support Topic.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512388609",
+        "comment": "",
+        "uuid": "5a25314e-786c-454b-8ef6-4d30950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/test-cryptomix-ransomware-variant-released/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388610",
+        "comment": "- Xchecked via VT: 0b2f5f6e61a81c9a872827e5ea1fd5ea05ca470b55975267b00033251dc79c1b",
+        "uuid": "5a253802-01b0-4493-a57e-b6fc02de0b81",
+        "value": "e20b53e74da470d6e36ed15ba70eb1f1658eaaaf",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512388610",
+        "comment": "- Xchecked via VT: 0b2f5f6e61a81c9a872827e5ea1fd5ea05ca470b55975267b00033251dc79c1b",
+        "uuid": "5a253802-a93c-4d1b-8988-b6fc02de0b81",
+        "value": "74c7bec8d4949ebf2f8f6be1af2f2113",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512388610",
+        "comment": "- Xchecked via VT: 0b2f5f6e61a81c9a872827e5ea1fd5ea05ca470b55975267b00033251dc79c1b",
+        "uuid": "5a253802-be14-4b6c-bef9-b6fc02de0b81",
+        "value": "https://www.virustotal.com/file/0b2f5f6e61a81c9a872827e5ea1fd5ea05ca470b55975267b00033251dc79c1b/analysis/1512356719/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

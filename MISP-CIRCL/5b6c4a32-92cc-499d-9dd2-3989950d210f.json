@@ -1,0 +1,759 @@
+{
+  "Event": {
+    "date": "2018-07-31",
+    "timestamp": "1534160421",
+    "analysis": "2",
+    "uuid": "5b6c4a32-92cc-499d-9dd2-3989950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1534249965",
+    "info": "OSINT - SamSam Ransomware Crew Made Nearly $6 Million From Ransom Payments",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Samas-Samsam\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#3b7500",
+        "name": "circl:incident-classification=\"malware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#002b4a",
+        "name": "osint:source-type=\"technical-report\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1534159788",
+        "comment": "",
+        "uuid": "5b6c4a46-45d4-4295-a2fc-39a4950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/samsam-ransomware-crew-made-nearly-6-million-from-ransom-payments/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1534159797",
+        "comment": "",
+        "uuid": "5b6c4a46-ca9c-4c61-a5fe-39a4950d210f",
+        "value": "https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/SamSam-The-Almost-Six-Million-Dollar-Ransomware.pdf",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#002b4a",
+            "name": "osint:source-type=\"technical-report\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533884227",
+        "comment": "URLs for payment sites used in April/March 2016",
+        "uuid": "5b6d3743-9978-4126-9233-4ecf950d210f",
+        "value": "roe53ncs47yt564u.onion/east3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533884228",
+        "comment": "URLs for payment sites used in April/March 2016",
+        "uuid": "5b6d3744-b3a0-47c7-8e34-4e1d950d210f",
+        "value": "roe53ncs47yt564u.onion/fatman",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533884228",
+        "comment": "URLs for payment sites used in April/March 2016",
+        "uuid": "5b6d3744-3468-486f-9a18-4b1d950d210f",
+        "value": "roe53ncs47yt564u.onion/athena",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533884228",
+        "comment": "URLs for payment sites used in April/March 2016",
+        "uuid": "5b6d3744-abe8-4517-84f3-4cb2950d210f",
+        "value": "evpf4i4csbohoqwj.onion/hummer",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533884229",
+        "comment": "URLs for payment sites used in April/March 2016",
+        "uuid": "5b6d3745-1f3c-4c39-bf33-4dd3950d210f",
+        "value": "evpf4i4csbohoqwj.onion/cadillac",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533908450",
+        "comment": "\"These strings of data reveal the folder path on the  attacker\u00e2\u20ac\u2122s computer used to compile the executable\"",
+        "uuid": "5b6d95e2-72e4-4ffc-a54a-cc71950d210f",
+        "value": "f:\\SAM\\clients\\test\\enc\\SAM\\obj\\Release\\samsam.pdb",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533908450",
+        "comment": "\"These strings of data reveal the folder path on the  attacker\u00e2\u20ac\u2122s computer used to compile the executable\"",
+        "uuid": "5b6d95e2-9794-4658-9d3f-cc71950d210f",
+        "value": "f:\\SAM\\clients\\Sam12\\SAM\\obj\\Release\\sbmsam.pdb",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533908450",
+        "comment": "\"These strings of data reveal the folder path on the  attacker\u00e2\u20ac\u2122s computer used to compile the executable\"",
+        "uuid": "5b6d95e2-33f0-4b10-9457-cc71950d210f",
+        "value": "x:\\SAM\\Servers\\Sam54-onion\\SAM\\obj\\Release\\samsam.pdb",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533908450",
+        "comment": "\"These strings of data reveal the folder path on the  attacker\u00e2\u20ac\u2122s computer used to compile the executable\"",
+        "uuid": "5b6d95e2-c6ec-464a-8985-cc71950d210f",
+        "value": "x:\\SAM\\Servers\\Sam-onion-no-check-lock-file\\SAM\\obj\\Release\\MIKOPONI.pdb",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533908450",
+        "comment": "\"These strings of data reveal the folder path on the  attacker\u00e2\u20ac\u2122s computer used to compile the executable\"",
+        "uuid": "5b6d95e2-4e94-406b-b786-cc71950d210f",
+        "value": "u:\\SAM\\Original\\delfiletype\\delfiletype\\obj\\Release\\gogodele.pdb",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533908450",
+        "comment": "\"These strings of data reveal the folder path on the  attacker\u00e2\u20ac\u2122s computer used to compile the executable\"",
+        "uuid": "5b6d95e2-d060-4f30-b3b2-cc71950d210f",
+        "value": "u:\\SAM\\Servers\\Sam-onion-encall-ext-(WORKGROUP)-20160505\\SAM\\obj\\Release\\",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533908450",
+        "comment": "\"These strings of data reveal the folder path on the  attacker\u00e2\u20ac\u2122s computer used to compile the executable\"",
+        "uuid": "5b6d95e2-6eb0-4ea4-a0f0-cc71950d210f",
+        "value": "showmehowto.pdb",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533908450",
+        "comment": "\"These strings of data reveal the folder path on the  attacker\u00e2\u20ac\u2122s computer used to compile the executable\"",
+        "uuid": "5b6d95e2-ecf8-41cf-9a61-cc71950d210f",
+        "value": "t:\\hjgjgskjfhsjdhfkjsdhfkjhsdkjfhskdhfkjsdhfkjhtuyryiurytuet\\fdhjghdfjg.pdb",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533908450",
+        "comment": "\"These strings of data reveal the folder path on the  attacker\u00e2\u20ac\u2122s computer used to compile the executable\"",
+        "uuid": "5b6d95e2-9700-4ecd-bcb1-cc71950d210f",
+        "value": "y:\\sdhjfhskjdfhsdkjhfkjshfkjshdjfkhsdkjfhskjdhhfjfj\\fhfhfhfhf.pdb",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1534160395",
+        "comment": "",
+        "uuid": "5b716bce-3a14-4b1a-a634-4778950d210f",
+        "value": "The SamSam ransomware has earned its creator(s) more than $5.9 million in ransom payments since late 2015, according to the most comprehensive report ever published on SamSam's activity, containing information since the ransomware's launch in late 2015 and up to attacks that have happened earlier this month.\r\n\r\nCompiled by UK cyber-security firm Sophos, the 47-page report is a result of researchers collecting data from past attacks, talking to victims, and data-mining public and private sources for SamSam samples that might have slipped through the cracks.\r\n\r\nIn addition, Sophos researchers also partnered with blockchain & cryptocurrency monitoring firm Neutrino to track down transfers and relations between the different Bitcoin addresses the SamSam crew has used until now.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1533885447",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5b6d3c07-c878-4170-827b-402d950d210f",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "3",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1533885448",
+            "comment": "",
+            "uuid": "5b6d3c08-dbdc-405e-8dbc-4748950d210f",
+            "value": "136hcUpNwhpKQQL7iXXWmwUnikX7n98xsL",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1533885448",
+            "comment": "",
+            "uuid": "5b6d3c08-cc8c-4d71-a5aa-4e71950d210f",
+            "value": "BTC",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533887158",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5b6d42b6-0dfc-4e69-8e97-4b97950d210f",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "3",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1533887158",
+            "comment": "",
+            "uuid": "5b6d42b6-345c-4e74-bfdc-4eb1950d210f",
+            "value": "1FDj6HsedzPNgVKTAHznsHUg4pKnGRarH6",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1533887158",
+            "comment": "",
+            "uuid": "5b6d42b6-9f60-4467-a031-4b19950d210f",
+            "value": "BTC",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533887174",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5b6d42c6-9cc0-41fc-ab7a-4ddb950d210f",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "3",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1533887174",
+            "comment": "",
+            "uuid": "5b6d42c6-3650-427a-9762-486a950d210f",
+            "value": "1EzpHEojHsLkHTExyz45Tw6L7FNiaeyZdm",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1533887175",
+            "comment": "",
+            "uuid": "5b6d42c7-7da8-459a-8579-4391950d210f",
+            "value": "BTC",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533887186",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5b6d42d2-16e4-42d6-b1a1-4a48950d210f",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "3",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1533887187",
+            "comment": "",
+            "uuid": "5b6d42d3-6c48-4b01-b3b0-4946950d210f",
+            "value": "1NkDXh778bwxhKb1Wof9oPbUfs6NWrURja",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1533887187",
+            "comment": "",
+            "uuid": "5b6d42d3-6928-4b82-b643-4327950d210f",
+            "value": "BTC",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533887460",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5b6d43e4-712c-4dec-b141-4eda950d210f",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "3",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1533887460",
+            "comment": "",
+            "uuid": "5b6d43e4-1c94-4fe9-ad88-4743950d210f",
+            "value": "182jpCsoGD92Pi5JrKnfAhoHVF9rqHdCjm",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1533887461",
+            "comment": "",
+            "uuid": "5b6d43e5-3dc8-429e-abc1-4c48950d210f",
+            "value": "BTC",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533887752",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b6d4508-dee0-4196-b3d5-40f6950d210f",
+        "comment": "Ransomnote",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1533887752",
+            "comment": "",
+            "uuid": "5b6d4508-949c-4bd8-b7ff-4fd5950d210f",
+            "value": "HELP_DECRYPT_YOUR_FILES.html",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1533887752",
+            "comment": "",
+            "uuid": "5b6d4508-4b98-4ee9-bc65-4ad0950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533894764",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b6d606c-8448-4cf4-a378-4117950d210f",
+        "comment": "Ransomnote",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1533894764",
+            "comment": "",
+            "uuid": "5b6d606c-fbac-4ae3-9794-4621950d210f",
+            "value": "HOW_TO_DECRYPT_FILES.html",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1533894764",
+            "comment": "",
+            "uuid": "5b6d606c-5364-4d54-8228-4004950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533894794",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b6d608a-da3c-4206-8c5c-4bee950d210f",
+        "comment": "ransomnote",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1533894794",
+            "comment": "",
+            "uuid": "5b6d608a-7f88-437f-b950-4cc1950d210f",
+            "value": "HELP_FOR_DECRYPT_FILE.html",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1533894794",
+            "comment": "",
+            "uuid": "5b6d608a-844c-4c10-af7c-45b5950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533894816",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b6d60a0-74c0-4571-8d8c-4ae7950d210f",
+        "comment": "Ransomnote",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1533894816",
+            "comment": "",
+            "uuid": "5b6d60a0-ec78-4d1c-a45c-4e17950d210f",
+            "value": "I_WILL_HELP_YOU_DECRYPT.html",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1533894816",
+            "comment": "",
+            "uuid": "5b6d60a0-a3d0-4974-b745-4750950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533894833",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b6d60b1-84b4-40b0-a9fc-489f950d210f",
+        "comment": "Ransomnote",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1533894833",
+            "comment": "",
+            "uuid": "5b6d60b1-c9d0-42d7-ab99-4d85950d210f",
+            "value": "PLEASE_READ_FOR_DECRYPT_FILES.html",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1533894833",
+            "comment": "",
+            "uuid": "5b6d60b1-bc64-4771-80ed-4833950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533894850",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b6d60c2-4cd8-4e13-bbbe-4ca0950d210f",
+        "comment": "Ransomnote",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1533894850",
+            "comment": "",
+            "uuid": "5b6d60c2-7278-4130-9538-45c1950d210f",
+            "value": "WE-CAN-HELP-U.html",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1533894850",
+            "comment": "",
+            "uuid": "5b6d60c2-1ec4-4c4c-a4bb-4908950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533894909",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b6d60fd-27e4-44b1-8adc-47aa950d210f",
+        "comment": "ransomnote (note: duplicate copies of ransom notes are created, most ransom notes will have numbers prefixed to them)",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1533894909",
+            "comment": "",
+            "uuid": "5b6d60fd-22cc-4322-8546-4f5a950d210f",
+            "value": "0001-WE-CAN-HELP-U.html",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1533894909",
+            "comment": "",
+            "uuid": "5b6d60fd-dccc-42c6-b42e-4522950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1533907816",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b6d9368-1008-456a-bc51-a1d8950d210f",
+        "comment": "Ransomnote",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1533907816",
+            "comment": "",
+            "uuid": "5b6d9368-0cdc-49dd-8514-a1d8950d210f",
+            "value": "SORRY-FOR-FILES.html",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1533907816",
+            "comment": "",
+            "uuid": "5b6d9368-7b6c-4e76-a3be-a1d8950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

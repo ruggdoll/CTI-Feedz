@@ -1,0 +1,260 @@
+{
+  "Event": {
+    "date": "2017-08-31",
+    "timestamp": "1513738826",
+    "analysis": "2",
+    "uuid": "5a37887b-efe0-43ba-8542-435c950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1514467840",
+    "info": "OSINT - Active ransomware attack uses impersonation and embedded advanced threats",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1513594331",
+        "comment": "",
+        "uuid": "5a378895-b7d8-49b2-a28c-44ca950d210f",
+        "value": "In this attack, the source of the email is a spoofed address, and the attachment name and number is included in the subject line and body of the message.  The full subject line in this example is \u00e2\u20ac\u0153Emailing: Payment_201708-6165\u00e2\u20ac\u009d and the number in the attachment name is variable.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1513594331",
+        "comment": "",
+        "uuid": "5a3788f1-413c-4fb5-aba2-4898950d210f",
+        "value": "https://blog.barracuda.com/2017/08/31/active-ransomware-attack-uses-impersonation-and-embedded-advanced-threats/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1513589237",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5a3789f2-9004-4a04-a2e8-473b950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1514467840",
+            "comment": "",
+            "uuid": "5a379ddc-38ec-4f08-9690-488602de0b81",
+            "object_uuid": "5a3789f2-9004-4a04-a2e8-473b950d210f",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "bd9400ef-6830-41e8-bf08-6f8a05193923"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1513589234",
+            "comment": "",
+            "uuid": "5a3789f2-4988-41dd-aa0a-4493950d210f",
+            "value": "d5d67631683c9e3d5021334477746a1e64ea2dff",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1513589234",
+            "comment": "",
+            "uuid": "5a3789f2-4a8c-492b-b682-4096950d210f",
+            "value": "87d0d011b8b456ce8fa15afea8df5e5fbf1bad5cb3305272016ca0db9c204d90",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1513589234",
+            "comment": "",
+            "uuid": "5a3789f2-dab8-4ded-819b-4cda950d210f",
+            "value": "fa527ff057e1be5101da4481d38ba968",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1513589234",
+            "comment": "",
+            "uuid": "5a3789f2-f5ac-40c3-ad1a-4237950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "size-in-bytes",
+            "timestamp": "1513589234",
+            "comment": "",
+            "uuid": "5a3789f2-80d8-4064-8e0b-4f0f950d210f",
+            "value": "20363",
+            "to_ids": false,
+            "type": "size-in-bytes",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1513590107",
+        "name": "email",
+        "sharing_group_id": "0",
+        "uuid": "5a378d5b-bcac-4fda-816f-48e8950d210f",
+        "comment": "",
+        "description": "Email object describing an email with meta-information",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "a0c666e0-fc65-4be8-b48f-3423d788b552",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "subject",
+            "timestamp": "1513590107",
+            "comment": "number is variable",
+            "uuid": "5a378d5b-d8b4-4f80-9933-41c1950d210f",
+            "value": "Emailing: Payment_201708-1160",
+            "to_ids": false,
+            "type": "email-subject",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "attachment",
+            "timestamp": "1513590107",
+            "comment": "",
+            "uuid": "5a378d5b-f760-4ef6-bee5-47c1950d210f",
+            "value": "201708-1160.7z",
+            "to_ids": true,
+            "type": "email-attachment",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "send-date",
+            "timestamp": "1513590107",
+            "comment": "",
+            "uuid": "5a378d5b-6eec-49c0-9a98-4079950d210f",
+            "value": "2017-08-30T02:13:17",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1513594331",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "bd9400ef-6830-41e8-bf08-6f8a05193923",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1513594332",
+            "comment": "",
+            "uuid": "5a379ddc-112c-41c3-ae7e-441602de0b81",
+            "value": "https://www.virustotal.com/file/87d0d011b8b456ce8fa15afea8df5e5fbf1bad5cb3305272016ca0db9c204d90/analysis/1505917656/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1513594332",
+            "comment": "",
+            "uuid": "5a379ddc-e090-4f00-a188-4ad902de0b81",
+            "value": "37/59",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1513594332",
+            "comment": "",
+            "uuid": "5a379ddc-6838-4c7d-92e3-459f02de0b81",
+            "value": "2017-09-20T14:27:36",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

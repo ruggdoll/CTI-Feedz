@@ -1,0 +1,201 @@
+{
+  "Event": {
+    "date": "2018-05-14",
+    "timestamp": "1527052841",
+    "analysis": "2",
+    "uuid": "5af9eb11-bba8-46ab-acc0-b75e0acd0835",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1544806631",
+    "info": "Panda Malware Broadens - F5 Blog",
+    "threat_level_id": "2",
+    "Orgc": {
+      "uuid": "5a68c02d-959c-4c8a-a571-0dcac0a8060a",
+      "name": "Synovus Financial"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:banker=\"Panda Banker\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#002f76",
+        "name": "ms-caro-malware-full:malware-family=\"Banker\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload delivery",
+        "timestamp": "1526328235",
+        "comment": "Panda Banker",
+        "uuid": "5af9eb27-4040-413f-a410-1e470acd0835",
+        "value": "e9d881b40d94a541b11fad44f1efbb7c",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#002f76",
+            "name": "ms-caro-malware-full:malware-family=\"Banker\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1526328236",
+        "comment": "Panda Banker",
+        "uuid": "5af9eb28-4fcc-44fb-b425-1e470acd0835",
+        "value": "35a7e666942eb0c70e73d5dc502a97d2",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#002f76",
+            "name": "ms-caro-malware-full:malware-family=\"Banker\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1526328236",
+        "comment": "Panda Banker",
+        "uuid": "5af9eb28-97fc-46e9-90cf-1e470acd0835",
+        "value": "3b78b983ed00cfa580c0b1c9beda4ca2",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#002f76",
+            "name": "ms-caro-malware-full:malware-family=\"Banker\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1526328236",
+        "comment": "Panda Banker",
+        "uuid": "5af9eb28-81e4-43a0-a66a-1e470acd0835",
+        "value": "8822dc8e66b51344b623c6cd29a91db1",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#002f76",
+            "name": "ms-caro-malware-full:malware-family=\"Banker\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1526328236",
+        "comment": "Panda Banker",
+        "uuid": "5af9eb28-b864-4d7d-82b1-1e470acd0835",
+        "value": "5d4c4668567b0b3321b0125779bdb3ae",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#002f76",
+            "name": "ms-caro-malware-full:malware-family=\"Banker\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1526328218",
+        "comment": "Panda Banker",
+        "uuid": "5af9eb28-22b4-47e7-9b73-1e470acd0835",
+        "value": "https://0a109ec2ab47.com",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1526328218",
+        "comment": "Panda Banker",
+        "uuid": "5af9eb28-7bb8-439e-a475-1e470acd0835",
+        "value": "https://adshiepkhach.top",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1526328218",
+        "comment": "Panda Banker",
+        "uuid": "5af9eb28-90bc-4ee8-bfd4-1e470acd0835",
+        "value": "https://antrefurniture.top",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1526328218",
+        "comment": "Panda Banker",
+        "uuid": "5af9eb28-9410-42ec-8588-1e470acd0835",
+        "value": "https://cotrus.co",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1526328195",
+        "comment": "",
+        "uuid": "5af9eb83-e660-490e-89ea-bbfb0acd0835",
+        "value": "https://f5.com/labs/articles/threat-intelligence/malware/panda-malware-broadens-targets-to-cryptocurrency-exchanges-and-social-media?utm_source=securityweek",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

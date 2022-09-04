@@ -1,0 +1,579 @@
+{
+  "Event": {
+    "date": "2017-12-11",
+    "timestamp": "1513825257",
+    "analysis": "2",
+    "uuid": "5a39216d-e93c-4046-8ff5-bfd8950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1514468075",
+    "info": "OSINT - Banking malware on Google Play targets Polish banks",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#f24722",
+        "name": "Banker"
+      },
+      {
+        "colour": "#002f76",
+        "name": "ms-caro-malware-full:malware-family=\"Banker\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a392180-b698-400a-9024-1536950d210f",
+        "value": "https://www.welivesecurity.com/2017/12/11/banking-malware-targets-polish-banks/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a24a1-2a94-44fa-88d7-46c0950d210f",
+        "value": "Another set of banking Trojans has found its way past Google Play\u00e2\u20ac\u2122s security mechanisms, this time targeting a number of Polish banks. The malware managed to sneak into Google Play disguised as seemingly legitimate apps \u00e2\u20ac\u0153Crypto Monitor\u00e2\u20ac\u009d, a cryptocurrency price tracking app, and \u00e2\u20ac\u0153StorySaver\u00e2\u20ac\u009d, a third-party tool for downloading stories from Instagram.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cc-30dc-4013-8210-4b21950d210f",
+        "value": "com.comarch.mobile",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-2184-4b96-9018-4666950d210f",
+        "value": "pl.bzwbk.bzwbk24",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-adc0-4e15-ac10-4428950d210f",
+        "value": "com.getingroup.mobilebanking",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-7284-44be-9b2a-4461950d210f",
+        "value": "pl.pkobp.iko",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-0fbc-446c-8323-464f950d210f",
+        "value": "pl.ing.mojeing",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-ebe0-42da-880e-423a950d210f",
+        "value": "wit.android.bcpBankingApp.millenniumPL",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-40dc-45f5-9e92-4e8e950d210f",
+        "value": "pl.mbank",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-83a8-470d-b24a-4a56950d210f",
+        "value": "pl.bph",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-7ad0-48d3-8d55-4435950d210f",
+        "value": "pl.fmbank.smart",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-4c38-47ad-9bfa-4715950d210f",
+        "value": "eu.eleader.mobilebanking.pekao",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-a3dc-432a-b5cb-4171950d210f",
+        "value": "eu.eleader.mobilebanking.pekao.firm",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-cc3c-480c-8cb4-4612950d210f",
+        "value": "eu.eleader.mobilebanking.invest",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-634c-4d09-826d-4a28950d210f",
+        "value": "eu.eleader.mobilebanking.raiffeisen",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1513761473",
+        "comment": "",
+        "uuid": "5a3a26cd-6cd0-44dd-9c14-4ffa950d210f",
+        "value": "com.konylabs.cbplpat",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1513761473",
+        "comment": "Phishing server",
+        "uuid": "5a3a2774-9c5c-48e5-b05e-49bb950d210f",
+        "value": "nelis.at",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1513761473",
+        "comment": "Phishing server",
+        "uuid": "5a3a2774-8a18-4838-a42e-47e6950d210f",
+        "value": "sdljfkh1313.win",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1513760668",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5a3a279c-ebc4-44ab-b54e-4c19950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "8",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1513760668",
+            "comment": "",
+            "uuid": "5a3a279c-0950-48fb-93c4-4f82950d210f",
+            "value": "in.crypto.monitor.coins",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1513760668",
+            "comment": "",
+            "uuid": "5a3a279c-3910-47d5-9e80-4583950d210f",
+            "value": "57a96d024e61f683020be46173d74fad4cf05806",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1513760668",
+            "comment": "",
+            "uuid": "5a3a279c-fc24-47df-b0b6-4ca0950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1513760693",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5a3a27b5-7db0-4cbc-984b-47b9950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "8",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1513760693",
+            "comment": "",
+            "uuid": "5a3a27b5-0e14-4f1c-bba3-4b42950d210f",
+            "value": "com.app.storysavernew",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1513760693",
+            "comment": "",
+            "uuid": "5a3a27b5-e288-4fe6-906c-4428950d210f",
+            "value": "757ea52db39e9cdbf5e2e95485801e3e4b19020d",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1513760693",
+            "comment": "",
+            "uuid": "5a3a27b5-b884-48bd-96c0-45e3950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1513761476",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "277a53e1-58de-48f5-a24b-1020de7738aa",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1514468074",
+            "comment": "",
+            "uuid": "5a3a2ac2-7d44-4a04-becd-40d902de0b81",
+            "object_uuid": "277a53e1-58de-48f5-a24b-1020de7738aa",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "026a1242-16cf-491b-9bab-2de522dfba23"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-5260-4191-bab6-4f7502de0b81",
+            "value": "757ea52db39e9cdbf5e2e95485801e3e4b19020d",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-59e4-4aff-8289-420402de0b81",
+            "value": "5e9b289928004deade3fbfc20049abf5",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-3180-4ac0-92eb-4b4402de0b81",
+            "value": "204f2e5e18691156036cbcfc69fa759272a2180fba77a74415ccb2c7469a670b",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1513761474",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "026a1242-16cf-491b-9bab-2de522dfba23",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-17e4-4668-bec1-4fb102de0b81",
+            "value": "https://www.virustotal.com/file/204f2e5e18691156036cbcfc69fa759272a2180fba77a74415ccb2c7469a670b/analysis/1513618446/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-8e18-430c-9768-488302de0b81",
+            "value": "26/62",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-1be0-4199-bcfc-423302de0b81",
+            "value": "2017-12-18T17:34:06",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1513761477",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "f011249c-b0da-4bd6-9043-07bcc2414922",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1514468075",
+            "comment": "",
+            "uuid": "5a3a2ac2-80a4-428d-957b-481c02de0b81",
+            "object_uuid": "f011249c-b0da-4bd6-9043-07bcc2414922",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "faf365d9-29da-477a-b73d-a22e07c53249"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-d95c-44b3-a586-491e02de0b81",
+            "value": "57a96d024e61f683020be46173d74fad4cf05806",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-f4a8-4f23-b228-481402de0b81",
+            "value": "883c2183fecc06f1faab8fbab03186e6",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-aaec-482b-99d4-466c02de0b81",
+            "value": "86aaed9017e3af5d1d9c8460f2d8164f14e14db01b1a278b4b93859d3cf982f5",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1513761474",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "faf365d9-29da-477a-b73d-a22e07c53249",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-bd34-4ab5-a5fe-439302de0b81",
+            "value": "https://www.virustotal.com/file/86aaed9017e3af5d1d9c8460f2d8164f14e14db01b1a278b4b93859d3cf982f5/analysis/1513240956/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-2b70-47a0-98c7-4be502de0b81",
+            "value": "17/63",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1513761474",
+            "comment": "",
+            "uuid": "5a3a2ac2-e174-44ff-97a8-456f02de0b81",
+            "value": "2017-12-14T08:42:36",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

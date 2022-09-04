@@ -1,0 +1,206 @@
+{
+  "Event": {
+    "date": "2018-06-07",
+    "timestamp": "1528373863",
+    "analysis": "2",
+    "uuid": "5b191ead-fac0-4f21-aaef-b9700acd0835",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1528373882",
+    "info": "New Phishing Attacks Abuse Excel Internet Query Files",
+    "threat_level_id": "2",
+    "Orgc": {
+      "uuid": "5a68c02d-959c-4c8a-a571-0dcac0a8060a",
+      "name": "Synovus Financial"
+    },
+    "Tag": [
+      {
+        "colour": "#00b2d9",
+        "name": "veris:action:social:variety=\"Phishing\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0eab00",
+        "name": "misp-galaxy:tool=\"Necurs\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "",
+        "uuid": "5b191ead-1204-434b-975c-b9700acd0835",
+        "value": "08bb85f5bff52d2605ddd8a19a5465fd",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1528373863",
+        "comment": "clodflarechk",
+        "uuid": "5b191ead-0c64-4e9e-8f04-b9700acd0835",
+        "value": "85.119.150.29",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "DomainTools Risk Score 100",
+        "uuid": "5b191ead-3238-4a16-8029-b9700acd0835",
+        "value": "clodflarechk.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "",
+        "uuid": "5b191ead-500c-42f1-bea4-b9700acd0835",
+        "value": "418aa2d43b1e4a841d4769463b12fa3b",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00183c",
+            "name": "ms-caro-malware-full:malware-type=\"Trojan\""
+          },
+          {
+            "colour": "#0eab00",
+            "name": "misp-galaxy:tool=\"Necurs\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "",
+        "uuid": "5b191ead-c060-48f7-8455-b9700acd0835",
+        "value": "d2a63814440f8d054d78b03b48f7a3df",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "",
+        "uuid": "5b191ead-e354-4b19-ba79-b9700acd0835",
+        "value": "3a86ffce06d029730ad89cb233079d64",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "Once the victim double-clicks the attachment, it downloads a file named \"2.dat\" from clodflarechk[.]com. 2.dat is a Powershell script that downloads a file named \"1.dat\" from the same network resource.\n\n1.dat is another script file that downloads a file named \"data.xls\" from the same network resource. Although the extension is \".xls,\" it is not an Excel file but rather an executable file that functions as a malware downloader.\n\nOnce executed on the system, data.xls downloads a file named \"cloud.png\" from the same network resource. Cloud.png is not a graphic file as the extension suggests, but rather it is the main malware installed on the system. The main malware functions as a remote access Trojan (RAT) that gives attackers control of the compromised system.",
+        "uuid": "5b191ead-7e98-49b6-ae1c-b9700acd0835",
+        "value": "http://clodflarechk.com/1.dat",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "Once the victim double-clicks the attachment, it downloads a file named \"2.dat\" from clodflarechk[.]com. 2.dat is a Powershell script that downloads a file named \"1.dat\" from the same network resource.\n\n1.dat is another script file that downloads a file named \"data.xls\" from the same network resource. Although the extension is \".xls,\" it is not an Excel file but rather an executable file that functions as a malware downloader.\n\nOnce executed on the system, data.xls downloads a file named \"cloud.png\" from the same network resource. Cloud.png is not a graphic file as the extension suggests, but rather it is the main malware installed on the system. The main malware functions as a remote access Trojan (RAT) that gives attackers control of the compromised system.",
+        "uuid": "5b191ead-8dfc-4b2c-b6cc-b9700acd0835",
+        "value": "http://clodflarechk.com/cloud.png",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "Once the victim double-clicks the attachment, it downloads a file named \"2.dat\" from clodflarechk[.]com. 2.dat is a Powershell script that downloads a file named \"1.dat\" from the same network resource.\n\n1.dat is another script file that downloads a file named \"data.xls\" from the same network resource. Although the extension is \".xls,\" it is not an Excel file but rather an executable file that functions as a malware downloader.\n\nOnce executed on the system, data.xls downloads a file named \"cloud.png\" from the same network resource. Cloud.png is not a graphic file as the extension suggests, but rather it is the main malware installed on the system. The main malware functions as a remote access Trojan (RAT) that gives attackers control of the compromised system.",
+        "uuid": "5b191ead-90d0-429b-b96c-b9700acd0835",
+        "value": "http://clodflarechk.com/2.dat",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "Once the victim double-clicks the attachment, it downloads a file named \"2.dat\" from clodflarechk[.]com. 2.dat is a Powershell script that downloads a file named \"1.dat\" from the same network resource.\n\n1.dat is another script file that downloads a file named \"data.xls\" from the same network resource. Although the extension is \".xls,\" it is not an Excel file but rather an executable file that functions as a malware downloader.\n\nOnce executed on the system, data.xls downloads a file named \"cloud.png\" from the same network resource. Cloud.png is not a graphic file as the extension suggests, but rather it is the main malware installed on the system. The main malware functions as a remote access Trojan (RAT) that gives attackers control of the compromised system.",
+        "uuid": "5b191ead-ca94-45d9-8517-b9700acd0835",
+        "value": "http://clodflarechk.com/data.xls",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1528373863",
+        "comment": "clodflarechk",
+        "uuid": "5b191ead-1230-4020-809a-b9700acd0835",
+        "value": "103.208.86.69",
+        "to_ids": true,
+        "type": "ip-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528373863",
+        "comment": "",
+        "uuid": "5b191ead-dfe4-4d54-8427-b9700acd0835",
+        "value": "172bc98dbe0f6c4ac59857c071cd8673",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00183c",
+            "name": "ms-caro-malware-full:malware-type=\"Trojan\""
+          },
+          {
+            "colour": "#0eab00",
+            "name": "misp-galaxy:tool=\"Necurs\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1528373863",
+        "comment": "",
+        "uuid": "5b191fd4-8598-4cf5-a279-b9700acd0835",
+        "value": "https://myonlinesecurity.co.uk/necurs-delivering-flawed-ammy-rat-via-iqy-excel-web-query-files/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

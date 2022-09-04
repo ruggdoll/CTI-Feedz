@@ -1,0 +1,84 @@
+{
+  "Event": {
+    "date": "2018-06-05",
+    "timestamp": "1528228375",
+    "analysis": "2",
+    "uuid": "5b16dcc8-2750-456f-8840-fbae0acd0835",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1528228393",
+    "info": "Phishing Domains",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "5a68c02d-959c-4c8a-a571-0dcac0a8060a",
+      "name": "Synovus Financial"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00b2d9",
+        "name": "veris:action:social:variety=\"Phishing\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Network activity",
+        "timestamp": "1528225151",
+        "comment": "",
+        "uuid": "5b16dcc8-ff80-45d8-af41-fbae0acd0835",
+        "value": "elfsrush.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1528225152",
+        "comment": "",
+        "uuid": "5b16dcc9-4800-453c-a5e0-fbae0acd0835",
+        "value": "web-traveller.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1528225154",
+        "comment": "",
+        "uuid": "5b16dd24-3978-4273-ae98-09040acd0835",
+        "value": "edatasales.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Attribution",
+        "timestamp": "1528225138",
+        "comment": "",
+        "uuid": "5b16dd72-f564-4957-bed4-fd3a0acd0835",
+        "value": "df7972bcdbf00300afcc3c9d8ea8e153efda87f8",
+        "to_ids": false,
+        "type": "x509-fingerprint-sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1528228375",
+        "comment": "",
+        "uuid": "5b16ea17-a1a8-41e5-996c-453a0acd0835",
+        "value": "Possibly related to Easy Auto Refresh Chrome Extension.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

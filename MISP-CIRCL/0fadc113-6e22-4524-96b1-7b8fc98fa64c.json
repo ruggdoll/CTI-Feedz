@@ -1,0 +1,320 @@
+{
+  "Event": {
+    "date": "2020-11-09",
+    "timestamp": "1604914828",
+    "analysis": "2",
+    "uuid": "0fadc113-6e22-4524-96b1-7b8fc98fa64c",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1604914975",
+    "info": "OSINT - Anatomy of Attack: Inside BazarBackdoor to Ryuk Ransomware \"one\" Group via Cobalt Strike",
+    "threat_level_id": "1",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Ryuk ransomware\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:malpedia=\"Cobalt Strike\""
+      },
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#0071c3",
+        "name": "osint:lifetime=\"perpetual\""
+      },
+      {
+        "colour": "#0087e8",
+        "name": "osint:certainty=\"50\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "6b0610ec-fe93-41e9-b23b-379b25e2f544",
+        "value": "check1domains.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "2536fb8b-dd20-41ef-a580-55deb79446af",
+        "value": "sweetmonsterr.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "399d130a-0c71-4194-9d11-b3483a5e9041",
+        "value": "qascker.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "b382bd4c-76c3-4ec2-b768-eb45849ce068",
+        "value": "remotessa.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "1e625f9b-493c-4015-ab47-72b1971202cd",
+        "value": "havemosts.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "4fc21643-6cb7-4e5f-aea7-bad4024e54df",
+        "value": "unlockwsa.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "c41b1b8f-50e8-45d1-8542-1e26b9908f94",
+        "value": "sobcase.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "3101bc91-74a3-4163-b5ee-2207f757c20c",
+        "value": "zhameharden.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "48935a10-cc47-4880-af23-4364c7e7ae37",
+        "value": "mixunderax.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "f75c74f9-f2b5-4b5a-8404-57e33c04c014",
+        "value": "bugsbunnyy.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "b4c14a73-44cf-4d93-aabc-6175f062786a",
+        "value": "fastbloodhunter.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "8459d57b-4d03-4a94-8bec-78cfa1a318a1",
+        "value": "serviceboosterr.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "b177c07b-94c6-4c88-851d-3d3e36bf604b",
+        "value": "servicewikii.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "fb90a640-17e3-4c26-b50f-e0861295c262",
+        "value": "secondlivve.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "beab0436-d5bf-4625-a71d-9d9bdaf10ad0",
+        "value": "luckyhunterrs.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "da14c486-89e5-44c8-8722-0989f7691ecf",
+        "value": "wodemayaa.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "83bc6856-3a5b-49c7-866a-c8e05d8f49f2",
+        "value": "hybriqdjs.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "a670a832-fa18-4cfb-8e9c-4f4f788542f7",
+        "value": "gunsdrag.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "f56a75d5-db37-4b15-b8d7-5d09d1f078a2",
+        "value": "gungameon.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "207008f3-f173-4774-86d1-5c1be1cc383b",
+        "value": "servicemount.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "05a70842-6bbc-4441-b5c6-fac100840497",
+        "value": "servicesupdater.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "128049f4-898d-4d60-821c-b9e80f5b335e",
+        "value": "service-boosterr.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "f0ef8f00-71d4-411c-96f6-5e3409677484",
+        "value": "serviceupdatter.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1604914434",
+        "comment": "",
+        "uuid": "64c4fe90-54c0-49d0-ac60-dbdc6d0015fe",
+        "value": "dotmaingame.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1604914593",
+        "comment": "",
+        "uuid": "01b3d607-413e-4343-a336-c4684d0aa060",
+        "value": "https://www.advanced-intel.com/post/anatomy-of-attack-inside-bazarbackdoor-to-ryuk-ransomware-one-group-via-cobalt-strike",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

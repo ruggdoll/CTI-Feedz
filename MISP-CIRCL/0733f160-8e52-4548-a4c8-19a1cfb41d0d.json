@@ -1,0 +1,172 @@
+{
+  "Event": {
+    "date": "2020-06-24",
+    "timestamp": "1607522938",
+    "analysis": "0",
+    "uuid": "0733f160-8e52-4548-a4c8-19a1cfb41d0d",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1594257453",
+    "info": "zloader: VBA, R1C1 References, and Other Tomfoolery",
+    "threat_level_id": "4",
+    "Orgc": {
+      "uuid": "5cf66e53-b5f8-43e7-be9a-49880a3b4631",
+      "name": "Centre for Cyber security Belgium"
+    },
+    "Tag": [
+      {
+        "colour": "#f82378",
+        "name": "zloader"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#DADCF0",
+        "name": "inthreat:event-src=\"feed-osint\""
+      },
+      {
+        "colour": "#0fc000",
+        "name": "admiralty-scale:information-credibility=\"2\""
+      },
+      {
+        "colour": "#075200",
+        "name": "admiralty-scale:source-reliability=\"b\""
+      },
+      {
+        "colour": "#e8007d",
+        "name": "workflow:state=\"complete\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload delivery",
+        "timestamp": "1592995840",
+        "comment": "",
+        "uuid": "9c87b754-6bc2-414d-82e9-0d07f2130be7",
+        "value": "b29c145d4b78daed34dea28a0a11bab857d5583dc6a00578a877511d0d01d3d2",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1593003580",
+        "name": "annotation",
+        "sharing_group_id": "0",
+        "uuid": "5ef34e3c-f70c-4526-9abb-44f6ac13a7a7",
+        "comment": "External Analysis",
+        "description": "An annotation object allowing analysts to add annotations, comments, executive summary to a MISP event, objects or attributes.",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "5d8dc046-15a1-4ca3-a09f-ed4ede7c4487",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "ref",
+            "timestamp": "1593003580",
+            "comment": "",
+            "uuid": "5ef34e3c-3620-41b8-a096-44f6ac13a7a7",
+            "value": "https://clickallthethings.wordpress.com/2020/06/19/zloader-vba-r1c1-references-and-other-tomfoolery/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "ref",
+            "timestamp": "1593003580",
+            "comment": "",
+            "uuid": "5ef34e3c-3110-40af-8f22-44f6ac13a7a7",
+            "value": "https://twitter.com/abuse_ch",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "text",
+            "timestamp": "1593003580",
+            "comment": "",
+            "uuid": "5ef34e3c-d9e4-4ca8-957b-44f6ac13a7a7",
+            "value": "zloader: VBA, R1C1 References, and Other Tomfoolery\r\nJune 19, 2020 ~ Jamie\t\r\n\r\nThe other day, @reecDeep tweeted about new behavior from zloader documents. Another document from the same campaign crossed my path and I decided to take a crack at it.",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1593003610",
+        "name": "whois",
+        "sharing_group_id": "0",
+        "uuid": "5ef34e5a-b2a8-4ca8-8a0e-44f6ac13a7a7",
+        "comment": "Domains",
+        "description": "Whois records information for a domain name or an IP address.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "10",
+        "template_uuid": "429faea1-34ff-47af-8a00-7c62d3be5a6a",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1593003610",
+            "comment": "",
+            "uuid": "5ef34e5a-6d34-4a50-87a8-44f6ac13a7a7",
+            "value": "procacardenla.ga",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1593003611",
+            "comment": "",
+            "uuid": "5ef34e5b-ac9c-41e2-91a5-44f6ac13a7a7",
+            "value": "datalibacbi.ml",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1593003611",
+            "comment": "",
+            "uuid": "5ef34e5b-a1b0-4af0-8636-44f6ac13a7a7",
+            "value": "wireborg.com",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1593003611",
+            "comment": "",
+            "uuid": "5ef34e5b-6df8-49d5-9b09-44f6ac13a7a7",
+            "value": "zmedia.shwetech.com",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

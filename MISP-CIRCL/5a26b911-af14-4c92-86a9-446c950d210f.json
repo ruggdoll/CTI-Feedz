@@ -1,0 +1,337 @@
+{
+  "Event": {
+    "date": "2017-12-05",
+    "timestamp": "1512554476",
+    "analysis": "1",
+    "uuid": "5a26b911-af14-4c92-86a9-446c950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1512554482",
+    "info": "M2M - \"..doc\" 2017-12-05 : 'Message from \"G10PR0123456.MYCOMPANY.COM\"' - \"20171205123.zip\"",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Fake Globe Ransomware\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554363",
+        "comment": "",
+        "uuid": "5a26b912-ec3c-4497-a03d-4bfa950d210f",
+        "value": "5da21af74810e3655bcbbe40660f21b8",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554363",
+        "comment": "",
+        "uuid": "5a26b913-90cc-4e93-b967-46b4950d210f",
+        "value": "g10pr0123456.mycompany.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554363",
+        "comment": "",
+        "uuid": "5a26b913-96e4-4366-a195-4699950d210f",
+        "value": "mycompany.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554363",
+        "comment": "MYCOMPANY.COM",
+        "uuid": "5a26b913-3aec-4155-ae75-4cb6950d210f",
+        "value": "52.5.196.34",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554363",
+        "comment": "",
+        "uuid": "5a26b914-d9a0-4056-bb9a-4d7c950d210f",
+        "value": "http://hofgrund.de/hudgy356",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554363",
+        "comment": "",
+        "uuid": "5a26b915-b5a4-486b-99fa-49c6950d210f",
+        "value": "hofgrund.de",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554363",
+        "comment": "hofgrund.de",
+        "uuid": "5a26b915-9680-4889-9755-41a3950d210f",
+        "value": "78.111.75.239",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "",
+        "uuid": "5a26b915-adb0-40c4-8a3f-4d90950d210f",
+        "value": "http://horoskoperstellung.com/hudgy358",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "",
+        "uuid": "5a26b915-4f90-4288-997d-46a7950d210f",
+        "value": "horoskoperstellung.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "horoskoperstellung.com",
+        "uuid": "5a26b915-2bac-4d10-aa7c-4c05950d210f",
+        "value": "213.203.202.31",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "",
+        "uuid": "5a26b916-5040-4ea8-8df8-4b09950d210f",
+        "value": "http://hosting-jw.de/hudgy356",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "",
+        "uuid": "5a26b916-d638-4d8b-9c2e-c53a950d210f",
+        "value": "hosting-jw.de",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "hosting-jw.de",
+        "uuid": "5a26b916-c440-458b-b20a-4594950d210f",
+        "value": "85.214.130.145",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "",
+        "uuid": "5a26b916-a12c-4778-8f24-4368950d210f",
+        "value": "http://primeassociatesinc.com/hudgy356",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "",
+        "uuid": "5a26b917-2868-4050-9e9a-4969950d210f",
+        "value": "primeassociatesinc.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "primeassociatesinc.com",
+        "uuid": "5a26b917-fe94-4156-8ec9-4984950d210f",
+        "value": "209.54.51.32",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554364",
+        "comment": "",
+        "uuid": "5a26b918-9010-44f5-95b5-4320950d210f",
+        "value": "http://rorymartin8.info/hudgy356",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554365",
+        "comment": "",
+        "uuid": "5a26b918-93c0-48c3-a334-49db950d210f",
+        "value": "rorymartin8.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554365",
+        "comment": "rorymartin8.info",
+        "uuid": "5a26b918-4224-4a53-aba2-45c8950d210f",
+        "value": "192.185.193.214",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554365",
+        "comment": "",
+        "uuid": "5a26b918-79bc-414c-9849-4be4950d210f",
+        "value": "https://ugf57wl6uexcj7fu.onion.link/shfgealjh.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554365",
+        "comment": "",
+        "uuid": "5a26b918-6394-4304-97b1-41fe950d210f",
+        "value": "ugf57wl6uexcj7fu.onion.link",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554365",
+        "comment": "ugf57wl6uexcj7fu.onion.link",
+        "uuid": "5a26b919-e41c-4571-8a6f-4d26950d210f",
+        "value": "103.198.0.2",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554365",
+        "comment": "",
+        "uuid": "5a26b919-bf74-40e1-93a9-4a4b950d210f",
+        "value": "http://summi.space/count.php?nu=105&fb=110",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554365",
+        "comment": "",
+        "uuid": "5a26b919-5e30-4dba-b258-4bf6950d210f",
+        "value": "summi.space",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554365",
+        "comment": "summi.space",
+        "uuid": "5a26b919-5870-49ba-b32b-44d0950d210f",
+        "value": "198.23.241.227",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554365",
+        "comment": "- Xchecked via VT: 5da21af74810e3655bcbbe40660f21b8",
+        "uuid": "5a27bf7d-f440-42a7-bad7-553702de0b81",
+        "value": "c0ce6c2f03e3174d347eb2136a230883a725fcd5179221f61435ea709a2ba81f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554365",
+        "comment": "- Xchecked via VT: 5da21af74810e3655bcbbe40660f21b8",
+        "uuid": "5a27bf7d-bdfc-400d-a524-553702de0b81",
+        "value": "60d60dff0d3af3b564e43bc87ef5a63ff6146da7",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512554365",
+        "comment": "- Xchecked via VT: 5da21af74810e3655bcbbe40660f21b8",
+        "uuid": "5a27bf7d-6474-47d7-84b8-553702de0b81",
+        "value": "https://www.virustotal.com/file/c0ce6c2f03e3174d347eb2136a230883a725fcd5179221f61435ea709a2ba81f/analysis/1512549209/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

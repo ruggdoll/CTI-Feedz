@@ -1,0 +1,649 @@
+{
+  "Event": {
+    "date": "2017-11-09",
+    "timestamp": "1510261635",
+    "analysis": "1",
+    "uuid": "5a04510c-b2d0-467b-97a3-75a9950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1510261683",
+    "info": "M2M -  Locky 2017-11-06 : Affid=3, \".asasin\" : \"E3S1234567890123 Payment advice\" - \"advice_123456_20171106.doc\"",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#006c6c",
+        "name": "ecsirt:malicious-code=\"ransomware\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Locky\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a04510d-6f08-4fcb-9abc-46e9950d210f",
+        "value": "804156021313adfee00e9406f8de1031",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a04510d-85ec-4e5c-9bdd-cdb4950d210f",
+        "value": "deed16eadb1a270dfc54daf84f53aad6",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a04510e-48d0-4681-9f11-2214950d210f",
+        "value": "d39e97a9ff6dceb4e8430036f43fb187b8a80003",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a04510e-db8c-48d9-aca7-cda3950d210f",
+        "value": "3a5f35fceebf1626dbd11f81bf20656061ab0d1fa100a3fd0aae77edfa859cd5",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a04510f-9ca4-463c-ba53-cc6f950d210f",
+        "value": "http://primeassociatesinc.com/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a04510f-0f10-477f-8ab5-42bf950d210f",
+        "value": "primeassociatesinc.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "primeassociatesinc.com",
+        "uuid": "5a04510f-2938-4aa9-81a8-cdab950d210f",
+        "value": "209.54.51.32",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a04510f-5834-4227-8b16-717b950d210f",
+        "value": "http://ro.isuzu.it/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a04510f-1ad0-4c01-9e82-4220950d210f",
+        "value": "ro.isuzu.it",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "ro.isuzu.it",
+        "uuid": "5a045110-4374-44ef-8ca7-cdb4950d210f",
+        "value": "95.110.189.247",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045110-3dc4-4a5d-a5fb-2214950d210f",
+        "value": "http://saranville.com/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045110-3fa8-44dd-8070-cda3950d210f",
+        "value": "saranville.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "saranville.com",
+        "uuid": "5a045110-84a0-42e2-8e81-49ea950d210f",
+        "value": "27.254.148.14",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045110-0ec8-43e0-a33c-4b46950d210f",
+        "value": "http://studio311.de/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045111-c574-43be-88e4-4285950d210f",
+        "value": "studio311.de",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "studio311.de",
+        "uuid": "5a045111-6edc-4521-8077-cc6f950d210f",
+        "value": "217.182.199.8",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045111-cea0-42db-8311-48e7950d210f",
+        "value": "http://testbxc.u-host.ru/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045111-c028-4d9e-833a-cdab950d210f",
+        "value": "testbxc.u-host.ru",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "testbxc.u-host.ru",
+        "uuid": "5a045111-0bc4-4d02-83cc-20a6950d210f",
+        "value": "212.220.124.233",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045112-d638-4a03-9431-4f44950d210f",
+        "value": "http://themollymalone.es/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045112-6224-4889-802c-cdb4950d210f",
+        "value": "themollymalone.es",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "themollymalone.es",
+        "uuid": "5a045112-21b8-48b3-9d83-cdb1950d210f",
+        "value": "37.247.120.83",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045112-1a60-44cd-bc92-cda3950d210f",
+        "value": "http://xn--buremrt-9wa.ch/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045113-45a4-4db1-a60e-cd7d950d210f",
+        "value": "xn--buremrt-9wa.ch",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "xn--buremrt-9wa.ch",
+        "uuid": "5a045113-9e44-49dd-9032-4b57950d210f",
+        "value": "82.98.87.48",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045113-6d64-465a-bcb8-75a9950d210f",
+        "value": "https://www.virustotal.com/#/file/3a5f35fceebf1626dbd11f81bf20656061ab0d1fa100a3fd0aae77edfa859cd5/detection",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045113-54c0-4ad0-ab03-4756950d210f",
+        "value": "https://www.hybrid-analysis.com/sample/3a5f35fceebf1626dbd11f81bf20656061ab0d1fa100a3fd0aae77edfa859cd5?environmentId=100",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045114-54ec-4dd0-a020-717b950d210f",
+        "value": "maeserdruck.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "maeserdruck.com",
+        "uuid": "5a045114-77fc-40ef-b3be-4c35950d210f",
+        "value": "194.208.76.18",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "",
+        "uuid": "5a045114-d8a0-4dcc-8631-44c0950d210f",
+        "value": "lvps212-67-205-60.vps.webfusion.co.uk",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261620",
+        "comment": "lvps212-67-205-60.vps.webfusion.co.uk",
+        "uuid": "5a045115-07c4-4c02-9ba9-2214950d210f",
+        "value": "212.67.205.60",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045115-9904-49a4-898d-cda3950d210f",
+        "value": "ist-profy.ru",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "ist-profy.ru",
+        "uuid": "5a045115-9484-4c01-8faf-46bd950d210f",
+        "value": "90.156.144.159",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045115-46d4-4c43-912e-44ec950d210f",
+        "value": "hilaryandsavio.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "hilaryandsavio.com",
+        "uuid": "5a045115-44d8-4d7b-9026-75a9950d210f",
+        "value": "72.249.127.194",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045116-36cc-43d5-a62b-cc6f950d210f",
+        "value": "nikom.be",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045116-1dc0-4f67-9b30-4f57950d210f",
+        "value": "l-up.net",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "l-up.net",
+        "uuid": "5a045116-b2d0-4957-bec5-4e3b950d210f",
+        "value": "89.104.72.196",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045116-fc5c-43f5-b9cb-717b950d210f",
+        "value": "michelsmarkt.de",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "michelsmarkt.de",
+        "uuid": "5a045117-10d0-47e9-8f94-412e950d210f",
+        "value": "173.212.228.135",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045117-5bf0-43e7-95cf-4345950d210f",
+        "value": "jimhalltreeservice.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "jimhalltreeservice.com",
+        "uuid": "5a045117-10c4-491a-8e69-2214950d210f",
+        "value": "74.200.89.171",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045117-f2cc-4a1f-8dcb-cda3950d210f",
+        "value": "toftinrontonsfo.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045137-359c-4477-8abb-20a6950d210f",
+        "value": "http://lvps212-67-205-60.vps.webfusion.co.uk/mnbv374",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045137-0038-4640-8665-cdb4950d210f",
+        "value": "http://ist-profy.ru/mnbv374",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045137-75e8-4c38-9d96-4aa0950d210f",
+        "value": "http://maeserdruck.com/mnbv374",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045138-872c-4a85-9691-cc6f950d210f",
+        "value": "http://hilaryandsavio.com/mnbv374",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045138-2ac4-46b6-816b-20a6950d210f",
+        "value": "http://nikom.be/mnbv374",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045139-ba58-45cf-a34f-444b950d210f",
+        "value": "http://l-up.net/mnbv374",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a045139-6b84-4a74-9c65-448a950d210f",
+        "value": "http://michelsmarkt.de/mnbv374",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a04513a-359c-4d35-9f9c-75a9950d210f",
+        "value": "http://jimhalltreeservice.com/mnbv374",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261621",
+        "comment": "",
+        "uuid": "5a04513a-a3f4-40a2-b834-20a6950d210f",
+        "value": "http://toftinrontonsfo.info/p66/mnbv374",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1510261621",
+        "comment": "- Xchecked via VT: 3a5f35fceebf1626dbd11f81bf20656061ab0d1fa100a3fd0aae77edfa859cd5",
+        "uuid": "5a04c375-1448-4e4d-8820-4b6302de0b81",
+        "value": "https://www.virustotal.com/file/3a5f35fceebf1626dbd11f81bf20656061ab0d1fa100a3fd0aae77edfa859cd5/analysis/1510123961/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510261621",
+        "comment": "- Xchecked via VT: deed16eadb1a270dfc54daf84f53aad6",
+        "uuid": "5a04c375-301c-47df-9482-44b902de0b81",
+        "value": "e49c6973ddcc601cfb85b451e122903b1a9c036c8baafc35cb327f76b998c537",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510261621",
+        "comment": "- Xchecked via VT: deed16eadb1a270dfc54daf84f53aad6",
+        "uuid": "5a04c375-ef78-4d94-849c-407d02de0b81",
+        "value": "cfa00beec23e1221ec6197abe887ef51ca0722d8",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1510261621",
+        "comment": "- Xchecked via VT: deed16eadb1a270dfc54daf84f53aad6",
+        "uuid": "5a04c375-005c-4bc3-b01e-44a002de0b81",
+        "value": "https://www.virustotal.com/file/e49c6973ddcc601cfb85b451e122903b1a9c036c8baafc35cb327f76b998c537/analysis/1510233221/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

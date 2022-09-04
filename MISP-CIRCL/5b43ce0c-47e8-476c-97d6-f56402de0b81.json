@@ -1,0 +1,796 @@
+{
+  "Event": {
+    "date": "2018-07-09",
+    "timestamp": "1531205768",
+    "analysis": "0",
+    "uuid": "5b43ce0c-47e8-476c-97d6-f56402de0b81",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1531206659",
+    "info": "OSINT - APT Attack In the Middle East: The Big Bang",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"Spearphishing Attachment - T1193\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"Screen Capture - T1113\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"Data from Information Repositories - T1213\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"Commonly Used Port - T1043\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:threat-actor=\"The Big Bang\""
+      },
+      {
+        "colour": "#0071c3",
+        "name": "osint:lifetime=\"perpetual\""
+      },
+      {
+        "colour": "#0026eb",
+        "name": "estimative-language:confidence-in-analytic-judgment=\"moderate\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce1c-edb4-491d-95c5-43fd02de0b81",
+        "value": "https://research.checkpoint.com/apt-attack-middle-east-big-bang/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce38-f8ec-46cf-a6e1-4c6502de0b81",
+        "value": "a210ac6ea0406d81fa5682e86997be25c73e9d1b",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce39-f540-4bca-96c8-472d02de0b81",
+        "value": "994ebbe444183e0d67b13f91d75b0f9bcfb011db",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce39-cb38-4f9d-85b0-420802de0b81",
+        "value": "74ea60b4e269817168e107bdccc42b3a1193c1e6",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3a-9dbc-485b-9b5b-483902de0b81",
+        "value": "511bec782be41e85a013cbea95725d5807e3c2f2",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3a-4c8c-4399-b52e-429e02de0b81",
+        "value": "9e093a5b34c4e5dea59e374b409173565dc3b05b",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3b-e330-4f8c-9fcd-4d4e02de0b81",
+        "value": "lindamullins.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3b-b098-4156-9bb1-489002de0b81",
+        "value": "spgbotup.club",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3b-a5bc-4932-9030-43d902de0b81",
+        "value": "namyyeatop.club",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3c-3a70-4e79-a245-404402de0b81",
+        "value": "namybotter.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3c-447c-4bcc-a5d7-452402de0b81",
+        "value": "sanjynono.website",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3d-bcb0-4078-9fb7-486c02de0b81",
+        "value": "exvsnomy.club",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3d-8b4c-4b04-b52f-485602de0b81",
+        "value": "ezofiezo.website",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b43ce3e-5608-466a-962a-408902de0b81",
+        "value": "hitmesanjjoy.pro",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1531205765",
+        "comment": "",
+        "uuid": "5b4454b3-ec70-438e-b9e3-4d7d950d210f",
+        "value": "Over the last few weeks, the Check Point Threat Intelligence Team discovered the comeback of an APT surveillance attack against institutions across the Middle East, specifically the Palestinian Authority.\r\n\r\nThe attack begins with a phishing email sent to targets that includes an attachment of a self-extracting archive containing two files: a Word document and a malicious executable. Posing to be from the Palestinian Political and National Guidance Commission, the Word document serves as a decoy, distracting victims while the malware is installed in the background.\r\n\r\nThe malware has several modules, some of which are:\r\n\r\n    Taking a screenshot of the infected machine and sending it to the C&C server.\r\n    Sending a list of documents with file extensions including .doc, .odt, .xls, .ppt, .pdf and more.\r\n    Logging details about the system.\r\n    Rebooting the system.\r\n    Self-destructing the executable.\r\n\r\nWhile it is not clear exactly what the attacker is looking for, what is clear is that once he finds it, a second stage of the attack awaits, fetching additional modules and/or malware from the Command and Control server. This then is a surveillance attack in progress and has been dubbed \u00e2\u20ac\u02dcBig Bang\u00e2\u20ac\u2122 due to the attacker\u00e2\u20ac\u2122s fondness for the \u00e2\u20ac\u02dcBig Bang Theory\u00e2\u20ac\u2122 TV show, after which some of the malware\u00e2\u20ac\u2122s modules are named.\r\n\r\nA previous campaign of this APT group was uncovered by Talos in June 2017, and since then very little of this operation was seen in the wild. The Big Bang campaign described below incorporates improved capabilities and offensive infrastructure, and seems to be even more targeted.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1531170657",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5f89b9d8-fb5e-455c-8d75-74f4ded612c2",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1531170666",
+            "comment": "",
+            "uuid": "5b43cf6a-1f44-46e5-a545-42e202de0b81",
+            "object_uuid": "5f89b9d8-fb5e-455c-8d75-74f4ded612c2",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "6ac23322-10a0-43c4-9004-c2c0991b2fb2"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "59cad36b-a1f3-4c32-9c29-a670664e87e4",
+            "value": "a3dc31c456508df7dfac8349eb0d2b65",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "2d027b50-6df2-463a-a645-5d5d6d5357eb",
+            "value": "74ea60b4e269817168e107bdccc42b3a1193c1e6",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "0cc5bc93-0da3-47bb-ac21-73261c8d0e2f",
+            "value": "63a73cf005eb328f3c7e99f0d28da65980d9620b66d8c41939f6db023418c864",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1531170655",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "6ac23322-10a0-43c4-9004-c2c0991b2fb2",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "d8dba617-c8c4-466d-99b9-0bc760fc64f6",
+            "value": "2018-07-09T20:54:06",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "32da8334-bef5-4dd2-9c11-4bde99a3e834",
+            "value": "https://www.virustotal.com/file/63a73cf005eb328f3c7e99f0d28da65980d9620b66d8c41939f6db023418c864/analysis/1531169646/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "f06cc6f8-9d16-4237-9edf-f22bffa514f1",
+            "value": "0/58",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1531170659",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "67b678dd-a046-4e24-bfee-0003c0b29ec8",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1531170666",
+            "comment": "",
+            "uuid": "5b43cf6a-34bc-4554-af86-45ac02de0b81",
+            "object_uuid": "67b678dd-a046-4e24-bfee-0003c0b29ec8",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "13a19efc-0f75-4608-a95b-b689504221ea"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "f5087a57-bf0a-4871-9809-5deddba03ce2",
+            "value": "fd8c8ae6a261b0e88df06236c5b70be6",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "9874c51a-c93a-40d6-a6c8-ddb33b7b88b0",
+            "value": "511bec782be41e85a013cbea95725d5807e3c2f2",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "ceaaa45c-3f43-43da-a003-e4e7f35f0242",
+            "value": "ac6462e9e26362f711783b9874d46fefce198c4c3ca947a5d4df7842a6c51224",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1531170658",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "13a19efc-0f75-4608-a95b-b689504221ea",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "f6c73d92-dd22-4ecd-b81d-82dce73c212d",
+            "value": "2018-07-09T10:06:12",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "8f99dadd-67ca-4199-97e6-19277a85fcfb",
+            "value": "https://www.virustotal.com/file/ac6462e9e26362f711783b9874d46fefce198c4c3ca947a5d4df7842a6c51224/analysis/1531130772/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "db260972-06f4-4105-8732-a2a5e05b2b36",
+            "value": "41/67",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1531170662",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "e84f13a0-0878-494a-b532-2946d911523e",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1531170667",
+            "comment": "",
+            "uuid": "5b43cf6b-cc8c-4607-b02a-426402de0b81",
+            "object_uuid": "e84f13a0-0878-494a-b532-2946d911523e",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "59ee6b52-0b6b-4f05-861c-ea6ded4e92f8"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "d78c5b7d-b93d-485c-a03d-e9c183fb91f5",
+            "value": "18864d22331fc6503641f128226aaea8",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "1f3a55e1-2ed5-4f5e-8532-6f8ba78d5ae5",
+            "value": "994ebbe444183e0d67b13f91d75b0f9bcfb011db",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "179a5857-b8a3-409d-a1a0-3854045b89e8",
+            "value": "e1f52ea30d25289f7a4a5c9d15be97c8a4dfe10eb68ac9d031edcc7275c23dbc",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1531170660",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "59ee6b52-0b6b-4f05-861c-ea6ded4e92f8",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "30bf9981-32fa-4aeb-b1a4-0f98d2e5f0c3",
+            "value": "2018-07-09T10:06:11",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "7130664a-5360-49d3-b551-c9dddafd4c17",
+            "value": "https://www.virustotal.com/file/e1f52ea30d25289f7a4a5c9d15be97c8a4dfe10eb68ac9d031edcc7275c23dbc/analysis/1531130771/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "a2025a9a-ca8a-48a6-a3a4-a3118ec625f3",
+            "value": "47/68",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1531170664",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5c62dfe6-83e5-470f-9fb9-37872d575e76",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1531170667",
+            "comment": "",
+            "uuid": "5b43cf6b-0e14-4d35-9fc2-404e02de0b81",
+            "object_uuid": "5c62dfe6-83e5-470f-9fb9-37872d575e76",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "d7518f97-54c8-44e2-9bf8-db42b1a973c3"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "32971d60-9ae4-4020-842a-2cbc03d9295a",
+            "value": "81881a0841deaa0ef1ea92c51d8c8845",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "3fc05e2d-d1dd-4e2e-8cbb-3601e7b6e11c",
+            "value": "9e093a5b34c4e5dea59e374b409173565dc3b05b",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "b9ddf46a-c228-48a5-8a18-884a5bb6bc12",
+            "value": "4db68522600f2d8aabd255e2da999a9d9c9f1f18491cfce9dadf2296269a172b",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1531170663",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "d7518f97-54c8-44e2-9bf8-db42b1a973c3",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "cd137230-b3bb-4d53-b429-a0ccd6981c67",
+            "value": "2018-07-09T20:34:31",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "b23e43db-c16a-4207-962e-3c2d632da209",
+            "value": "https://www.virustotal.com/file/4db68522600f2d8aabd255e2da999a9d9c9f1f18491cfce9dadf2296269a172b/analysis/1531168471/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "89eed594-20f3-4eff-a527-7b02e13a4eae",
+            "value": "42/67",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1531170666",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "9468ee5c-a526-4bba-92a5-0ca6ffda79e4",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1531170667",
+            "comment": "",
+            "uuid": "5b43cf6b-f454-4044-a857-4c3402de0b81",
+            "object_uuid": "9468ee5c-a526-4bba-92a5-0ca6ffda79e4",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "e694ba51-5a6f-4130-acf4-6b9dab32543a"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "638d348e-478f-4463-ab0a-9957c53a035d",
+            "value": "2f8face85084bea8adacac36ee2f641f",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "2f1fa5a3-cce2-4543-a6c0-ab7c69fd36f8",
+            "value": "a210ac6ea0406d81fa5682e86997be25c73e9d1b",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "d1a300db-9965-46ee-8cd3-ce64dab7ee8f",
+            "value": "0ed777075d67d00720021e4703bde809900f4715ccf0a2d4383e285801dca5ba",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1531170665",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "e694ba51-5a6f-4130-acf4-6b9dab32543a",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "d0f2ac63-e02e-4edb-beb2-73acd376f9ae",
+            "value": "2018-07-09T10:08:43",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "ea7e49cd-c2d2-4b91-bcb8-e57fd9782019",
+            "value": "https://www.virustotal.com/file/0ed777075d67d00720021e4703bde809900f4715ccf0a2d4383e285801dca5ba/analysis/1531130923/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1531205765",
+            "comment": "",
+            "uuid": "2ce142ab-e375-46a2-bd2d-8118b5ce9054",
+            "value": "47/67",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

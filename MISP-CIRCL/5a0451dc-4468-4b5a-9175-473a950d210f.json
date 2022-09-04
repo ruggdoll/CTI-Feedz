@@ -1,0 +1,407 @@
+{
+  "Event": {
+    "date": "2017-11-09",
+    "timestamp": "1510258834",
+    "analysis": "1",
+    "uuid": "5a0451dc-4468-4b5a-9175-473a950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1510258846",
+    "info": "M2M -  Locky 2017-11-08 : Affid=3, offline, \".asasin\" : \"Invoice AX1234567\" - \"Invoice-AX1234567.doc\"",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#006c6c",
+        "name": "ecsirt:malicious-code=\"ransomware\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Locky\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510258772",
+        "comment": "",
+        "uuid": "5a0451dd-aa80-46b4-af20-4cc4950d210f",
+        "value": "1676f1817d6ed6d76fbde105f88e615a",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258772",
+        "comment": "",
+        "uuid": "5a0451dd-3188-43f2-aa1b-49fc950d210f",
+        "value": "http://elpuntinazo.com/101",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258772",
+        "comment": "",
+        "uuid": "5a0451dd-1aec-4551-90a5-40a8950d210f",
+        "value": "elpuntinazo.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258772",
+        "comment": "elpuntinazo.com",
+        "uuid": "5a0451de-365c-4216-ae8f-4a3f950d210f",
+        "value": "23.229.221.103",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258772",
+        "comment": "",
+        "uuid": "5a0451de-3ca4-4c06-8265-75a9950d210f",
+        "value": "http://gachvina.com/101",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258772",
+        "comment": "",
+        "uuid": "5a0451de-cb2c-44af-8b64-20a6950d210f",
+        "value": "gachvina.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258772",
+        "comment": "gachvina.com",
+        "uuid": "5a0451de-3f7c-44c8-86fe-cdb1950d210f",
+        "value": "112.213.95.177",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451de-a0e0-456f-93ab-4b1e950d210f",
+        "value": "http://hapcen.com/101",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451df-7d5c-4209-ae6b-4c2d950d210f",
+        "value": "hapcen.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "hapcen.com",
+        "uuid": "5a0451df-c570-45f0-bd97-4f2f950d210f",
+        "value": "210.1.58.196",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451df-6d44-4be0-b764-20a6950d210f",
+        "value": "http://idiomwizard.com/101",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451df-b84c-495d-91e4-4c85950d210f",
+        "value": "idiomwizard.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "idiomwizard.com",
+        "uuid": "5a0451e0-2100-46e1-9477-4b19950d210f",
+        "value": "216.228.2.69",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e0-f9c0-450d-8919-75a9950d210f",
+        "value": "http://www.drpampe.com/101",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e0-c4cc-43e7-8bff-20a6950d210f",
+        "value": "www.drpampe.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "www.drpampe.com",
+        "uuid": "5a0451e1-958c-4202-b124-4947950d210f",
+        "value": "64.29.151.221",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e1-9058-4b46-9fb1-4087950d210f",
+        "value": "http://fgmindia.com/HJGdyt73",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e1-4bfc-4297-b4a3-41ac950d210f",
+        "value": "fgmindia.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "fgmindia.com",
+        "uuid": "5a0451e1-1f88-4aad-810a-20a6950d210f",
+        "value": "162.210.102.40",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e1-c1a0-4f2b-9886-cdb1950d210f",
+        "value": "http://feigel-fensterbau.eu/HJGdyt73",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e2-ade0-4bbd-96db-4cf7950d210f",
+        "value": "feigel-fensterbau.eu",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "feigel-fensterbau.eu",
+        "uuid": "5a0451e2-38b0-48e0-b776-4a64950d210f",
+        "value": "81.169.145.151",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e2-6c18-4a3a-a470-49d5950d210f",
+        "value": "http://euriskosrl.it/HJGdyt73",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e2-afd0-4ff2-9eb5-75a9950d210f",
+        "value": "euriskosrl.it",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "euriskosrl.it",
+        "uuid": "5a0451e3-2168-4002-9be0-cdb1950d210f",
+        "value": "195.110.124.188",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e3-5518-49fd-a454-468d950d210f",
+        "value": "http://gulercin.com/HJGdyt73",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e3-b7dc-4301-b13b-4904950d210f",
+        "value": "gulercin.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "gulercin.com",
+        "uuid": "5a0451e3-ba64-431e-98e0-4847950d210f",
+        "value": "81.22.98.50",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e3-16b4-4a2f-848d-cdb1950d210f",
+        "value": "http://thennaloperdown.net/p66/HJGdyt73",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "",
+        "uuid": "5a0451e4-3a68-4746-903f-4357950d210f",
+        "value": "thennaloperdown.net",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510258773",
+        "comment": "thennaloperdown.net",
+        "uuid": "5a0451e4-6cec-4943-a7dd-41d2950d210f",
+        "value": "45.76.38.221",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510258773",
+        "comment": "- Xchecked via VT: 1676f1817d6ed6d76fbde105f88e615a",
+        "uuid": "5a04b855-34fc-4038-af5e-316c02de0b81",
+        "value": "73673004e913a77a47d8f7565354e92b70338da639a76708424ddcaac70b1005",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510258773",
+        "comment": "- Xchecked via VT: 1676f1817d6ed6d76fbde105f88e615a",
+        "uuid": "5a04b855-bb10-4daf-b3c4-316c02de0b81",
+        "value": "1059d2c82c859eb87797fe2b39d8c24faa9a7747",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1510258773",
+        "comment": "- Xchecked via VT: 1676f1817d6ed6d76fbde105f88e615a",
+        "uuid": "5a04b855-59e4-4af9-99b4-316c02de0b81",
+        "value": "https://www.virustotal.com/file/73673004e913a77a47d8f7565354e92b70338da639a76708424ddcaac70b1005/analysis/1510218981/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "Event": {
+    "date": "2018-04-05",
+    "timestamp": "1523201450",
+    "analysis": "2",
+    "uuid": "5ac7752d-a430-4606-8d2b-06b4950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1523201490",
+    "info": "OSINT - The WhiteRose Ransomware Is Decryptable & Tells A Strange Story",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"WhiteRose\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1523200223",
+        "comment": "",
+        "uuid": "5ac775d0-9a60-430c-8183-09c1950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/the-whiterose-ransomware-is-decryptable-and-tells-a-strange-story/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1523200224",
+        "comment": "",
+        "uuid": "5ac775de-483c-4dc0-909f-47f0950d210f",
+        "value": "A new ransomware has been discovered by MalwareHunterTeam that is based off of the InfiniteTear ransomware family, of which BlackRuby and Zenis are members. When this ransomware infects a computer it will encrypt the files, scramble the filenames, and append the .WHITEROSE extension to them.\r\n\r\nIt is not currently known for sure how this ransomware is being distributed, but reports indicate it is being manually installed by hacking into Remote Desktop services. Furthermore, based on the submissions to ID-Ransomware, the developer of this ransomware appears to be targeting European countries, with a strong focus on Spain.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1523021640",
+        "comment": "",
+        "uuid": "5ac77748-c2a4-4bc0-bfae-4120950d210f",
+        "value": "9614b9bc6cb2d06d261f97ba25743a89df44906e750c52398b5dbdbcb66a9415",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1523200224",
+        "comment": "",
+        "uuid": "5ac77749-02a0-40e7-a956-432a950d210f",
+        "value": "C:\\Perfect.sys",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1523200225",
+        "comment": "",
+        "uuid": "5ac77749-0d30-4225-82e6-4797950d210f",
+        "value": "HOW-TO-RECOVERY-FILES.TXT",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1523200225",
+        "comment": "",
+        "uuid": "5ac7774a-d96c-471c-ad31-4e2c950d210f",
+        "value": "http://torbox3uiot6wchz.onion",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1523200225",
+        "comment": "",
+        "uuid": "5ac7774a-6614-43f3-892e-4745950d210f",
+        "value": "thewhiterose@torbox3uiot6wchz.onion",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1523200229",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "ce819f0f-cc14-4c81-bf4f-84d9008186d0",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1523200229",
+            "comment": "",
+            "uuid": "5aca30e5-30e4-49b7-afd5-4c6902de0b81",
+            "object_uuid": "ce819f0f-cc14-4c81-bf4f-84d9008186d0",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "fa25d195-ee00-4c65-8d36-df8716a6803d"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1523200226",
+            "comment": "",
+            "uuid": "5aca30e2-e1f4-4945-9ff2-4d9902de0b81",
+            "value": "0d642ea85680b932e6dd45620c9c12d1060b46fd",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1523200226",
+            "comment": "",
+            "uuid": "5aca30e2-f5f0-4aea-8df7-498c02de0b81",
+            "value": "9614b9bc6cb2d06d261f97ba25743a89df44906e750c52398b5dbdbcb66a9415",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1523200227",
+            "comment": "",
+            "uuid": "5aca30e3-e878-4c5e-b59b-4f3202de0b81",
+            "value": "00bd67cfccf7141c8fb6c622442bd419",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1523200227",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "fa25d195-ee00-4c65-8d36-df8716a6803d",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1523200228",
+            "comment": "",
+            "uuid": "5aca30e4-71e8-4664-a949-4da402de0b81",
+            "value": "https://www.virustotal.com/file/9614b9bc6cb2d06d261f97ba25743a89df44906e750c52398b5dbdbcb66a9415/analysis/1523023058/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1523200228",
+            "comment": "",
+            "uuid": "5aca30e4-3d0c-43b7-bcaf-48b702de0b81",
+            "value": "50/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1523200228",
+            "comment": "",
+            "uuid": "5aca30e4-d55c-4f4b-a73d-4cb102de0b81",
+            "value": "2018-04-06T13:57:38",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

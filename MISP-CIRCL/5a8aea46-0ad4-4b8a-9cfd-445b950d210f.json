@@ -1,0 +1,396 @@
+{
+  "Event": {
+    "date": "2018-01-29",
+    "timestamp": "1519121264",
+    "analysis": "2",
+    "uuid": "5a8aea46-0ad4-4b8a-9cfd-445b950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1519121276",
+    "info": "OSINT - GandCrab Ransomware Distributed by Exploit Kits, Appends GDCB Extension",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#770040",
+        "name": "workflow:todo=\"create-missing-misp-galaxy-cluster\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1519121248",
+        "comment": "",
+        "uuid": "5a8aea94-20d8-420b-a52b-4155950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/gandcrab-ransomware-distributed-by-exploit-kits-appends-gdcb-extension/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1519121249",
+        "comment": "",
+        "uuid": "5a8aebb2-8d38-4b51-8a0f-49bf950d210f",
+        "value": "bleepingcomputer.bit",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1519121249",
+        "comment": "",
+        "uuid": "5a8aebb3-46cc-4143-bc91-4a17950d210f",
+        "value": "nomoreransom.bit",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1519121250",
+        "comment": "",
+        "uuid": "5a8aebb3-909c-4690-9520-4e50950d210f",
+        "value": "esetnod32.bit",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1519121250",
+        "comment": "",
+        "uuid": "5a8aebb3-6b9c-4da9-b7d7-4c08950d210f",
+        "value": "emsisoft.bit",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1519121250",
+        "comment": "",
+        "uuid": "5a8aebb4-97e8-480d-be52-4cd7950d210f",
+        "value": "gandcrab.bit",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1519121251",
+        "comment": "ransomnote",
+        "uuid": "5a8aec25-f770-4bdf-a543-4f23950d210f",
+        "value": "GDCB-DECRYPT.txt",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1519053876",
+        "comment": "",
+        "uuid": "5a8aec34-8204-4027-9e22-4d3c950d210f",
+        "value": "aedf80c426fb649bb258e430a3830d85",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1519053876",
+        "comment": "",
+        "uuid": "5a8aec34-1638-4675-872a-4e64950d210f",
+        "value": "6866d8d8bf8565d94e0e1479978cf1e5",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1519053877",
+        "comment": "",
+        "uuid": "5a8aec35-1e64-4c86-b38d-4890950d210f",
+        "value": "379e149517f4119f2edb9676ec456ed4",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1519121251",
+        "comment": "",
+        "uuid": "5a8bd3ad-2570-4490-bfe3-4ec0950d210f",
+        "value": "A new ransomware called GandCrab was released towards the end of last week that is currently being distributed via exploit kits. GandCrab has some interesting features not seen before in a ransomware, such as being the first to accept the DASH currency and the first to utilize the Namecoin powered .BIT tld.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1519121257",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "fdc7c223-2171-45ac-b03d-9aaf289e0612",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1519121259",
+            "comment": "",
+            "uuid": "5a8bf36b-84b4-4d90-becf-48e002de0b81",
+            "object_uuid": "fdc7c223-2171-45ac-b03d-9aaf289e0612",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "7c7e6c58-6dbb-4189-982d-3aa8636c352f"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1519121254",
+            "comment": "",
+            "uuid": "5a8bf366-44d8-41b4-be9d-464902de0b81",
+            "value": "2245bd90b753b7fd29b7218a0ef50435c64f8767",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1519121255",
+            "comment": "",
+            "uuid": "5a8bf367-ea98-415f-ac9e-466802de0b81",
+            "value": "3e2e881ec6fcfb6329cad95c15de4a90aef1032550176c7c7729c0a0e383c615",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1519121255",
+            "comment": "",
+            "uuid": "5a8bf367-cf20-4ee9-bc10-4dfe02de0b81",
+            "value": "6866d8d8bf8565d94e0e1479978cf1e5",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1519121255",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "7c7e6c58-6dbb-4189-982d-3aa8636c352f",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1519121255",
+            "comment": "",
+            "uuid": "5a8bf367-52dc-44ee-9641-4b8a02de0b81",
+            "value": "https://www.virustotal.com/file/3e2e881ec6fcfb6329cad95c15de4a90aef1032550176c7c7729c0a0e383c615/analysis/1518976209/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1519121256",
+            "comment": "",
+            "uuid": "5a8bf368-5744-4b42-9759-444302de0b81",
+            "value": "55/67",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1519121256",
+            "comment": "",
+            "uuid": "5a8bf368-c0ac-437c-b853-431f02de0b81",
+            "value": "2018-02-18T17:50:09",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1519121260",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "cd7071df-c409-4094-968c-c3c144a2a380",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1519121259",
+            "comment": "",
+            "uuid": "5a8bf36b-bbfc-4294-b2bb-4bed02de0b81",
+            "object_uuid": "cd7071df-c409-4094-968c-c3c144a2a380",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "1317f7cd-64b0-471b-be2d-fc2cd3fd851b"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1519121257",
+            "comment": "",
+            "uuid": "5a8bf369-1e34-4201-b10c-421902de0b81",
+            "value": "0876ad729d79da65ed4e72966d9f9d209394ebfa",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1519121257",
+            "comment": "",
+            "uuid": "5a8bf369-074c-4c57-8e9f-417c02de0b81",
+            "value": "03d68025f52d0930a99a67264a3ddad43d0a8bc9ffa0503e603311a43da1ca28",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1519121258",
+            "comment": "",
+            "uuid": "5a8bf36a-1080-41c3-ae9a-41c202de0b81",
+            "value": "aedf80c426fb649bb258e430a3830d85",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1519121258",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "1317f7cd-64b0-471b-be2d-fc2cd3fd851b",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1519121258",
+            "comment": "",
+            "uuid": "5a8bf36a-16d0-4cb0-a81e-4c2f02de0b81",
+            "value": "https://www.virustotal.com/file/03d68025f52d0930a99a67264a3ddad43d0a8bc9ffa0503e603311a43da1ca28/analysis/1518976703/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1519121259",
+            "comment": "",
+            "uuid": "5a8bf36b-fd30-42a3-b727-4db202de0b81",
+            "value": "49/68",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1519121259",
+            "comment": "",
+            "uuid": "5a8bf36b-b100-45cf-8bdb-40ee02de0b81",
+            "value": "2018-02-18T17:58:23",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

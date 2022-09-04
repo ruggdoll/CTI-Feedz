@@ -1,0 +1,558 @@
+{
+  "Event": {
+    "date": "2017-09-18",
+    "timestamp": "1540562142",
+    "analysis": "2",
+    "uuid": "5a3bd35f-7140-48d0-8b88-4555950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1540717099",
+    "info": "OSINT - Locky Ransomware Pushed Alongside FakeGlobe in Upgraded Spam Campaigns",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Locky\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Fake Globe Ransomware\""
+      },
+      {
+        "colour": "#e8007d",
+        "name": "workflow:state=\"complete\""
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#3b7500",
+        "name": "circl:incident-classification=\"malware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1540562131",
+        "comment": "",
+        "uuid": "5a3bd36b-b630-478e-a75e-4746950d210f",
+        "value": "http://blog.trendmicro.com/trendlabs-security-intelligence/locky-ransomware-pushed-alongside-fakeglobe-upgraded-spam-campaigns/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1540562142",
+        "comment": "",
+        "uuid": "5bd31462-8b84-4a33-9161-482d950d210f",
+        "value": "n the beginning of September, a sizeable spam campaign was detected distributing the latest Locky variant. Locky is a notorious ransomware that was first detected in the early months of 2016 and has continued to evolve and spread through different methods, particularly spam mail. A thorough look at samples from recent campaigns shows that cybercriminals are using sophisticated distribution methods, affecting users in more than 70 countries.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1540560326",
+        "comment": "",
+        "uuid": "5bd315c6-b0c4-4f4f-988d-4ada950d210f",
+        "value": "http://qolseaboomdog.top/support.php?f=1",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1540560327",
+        "comment": "",
+        "uuid": "5bd315c7-3898-4af5-b731-495a950d210f",
+        "value": "http://newhostrcm.top/admin.php?f=1",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1540560327",
+        "comment": "",
+        "uuid": "5bd315c7-5868-414f-9f7b-424c950d210f",
+        "value": "http://qolseaboomdog.top/support.php?f=2",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1540560328",
+        "comment": "",
+        "uuid": "5bd315c8-6c8c-4a3b-8a41-44f7950d210f",
+        "value": "http://newhostrcm.top/admin.php?f=2",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1540560680",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd31728-42ac-43a6-97e3-467b950d210f",
+        "comment": "VBScript files (downloaders) detected as VBS_NEMUCOD.ELDSAUO",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540560680",
+            "comment": "",
+            "uuid": "5bd31728-0460-4960-8b24-4ebf950d210f",
+            "value": "39256f126bba17770310c2115586b9f22b858cf15c43ab36bd7cfb18ad63a0c2",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540560683",
+            "comment": "",
+            "uuid": "5bd3172b-47d0-4893-8808-4d52950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540560730",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd3175a-c93c-443e-b60a-4ba7950d210f",
+        "comment": "VBScript files (downloaders) detected as VBS_NEMUCOD.ELDSAUO",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540560731",
+            "comment": "",
+            "uuid": "5bd3175b-44e4-4979-8f44-4de7950d210f",
+            "value": "a299f3de0c9277c0ce7dd3f7dc9aee57a7abe78b155919b1ecced1896c69653b",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540560735",
+            "comment": "",
+            "uuid": "5bd3175f-a3e0-437f-aa7d-4be6950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540560772",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd31784-2454-4dbf-8f89-453f950d210f",
+        "comment": "VBScript files (downloaders) detected as VBS_NEMUCOD.ELDSAUO",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540560772",
+            "comment": "",
+            "uuid": "5bd31784-b428-45eb-ab0b-45c9950d210f",
+            "value": "4d4a0e1d7218180452e22e6b52a7f9a0db1e0c0aa51a48f9a79c600b51030050",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540560773",
+            "comment": "",
+            "uuid": "5bd31785-d030-480d-b208-4d3f950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540560793",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd31799-3030-4f6a-a36c-4818950d210f",
+        "comment": "VBScript files (downloaders) detected as VBS_NEMUCOD.ELDSAUO",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540560793",
+            "comment": "",
+            "uuid": "5bd31799-c204-46d3-8fdc-465e950d210f",
+            "value": "0f6ae637a9d15503a0af42be649388f01f8637ca16b15526e318a94b7f34bf6e",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540560794",
+            "comment": "",
+            "uuid": "5bd3179a-a460-47ad-be3b-4dad950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540560819",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd317b3-b98c-4655-9b12-4137950d210f",
+        "comment": "LOCKY from VBS detected as RANSOM_FAKEGLOBE.ASUUB",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540560819",
+            "comment": "",
+            "uuid": "5bd317b3-45d8-4a28-a656-4340950d210f",
+            "value": "bb1df4a93fc27c54c78f84323e0ea7bb2b54469893150e3ea991826c81b56f47",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540560825",
+            "comment": "",
+            "uuid": "5bd317b9-518c-49a2-a162-49e1950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540561027",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd31883-a8e4-4dc7-863f-4f86950d210f",
+        "comment": "FAKEGLOBE from VBS detected as RANSOM_LOCKY.TH905",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540561028",
+            "comment": "",
+            "uuid": "5bd31884-c480-42dc-ba8b-4c9f950d210f",
+            "value": "e75e5d374f20c386b1114252647cca7bd407190cafb26c6cfbd42c5f9223fe6c",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540561032",
+            "comment": "",
+            "uuid": "5bd31888-b0b4-42e0-9398-42c7950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540561076",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd318b4-844c-4ddb-b452-40b1950d210f",
+        "comment": "FAKEGLOBE from DOC detected as RANSOM_FAKEGLOBE.ASUUG",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540561076",
+            "comment": "",
+            "uuid": "5bd318b4-1008-4b44-aa8a-41ba950d210f",
+            "value": "12e75bdbc3f0b489a89104c646aee10a71277c22b6abbc6e346d1ba6f17edf6d",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540561084",
+            "comment": "",
+            "uuid": "5bd318bc-2d74-4c82-9549-471b950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540561902",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd31bee-8f4c-4393-8f1b-4e60950d210f",
+        "comment": "DOC files (downloaders) detected as W2KM_POWLOAD.AUSJST",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540561902",
+            "comment": "",
+            "uuid": "5bd31bee-bd50-4f67-8701-4808950d210f",
+            "value": "067eb2754a823953a6efa1dfe9353eeabf699f171d21ffbff8e2303f7f678139",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540561904",
+            "comment": "",
+            "uuid": "5bd31bf0-7894-4947-b5e1-4b93950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540561920",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd31c00-3d08-4882-8269-433b950d210f",
+        "comment": "DOC files (downloaders) detected as W2KM_POWLOAD.AUSJST",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540561921",
+            "comment": "",
+            "uuid": "5bd31c01-73c4-43e8-bb7a-46ed950d210f",
+            "value": "6bdf46209fda582d7af5b74770b0eccf6abd3dbeabce3bdfb88db2f252ee778a",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540561924",
+            "comment": "",
+            "uuid": "5bd31c04-f90c-4f3c-8f90-4d73950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540561942",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd31c16-5978-48e0-a441-4722950d210f",
+        "comment": "DOC files (downloaders) detected as W2KM_POWLOAD.AUSJSP",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540561942",
+            "comment": "",
+            "uuid": "5bd31c16-ee80-459a-b17a-4ce4950d210f",
+            "value": "efb154bccff1e9a0f090a6afd7a08bf2c1fffea745b575a0bf31f22998688973",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540561947",
+            "comment": "",
+            "uuid": "5bd31c1b-a920-48be-abca-41c7950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540561969",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bd31c31-bba0-47bc-b92b-4b39950d210f",
+        "comment": "LOCKY from DOC detected as RANSOM_LOCKY.TH908",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540561970",
+            "comment": "",
+            "uuid": "5bd31c32-2164-4426-8110-473e950d210f",
+            "value": "3cb4484976676ac043fae870addaa57e858c1286cdb17d01ef8c973c5ec5b015",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1540561975",
+            "comment": "",
+            "uuid": "5bd31c37-1414-4718-8ae9-4a1a950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

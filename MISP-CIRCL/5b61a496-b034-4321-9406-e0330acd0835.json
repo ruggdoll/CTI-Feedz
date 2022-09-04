@@ -1,0 +1,1178 @@
+{
+  "Event": {
+    "date": "2018-08-01",
+    "timestamp": "1607525069",
+    "analysis": "2",
+    "uuid": "5b61a496-b034-4321-9406-e0330acd0835",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1607926769",
+    "info": "Talos Blog: Multiple Cobalt Personality Disorder",
+    "threat_level_id": "2",
+    "Orgc": {
+      "uuid": "5a68c02d-959c-4c8a-a571-0dcac0a8060a",
+      "name": "Synovus Financial"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:threat-actor=\"Cobalt\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-relationship=\"Cobalt Strike uses PowerShell\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:exploit-kit=\"ThreadKit\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"Spearphishing Attachment - T1193\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"Scripting - T1064\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"CMSTP - T1191\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"Regsvr32 - T1117\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"PowerShell - T1086\""
+      },
+      {
+        "colour": "#4d3300",
+        "name": "cert-ist:threat_targeted_system=\"Windows\""
+      },
+      {
+        "colour": "#885a00",
+        "name": "cert-ist:threat_targeted_sector=\"Finance\""
+      },
+      {
+        "colour": "#fea700",
+        "name": "cert-ist:enriched"
+      },
+      {
+        "colour": "#392500",
+        "name": "cert-ist:ioc_accuracy=\"high\""
+      },
+      {
+        "colour": "#3a2600",
+        "name": "cert-ist:threat_level=\"low\""
+      },
+      {
+        "colour": "#f8a400",
+        "name": "cert-ist:threat_type=\"apt\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1533212554",
+        "comment": "",
+        "uuid": "5b61a4a4-4d74-4c18-8d63-dab70acd0835",
+        "value": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533126149",
+        "comment": "",
+        "uuid": "5b61a605-d6e8-46be-9308-dd5f0acd0835",
+        "value": "CVE-2017-11882",
+        "to_ids": false,
+        "type": "vulnerability",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533126149",
+        "comment": "",
+        "uuid": "5b61a605-0744-4a88-9b28-dd5f0acd0835",
+        "value": "CVE-2017-8570",
+        "to_ids": false,
+        "type": "vulnerability",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533126149",
+        "comment": "",
+        "uuid": "5b61a605-8784-4f8e-81b5-dd5f0acd0835",
+        "value": "CVE-2017-0199",
+        "to_ids": false,
+        "type": "vulnerability",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533126149",
+        "comment": "",
+        "uuid": "5b61a605-c430-4b44-92a6-dd5f0acd0835",
+        "value": "CVE-2018-8174",
+        "to_ids": false,
+        "type": "vulnerability",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126231",
+        "comment": "Malicious RTF doc",
+        "uuid": "5b61a657-dbb8-4b87-b7e9-ea300acd0835",
+        "value": "af9ed7de1d9d9d38ee12ea2d3c62ab01a79c6f4b241c02110bac8a53ea9798b5",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#882d0e",
+            "name": "RTF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126231",
+        "comment": "Malicious RTF doc",
+        "uuid": "5b61a657-11d0-4c0b-887f-ea300acd0835",
+        "value": "e4081eb7f47d76c57bbbe36456eaa4108f488ead5022630ad9b383e84129ffa9",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#882d0e",
+            "name": "RTF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126231",
+        "comment": "Malicious RTF doc",
+        "uuid": "5b61a657-5344-4e03-ae4f-ea300acd0835",
+        "value": "bebd4cd9aece49fbe6e7024e239638004358ff87d02f9bd4328993409da9e17c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#882d0e",
+            "name": "RTF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126231",
+        "comment": "Malicious RTF doc",
+        "uuid": "5b61a657-15a8-4917-9b25-ea300acd0835",
+        "value": "7762bfb2c3251aea23fb0553dabb13db730a7e3fc95856d8b7a276000b9be1f5",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#882d0e",
+            "name": "RTF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126231",
+        "comment": "Malicious RTF doc",
+        "uuid": "5b61a657-2f4c-4f41-9651-ea300acd0835",
+        "value": "a1f3388314c4abd7b1d3ad2aeb863c9c40a56bf438c7a2b71cbcff384d7e7ded",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#882d0e",
+            "name": "RTF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126231",
+        "comment": "Malicious RTF doc",
+        "uuid": "5b61a657-fef8-414a-9fd0-ea300acd0835",
+        "value": "dc448907dd8d46bad0e996e7d23dd35ebe04873bc4bb7a8d26feaa47d09d1eab",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#882d0e",
+            "name": "RTF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126231",
+        "comment": "Malicious RTF doc",
+        "uuid": "5b61a657-e54c-4cc0-b622-ea300acd0835",
+        "value": "cbbf2de2fbd4bce3f9a6c7c2a3efd97c729ec506c654ce89cd187d7051717289",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#882d0e",
+            "name": "RTF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126231",
+        "comment": "Malicious RTF doc",
+        "uuid": "5b61a657-dcd0-45ba-be79-ea300acd0835",
+        "value": "40f97cf37c136209a65d5582963a72352509eb802da7f1f5b4478a0d9e0817e8",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#882d0e",
+            "name": "RTF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126284",
+        "comment": "Malicious Word Doc(x)",
+        "uuid": "5b61a68c-1848-4dd4-8cf2-dd5f0acd0835",
+        "value": "e566db9e491fda7a5d28ffe9019be64b4d9bc75014bbe189a9dcb9d987856558",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#b2f9b1",
+            "name": "Word Doc(x)"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126284",
+        "comment": "Malicious Word Doc(x)",
+        "uuid": "5b61a68c-6d50-4a2e-bdb9-dd5f0acd0835",
+        "value": "9ddc22718945ac8e29748999d64594c368e20efefc4917d36fead8a9a8151366",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#b2f9b1",
+            "name": "Word Doc(x)"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126284",
+        "comment": "Malicious Word Doc(x)",
+        "uuid": "5b61a68c-1b00-4519-95c7-dd5f0acd0835",
+        "value": "1247e1586a58b3be116d83c62397c9a16ccc8c943967e20d1d504b14a596157c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#b2f9b1",
+            "name": "Word Doc(x)"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1533126474",
+        "comment": "DROPPER DLLS",
+        "uuid": "5b61a6a4-9704-4934-a3de-ecbf0acd0835",
+        "value": "cc2e9c6d8bce799829351bd25a64c9b332958038365195e054411b136be61a4f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#195125",
+            "name": "DROPPER DLLS"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1533126470",
+        "comment": "DROPPER DLLS",
+        "uuid": "5b61a6a4-f93c-4f07-87e5-ecbf0acd0835",
+        "value": "0fef1863af0d7da7ddcfd3727f8fa08d66cd2d9ab4d5300dd3c57e908144edb6",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#195125",
+            "name": "DROPPER DLLS"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1533126432",
+        "comment": "DROPPER DLLS",
+        "uuid": "5b61a6a4-383c-4296-9023-ecbf0acd0835",
+        "value": "74af98fb016bf3adb51f49dff0a88c27bf4437e625a0c7557215a618a7b469a1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#195125",
+            "name": "DROPPER DLLS"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1533126467",
+        "comment": "DROPPER DLLS",
+        "uuid": "5b61a6a4-beb8-4ddf-a1f3-ecbf0acd0835",
+        "value": "844f56b5005946ebc83133b885c89e74bc4985bc3606d3e7a342a6ca9fa1cc0e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#195125",
+            "name": "DROPPER DLLS"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1533126461",
+        "comment": "SCRIPTLET",
+        "uuid": "5b61a6c0-b97c-42f6-a819-ecc80acd0835",
+        "value": "283f733d308fe325a0703af9857f59212e436f35fb6063a1b69877613936fc08",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#1ae080",
+            "name": "SCRIPTLET"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1533126458",
+        "comment": "SCRIPTLET",
+        "uuid": "5b61a6c0-17a0-4ea2-be60-ecc80acd0835",
+        "value": "afeabc34e3260f1a1c03988a3eac494cc403a88711c2391ea3381a500e424940",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#1ae080",
+            "name": "SCRIPTLET"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1533126455",
+        "comment": "SCRIPTLET",
+        "uuid": "5b61a6c0-6384-4fee-a10d-ecc80acd0835",
+        "value": "3b73ebb834282ae3ffcaeb3c3384fd4a721d78fff5e7f1d5fd63a9c244d84c48",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#1ae080",
+            "name": "SCRIPTLET"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1533126452",
+        "comment": "SCRIPTLET",
+        "uuid": "5b61a6c0-4ad8-4e14-b6e1-ecc80acd0835",
+        "value": "4afba1aa6b58dc3754fe2ff20c0c23ce6371ba89094827fe83bb994329fa16a3",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#1ae080",
+            "name": "SCRIPTLET"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126366",
+        "comment": "Malicious PDF",
+        "uuid": "5b61a6de-37c4-4869-ac92-ea300acd0835",
+        "value": "5ac1612535b6981259cfac95efe84c5608cf51e3a49b9c1e00c5d374f90d10b2",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#888f83",
+            "name": "PDF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126366",
+        "comment": "Malicious PDF",
+        "uuid": "5b61a6de-3770-4d3d-989b-ea300acd0835",
+        "value": "9d6fd7239e1baac696c001cabedfeb72cf0c26991831819c3124a0a726e8fe23",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#888f83",
+            "name": "PDF"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533126366",
+        "comment": "Malicious PDF",
+        "uuid": "5b61a6de-cf40-4492-a692-ea300acd0835",
+        "value": "df18e997a2f755159f0753c4e69a45764f746657b782f6d3c878afb8befe2b69",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#888f83",
+            "name": "PDF"
+          }
+        ]
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533126435",
+        "comment": "Decoy Doc",
+        "uuid": "5b61a6f6-cc20-40f6-8ae5-ecc80acd0835",
+        "value": "f1004c0d6bf312ed8696c364d94bf6e63a907c80348ebf257ceae8ed5340536b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#b2f8b2",
+            "name": "Decoy"
+          }
+        ]
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533126419",
+        "comment": "EXECUTABLE PAYLOADS",
+        "uuid": "5b61a713-8f40-49b0-9c95-ecc80acd0835",
+        "value": "f266070d4fe999eae02319cb42808ec0e0306125beda92f68e0b59b9f5bcac5a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#cb57f8",
+            "name": "Payload"
+          }
+        ]
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1533126419",
+        "comment": "EXECUTABLE PAYLOADS",
+        "uuid": "5b61a713-12f0-4607-8076-ecc80acd0835",
+        "value": "fc004992ad317eb97d977bd7139dbcc4f11c4447a26703d931df33e72fd96db3",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#cb57f8",
+            "name": "Payload"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126550",
+        "comment": "URLs to pull docs",
+        "uuid": "5b61a796-5f54-42e5-9d58-ed810acd0835",
+        "value": "http://95.142.39.109/e1.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126550",
+        "comment": "URLs to pull docs",
+        "uuid": "5b61a796-a1d0-4c35-80ac-ed810acd0835",
+        "value": "https://kaspersky-security.com/Complaint.doc",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126550",
+        "comment": "URLs to pull docs",
+        "uuid": "5b61a796-7ed4-4d7b-9602-ed810acd0835",
+        "value": "https://mcafeecloud.us/complaints/67972318.doc",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126550",
+        "comment": "URLs to pull docs",
+        "uuid": "5b61a796-103c-4dfb-b730-ed810acd0835",
+        "value": "https://s3.sovereigncars.org.uk/inv005189.pdf",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126598",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-df00-4cf5-b611-dd5f0acd0835",
+        "value": "http://nl.web-cdn.kz",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126598",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-ced4-48f5-9ac1-dd5f0acd0835",
+        "value": "http://mail.halcyonih.com/m.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126598",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-7bfc-4d40-9980-dd5f0acd0835",
+        "value": "http://mail.halcyonih.com/humans.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126598",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-f6dc-4776-8aa3-dd5f0acd0835",
+        "value": "http://secure.n-document.biz/humans.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126598",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-ebbc-4066-95ff-dd5f0acd0835",
+        "value": "http://xstorage.biz/robots.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126598",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-d0d4-4ff2-b054-dd5f0acd0835",
+        "value": "http://cloud.yourdocument.biz/robots.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126598",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-cc5c-4d59-8114-dd5f0acd0835",
+        "value": "http://cloud-direct.biz/robots.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533212606",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-505c-4457-9367-dd5f0acd0835",
+        "value": "http://documents.total-cloud.biz/version.txt",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126598",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-f0e0-41a6-b338-dd5f0acd0835",
+        "value": "http://cloud.pallets32.com/robots.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126598",
+        "comment": "STAGE 1 - DROP DLL DROPPER",
+        "uuid": "5b61a7c6-bb0c-416f-a065-dd5f0acd0835",
+        "value": "http://document.cdn-one.biz/robots.txt",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#49f1ed",
+            "name": " Download"
+          },
+          {
+            "colour": "#9edf47",
+            "name": " DLL Dropper"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126636",
+        "comment": "BACKDOOR C2",
+        "uuid": "5b61a7ec-1368-4a13-ab39-d5860acd0835",
+        "value": "https://api.outlook.kz",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#197ff9",
+            "name": "Backdoor"
+          },
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126636",
+        "comment": "BACKDOOR C2",
+        "uuid": "5b61a7ec-9aac-4800-8196-d5860acd0835",
+        "value": "http://api.fujitsu.org.kz",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#197ff9",
+            "name": "Backdoor"
+          },
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126636",
+        "comment": "BACKDOOR C2",
+        "uuid": "5b61a7ec-0eec-4a3e-b7eb-d5860acd0835",
+        "value": "http://api.asus.org.kz",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#197ff9",
+            "name": "Backdoor"
+          },
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126636",
+        "comment": "BACKDOOR C2",
+        "uuid": "5b61a7ec-576c-43e6-a597-d5860acd0835",
+        "value": "http://api.toshiba.org.kz",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#197ff9",
+            "name": "Backdoor"
+          },
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126636",
+        "comment": "BACKDOOR C2",
+        "uuid": "5b61a7ec-eb10-4845-94b0-d5860acd0835",
+        "value": "http://api.miria.kz",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#197ff9",
+            "name": "Backdoor"
+          },
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126664",
+        "comment": "POWERSHELL STAGE",
+        "uuid": "5b61a808-c654-420e-aac4-ea2c0acd0835",
+        "value": "http://95.142.39.109/driver",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#2133c6",
+            "name": "Powershell"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126664",
+        "comment": "POWERSHELL STAGE",
+        "uuid": "5b61a808-74d8-4b61-86f5-ea2c0acd0835",
+        "value": "http://95.142.39.109/wdriver",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#2133c6",
+            "name": "Powershell"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126693",
+        "comment": "Decoy Doc",
+        "uuid": "5b61a825-f9fc-4a4e-be81-f0ac0acd0835",
+        "value": "http://95.142.39.109/document.doc",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          },
+          {
+            "colour": "#82b37e",
+            "name": " Decoy"
+          },
+          {
+            "colour": "#8bfe8c",
+            "name": " Doc(x)"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533126738",
+        "comment": "COBALT STRIKE BEACON STAGE",
+        "uuid": "5b61a852-73a0-41e3-9a50-f0ac0acd0835",
+        "value": "https://95.142.39.109/vFGY",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#0ab4a7",
+            "name": "Cobalt Strike"
+          },
+          {
+            "colour": "#3b9989",
+            "name": " Cobalt Strike Beacon"
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533213228",
+        "comment": "Cert-IST Attack name",
+        "uuid": "5b62fa2c-1be8-453f-be37-536fd5388438",
+        "value": "COBALT",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": true
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533213228",
+        "comment": "Cert-IST External link",
+        "uuid": "5b62fa2c-0698-4e7d-9380-76b1d5388438",
+        "value": "https://wws.cert-ist.com/private/fr/IocAttack_details?format=html&objectType=ATK&ref=CERT-IST/ATK-2016-069",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": true
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533213228",
+        "comment": "Cert-IST Attack Alias",
+        "uuid": "5b62fa2c-a150-4a9f-8180-711dd5388438",
+        "value": "Buhtrap",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": true
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533213228",
+        "comment": "Cert-IST Attack Alias",
+        "uuid": "5b62fa2c-6c08-4672-8755-711cd5388438",
+        "value": "Cobalt Gang",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": true
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533213228",
+        "comment": "Cert-IST Attack Alias",
+        "uuid": "5b62fa2c-764c-49f1-9d4c-5371d5388438",
+        "value": "Cobalt Group",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": true
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533213228",
+        "comment": "Cert-IST Description",
+        "uuid": "5b62fa2c-5288-4f56-bff2-5370d5388438",
+        "value": "These IOCs originate in a blog post by Cisco Talos regarding several malicious email campaigns attributed to the Cobalt Gang group between May and July 2018. The infection vector consist in .pdf, .rtf, or .doc attachments. Some of the .rtf or .doc files exploit known Microsoft Office vulnerabilities.\r\n\r\nThe kill chain is rather complex, involving vulnerability exploitation, JScript, PowerShell and DLL loading via legitimate Windows tools.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": true
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533213229",
+        "comment": "Cert-IST Malware Name",
+        "uuid": "5b62fa2d-9724-4c15-bdcb-7a59d5388438",
+        "value": "More_eggs",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": true
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1533213229",
+        "comment": "Cert-IST Malware Name",
+        "uuid": "5b62fa2d-7b98-4f78-9fa3-7b2cd5388438",
+        "value": "Cobalt Strike",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": true
+      },
+      {
+        "category": "Other",
+        "timestamp": "1533213229",
+        "comment": "Cert-IST First Seen Date",
+        "uuid": "5b62fa2d-8128-4b3e-b558-6298d5388438",
+        "value": "2018-05-14T22:00:00+00:00",
+        "to_ids": false,
+        "type": "datetime",
+        "deleted": false,
+        "disable_correlation": true
+      },
+      {
+        "category": "Other",
+        "timestamp": "1533213229",
+        "comment": "Cert-IST First Disclosed Date",
+        "uuid": "5b62fa2d-b974-44e2-a338-536ed5388438",
+        "value": "2018-07-30T22:00:00+00:00",
+        "to_ids": false,
+        "type": "datetime",
+        "deleted": false,
+        "disable_correlation": true
+      }
+    ]
+  }
+}

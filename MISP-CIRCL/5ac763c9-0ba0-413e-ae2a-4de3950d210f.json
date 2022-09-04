@@ -1,0 +1,348 @@
+{
+  "Event": {
+    "date": "2018-02-09",
+    "timestamp": "1523201602",
+    "analysis": "2",
+    "uuid": "5ac763c9-0ba0-413e-ae2a-4de3950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1523201607",
+    "info": "OSINT - Black Ruby Ransomware Skips Victims in Iran and Adds a Miner for Good Measure",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#a0a300",
+        "name": "dnc:malware-type=\"CoinMiner\""
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Black Ruby\""
+      },
+      {
+        "colour": "#53a500",
+        "name": "circl:incident-classification=\"cryptojacking\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1523200379",
+        "comment": "",
+        "uuid": "5ac763f5-1d9c-42a5-9148-438f950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/black-ruby-ransomware-skips-victims-in-iran-and-adds-a-miner-for-good-measure/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1523200379",
+        "comment": "",
+        "uuid": "5ac7644b-a51c-443a-9d75-4189950d210f",
+        "value": "A new ransomware was discovered this week by MalwareHunterTeam called Black Ruby. This ransomware will encrypt the files on a computer, scramble the file name, and then append the BlackRuby extension. To make matters worse, Black Ruby will also install a Monero miner on the computer that utilizes as much of the CPU as it can.\r\n\r\nUnfortunately, this ransomware is not decryptable at this time. If you wish to discuss or receive help, you can use our dedicated Black Ruby Help & Support topic.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1523200379",
+        "comment": "",
+        "uuid": "5ac7678c-2d88-4bd3-8901-4813950d210f",
+        "value": "%WINDIR%\\System32\\BlackRuby\\svchost.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1523200379",
+        "comment": "ransomnote",
+        "uuid": "5ac76aa0-e3ac-408b-8f01-47db950d210f",
+        "value": "HOW-TO-DECRYPT-FILES.txt",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1523200380",
+        "comment": "",
+        "uuid": "5ac76b0a-45ac-4eff-9490-4be0950d210f",
+        "value": "theblackruby@protonmail.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1523019161",
+        "comment": "",
+        "uuid": "5ac76d99-379c-438e-9160-4588950d210f",
+        "value": "daea4b5ea119786d996f33895996396892fa0bdbb8f9e9fcc184a89d0d0cb85e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1523200380",
+        "comment": "",
+        "uuid": "5ac76d99-2d18-4876-9b19-450e950d210f",
+        "value": "%WINDIR%\\system32\\BlackRuby\\WindowsUI.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Persistence mechanism",
+        "timestamp": "1523200381",
+        "comment": "",
+        "uuid": "5ac76d9a-2f64-44f6-8261-4bd4950d210f",
+        "value": "HKEY_CURRENT_USER\\\\SOFTWARE\\\\Microsoft\\\\BlackRuby",
+        "to_ids": false,
+        "type": "regkey",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Persistence mechanism",
+        "timestamp": "1523200381",
+        "comment": "",
+        "uuid": "5ac76d9a-b198-4dea-bd59-4b57950d210f",
+        "value": "HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run \"Windows Defender\" = \"%WINDIR%\\system32\\BlackRuby\\WindowsUI.exe\"",
+        "to_ids": false,
+        "type": "regkey",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1523017684",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5ac767d4-578c-4a81-92a0-4773950d210f",
+        "comment": "",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1523017684",
+            "comment": "",
+            "uuid": "5ac767d4-d6dc-4e79-a9b1-47ee950d210f",
+            "value": "de01.supportxmr.com",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1523017685",
+            "comment": "",
+            "uuid": "5ac767d5-8b48-4472-8b67-42fd950d210f",
+            "value": "3333",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1523019039",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5ac76d1f-bf58-4d91-a7ba-4062950d210f",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1523019039",
+            "comment": "",
+            "uuid": "5ac76d1f-e5b4-45a9-b4f8-43f9950d210f",
+            "value": "19S7k3zHphKiYr85T25FnqdxizHcgmjoj1",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1523019040",
+            "comment": "",
+            "uuid": "5ac76d20-64a0-40ec-98a0-459f950d210f",
+            "value": "BTC",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1523200385",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "68285c12-30a0-45b5-8a81-d78abd93c1ce",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1523200384",
+            "comment": "",
+            "uuid": "5aca3180-9fe4-4c24-a5e8-61c102de0b81",
+            "object_uuid": "68285c12-30a0-45b5-8a81-d78abd93c1ce",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "bf3ce3aa-02e3-486d-85f0-0d583dc7c29c"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1523200382",
+            "comment": "",
+            "uuid": "5aca317e-92e4-458c-8185-61c102de0b81",
+            "value": "bc5b077127e064e7e6b715f2d37abb80c5bf98cc",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1523200382",
+            "comment": "",
+            "uuid": "5aca317e-f6f0-4b17-88c1-61c102de0b81",
+            "value": "daea4b5ea119786d996f33895996396892fa0bdbb8f9e9fcc184a89d0d0cb85e",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1523200382",
+            "comment": "",
+            "uuid": "5aca317e-f87c-4b2c-81dc-61c102de0b81",
+            "value": "81e9036aed5502446654c8e5a1770935",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1523200383",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "bf3ce3aa-02e3-486d-85f0-0d583dc7c29c",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1523200383",
+            "comment": "",
+            "uuid": "5aca317f-c384-42de-8ecc-61c102de0b81",
+            "value": "https://www.virustotal.com/file/daea4b5ea119786d996f33895996396892fa0bdbb8f9e9fcc184a89d0d0cb85e/analysis/1521543214/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1523200383",
+            "comment": "",
+            "uuid": "5aca317f-9db8-4948-ad95-61c102de0b81",
+            "value": "48/64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1523200383",
+            "comment": "",
+            "uuid": "5aca317f-e7f4-465e-91cc-61c102de0b81",
+            "value": "2018-03-20T10:53:34",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

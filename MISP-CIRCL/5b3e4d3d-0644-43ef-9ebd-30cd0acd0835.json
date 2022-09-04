@@ -1,0 +1,506 @@
+{
+  "Event": {
+    "date": "2018-07-05",
+    "timestamp": "1531208745",
+    "analysis": "2",
+    "uuid": "5b3e4d3d-0644-43ef-9ebd-30cd0acd0835",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1535016125",
+    "info": "Talos Blog - Smoking Guns - Smoke Loader learned new tricks",
+    "threat_level_id": "2",
+    "Orgc": {
+      "uuid": "5a68c02d-959c-4c8a-a571-0dcac0a8060a",
+      "name": "Synovus Financial"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"Smoke Loader\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"Trick Bot\""
+      },
+      {
+        "colour": "#0042a5",
+        "name": "ms-caro-malware-full:malware-family=\"ShellCode\""
+      },
+      {
+        "colour": "#991515",
+        "name": "trickbot"
+      },
+      {
+        "colour": "#3d7a00",
+        "name": " Smoke Loader"
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Network activity",
+        "timestamp": "1530810407",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-decc-41e8-b689-6b620acd0835",
+        "value": "185.174.173.34",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-35dc-4390-9271-6b620acd0835",
+        "value": "162.247.155.114",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-e344-4204-a41e-6b620acd0835",
+        "value": "185.174.173.116",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-7f38-474b-9086-6b620acd0835",
+        "value": "185.174.173.241",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-d810-45b1-8964-6b620acd0835",
+        "value": "62.109.26.121",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-59d4-4c9e-ae60-6b620acd0835",
+        "value": "185.68.93.27",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-a2f8-4063-b8d4-6b620acd0835",
+        "value": "137.74.151.148",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-6a40-44b0-bad4-6b620acd0835",
+        "value": "185.223.95.66",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-5f84-4209-b81f-6b620acd0835",
+        "value": "85.143.221.60",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-729c-477b-bdd6-6b620acd0835",
+        "value": "195.123.216.115",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-0d64-4ef8-8b6c-6b620acd0835",
+        "value": "94.103.82.216",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810408",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-b574-4ff1-973a-6b620acd0835",
+        "value": "185.20.187.13",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-bc0c-4f44-9044-6b620acd0835",
+        "value": "185.242.179.118",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-7de4-4060-8fd3-6b620acd0835",
+        "value": "62.109.26.208",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-5298-4538-a277-6b620acd0835",
+        "value": "213.183.51.54",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810408",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-cf4c-45c9-8d53-6b620acd0835",
+        "value": "62.109.24.176",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810408",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-1eb0-4dd7-8019-6b620acd0835",
+        "value": "62.109.27.196",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810408",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-7110-4eb7-b035-6b620acd0835",
+        "value": "185.174.174.156",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810408",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-b308-4e81-8e09-6b620acd0835",
+        "value": "37.230.112.146",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810409",
+        "comment": "Trickbot IPs",
+        "uuid": "5b3e4dd4-a870-4278-9e99-6b620acd0835",
+        "value": "185.174.174.72",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#991515",
+            "name": "trickbot"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810512",
+        "comment": "Smoke Loader domains",
+        "uuid": "5b3e4dea-079c-459d-a60c-31250acd0835",
+        "value": "ukcompany.me",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#3d7a00",
+            "name": " Smoke Loader"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810512",
+        "comment": "Smoke Loader domains",
+        "uuid": "5b3e4dea-ee70-453a-8051-31250acd0835",
+        "value": "ukcompany.pw",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#3d7a00",
+            "name": " Smoke Loader"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1530810513",
+        "comment": "Smoke Loader domains",
+        "uuid": "5b3e4dea-fcb4-4148-b392-31250acd0835",
+        "value": "ukcompany.top",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#3d7a00",
+            "name": " Smoke Loader"
+          }
+        ]
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1530809911",
+        "comment": "",
+        "uuid": "5b3e4e37-8a5c-44a6-9b1a-e7710acd0835",
+        "value": "opera_shared_counter",
+        "to_ids": false,
+        "type": "mutex",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1530810332",
+        "comment": "IO08784413.doc",
+        "uuid": "5b3e4fdc-f53c-4242-8bd5-31250acd0835",
+        "value": "b98abdbdb85655c64617bb6515df23062ec184fe88d2d6a898b998276a906ebc",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1530810332",
+        "comment": "B98abdbdb85655c64617bb6515df23062ec184fe88d2d6a898b998276a906ebc",
+        "uuid": "5b3e4fdc-45cc-4115-baa5-31250acd0835",
+        "value": "IO08784413.doc",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1530810332",
+        "comment": "Trickbot",
+        "uuid": "5b3e4fdc-4b40-450a-8c1a-31250acd0835",
+        "value": "0be63a01e2510d161ba9d11e327a55e82dcb5ea07ca1488096dac3e9d4733d41",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1530810333",
+        "comment": "Smoke Loader",
+        "uuid": "5b3e4fdd-76a0-469b-93f4-31250acd0835",
+        "value": "b65806521aa662bff2c655c8a7a3b6c8e598d709e35f3390df880a70c3fded40",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1530810537",
+        "comment": "",
+        "uuid": "5b3e50a9-979c-4616-9d89-01690acd0835",
+        "value": "https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+feedburner%2FTalos+%28Talos%E2%84%A2+Blog%29",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

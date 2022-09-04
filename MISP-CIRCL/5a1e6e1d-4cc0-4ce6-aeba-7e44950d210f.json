@@ -1,0 +1,1078 @@
+{
+  "Event": {
+    "date": "2017-11-28",
+    "timestamp": "1512010840",
+    "analysis": "2",
+    "uuid": "5a1e6e1d-4cc0-4ce6-aeba-7e44950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1514467539",
+    "info": "OSINT - UBoatRAT Navigates East Asia",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "2017 annual salary raise inquiry related feedback survey",
+        "uuid": "5a1e6e92-b21c-4355-83bc-7e3d950d210f",
+        "value": "2017\u00eb\u2026\u201e \u00ec\u2014\u00b0\u00eb\u00b4\u2030\u00ec\u009d\u00b8\u00ec\u0192\u0081 \u00eb\u00ac\u00b8\u00ec\u009d\u02dc \u00ec\u201a\u00ac\u00ed\u2022\u00ad\u00ea\u00b4\u20ac\u00eb\u00a0\u00a8 \u00ed\u201d\u00bc\u00eb\u201c\u0153\u00eb\u00b0\u00b1 \u00ec\u00a1\u00b0\u00ec\u201a\u00ac.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "2017 annual salary raise feedback",
+        "uuid": "5a1e6e93-357c-4320-a5df-7e3d950d210f",
+        "value": "2017\u00eb\u2026\u201e \u00ec\u2014\u00b0\u00eb\u00b4\u2030\u00ec\u009d\u00b8\u00ec\u0192\u0081 \u00eb\u00ac\u00b8\u00ec\u009d\u02dc \u00ec\u201a\u00ac\u00ed\u2022\u00ad\u00ea\u00b4\u20ac\u00eb\u00a0\u00a8 \u00ed\u201d\u00bc\u00eb\u201c\u0153\u00eb\u00b0\u00b1 \u00ec\u00a0\u201e\u00eb\u2039\u00ac.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "",
+        "uuid": "5a1e6e93-1ed4-40d6-837d-7e3d950d210f",
+        "value": "[Business]RyoKim\u00e2\u20ac\u2122s__resume__20170629.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "",
+        "uuid": "5a1e6e93-feb4-4918-b303-7e3d950d210f",
+        "value": "[Project W]Gravity business cooperation.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "",
+        "uuid": "5a1e6fb8-21e0-46a4-9a14-42bb950d210f",
+        "value": "%ALLUSERSPROFILE%\\svchost.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "",
+        "uuid": "5a1e6fb8-0dc0-42a7-ab67-44a0950d210f",
+        "value": "%ALLUSERSPROFILE%\\init.bat",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1511948360",
+        "comment": "Web Access",
+        "uuid": "5a1e7047-f180-48e6-abe3-ad09950d210f",
+        "value": "https://raw.githubusercontent.com/r1ng/news/master/README.md",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-b744-4bba-b544-acff950d210f",
+        "value": "bf7c6e911f14a1f8679c9b0c2b183d74d5accd559e17297adcd173d76755e271",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-c980-4731-bca2-acff950d210f",
+        "value": "6bea49e4260f083ed6b73e100550ecd22300806071f4a6326e0544272a84526c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-68a8-43af-8d79-acff950d210f",
+        "value": "cf832f32b8d27cf9911031910621c21bd3c20e71cc062716923304dacf4dadb7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-3560-4100-a6a3-acff950d210f",
+        "value": "7b32f401e2ad577e8398b2975ecb5c5ce68c5b07717b1e0d762f90a6fbd8add1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-f338-4937-a779-acff950d210f",
+        "value": "04873dbd63279228a0a4bb1184933b64adb880e874bd3d14078161d06e232c9b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-befc-4df5-be4e-acff950d210f",
+        "value": "42d8a84cd49ff3afacf3d549fbab1fa80d5eda0c8625938b6d32e18004b0edac",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-4538-462c-adf7-acff950d210f",
+        "value": "7be6eaa3f9eb288de5606d02bc79e6c8e7fc63935894cd793bc1fab08c7f86c7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-4d24-49e4-bc30-acff950d210f",
+        "value": "460328fe57110fc01837d80c0519fb99ea4a35ea5b890785d1e88c91bea9ade5",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-433c-43fd-83cf-acff950d210f",
+        "value": "55dd22448e9340d13b439272a177565ace9f5cf69586f8be0443b6f9c81aa6e7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948360",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-0db0-42d3-b8a7-acff950d210f",
+        "value": "9db387138a1fdfa04127a4841cf024192e41e47491388e133c00325122b3ea82",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7201-61ec-43e5-8249-acff950d210f",
+        "value": "e52d866e5b77e885e36398249f242f8ff1a224ecce065892dc200c57595bb494",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7202-7cbc-4824-b342-acff950d210f",
+        "value": "eb92456bf3ab86bd71d74942bb955062550fa10248d67faeeeedd9ff4785f41e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7202-cb70-43c3-a458-acff950d210f",
+        "value": "452b1675437ef943988c48932787e2e4decfe8e4c3bed728f490d55b3d496875",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256",
+        "uuid": "5a1e7202-df9c-48d3-9105-acff950d210f",
+        "value": "66c2baa370125448ddf3053d59085b3d6ab78659efee9f152b310e61d2e7edb5",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "Downloader SHA256",
+        "uuid": "5a1e7366-3338-4056-a20a-acff950d210f",
+        "value": "f4c659238ffab95e87894d2c556f887774dce2431e8cb87f881df4e4d26253a3",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1511948361",
+        "comment": "Web Access",
+        "uuid": "5a1e7383-fef4-40da-bb60-7e41950d210f",
+        "value": "https://raw.githubusercontent.com/elsa999/uuu/master/README.md",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1511948361",
+        "comment": "Web Access",
+        "uuid": "5a1e7383-4c5c-45d4-9e1d-7e41950d210f",
+        "value": "http://www.ak(masked).jp/images/",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1511948361",
+        "comment": "Web Access",
+        "uuid": "5a1e7383-0664-463e-80d9-7e41950d210f",
+        "value": "http://elsakrblog.blogspot.hk/2017/03/test.html",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "Downloader SHA256 - Xchecked via VT: f4c659238ffab95e87894d2c556f887774dce2431e8cb87f881df4e4d26253a3",
+        "uuid": "5a1e8049-b69c-43a4-96a5-494b02de0b81",
+        "value": "ea26c32d2a31d2bc5575ef9ff4d32458e1c7ff58",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "Downloader SHA256 - Xchecked via VT: f4c659238ffab95e87894d2c556f887774dce2431e8cb87f881df4e4d26253a3",
+        "uuid": "5a1e8049-979c-4d90-897b-4b7302de0b81",
+        "value": "fe4be1bd2c058d8aa53c38eb02dd0255",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "Downloader SHA256 - Xchecked via VT: f4c659238ffab95e87894d2c556f887774dce2431e8cb87f881df4e4d26253a3",
+        "uuid": "5a1e8049-e1b0-4576-b543-4a8d02de0b81",
+        "value": "https://www.virustotal.com/file/f4c659238ffab95e87894d2c556f887774dce2431e8cb87f881df4e4d26253a3/analysis/1498777151/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 66c2baa370125448ddf3053d59085b3d6ab78659efee9f152b310e61d2e7edb5",
+        "uuid": "5a1e8049-dcb8-4f36-a9b0-4d9b02de0b81",
+        "value": "35ed718e257b6b1fc3eb30059d0233c0fa4eb4c4",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 66c2baa370125448ddf3053d59085b3d6ab78659efee9f152b310e61d2e7edb5",
+        "uuid": "5a1e8049-0fc0-4609-ba7e-44db02de0b81",
+        "value": "46665b820a922b61816aa2aa6e022304",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 66c2baa370125448ddf3053d59085b3d6ab78659efee9f152b310e61d2e7edb5",
+        "uuid": "5a1e8049-1298-425d-a5cd-4e7302de0b81",
+        "value": "https://www.virustotal.com/file/66c2baa370125448ddf3053d59085b3d6ab78659efee9f152b310e61d2e7edb5/analysis/1496917903/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 452b1675437ef943988c48932787e2e4decfe8e4c3bed728f490d55b3d496875",
+        "uuid": "5a1e8049-ce98-4b73-9cf0-4fe902de0b81",
+        "value": "95887abfea573a0e21ded335068a897893665033",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 452b1675437ef943988c48932787e2e4decfe8e4c3bed728f490d55b3d496875",
+        "uuid": "5a1e8049-9988-45e7-bdc0-47f102de0b81",
+        "value": "b46e9f052ed043ecc89641390c20884b",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 452b1675437ef943988c48932787e2e4decfe8e4c3bed728f490d55b3d496875",
+        "uuid": "5a1e8049-47e4-4922-9b3b-4ec802de0b81",
+        "value": "https://www.virustotal.com/file/452b1675437ef943988c48932787e2e4decfe8e4c3bed728f490d55b3d496875/analysis/1511928794/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: eb92456bf3ab86bd71d74942bb955062550fa10248d67faeeeedd9ff4785f41e",
+        "uuid": "5a1e8049-1f4c-4a0e-9058-4d9502de0b81",
+        "value": "6310a51b921ffed41f01ced009e90b774f41f3bf",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: eb92456bf3ab86bd71d74942bb955062550fa10248d67faeeeedd9ff4785f41e",
+        "uuid": "5a1e8049-dc30-4b6f-b0b5-4df202de0b81",
+        "value": "b1c97373575f0be0a1391959c4aed24b",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: eb92456bf3ab86bd71d74942bb955062550fa10248d67faeeeedd9ff4785f41e",
+        "uuid": "5a1e8049-fbcc-40ac-b6a0-4d1902de0b81",
+        "value": "https://www.virustotal.com/file/eb92456bf3ab86bd71d74942bb955062550fa10248d67faeeeedd9ff4785f41e/analysis/1511928784/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: e52d866e5b77e885e36398249f242f8ff1a224ecce065892dc200c57595bb494",
+        "uuid": "5a1e8049-2574-4b8b-b0f9-4f5d02de0b81",
+        "value": "d1795a10bbd8883e442547634e9a89cf67b8ebd8",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: e52d866e5b77e885e36398249f242f8ff1a224ecce065892dc200c57595bb494",
+        "uuid": "5a1e8049-b830-4eed-be4c-470002de0b81",
+        "value": "02a7993fcd5fea4442271e91e12d2df7",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: e52d866e5b77e885e36398249f242f8ff1a224ecce065892dc200c57595bb494",
+        "uuid": "5a1e8049-8b3c-4179-95b1-4d9202de0b81",
+        "value": "https://www.virustotal.com/file/e52d866e5b77e885e36398249f242f8ff1a224ecce065892dc200c57595bb494/analysis/1511928640/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 9db387138a1fdfa04127a4841cf024192e41e47491388e133c00325122b3ea82",
+        "uuid": "5a1e8049-2220-4788-8461-433702de0b81",
+        "value": "6d729ff088d06fa5a24c474b97bd6de368da281b",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 9db387138a1fdfa04127a4841cf024192e41e47491388e133c00325122b3ea82",
+        "uuid": "5a1e8049-08fc-4965-9237-4d8a02de0b81",
+        "value": "447b4aae6a8b286b846367e59a6960c8",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 9db387138a1fdfa04127a4841cf024192e41e47491388e133c00325122b3ea82",
+        "uuid": "5a1e8049-05d4-42a7-8f65-4b9302de0b81",
+        "value": "https://www.virustotal.com/file/9db387138a1fdfa04127a4841cf024192e41e47491388e133c00325122b3ea82/analysis/1511941637/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 55dd22448e9340d13b439272a177565ace9f5cf69586f8be0443b6f9c81aa6e7",
+        "uuid": "5a1e8049-ace0-42c5-bb84-4cc102de0b81",
+        "value": "d959f60eef45678e1885c5ce128380faf6c24298",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 55dd22448e9340d13b439272a177565ace9f5cf69586f8be0443b6f9c81aa6e7",
+        "uuid": "5a1e8049-5b58-4001-81a2-45a602de0b81",
+        "value": "61e89917c5efa241d5130afe53b2bbfd",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 55dd22448e9340d13b439272a177565ace9f5cf69586f8be0443b6f9c81aa6e7",
+        "uuid": "5a1e8049-da68-4a49-8bed-4a7802de0b81",
+        "value": "https://www.virustotal.com/file/55dd22448e9340d13b439272a177565ace9f5cf69586f8be0443b6f9c81aa6e7/analysis/1511912899/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 460328fe57110fc01837d80c0519fb99ea4a35ea5b890785d1e88c91bea9ade5",
+        "uuid": "5a1e8049-3cec-4105-9987-498d02de0b81",
+        "value": "ad1d8d3b27cc3a269bcf2b7b0c52228c2e5ab18c",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 460328fe57110fc01837d80c0519fb99ea4a35ea5b890785d1e88c91bea9ade5",
+        "uuid": "5a1e8049-e118-4099-b7fb-47d102de0b81",
+        "value": "6cdd41daf6f36231b608b11cbe3c159b",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 460328fe57110fc01837d80c0519fb99ea4a35ea5b890785d1e88c91bea9ade5",
+        "uuid": "5a1e8049-28b0-456e-a8ce-4b7402de0b81",
+        "value": "https://www.virustotal.com/file/460328fe57110fc01837d80c0519fb99ea4a35ea5b890785d1e88c91bea9ade5/analysis/1507085530/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 7be6eaa3f9eb288de5606d02bc79e6c8e7fc63935894cd793bc1fab08c7f86c7",
+        "uuid": "5a1e8049-9618-4c87-974c-40f102de0b81",
+        "value": "3a2c1f4a013da2f79f40f227e14d5cfc0de05afc",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 7be6eaa3f9eb288de5606d02bc79e6c8e7fc63935894cd793bc1fab08c7f86c7",
+        "uuid": "5a1e8049-89d8-4cb8-a0fc-493302de0b81",
+        "value": "80501fa0d1880fd84f49a84eb8b8cb8e",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 7be6eaa3f9eb288de5606d02bc79e6c8e7fc63935894cd793bc1fab08c7f86c7",
+        "uuid": "5a1e8049-33c4-40de-b45c-454302de0b81",
+        "value": "https://www.virustotal.com/file/7be6eaa3f9eb288de5606d02bc79e6c8e7fc63935894cd793bc1fab08c7f86c7/analysis/1507104251/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 42d8a84cd49ff3afacf3d549fbab1fa80d5eda0c8625938b6d32e18004b0edac",
+        "uuid": "5a1e8049-aba8-4247-83fb-4be402de0b81",
+        "value": "8ea67fb6bb931d17ef0c889385684586404900f0",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 42d8a84cd49ff3afacf3d549fbab1fa80d5eda0c8625938b6d32e18004b0edac",
+        "uuid": "5a1e8049-3888-4811-8660-444802de0b81",
+        "value": "3bc02082ff458cd0134460b7a5c0c0cf",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 42d8a84cd49ff3afacf3d549fbab1fa80d5eda0c8625938b6d32e18004b0edac",
+        "uuid": "5a1e8049-a068-49ac-8650-4bb602de0b81",
+        "value": "https://www.virustotal.com/file/42d8a84cd49ff3afacf3d549fbab1fa80d5eda0c8625938b6d32e18004b0edac/analysis/1506053846/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 04873dbd63279228a0a4bb1184933b64adb880e874bd3d14078161d06e232c9b",
+        "uuid": "5a1e8049-cd94-4382-92cf-410202de0b81",
+        "value": "51cb7116a6710cebbc3c63f8a28ab6a873f6d9aa",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 04873dbd63279228a0a4bb1184933b64adb880e874bd3d14078161d06e232c9b",
+        "uuid": "5a1e8049-db38-4b22-a47c-499f02de0b81",
+        "value": "c06ed2a7fa9f6d2364912942d2dc0312",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 04873dbd63279228a0a4bb1184933b64adb880e874bd3d14078161d06e232c9b",
+        "uuid": "5a1e8049-2a3c-4635-b8dc-492c02de0b81",
+        "value": "https://www.virustotal.com/file/04873dbd63279228a0a4bb1184933b64adb880e874bd3d14078161d06e232c9b/analysis/1507120388/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 7b32f401e2ad577e8398b2975ecb5c5ce68c5b07717b1e0d762f90a6fbd8add1",
+        "uuid": "5a1e8049-72d8-44da-8e6e-4b5f02de0b81",
+        "value": "850b53088e71b5445a5aba5a6c1f9e8a9570165a",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 7b32f401e2ad577e8398b2975ecb5c5ce68c5b07717b1e0d762f90a6fbd8add1",
+        "uuid": "5a1e8049-e7bc-4a42-8956-4b6d02de0b81",
+        "value": "8c46853cce03a402d1f62403fd064f68",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 7b32f401e2ad577e8398b2975ecb5c5ce68c5b07717b1e0d762f90a6fbd8add1",
+        "uuid": "5a1e8049-a034-436b-9d4d-442302de0b81",
+        "value": "https://www.virustotal.com/file/7b32f401e2ad577e8398b2975ecb5c5ce68c5b07717b1e0d762f90a6fbd8add1/analysis/1507671973/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: cf832f32b8d27cf9911031910621c21bd3c20e71cc062716923304dacf4dadb7",
+        "uuid": "5a1e8049-043c-43d5-bad4-428002de0b81",
+        "value": "ba2006c89c2de8735135ca73e6de4990432d8043",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: cf832f32b8d27cf9911031910621c21bd3c20e71cc062716923304dacf4dadb7",
+        "uuid": "5a1e8049-8134-4d5d-853b-4a5a02de0b81",
+        "value": "ea3209b83b3493419c61a2c30602a06d",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: cf832f32b8d27cf9911031910621c21bd3c20e71cc062716923304dacf4dadb7",
+        "uuid": "5a1e8049-7768-4dd7-9831-466002de0b81",
+        "value": "https://www.virustotal.com/file/cf832f32b8d27cf9911031910621c21bd3c20e71cc062716923304dacf4dadb7/analysis/1511913145/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 6bea49e4260f083ed6b73e100550ecd22300806071f4a6326e0544272a84526c",
+        "uuid": "5a1e8049-2340-4ea4-9040-4be202de0b81",
+        "value": "eb23b1962cf1a9492aa864d93583a10afec02b48",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 6bea49e4260f083ed6b73e100550ecd22300806071f4a6326e0544272a84526c",
+        "uuid": "5a1e8049-df00-4dce-b580-4c1f02de0b81",
+        "value": "e3c63cfcd9fa3fbff4215b1a812c6b77",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: 6bea49e4260f083ed6b73e100550ecd22300806071f4a6326e0544272a84526c",
+        "uuid": "5a1e8049-6e54-4386-a4da-433902de0b81",
+        "value": "https://www.virustotal.com/file/6bea49e4260f083ed6b73e100550ecd22300806071f4a6326e0544272a84526c/analysis/1511947376/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: bf7c6e911f14a1f8679c9b0c2b183d74d5accd559e17297adcd173d76755e271",
+        "uuid": "5a1e8049-4de0-4df9-b443-4a0502de0b81",
+        "value": "d3b74adb11e1267d46f434c34fdfb45b295019cf",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: bf7c6e911f14a1f8679c9b0c2b183d74d5accd559e17297adcd173d76755e271",
+        "uuid": "5a1e8049-03c4-4862-8761-4df902de0b81",
+        "value": "6fc94b35c3ae2c824becbe3619ef5634",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511948361",
+        "comment": "UBoatRAT SHA256 - Xchecked via VT: bf7c6e911f14a1f8679c9b0c2b183d74d5accd559e17297adcd173d76755e271",
+        "uuid": "5a1e804a-b920-4d71-85dc-478602de0b81",
+        "value": "https://www.virustotal.com/file/bf7c6e911f14a1f8679c9b0c2b183d74d5accd559e17297adcd173d76755e271/analysis/1511913412/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1511945640",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a1e75a8-4948-48c0-badd-acff950d210f",
+        "comment": "C2",
+        "description": "An IP address and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "4",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1511945640",
+            "comment": "",
+            "uuid": "5a1e75a8-00c4-415b-a98b-acff950d210f",
+            "value": "80",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1511945640",
+            "comment": "",
+            "uuid": "5a1e75a8-68d8-43d3-9532-acff950d210f",
+            "value": "115.68.49.179",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1511945659",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a1e75bb-62c4-482b-ac3d-7e3d950d210f",
+        "comment": "C2",
+        "description": "An IP address and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "4",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1511945659",
+            "comment": "",
+            "uuid": "5a1e75bb-adc8-45ba-87fb-7e3d950d210f",
+            "value": "443",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1511945659",
+            "comment": "",
+            "uuid": "5a1e75bb-adf8-4097-b9f7-7e3d950d210f",
+            "value": "115.68.49.179",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1511945698",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a1e75e2-d86c-4630-ae37-48b2950d210f",
+        "comment": "C2",
+        "description": "An IP address and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "4",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1511945698",
+            "comment": "",
+            "uuid": "5a1e75e2-27a4-472e-b7c0-43ac950d210f",
+            "value": "443",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1511945698",
+            "comment": "",
+            "uuid": "5a1e75e2-0610-4b6b-938e-4bd9950d210f",
+            "value": "60.248.190.36",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1511945717",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a1e75f5-b104-487d-a256-4731950d210f",
+        "comment": "C2",
+        "description": "An IP address and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "4",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1511945717",
+            "comment": "",
+            "uuid": "5a1e75f5-ca38-41a4-a82c-4700950d210f",
+            "value": "443",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1511945717",
+            "comment": "",
+            "uuid": "5a1e75f5-eca4-44b4-b002-4100950d210f",
+            "value": "115.68.52.66",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1511946298",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a1e783a-aef0-4a28-ad00-453d950d210f",
+        "comment": "C2",
+        "description": "An IP address and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "4",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1511946298",
+            "comment": "",
+            "uuid": "5a1e783a-9fcc-44a0-94b2-4def950d210f",
+            "value": "443",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1511946298",
+            "comment": "",
+            "uuid": "5a1e783a-6b38-48bd-864d-4e38950d210f",
+            "value": "115.68.49.180",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1511946319",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a1e784f-971c-40c2-bca6-aa74950d210f",
+        "comment": "C2",
+        "description": "An IP address and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "4",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1511946319",
+            "comment": "",
+            "uuid": "5a1e784f-f3f8-4351-9401-aa74950d210f",
+            "value": "443",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1511946319",
+            "comment": "",
+            "uuid": "5a1e784f-5610-4f30-962f-aa74950d210f",
+            "value": "122.147.187.173",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1511946333",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a1e785d-404c-45f8-8d98-aa74950d210f",
+        "comment": "C2",
+        "description": "An IP address and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "4",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1511946333",
+            "comment": "",
+            "uuid": "5a1e785d-f620-4389-a59f-aa74950d210f",
+            "value": "443",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1511946333",
+            "comment": "",
+            "uuid": "5a1e785d-308c-44b0-add9-aa74950d210f",
+            "value": "124.150.140.131",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

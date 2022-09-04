@@ -1,0 +1,528 @@
+{
+  "Event": {
+    "date": "2014-10-08",
+    "timestamp": "1516071622",
+    "analysis": "0",
+    "uuid": "5a3cc84d-2434-4ae6-8d76-c328950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1518771000",
+    "info": "OSINT - Sednit espionage group now using custom exploit kit",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:exploit-kit=\"Sednit EK\""
+      },
+      {
+        "colour": "#007d98",
+        "name": "veris:actor:motive=\"Espionage\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1516008798",
+        "comment": "",
+        "uuid": "5a3cc85e-39cc-4aaf-8eec-4c5c950d210f",
+        "value": "https://www.welivesecurity.com/2014/10/08/sednit-espionage-group-now-using-custom-exploit-kit/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008799",
+        "comment": "",
+        "uuid": "5a5c62c4-5fa8-47a1-ac11-42d1950d210f",
+        "value": "http://defenceiq.us/2rfKZL_BGwEQ",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008799",
+        "comment": "",
+        "uuid": "5a5c62c4-d124-4726-be84-4da3950d210f",
+        "value": "http://cntt.akcdndata.com/gpw?file=stat.js",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1516008800",
+        "comment": "",
+        "uuid": "5a5c62d9-9f74-422c-8f34-4b01950d210f",
+        "value": "For at least five years the Sednit group has been relentlessly attacking various institutions, most notably in Eastern Europe. The group used several advanced pieces of malware for these targeted attacks, in particular the one we named Win32/Sednit, also known as Sofacy.\r\n\r\nWe recently came across cases of legitimate financial websites being redirected to a custom exploit kit. Based on our research and on some information provided by the Google Security Team, we were able to establish that it is used by the Sednit group. This is a new strategy for this group which has relied mostly on spear-phishing emails up until now.\r\n\r\nIn this blog, we will first examine on recent cases of spear-phishing emails using the CVE-2014-1761 Microsoft Word exploit. We will then focus on the exploit kit, which appears to still be in development and testing phase, and briefly describe the actual payload.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008800",
+        "comment": "Military news",
+        "uuid": "5a5c638d-0124-4863-9ec0-4887950d210f",
+        "value": "defenceiq.us",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008800",
+        "comment": "Military news",
+        "uuid": "5a5c638e-8a7c-43e1-937f-4b3b950d210f",
+        "value": "defenceiq.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008800",
+        "comment": "Military news",
+        "uuid": "5a5c638e-bf5c-4a8b-95a1-46b8950d210f",
+        "value": "armypress.org",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008801",
+        "comment": "Military news",
+        "uuid": "5a5c638f-4cec-4f74-827a-4e65950d210f",
+        "value": "armytime.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008801",
+        "comment": "Foreign Affairs magazine",
+        "uuid": "5a5c638f-4558-4ffb-84e6-4e5c950d210f",
+        "value": "mfapress.org",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008802",
+        "comment": "Foreign Affairs magazine",
+        "uuid": "5a5c638f-aad4-4cda-b677-420f950d210f",
+        "value": "foreignaffairs.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008802",
+        "comment": "Foreign Affairs magazine",
+        "uuid": "5a5c6390-a4a4-408c-ad20-45a1950d210f",
+        "value": "mfapress.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008802",
+        "comment": "CACI International, defense & cyber security contractor",
+        "uuid": "5a5c6390-ffd0-4f5b-a8e9-4b66950d210f",
+        "value": "caciltd.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008803",
+        "comment": "CACI International, defense & cyber security contractor",
+        "uuid": "5a5c6391-5ec8-4f4d-9dd1-4195950d210f",
+        "value": "caci.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1516008803",
+        "comment": "",
+        "uuid": "5a5c64c3-16fc-4549-ba11-46fb950d210f",
+        "value": "XSQWERSystemCriticalSection_for_1232321",
+        "to_ids": false,
+        "type": "mutex",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008803",
+        "comment": "",
+        "uuid": "5a5c658d-553c-4781-b2b4-42e0950d210f",
+        "value": "msonlinelive.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008804",
+        "comment": "",
+        "uuid": "5a5c658d-692c-41e7-bff7-4273950d210f",
+        "value": "windows-updater.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516008804",
+        "comment": "",
+        "uuid": "5a5c658e-b0c0-4b6c-95b3-4a10950d210f",
+        "value": "azureon-line.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1516008805",
+        "comment": "",
+        "uuid": "5a5c65a4-a200-44f5-8df6-416f950d210f",
+        "value": "edg6EF885E2.tmp",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1516008806",
+        "comment": "",
+        "uuid": "5a5c65a4-acbc-44bd-84eb-4716950d210f",
+        "value": "edg6E85F98675.tmp",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1516004846",
+        "comment": "Word exploit",
+        "uuid": "5a5c65ee-e860-4444-911d-4da6950d210f",
+        "value": "86092636e7ffa22481ca89ac1b023c32c56b24cf",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1516004847",
+        "comment": "Word exploit",
+        "uuid": "5a5c65ef-8130-414c-95a8-4513950d210f",
+        "value": "12223f098ba3088379ec1dc59440c662752ddabd",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1516004847",
+        "comment": "Dropper",
+        "uuid": "5a5c65ef-25c8-40c4-bcca-4adc950d210f",
+        "value": "d61ee0b0d4ed95f3300735c81740a21b8beef337",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1516004847",
+        "comment": "Payload",
+        "uuid": "5a5c65ef-9280-45a6-8a0d-40df950d210f",
+        "value": "d0db619a7a160949528d46d20fc0151bf9775c32",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1516008809",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "935f70e3-fd7e-4dcd-80a9-71f5122d366e",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771000",
+            "comment": "",
+            "uuid": "5a5c756b-4d90-41a2-8a28-4e7502de0b81",
+            "object_uuid": "935f70e3-fd7e-4dcd-80a9-71f5122d366e",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "6fb315f6-2c07-4d90-a911-0e19777e1ece"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1516008806",
+            "comment": "Dropper",
+            "uuid": "5a5c7566-eb8c-4a34-9931-47a402de0b81",
+            "value": "d61ee0b0d4ed95f3300735c81740a21b8beef337",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1516008807",
+            "comment": "Dropper",
+            "uuid": "5a5c7567-daf8-4481-a034-4ade02de0b81",
+            "value": "df895e6479abf85c4c65d7d3a2451ddb",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1516008807",
+            "comment": "Dropper",
+            "uuid": "5a5c7567-446c-46e4-8a48-493c02de0b81",
+            "value": "6ffaa374cfa9504b061b52a353913c6c120bd4fe43e1a79f69fba7f964e30a4e",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1516008808",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "6fb315f6-2c07-4d90-a911-0e19777e1ece",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1516008808",
+            "comment": "Dropper",
+            "uuid": "5a5c7568-9fa0-46fb-b5e0-482d02de0b81",
+            "value": "https://www.virustotal.com/file/6ffaa374cfa9504b061b52a353913c6c120bd4fe43e1a79f69fba7f964e30a4e/analysis/1515795459/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1516008808",
+            "comment": "Dropper",
+            "uuid": "5a5c7568-b834-46be-af37-4b5f02de0b81",
+            "value": "51/68",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1516008808",
+            "comment": "Dropper",
+            "uuid": "5a5c7568-8aec-4806-9c81-425c02de0b81",
+            "value": "2018-01-12T22:17:39",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1516008812",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "a480344a-22a8-4fc6-9f8e-40ca8337e6f7",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771000",
+            "comment": "",
+            "uuid": "5a5c756b-f36c-42c9-aff2-40d702de0b81",
+            "object_uuid": "a480344a-22a8-4fc6-9f8e-40ca8337e6f7",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "644f91bf-274d-4743-ae1e-075b0118c184"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1516008809",
+            "comment": "Payload",
+            "uuid": "5a5c7569-613c-44b5-ae13-497802de0b81",
+            "value": "d0db619a7a160949528d46d20fc0151bf9775c32",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1516008809",
+            "comment": "Payload",
+            "uuid": "5a5c7569-5ffc-473c-ad49-48d302de0b81",
+            "value": "ee64d3273f9b4d80020c24edcbbf961e",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1516008810",
+            "comment": "Payload",
+            "uuid": "5a5c756a-40a8-4277-a82a-4d4b02de0b81",
+            "value": "e031299fa1381b40c660b8cd831bb861654f900a1e2952b1a76bedf140972a81",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1516008810",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "644f91bf-274d-4743-ae1e-075b0118c184",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1516008810",
+            "comment": "Payload",
+            "uuid": "5a5c756a-6948-4c29-89dc-443c02de0b81",
+            "value": "https://www.virustotal.com/file/e031299fa1381b40c660b8cd831bb861654f900a1e2952b1a76bedf140972a81/analysis/1490591462/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1516008810",
+            "comment": "Payload",
+            "uuid": "5a5c756a-63e8-4ebb-af6b-49f602de0b81",
+            "value": "44/61",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1516008811",
+            "comment": "Payload",
+            "uuid": "5a5c756b-c6a8-4d3b-9ab5-426302de0b81",
+            "value": "2017-03-27T05:11:02",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

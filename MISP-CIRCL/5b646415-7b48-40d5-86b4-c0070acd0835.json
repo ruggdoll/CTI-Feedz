@@ -1,0 +1,84 @@
+{
+  "Event": {
+    "date": "2018-08-01",
+    "timestamp": "1533306089",
+    "analysis": "2",
+    "uuid": "5b646415-7b48-40d5-86b4-c0070acd0835",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1533306986",
+    "info": "Ursnif, MALWAREMESSIAGH",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "5a68c02d-959c-4c8a-a571-0dcac0a8060a",
+      "name": "Synovus Financial"
+    },
+    "Tag": [
+      {
+        "colour": "#ab34e3",
+        "name": "PasteBin: MALWAREMESSIAGH"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:banker=\"Gozi\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Network activity",
+        "timestamp": "1533306058",
+        "comment": "Ursnif",
+        "uuid": "5b6464ca-e73c-4707-9b8a-d0350acd0835",
+        "value": "ooiasjdnqjwbeasdasd.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533306058",
+        "comment": "Ursnif",
+        "uuid": "5b6464ca-45f8-43d0-8b78-d0350acd0835",
+        "value": "eqowiesajenqweasd.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533306058",
+        "comment": "Ursnif",
+        "uuid": "5b6464ca-8c84-4c2d-95d9-d0350acd0835",
+        "value": "dquohwdihaewqdcas.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1533306058",
+        "comment": "Ursnif",
+        "uuid": "5b6464ca-e0a0-40e0-8e21-d0350acd0835",
+        "value": "diqjwhebseqhbasdh.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1533306089",
+        "comment": "Ursnif dropped file",
+        "uuid": "5b6464e9-e73c-484d-a0b3-c0070acd0835",
+        "value": "http://sistemait.it/softaculous/backup/client.rar",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "Event": {
+    "date": "2017-12-05",
+    "timestamp": "1512554615",
+    "analysis": "1",
+    "uuid": "5a26b608-7e48-48c1-bf61-43a3950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1512555030",
+    "info": "M2M - \"..doc\" 2017-11-30 : \"FL-123456 11.30.2017.7z\"",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Fake Globe Ransomware\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b609-e89c-4385-9584-465a950d210f",
+        "value": "d4ddf8bfcc057fcfece2a498942079ce",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b609-c92c-4329-8eea-470e950d210f",
+        "value": "3ccbb316fdf9b7e6ae89584afc529e5f",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b609-be98-4d9f-ba28-42b1950d210f",
+        "value": "612974dcb49adef982d9ad8d9cbdde36",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60a-a510-459b-844b-485f950d210f",
+        "value": "it2000.mycompany.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60a-b3c0-498b-aee7-4b23950d210f",
+        "value": "http://accessyouraudience.com/JHGcd476334",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60a-0794-4355-8983-493d950d210f",
+        "value": "accessyouraudience.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "accessyouraudience.com",
+        "uuid": "5a26b60b-a070-4eb5-95f6-40d3950d210f",
+        "value": "98.124.251.75",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60b-e25c-4a95-a17b-44d3950d210f",
+        "value": "http://alucmuhendislik.com/JHGcd476334",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60b-3e08-49e3-a06b-c6d3950d210f",
+        "value": "alucmuhendislik.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "alucmuhendislik.com",
+        "uuid": "5a26b60b-8010-4553-9e9b-4b38950d210f",
+        "value": "185.85.205.9",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60c-4084-4005-9c85-c53a950d210f",
+        "value": "http://awholeblueworld.com/JHGcd476334",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60d-e4e8-4ae3-839f-4e09950d210f",
+        "value": "awholeblueworld.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "awholeblueworld.com",
+        "uuid": "5a26b60d-4060-441c-a254-4243950d210f",
+        "value": "66.36.173.215",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60d-5728-42b0-bc69-46ae950d210f",
+        "value": "http://bit-chasers.com/JHGcd476334",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60d-c4a0-4af6-997a-4d69950d210f",
+        "value": "bit-chasers.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "bit-chasers.com",
+        "uuid": "5a26b60d-e69c-4d3a-bf9d-4881950d210f",
+        "value": "98.124.251.176",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60e-a030-4a87-8bee-c6d3950d210f",
+        "value": "http://datenhaus.info/JHGcd476334",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60e-2510-488b-a1c2-4890950d210f",
+        "value": "datenhaus.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "datenhaus.info",
+        "uuid": "5a26b60e-bd00-483c-ae8b-42f4950d210f",
+        "value": "85.214.205.231",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60e-b7b4-4450-9cec-4b20950d210f",
+        "value": "http://hexacam.com/JHGcd476334",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60e-a764-4684-a7d6-419c950d210f",
+        "value": "hexacam.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "hexacam.com",
+        "uuid": "5a26b60f-7098-4491-86ae-4cd1950d210f",
+        "value": "98.124.251.65",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60f-9220-4b4c-87e6-4cad950d210f",
+        "value": "http://mh-service.ru/JHGcd476334",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b60f-4c28-4e42-bd4d-40e1950d210f",
+        "value": "mh-service.ru",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "mh-service.ru",
+        "uuid": "5a26b60f-d748-4d1f-be56-4204950d210f",
+        "value": "89.253.235.118",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b610-ce98-43c6-a598-4bae950d210f",
+        "value": "http://yamanashi-jyujin.jp/JHGcd476334",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b610-f084-4fe5-9357-c6d3950d210f",
+        "value": "yamanashi-jyujin.jp",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "yamanashi-jyujin.jp",
+        "uuid": "5a26b610-e01c-4336-96aa-4669950d210f",
+        "value": "180.222.185.74",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b611-3390-4b2a-ae6c-4785950d210f",
+        "value": "https://n224ezvhg4sgyamb.onion.link/shfgealjh.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b611-fca0-46b3-afcb-42b3950d210f",
+        "value": "n224ezvhg4sgyamb.onion.link",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "n224ezvhg4sgyamb.onion.link",
+        "uuid": "5a26b611-c76c-438e-9927-45ff950d210f",
+        "value": "188.166.203.69",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b611-cb7c-4f30-a5b9-4d28950d210f",
+        "value": "http://summi.space/count.php?nu=105&fb=110",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "",
+        "uuid": "5a26b612-737c-4c0a-b657-4136950d210f",
+        "value": "summi.space",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554609",
+        "comment": "summi.space",
+        "uuid": "5a26b612-0b58-40a9-b2a7-4d43950d210f",
+        "value": "198.23.241.227",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554609",
+        "comment": "- Xchecked via VT: 612974dcb49adef982d9ad8d9cbdde36",
+        "uuid": "5a27c071-7a20-4a82-b93f-bbb602de0b81",
+        "value": "13e164380585fe44ac56ed10bd1ed5e42873a85040aee8c40d7596fc05f28920",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554609",
+        "comment": "- Xchecked via VT: 612974dcb49adef982d9ad8d9cbdde36",
+        "uuid": "5a27c071-e8c8-40c6-ad17-bbb602de0b81",
+        "value": "b817e361bd0cc1819d7f6a1189f0f5d56ed48721",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512554609",
+        "comment": "- Xchecked via VT: 612974dcb49adef982d9ad8d9cbdde36",
+        "uuid": "5a27c071-4ca4-4de8-be48-bbb602de0b81",
+        "value": "https://www.virustotal.com/file/13e164380585fe44ac56ed10bd1ed5e42873a85040aee8c40d7596fc05f28920/analysis/1512419605/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554609",
+        "comment": "- Xchecked via VT: 3ccbb316fdf9b7e6ae89584afc529e5f",
+        "uuid": "5a27c071-7c68-4d03-b967-bbb602de0b81",
+        "value": "ba21e8c562f330795089a76ab641bb3cf7618bd3ae6a647745d8caec87645040",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554609",
+        "comment": "- Xchecked via VT: 3ccbb316fdf9b7e6ae89584afc529e5f",
+        "uuid": "5a27c071-4048-411c-a49d-bbb602de0b81",
+        "value": "cc3d01780eaabb8f429cd251acfc52370b95d149",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512554609",
+        "comment": "- Xchecked via VT: 3ccbb316fdf9b7e6ae89584afc529e5f",
+        "uuid": "5a27c071-adfc-43bd-b1ae-bbb602de0b81",
+        "value": "https://www.virustotal.com/file/ba21e8c562f330795089a76ab641bb3cf7618bd3ae6a647745d8caec87645040/analysis/1512362971/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554609",
+        "comment": "- Xchecked via VT: d4ddf8bfcc057fcfece2a498942079ce",
+        "uuid": "5a27c071-ae34-4e17-a860-bbb602de0b81",
+        "value": "7bc1c0b67e76b761128ffc478554858a09aa6e5fbb7e57f1f58b3066f6c228fc",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554609",
+        "comment": "- Xchecked via VT: d4ddf8bfcc057fcfece2a498942079ce",
+        "uuid": "5a27c071-657c-44cd-830c-bbb602de0b81",
+        "value": "b52e239c775781b1c569d246c88727573ba5904b",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512554610",
+        "comment": "- Xchecked via VT: d4ddf8bfcc057fcfece2a498942079ce",
+        "uuid": "5a27c072-eb0c-4e56-9c49-bbb602de0b81",
+        "value": "https://www.virustotal.com/file/7bc1c0b67e76b761128ffc478554858a09aa6e5fbb7e57f1f58b3066f6c228fc/analysis/1512374263/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

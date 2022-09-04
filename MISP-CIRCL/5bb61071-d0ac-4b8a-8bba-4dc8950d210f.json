@@ -1,0 +1,1406 @@
+{
+  "Event": {
+    "date": "2017-05-09",
+    "timestamp": "1538680509",
+    "analysis": "2",
+    "uuid": "5bb61071-d0ac-4b8a-8bba-4dc8950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1538680515",
+    "info": "OSINT - Persirai: New Internet of Things (IoT) Botnet Targets IP Cameras",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#22681c",
+        "name": "malware_classification:malware-category=\"Botnet\""
+      },
+      {
+        "colour": "#22681c",
+        "name": "\tmalware_classification:malware-category=\"Botnet\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:botnet=\"Persirai\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1538658669",
+        "comment": "",
+        "uuid": "5bb610da-7840-4316-b213-4905950d210f",
+        "value": "https://blog.trendmicro.com/trendlabs-security-intelligence/persirai-new-internet-things-iot-botnet-targets-ip-cameras/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1538659027",
+        "comment": "",
+        "uuid": "5bb612ca-8a64-47a5-a459-485e950d210f",
+        "value": "A new Internet of Things (IoT) botnet called Persirai (Detected by Trend Micro as ELF_PERSIRAI.A) has been discovered targeting over 1,000 Internet Protocol (IP) Camera models based on various Original Equipment Manufacturer (OEM) products. This development comes on the heels of Mirai\u00e2\u20ac\u201dan open-source backdoor malware that caused some of the most notable incidents of 2016 via Distributed Denial-of-Service (DDoS) attacks that compromised IoT devices such as Digital Video Recorders (DVRs) and CCTV cameras\u00e2\u20ac\u201das well as the Hajime botnet.\r\n\r\nWe detected approximately 120,000 IP cameras that are vulnerable to ELF_PERSIRAI.A via Shodan. Many of these vulnerable users are unaware that their IP Cameras are exposed to the internet.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1538660153",
+        "comment": "C&C server",
+        "uuid": "5bb61739-32dc-44d3-bcf5-4c6d950d210f",
+        "value": "load.gtpnet.ir",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1538660154",
+        "comment": "C&C server",
+        "uuid": "5bb6173a-5bc8-4746-a7fd-425f950d210f",
+        "value": "ntp.gtpnet.ir",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1538660159",
+        "comment": "C&C server",
+        "uuid": "5bb6173f-60ec-47c3-b5da-4bd0950d210f",
+        "value": "185.62.189.232",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1538660160",
+        "comment": "C&C server",
+        "uuid": "5bb61740-c0f8-4087-9811-4f8b950d210f",
+        "value": "95.85.38.103",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660867",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a03-6aa4-4b22-9f78-4283950d210f",
+        "value": "d00b79a0b47ae38b2d6fbbf994a2075bc70dc88142536f283e8447ed03917e45",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660868",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a04-0544-461d-9635-46d1950d210f",
+        "value": "f974695ae560c6f035e089271ee33a84bebeb940be510ab5066ee958932e310a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660868",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a04-a6d4-4105-aae4-43c6950d210f",
+        "value": "af4aa29d6e3fce9206b0d21b09b7bc40c3a2128bc5eb02ff239ed2f3549532bb",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660869",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a05-85f4-4a0e-92c5-4370950d210f",
+        "value": "aa443f81cbba72e1692246b5647a9278040400a86afc8e171f54577dc9324f61",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660869",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a05-8904-4c4f-8a5a-4942950d210f",
+        "value": "4a5ff1def77deb11ddecd10f96e4a1de69291f2f879cd83186c6b3fc20bb009a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660873",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a09-8e34-41ee-a78d-4e7e950d210f",
+        "value": "44620a09441305f592fb65d606958611f90e85b62b7ef7149e613d794df3a778",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660876",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a0c-14e8-4a85-ba0d-4311950d210f",
+        "value": "a58769740a750a8b265df65a5b143a06972af2e7d82c5040d908e71474cbaf92",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660877",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a0d-1720-4ec2-a1f0-4b6a950d210f",
+        "value": "7d7aaa8c9a36324a2c5e9b0a3440344502f28b90776baa6b8dac7ac88a83aef0",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660877",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a0d-0208-4bc2-959a-42e2950d210f",
+        "value": "4a5d00f91a5bb2b6b89ccdabc6c13eab97ede5848275513ded7dfd5803b1074b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660878",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a0e-500c-4155-825b-452b950d210f",
+        "value": "264e5a7ce9ca7ce7a495ccb02e8f268290fcb1b3e1b05f87d3214b26b0ea9adc",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660878",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a0e-dd6c-4fa2-b250-42c4950d210f",
+        "value": "ff5db7bdb4de17a77bd4a552f50f0e5488281cedc934fc3707833f90484ef66c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660879",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a0f-b75c-4b10-b14b-4d3d950d210f",
+        "value": "ec2c39f1dfb75e7b33daceaeda4dbadb8efd9015a9b7e41d595bb28d2cd0180f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660879",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a0f-06f0-4fb1-82eb-4ab6950d210f",
+        "value": "f736948bb4575c10a3175f0078a2b5d36cce1aa4cd635307d03c826e305a7489",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660880",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a10-ab00-4133-8296-4a96950d210f",
+        "value": "e0b5c9f874f260c840766eb23c1f69828545d7820f959c8601c41c024044f02c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1538660880",
+        "comment": "Hash detected as ELF_PERSIRAI.A:",
+        "uuid": "5bb61a10-469c-473e-ba93-459b950d210f",
+        "value": "35317971e346e5b2a8401b2e66b9e62e371ce9532f816cb313216c3647973c32",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1538680318",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "f309283e-f9b3-4936-9534-ef6866f23c40",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680347",
+            "comment": "",
+            "uuid": "5bb6661b-9cdc-4ffe-a798-454602de0b81",
+            "object_uuid": "f309283e-f9b3-4936-9534-ef6866f23c40",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "c32be2ac-252d-404e-a391-de2bec4acaf7"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680315",
+            "comment": "",
+            "uuid": "24b52a67-d588-4d4f-acc6-531cc4b9e2f3",
+            "value": "2f6e964b3f63b13831314c28185bb51a",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680315",
+            "comment": "",
+            "uuid": "03ef9eff-ea8a-4dba-92ea-ea7658ad001d",
+            "value": "a63417b889491466c912dfbb6d2a34ad27f2bcfe",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680316",
+            "comment": "",
+            "uuid": "40ff1cf2-3498-4c1a-a0ef-3278217d10c8",
+            "value": "7d7aaa8c9a36324a2c5e9b0a3440344502f28b90776baa6b8dac7ac88a83aef0",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680316",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "c32be2ac-252d-404e-a391-de2bec4acaf7",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680316",
+            "comment": "",
+            "uuid": "7815ca32-703b-430e-a06f-dfb802b2617c",
+            "value": "2018-10-04T00:29:01",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680317",
+            "comment": "",
+            "uuid": "b872dfe2-e6a4-46be-93cb-d2d39c54e961",
+            "value": "https://www.virustotal.com/file/7d7aaa8c9a36324a2c5e9b0a3440344502f28b90776baa6b8dac7ac88a83aef0/analysis/1538612941/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680317",
+            "comment": "",
+            "uuid": "b977ae27-2ed8-42ea-af35-31fa7d975feb",
+            "value": "27/57",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680320",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "12ef2bb3-f2ac-4266-b693-27631eae3930",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680347",
+            "comment": "",
+            "uuid": "5bb6661b-76bc-4361-abf0-432602de0b81",
+            "object_uuid": "12ef2bb3-f2ac-4266-b693-27631eae3930",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "9d4269eb-edc5-4513-9cdc-fedcf13523d5"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680317",
+            "comment": "",
+            "uuid": "33282f75-099d-48b4-ae83-f7c5540f0d88",
+            "value": "428111c22627e1d4ee87705251704422",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680318",
+            "comment": "",
+            "uuid": "cc39a8ec-e498-47b9-9552-7961e7a39a7c",
+            "value": "ccc90bd76af9d4b538aa88715027dd062f7c946d",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680318",
+            "comment": "",
+            "uuid": "4e2e9831-6f05-40a8-af03-0eb900d88168",
+            "value": "264e5a7ce9ca7ce7a495ccb02e8f268290fcb1b3e1b05f87d3214b26b0ea9adc",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680319",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "9d4269eb-edc5-4513-9cdc-fedcf13523d5",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680319",
+            "comment": "",
+            "uuid": "836c2dac-1246-4175-a7ac-ad7a3246570e",
+            "value": "2018-10-04T00:35:09",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680319",
+            "comment": "",
+            "uuid": "34afc7f8-f731-4458-bea0-0a620d0b2948",
+            "value": "https://www.virustotal.com/file/264e5a7ce9ca7ce7a495ccb02e8f268290fcb1b3e1b05f87d3214b26b0ea9adc/analysis/1538613309/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680320",
+            "comment": "",
+            "uuid": "42f732a2-5783-4fe1-bf28-a299f63a6f65",
+            "value": "30/59",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680323",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "f2c1f63f-9a45-43a5-b5f0-aa338180c6a0",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680347",
+            "comment": "",
+            "uuid": "5bb6661b-2fa0-4d10-8d8b-461402de0b81",
+            "object_uuid": "f2c1f63f-9a45-43a5-b5f0-aa338180c6a0",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "f27c2edf-b64f-4038-a3a9-d326a05177bd"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680320",
+            "comment": "",
+            "uuid": "90e70da4-695a-45d8-beba-5a744c3c8f43",
+            "value": "9584b6aec418a2af4efac24867a8c7ec",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680320",
+            "comment": "",
+            "uuid": "e38ba7bd-f315-440f-873d-62d3bf4d8e31",
+            "value": "22a8faf351768596500dbe6e27c05ad55744da1d",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680321",
+            "comment": "",
+            "uuid": "2b2cf022-706f-4082-89a4-0482e9989d61",
+            "value": "af4aa29d6e3fce9206b0d21b09b7bc40c3a2128bc5eb02ff239ed2f3549532bb",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680321",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "f27c2edf-b64f-4038-a3a9-d326a05177bd",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680321",
+            "comment": "",
+            "uuid": "28299833-823a-4fae-9d26-936806282829",
+            "value": "2018-08-28T00:22:07",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680322",
+            "comment": "",
+            "uuid": "a8b600ec-a940-4775-8d5a-da5e6fb40637",
+            "value": "https://www.virustotal.com/file/af4aa29d6e3fce9206b0d21b09b7bc40c3a2128bc5eb02ff239ed2f3549532bb/analysis/1535415727/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680322",
+            "comment": "",
+            "uuid": "6ab72e91-286a-4e59-aed6-7ba109b77661",
+            "value": "31/59",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680325",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "9c0321a0-cf1b-4f6b-b67a-69d45877e2d9",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680347",
+            "comment": "",
+            "uuid": "5bb6661b-fb6c-484f-9d6f-453802de0b81",
+            "object_uuid": "9c0321a0-cf1b-4f6b-b67a-69d45877e2d9",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "1883c73d-680a-4623-9b78-42cfeb491f5b"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680322",
+            "comment": "",
+            "uuid": "2bbd9a12-d0ba-4cdc-9f04-a740655d4fdd",
+            "value": "5ebeff1f005804bb8afef91095aac1d9",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680323",
+            "comment": "",
+            "uuid": "54d8241a-dafa-41f0-a3b5-f9458d39ebc2",
+            "value": "c92e07faaad26b4ac98f9cc0c5a24e60dcb25b8a",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680323",
+            "comment": "",
+            "uuid": "b016facb-e211-486f-aa12-dfee52ccc67d",
+            "value": "4a5d00f91a5bb2b6b89ccdabc6c13eab97ede5848275513ded7dfd5803b1074b",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680324",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "1883c73d-680a-4623-9b78-42cfeb491f5b",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680324",
+            "comment": "",
+            "uuid": "8f277ab7-05c6-46f8-909c-f3381f65afbc",
+            "value": "2018-10-04T00:40:15",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680327",
+            "comment": "",
+            "uuid": "656ad417-eede-4da8-b924-d1ac777d5cbe",
+            "value": "https://www.virustotal.com/file/4a5d00f91a5bb2b6b89ccdabc6c13eab97ede5848275513ded7dfd5803b1074b/analysis/1538613615/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680328",
+            "comment": "",
+            "uuid": "6b003f1f-e035-40ad-8331-3e79a4f9ed2e",
+            "value": "30/59",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680331",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "36dd4a13-9d43-48b4-b035-a1dd57e1daa8",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680348",
+            "comment": "",
+            "uuid": "5bb6661c-f1c4-4077-8955-4c4b02de0b81",
+            "object_uuid": "36dd4a13-9d43-48b4-b035-a1dd57e1daa8",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "077ee3b9-3db4-4025-957b-3944d40c17d7"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680328",
+            "comment": "",
+            "uuid": "608de87a-577c-45ba-9efc-633bfba9804e",
+            "value": "f620fb57352e6f393477a65101a4612e",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680329",
+            "comment": "",
+            "uuid": "2b1110b2-34e6-4efa-ad16-8ddffc43ccdf",
+            "value": "93515d7442d0240272b8d813b300219c53e88dfd",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680329",
+            "comment": "",
+            "uuid": "e8d8bd28-4c6b-4f2f-94a8-91469cc7bff2",
+            "value": "a58769740a750a8b265df65a5b143a06972af2e7d82c5040d908e71474cbaf92",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680330",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "077ee3b9-3db4-4025-957b-3944d40c17d7",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680330",
+            "comment": "",
+            "uuid": "3feaaa6c-1944-4d54-b928-151e02b9ba75",
+            "value": "2018-08-19T23:46:42",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680333",
+            "comment": "",
+            "uuid": "4456021c-dde7-45e4-bb39-a42c628b0d31",
+            "value": "https://www.virustotal.com/file/a58769740a750a8b265df65a5b143a06972af2e7d82c5040d908e71474cbaf92/analysis/1534722402/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680334",
+            "comment": "",
+            "uuid": "e23bb428-95e6-414a-a60f-e666d298495e",
+            "value": "27/58",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680337",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "c0fc4a1e-cd67-415a-b8b9-3b8624427435",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680348",
+            "comment": "",
+            "uuid": "5bb6661c-54f8-4679-a815-47b902de0b81",
+            "object_uuid": "c0fc4a1e-cd67-415a-b8b9-3b8624427435",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "d406e905-e3a5-4d16-b1d2-bc3e6ef6d1fa"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680334",
+            "comment": "",
+            "uuid": "9ff1aa13-17c4-4fea-9fde-e0a7ea8d4705",
+            "value": "912681f6be51afa8c5ab36e691b88e74",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680334",
+            "comment": "",
+            "uuid": "ded05480-3857-4ced-9d85-0ab4339eb47a",
+            "value": "227d1aa69da8250ddbf8898863799e59bdfeb516",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680335",
+            "comment": "",
+            "uuid": "9417d718-1a7e-4b30-ad2a-45d97bf24356",
+            "value": "f974695ae560c6f035e089271ee33a84bebeb940be510ab5066ee958932e310a",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680335",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "d406e905-e3a5-4d16-b1d2-bc3e6ef6d1fa",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680335",
+            "comment": "",
+            "uuid": "9da3df4d-2a97-4c0f-b9a8-4ee1e3bf41fa",
+            "value": "2018-08-28T00:21:20",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680336",
+            "comment": "",
+            "uuid": "791bd56a-7de3-419e-9984-b3b8f1126ec6",
+            "value": "https://www.virustotal.com/file/f974695ae560c6f035e089271ee33a84bebeb940be510ab5066ee958932e310a/analysis/1535415680/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680336",
+            "comment": "",
+            "uuid": "620bf26e-ce72-408a-a9fb-29c061e257be",
+            "value": "30/59",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680339",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "7d2c9249-f40e-495c-8f96-64b18ab129e0",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680348",
+            "comment": "",
+            "uuid": "5bb6661c-ced4-4bd5-9664-4d1302de0b81",
+            "object_uuid": "7d2c9249-f40e-495c-8f96-64b18ab129e0",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "41d50336-ea44-4a0b-8e2a-4d5daee47a96"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680336",
+            "comment": "",
+            "uuid": "c926ea2c-261d-4ef5-8257-022da8dd3f46",
+            "value": "7e1c3834c38984c34b6fd4c741ae3a21",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680337",
+            "comment": "",
+            "uuid": "353bad47-ebcb-4db4-815b-f8fdb0be4b50",
+            "value": "02b850450fcbcdd6b13f03b2121f124543480d62",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680337",
+            "comment": "",
+            "uuid": "83d952e9-99fa-45c8-99be-6194f4833034",
+            "value": "d00b79a0b47ae38b2d6fbbf994a2075bc70dc88142536f283e8447ed03917e45",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680338",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "41d50336-ea44-4a0b-8e2a-4d5daee47a96",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680338",
+            "comment": "",
+            "uuid": "50679951-11f3-4163-bca3-c1a71fc25d9f",
+            "value": "2018-10-04T00:51:35",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680338",
+            "comment": "",
+            "uuid": "6a957d87-5bf5-4e47-9901-533d3be74a57",
+            "value": "https://www.virustotal.com/file/d00b79a0b47ae38b2d6fbbf994a2075bc70dc88142536f283e8447ed03917e45/analysis/1538614295/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680339",
+            "comment": "",
+            "uuid": "b95271c3-bd73-4a19-ac07-58509fbe8fc6",
+            "value": "27/58",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680342",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5e99dc31-7b8e-4fc0-b6d2-76c97386fddb",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680348",
+            "comment": "",
+            "uuid": "5bb6661c-00d0-4b29-aeaa-47f902de0b81",
+            "object_uuid": "5e99dc31-7b8e-4fc0-b6d2-76c97386fddb",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "3d0cb0cc-5992-44bd-908d-608dfa518175"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680339",
+            "comment": "",
+            "uuid": "40667cb7-b99a-4184-9a36-bdcaf1368400",
+            "value": "b2b129d84723d0ba2f803a546c8b19ae",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680339",
+            "comment": "",
+            "uuid": "de0721c4-14d6-4c3c-8b0c-74a414f55360",
+            "value": "7a0485e52aa09f63d41e471fd736584c06c3dab6",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680340",
+            "comment": "",
+            "uuid": "6f071f79-d240-4035-953b-3170c06b89c1",
+            "value": "44620a09441305f592fb65d606958611f90e85b62b7ef7149e613d794df3a778",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680340",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "3d0cb0cc-5992-44bd-908d-608dfa518175",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680340",
+            "comment": "",
+            "uuid": "a6d21e1e-4762-45a8-8397-1e40b79d6f0a",
+            "value": "2018-09-18T19:47:01",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680341",
+            "comment": "",
+            "uuid": "25405b32-6b81-42dc-a247-ebc03f770730",
+            "value": "https://www.virustotal.com/file/44620a09441305f592fb65d606958611f90e85b62b7ef7149e613d794df3a778/analysis/1537300021/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680341",
+            "comment": "",
+            "uuid": "85bba342-833d-452d-ae52-93ca69be210c",
+            "value": "28/58",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680344",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "ed841816-818e-4245-b6dd-f2309f700681",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680348",
+            "comment": "",
+            "uuid": "5bb6661c-e168-41ba-9dad-49e902de0b81",
+            "object_uuid": "ed841816-818e-4245-b6dd-f2309f700681",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "249cc05d-c4f2-49e8-a6a1-7fb0437d810d"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680341",
+            "comment": "",
+            "uuid": "06167403-7850-4f72-beef-9c58f7efa820",
+            "value": "cfb80e0b1e3927ebc1069b8fdc468072",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680342",
+            "comment": "",
+            "uuid": "04f39242-2c21-4b18-af64-c5e8a21b9635",
+            "value": "64bd5ba88d7e7104dc1a5586171e83825815362d",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680342",
+            "comment": "",
+            "uuid": "20c1c44e-003c-4093-b594-6ded9eeca681",
+            "value": "4a5ff1def77deb11ddecd10f96e4a1de69291f2f879cd83186c6b3fc20bb009a",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680344",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "249cc05d-c4f2-49e8-a6a1-7fb0437d810d",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680344",
+            "comment": "",
+            "uuid": "960ff2ae-bf7a-49c3-ab42-4134855d21d9",
+            "value": "2018-10-01T16:00:37",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680344",
+            "comment": "",
+            "uuid": "146485a6-71f5-41d8-800b-4ac4f679f33b",
+            "value": "https://www.virustotal.com/file/4a5ff1def77deb11ddecd10f96e4a1de69291f2f879cd83186c6b3fc20bb009a/analysis/1538409637/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680345",
+            "comment": "",
+            "uuid": "b5bc8306-34a2-4eb6-9dd5-893115f7c124",
+            "value": "30/58",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680348",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "e379a5ec-5b7a-48c0-ad91-c00272e066c8",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1538680348",
+            "comment": "",
+            "uuid": "5bb6661c-4778-45ae-a8a3-460102de0b81",
+            "object_uuid": "e379a5ec-5b7a-48c0-ad91-c00272e066c8",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "bf3cb4e2-3ce7-4abb-b77a-91e1fa59320b"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1538680345",
+            "comment": "",
+            "uuid": "68d4af39-d36f-4203-adca-0e8aaf59a19e",
+            "value": "10d899e46e0df86ba6e6a4754de331d9",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1538680345",
+            "comment": "",
+            "uuid": "5ac792b2-96eb-41ce-a68b-57c2f740e5b5",
+            "value": "29aabf21557507699503251e8e19ff77ee61f1bc",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1538680346",
+            "comment": "",
+            "uuid": "2c2142c5-23e4-42b8-92e1-7427af655547",
+            "value": "aa443f81cbba72e1692246b5647a9278040400a86afc8e171f54577dc9324f61",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1538680346",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "bf3cb4e2-3ce7-4abb-b77a-91e1fa59320b",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1538680346",
+            "comment": "",
+            "uuid": "0911b7f8-578a-470b-a17b-1d302ea16696",
+            "value": "2018-10-04T00:21:25",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1538680347",
+            "comment": "",
+            "uuid": "b3cc844b-5bf3-4cb8-b122-eee753b95a86",
+            "value": "https://www.virustotal.com/file/aa443f81cbba72e1692246b5647a9278040400a86afc8e171f54577dc9324f61/analysis/1538612485/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1538680347",
+            "comment": "",
+            "uuid": "dd676758-854f-4bee-b4b2-4942e2c6efc7",
+            "value": "28/58",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

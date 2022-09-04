@@ -1,0 +1,424 @@
+{
+  "Event": {
+    "date": "2018-07-24",
+    "timestamp": "1532460322",
+    "analysis": "2",
+    "uuid": "5b577bf2-48d4-492f-bd9d-c7f90acd0835",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1532460351",
+    "info": "Hancitor Intel",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "5a68c02d-959c-4c8a-a571-0dcac0a8060a",
+      "name": "Synovus Financial"
+    },
+    "Tag": [
+      {
+        "colour": "#003860",
+        "name": "osint:source-type=\"pastie-website\""
+      },
+      {
+        "colour": "#0c9200",
+        "name": "misp-galaxy:tool=\"Hancitor\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:banker=\"Panda Banker\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Network activity",
+        "timestamp": "1532460049",
+        "comment": "C2",
+        "uuid": "5b577c11-54a0-4666-8bad-c8280acd0835",
+        "value": "http://recsincalge.com/4/forum.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460049",
+        "comment": "C2",
+        "uuid": "5b577c11-f024-45c3-8682-c8280acd0835",
+        "value": "http://wohislinghes.ru/4/forum.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460049",
+        "comment": "C2",
+        "uuid": "5b577c11-0224-4676-99d1-c8280acd0835",
+        "value": "http://buthissandwil.ru/4/forum.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-0888-42d9-8194-c89e0acd0835",
+        "value": "http://jamble.org/wp-content/plugins/site-is-offline-plugin/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-10e8-4569-b67a-c89e0acd0835",
+        "value": "http://nyconstructionaccidentattorneys.net/wp-content/plugins/really-simple-captcha/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-88e4-431f-814b-c89e0acd0835",
+        "value": "http://k317.org/wp-content/plugins/subscribe2/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-220c-4c7c-98f6-c89e0acd0835",
+        "value": "http://saferoomreviews.com/wp-content/plugins/woocommerce/classes/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-59d4-44d0-9fc3-c89e0acd0835",
+        "value": "http://thesmartdinar.com/wp-content/plugins/facebook-like-box-widget/12",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-af4c-454b-82c5-c89e0acd0835",
+        "value": "http://jamble.org/wp-content/plugins/site-is-offline-plugin/2",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-ac38-4ead-868a-c89e0acd0835",
+        "value": "http://nyconstructionaccidentattorneys.net/wp-content/plugins/really-simple-captcha/2",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-a59c-460c-acaf-c89e0acd0835",
+        "value": "http://k317.org/wp-content/plugins/subscribe2/2",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-19b0-4b71-86ae-c89e0acd0835",
+        "value": "http://saferoomreviews.com/wp-content/plugins/woocommerce/classes/2",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-a550-4024-86d8-c89e0acd0835",
+        "value": "http://thesmartdinar.com/wp-content/plugins/facebook-like-box-widget/2",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-2fd8-48fa-b4ac-c89e0acd0835",
+        "value": "http://jamble.org/wp-content/plugins/site-is-offline-plugin/3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-1a78-403c-bf9b-c89e0acd0835",
+        "value": "http://nyconstructionaccidentattorneys.net/wp-content/plugins/really-simple-captcha/3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-b9b4-4579-80eb-c89e0acd0835",
+        "value": "http://k317.org/wp-content/plugins/subscribe2/3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-0dd4-4803-b621-c89e0acd0835",
+        "value": "http://saferoomreviews.com/wp-content/plugins/woocommerce/classes/3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460123",
+        "comment": "",
+        "uuid": "5b577c5b-8158-48bf-b044-c89e0acd0835",
+        "value": "http://thesmartdinar.com/wp-content/plugins/facebook-like-box-widget/3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#56b352",
+            "name": "Download"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460157",
+        "comment": "C2",
+        "uuid": "5b577c7d-8794-4eaf-83a0-c89e0acd0835",
+        "value": "http://recsincalge.com/d2/about.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460157",
+        "comment": "C2",
+        "uuid": "5b577c7d-68c4-4d27-b4bb-c89e0acd0835",
+        "value": "http://wohislinghes.ru/d2/about.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460157",
+        "comment": "C2",
+        "uuid": "5b577c7d-d8ac-4fe5-bee1-c89e0acd0835",
+        "value": "http://buthissandwil.ru/d2/about.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460200",
+        "comment": "C2",
+        "uuid": "5b577ca8-7640-435f-8458-c7f90acd0835",
+        "value": "http://hadsparmirat.com/index.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#c1e21c",
+            "name": " C2"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1532460231",
+        "comment": "Panda Banker",
+        "uuid": "5b577cc7-670c-4338-84d3-c89e0acd0835",
+        "value": "https://linghapsittoft.ru",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#36a013",
+            "name": "Panda Banker"
+          }
+        ]
+      }
+    ]
+  }
+}

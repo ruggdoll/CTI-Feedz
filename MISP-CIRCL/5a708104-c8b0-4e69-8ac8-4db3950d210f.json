@@ -1,0 +1,159 @@
+{
+  "Event": {
+    "date": "2017-12-18",
+    "timestamp": "1517324476",
+    "analysis": "2",
+    "uuid": "5a708104-c8b0-4e69-8ac8-4db3950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1518179987",
+    "info": "OSINT - TelegramRAT evades traditional defenses via the cloud",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:rat=\"RATAttack\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#4bec00",
+        "name": "enisa:nefarious-activity-abuse=\"remote-access-tool\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1517322538",
+        "comment": "",
+        "uuid": "5a708123-d9cc-48c7-ba90-44bd950d210f",
+        "value": "https://www.netskope.com/blog/telegramrat-evades-traditional-defenses-via-cloud/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1517322573",
+        "comment": "",
+        "uuid": "5a708146-11e4-454f-b1a3-437d950d210f",
+        "value": "Netskope Threat Research Labs discovered a cloud application native Remote Access Trojan (RAT) that we have dubbed TelegramRAT. TelegramRAT uses the Telegram Messenger application for its command and control, and a cloud storage platform for its payload host. This cloud-native approach is designed to evade traditional security scanners that are not able to inspect SSL or not able to provide Cloud Application Instance level traffic inspection.\r\n\r\nTelegramRAT begins its attack as a malicious Microsoft Office document exploiting the November CVE-2017-11882 vulnerability. The document uses the Bit.ly URL redirection service to conceal the TelegramRAT payload hosted on Dropbox. As we have in the past, Netskope Threat Research Labs is actively working with the Dropbox security team to remediate known threats.\r\n\r\nThe TelegramRAT payload downloaded from Dropbox uses the open source Python TelegramRAT code hosted in GitHub. The unique aspect of this malware is the use of Telegram BOT API to receive commands and send responses to the attacker via an HTTPS secure communication channel. TelegramRAT\u00e2\u20ac\u2122s use of SSL cloud applications for infection and C&C operation ensures that traditional network security solutions are opaque to the communication",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517323609",
+        "comment": "",
+        "uuid": "5a70845e-154c-4c86-bf70-856c950d210f",
+        "value": "Adventurer LOG.doc",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517323359",
+        "comment": "",
+        "uuid": "5a70845f-5620-404f-b086-856c950d210f",
+        "value": "http://bit.ly/2zyHw08",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517323359",
+        "comment": "",
+        "uuid": "5a70845f-8aac-4e96-b0e7-856c950d210f",
+        "value": "C:UsersSectask.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517323360",
+        "comment": "",
+        "uuid": "5a708460-f210-4fd3-9e8f-856c950d210f",
+        "value": "https://www.dropbox.com/s/lhey3uvqkph0mri/taskhost.exe?dl=1",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517323360",
+        "comment": "",
+        "uuid": "5a708460-0274-4da4-ad64-856c950d210f",
+        "value": "MSOffice.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517323361",
+        "comment": "",
+        "uuid": "5a708461-b188-4cab-bbad-856c950d210f",
+        "value": "MSOffice.LNK",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517324149",
+        "comment": "",
+        "uuid": "5a708775-f370-4189-8442-64b5950d210f",
+        "value": "%USERPROFILE%\\task.exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1517324291",
+        "comment": "",
+        "uuid": "5a708803-fa5c-4bb6-abce-856c950d210f",
+        "value": "RATAttack",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

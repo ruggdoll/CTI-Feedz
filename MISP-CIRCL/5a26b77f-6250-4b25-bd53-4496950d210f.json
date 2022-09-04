@@ -1,0 +1,513 @@
+{
+  "Event": {
+    "date": "2017-12-05",
+    "timestamp": "1516291548",
+    "analysis": "1",
+    "uuid": "5a26b77f-6250-4b25-bd53-4496950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1516291555",
+    "info": "M2M - \"..doc\" 2017-12-01 : \"12_Invoice_3456\" - \"I_4321.7z\"",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Fake Globe Ransomware\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554491",
+        "comment": "",
+        "uuid": "5a26b77f-77bc-4bb8-9acb-c53a950d210f",
+        "value": "06c82e99dc35ab88f2db7868d30012a8",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554491",
+        "comment": "",
+        "uuid": "5a26b780-e510-47d8-9eb2-4b54950d210f",
+        "value": "http://basedow-bilder.de/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554491",
+        "comment": "",
+        "uuid": "5a26b780-33f0-45b9-b2d7-4ff4950d210f",
+        "value": "basedow-bilder.de",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554491",
+        "comment": "basedow-bilder.de",
+        "uuid": "5a26b780-52c8-4195-aa36-4f6f950d210f",
+        "value": "194.116.187.130",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554491",
+        "comment": "",
+        "uuid": "5a26b781-7aac-46e3-9172-44e5950d210f",
+        "value": "http://centralbaptistchurchnj.org/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554491",
+        "comment": "",
+        "uuid": "5a26b781-7508-4345-b3a5-4bd5950d210f",
+        "value": "centralbaptistchurchnj.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "centralbaptistchurchnj.org",
+        "uuid": "5a26b781-19a4-4ff4-8ac5-4449950d210f",
+        "value": "68.171.62.42",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b781-37c0-4b67-b809-464c950d210f",
+        "value": "http://highlandfamily.org/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b782-6298-48fc-add7-44b5950d210f",
+        "value": "highlandfamily.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "highlandfamily.org",
+        "uuid": "5a26b782-a45c-40d9-9f13-4f3d950d210f",
+        "value": "98.124.252.66",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b782-f970-4a2d-b75f-493c950d210f",
+        "value": "http://motifahsap.com/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b782-6088-4119-bfec-4d40950d210f",
+        "value": "motifahsap.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "motifahsap.com",
+        "uuid": "5a26b783-177c-4761-87f4-403b950d210f",
+        "value": "188.132.180.113",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b783-1048-4e2f-8cab-4a8d950d210f",
+        "value": "http://pdj.co.id/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b784-2874-4587-87b2-4cb8950d210f",
+        "value": "pdj.co.id",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "pdj.co.id",
+        "uuid": "5a26b785-3c40-48e3-8143-4914950d210f",
+        "value": "202.169.44.166",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b785-9dd0-4ce1-a4be-49b5950d210f",
+        "value": "http://pragmaticinquiry.org/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b785-62f0-465d-a4ab-4500950d210f",
+        "value": "pragmaticinquiry.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "pragmaticinquiry.org",
+        "uuid": "5a26b785-edb8-4ba6-bbb8-4b9c950d210f",
+        "value": "98.124.252.145",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b786-9368-42d7-b2f8-422a950d210f",
+        "value": "http://schwellenwertdaten.de/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b786-df34-4f97-a2b0-4275950d210f",
+        "value": "schwellenwertdaten.de",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "schwellenwertdaten.de",
+        "uuid": "5a26b786-9034-4407-b0db-451a950d210f",
+        "value": "178.77.75.77",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b786-8848-4631-bcd0-441c950d210f",
+        "value": "http://shamanic-extracts.biz/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b786-4850-4c23-9063-43b6950d210f",
+        "value": "shamanic-extracts.biz",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "shamanic-extracts.biz",
+        "uuid": "5a26b787-1538-4c8d-84f2-c53a950d210f",
+        "value": "62.212.154.98",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b787-c7cc-48db-8e01-43e8950d210f",
+        "value": "http://team-bobcat.org/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b787-c770-45cd-afb6-4ef8950d210f",
+        "value": "team-bobcat.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "team-bobcat.org",
+        "uuid": "5a26b788-4fb8-4c86-b6ca-c6d3950d210f",
+        "value": "212.224.65.254",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b788-d4e8-4705-913c-4760950d210f",
+        "value": "http://troyriser.com/UYTd46732",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b788-602c-4e92-b6ef-479b950d210f",
+        "value": "troyriser.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "troyriser.com",
+        "uuid": "5a26b788-5750-423c-b531-4d17950d210f",
+        "value": "98.124.251.167",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b788-d7c8-4dee-b871-4b51950d210f",
+        "value": "https://n224ezvhg4sgyamb.onion.link/shfgealjh.php",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b789-c144-4196-818c-44e0950d210f",
+        "value": "n224ezvhg4sgyamb.onion.link",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "n224ezvhg4sgyamb.onion.link",
+        "uuid": "5a26b789-fa10-4394-9152-439d950d210f",
+        "value": "188.166.203.69",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b789-ba7c-464c-b162-4b96950d210f",
+        "value": "http://summi.space/count.php?nu=105&fb=110",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "",
+        "uuid": "5a26b789-b28c-4742-85c1-4e2d950d210f",
+        "value": "summi.space",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1512554492",
+        "comment": "summi.space",
+        "uuid": "5a26b78a-b580-40eb-9968-47cf950d210f",
+        "value": "198.23.241.227",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554492",
+        "comment": "- Xchecked via VT: 06c82e99dc35ab88f2db7868d30012a8",
+        "uuid": "5a27bffc-2cf0-4653-b04f-bbba02de0b81",
+        "value": "e2209f339b2e5afbb40d4f3dfddf4939ffdb9accbb5253121707a5b1cde15dd2",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1512554492",
+        "comment": "- Xchecked via VT: 06c82e99dc35ab88f2db7868d30012a8",
+        "uuid": "5a27bffc-35b4-441b-973f-bbba02de0b81",
+        "value": "4bcba41741021833e193e721f4461645ab7fdb43",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512554492",
+        "comment": "- Xchecked via VT: 06c82e99dc35ab88f2db7868d30012a8",
+        "uuid": "5a27bffc-4818-41fc-8ec6-bbba02de0b81",
+        "value": "https://www.virustotal.com/file/e2209f339b2e5afbb40d4f3dfddf4939ffdb9accbb5253121707a5b1cde15dd2/analysis/1512435065/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516289445",
+        "comment": "Found in file: scan_17.01.doc",
+        "uuid": "5a60bda5-58ec-4ead-bd34-4dc6950d210f",
+        "value": "185.176.221.146",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1516289356",
+        "comment": "",
+        "uuid": "5a60bd4c-7658-4aee-8dfb-409c950d210f",
+        "value": "5c3d35bd9282f61e414319d9d98c80b5",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1516289378",
+        "comment": "",
+        "uuid": "5a60bd62-bbac-42dc-8c5d-4164950d210f",
+        "value": "b9f2699fc826f8109b12a17c1283ac3f",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516289492",
+        "comment": "Found in file: scan_17.01.doc",
+        "uuid": "5a60bdd4-af20-4e80-83dc-478a950d210f",
+        "value": "http://185.176.221.146/download/s/gtz",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

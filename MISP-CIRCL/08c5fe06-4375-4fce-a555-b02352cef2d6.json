@@ -1,0 +1,499 @@
+{
+  "Event": {
+    "date": "2022-03-01",
+    "timestamp": "1646125939",
+    "analysis": "1",
+    "uuid": "08c5fe06-4375-4fce-a555-b02352cef2d6",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1646125966",
+    "info": "gsocket.io - Global Socket Relay Network (GSRN) - infrastructure",
+    "threat_level_id": "4",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#0071c3",
+        "name": "osint:lifetime=\"perpetual\""
+      },
+      {
+        "colour": "#0087e8",
+        "name": "osint:certainty=\"50\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#62009e",
+        "name": "adversary:infrastructure-state=\"active\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Network activity",
+        "timestamp": "1646125514",
+        "comment": "",
+        "uuid": "7d0c4ad4-c000-4f20-9504-bcec20efc133",
+        "value": "135.181.106.26",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125514",
+        "comment": "",
+        "uuid": "884b0ad6-c628-4803-b7bf-51221c344e83",
+        "value": "143.198.66.192",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125514",
+        "comment": "",
+        "uuid": "c40043f8-1859-4d11-913c-db2acd9ee294",
+        "value": "18.116.244.91",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125514",
+        "comment": "",
+        "uuid": "de7eb516-afea-47e6-846c-805b2f3708c2",
+        "value": "213.202.239.83",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125514",
+        "comment": "",
+        "uuid": "8926173d-ed4e-41e0-8848-9c1c45303538",
+        "value": "3.130.101.223",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125585",
+        "comment": "",
+        "uuid": "54a0f0b5-5505-4088-8453-99f384c8c67f",
+        "value": "a.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125585",
+        "comment": "",
+        "uuid": "4f8dd3b7-801a-4ecf-ac91-501d74dcb418",
+        "value": "b.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125585",
+        "comment": "",
+        "uuid": "36a5d424-5953-4da4-87a2-d56916ab6d89",
+        "value": "c.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "6e9edc47-c2d2-4e0f-b132-16c06556d8c0",
+        "value": "d.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "b70dddc2-39d1-471b-b303-2552758ccc14",
+        "value": "e.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "cc960a09-8fb5-429a-8054-ee277b68cca8",
+        "value": "f.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "81d256c6-abfa-40d1-8c09-32b1e7a2737d",
+        "value": "g.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "166ffa94-b6d5-4a6a-9e76-f18707a26c2e",
+        "value": "h.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "3e0b38a2-e4e4-4510-b4e1-19af36299bd9",
+        "value": "i.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "67a11404-30fc-4577-9c35-012025908335",
+        "value": "j.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "f3d1718d-bded-42a9-8e50-cd066da3b2d0",
+        "value": "k.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "dbf025a5-d1f7-4373-9dc6-17a000506d2d",
+        "value": "l.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "e18b6a6e-7873-40e9-a128-cc09c744ac9c",
+        "value": "m.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "2364c7d6-4af8-4f26-a466-2303081b7f7b",
+        "value": "n.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "55ca9518-cf3e-47f2-bc07-b754f101c4a7",
+        "value": "o.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "43dd5ebc-fd53-4c95-aed0-cd7593fd14f1",
+        "value": "p.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "fdced816-e5b2-4ec9-bf1a-80c6eaadae5e",
+        "value": "q.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "1c1a3b77-d4a8-44d1-bb6f-af6528d45d22",
+        "value": "r.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "759197c1-94db-4f31-832a-9029a3dea275",
+        "value": "s.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "da09048a-d198-4fa7-b7bf-a3fb421973cd",
+        "value": "t.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "5101e6a4-aad2-45aa-bc07-091de0692afb",
+        "value": "u.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "e8b28c89-ce25-4178-9fc0-a03df734b6f4",
+        "value": "v.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "327efcc4-bccd-4e5f-99cf-f464dca94b3c",
+        "value": "w.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "1630e5a8-36af-4ddf-9cb3-d1001204491d",
+        "value": "x.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "f52fcbfb-722b-4387-80a2-86ffca6ca9ae",
+        "value": "y.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1646125586",
+        "comment": "",
+        "uuid": "534b93eb-0156-45bf-b112-f55fc1b23b58",
+        "value": "z.gs.thc.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1646125691",
+        "name": "annotation",
+        "sharing_group_id": "0",
+        "uuid": "e04519f4-7cb2-4754-aab3-4adc4bb8d1a6",
+        "comment": "",
+        "description": "An annotation object allowing analysts to add annotations, comments, executive summary to a MISP event, objects or attributes.",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "3",
+        "template_uuid": "5d8dc046-15a1-4ca3-a09f-ed4ede7c4487",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "text",
+            "timestamp": "1646125691",
+            "comment": "",
+            "uuid": "340cef40-82b2-4dba-8659-7ee4135a75b1",
+            "value": "The Global Socket Relay Network (GSRN) is run, operated and maintained by volunteers. You can use gsocket without running your own GSRN. The GSRN service is provided for free.\r\n\r\nref: https://www.gsocket.io/gsrn/",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "type",
+            "timestamp": "1646125691",
+            "comment": "",
+            "uuid": "c22724c1-494b-4a2b-b8e1-55b146894c53",
+            "value": "Annotation",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "format",
+            "timestamp": "1646125691",
+            "comment": "",
+            "uuid": "6e3c266f-8efc-45a1-b72c-e3d252f758bb",
+            "value": "text",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1646125852",
+        "name": "script",
+        "sharing_group_id": "0",
+        "uuid": "8a658310-4183-4368-8ad7-9d71fe63e083",
+        "comment": "",
+        "description": "Object describing a computer program written to be run in a special run-time environment. The script or shell script can be used for malicious activities but also as support tools for threat analysts.",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "6bce7d01-dbec-4054-b3c2-3655a19382e2",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "script-as-attachment",
+            "timestamp": "1646125852",
+            "data": "aW1wb3J0IHN0cmluZwppbXBvcnQgZG5zLnJlc29sdmVyCgpkb21haW4gPSAnLmdzLnRoYy5vcmcnCgpmb3IgbmFtZSBpbiBzdHJpbmcuYXNjaWlfbG93ZXJjYXNlOgogICAgaG9zdCA9IGYne25hbWV9e2RvbWFpbn0nCiAgICBhbnN3ZXJzID0gZG5zLnJlc29sdmVyLnJlc29sdmUoaG9zdCwgJ0EnKQogICAgZm9yIHJkYXRhIGluIGFuc3dlcnM6CiAgICAgICAgcHJpbnQoZid7cmRhdGF9LHtob3N0fScpCg==",
+            "comment": "",
+            "uuid": "e8143d94-6066-457e-8bc9-c3a122fedaeb",
+            "value": "enumerate-gsocket.py",
+            "to_ids": false,
+            "type": "attachment",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "language",
+            "timestamp": "1646125852",
+            "comment": "",
+            "uuid": "d23f1463-9d15-40d2-b072-b7b533c2fc5b",
+            "value": "Python",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "comment",
+            "timestamp": "1646125852",
+            "comment": "",
+            "uuid": "d8896381-74bd-4256-a13c-59460784f1d6",
+            "value": "Support script for extracting the hosts",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1646125852",
+            "comment": "",
+            "uuid": "d3112599-0a58-4b43-8ff7-b7e180b91c00",
+            "value": "Trusted",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "Event": {
+    "date": "2018-01-18",
+    "timestamp": "1516884441",
+    "analysis": "2",
+    "uuid": "5a698fd0-f3dc-4e06-a580-4d34950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1516884450",
+    "info": "Malicious Chrome browser extensions injecting code",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5f-fd34-43b8-ac1d-40cb950d210f",
+      "name": "CthulhuSPRL.be"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1516867606",
+        "comment": "",
+        "uuid": "5a699016-4e10-4b03-831e-49e4950d210f",
+        "value": "https://www.icebrg.io/blog/malicious-chrome-extensions-enable-criminals-to-impact-over-half-a-million-users-and-global-businesses",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867690",
+        "comment": "",
+        "uuid": "5a69906a-8014-442a-bcc8-46fd950d210f",
+        "value": "change-request.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867691",
+        "comment": "",
+        "uuid": "5a69906b-219c-492c-a9ed-41f6950d210f",
+        "value": "lite-bookmarks.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867691",
+        "comment": "",
+        "uuid": "5a69906b-f408-49b5-becc-4a95950d210f",
+        "value": "stickies.pro",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867692",
+        "comment": "",
+        "uuid": "5a69906c-0df8-45da-9ac8-480a950d210f",
+        "value": "a.stickies.pro",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867692",
+        "comment": "",
+        "uuid": "5a69906c-48d4-4066-a57f-4713950d210f",
+        "value": "nyoogle.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867693",
+        "comment": "",
+        "uuid": "5a69906d-d2ec-457f-9401-4843950d210f",
+        "value": "s1.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867693",
+        "comment": "",
+        "uuid": "5a69906d-5610-4f04-85d5-485f950d210f",
+        "value": "s2.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867693",
+        "comment": "",
+        "uuid": "5a69906d-ce24-4045-80c8-4e7e950d210f",
+        "value": "s3.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867694",
+        "comment": "",
+        "uuid": "5a69906e-c63c-47a6-8180-4c0a950d210f",
+        "value": "s4.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867694",
+        "comment": "",
+        "uuid": "5a69906e-fd34-42a8-9afc-4e1a950d210f",
+        "value": "s5.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867694",
+        "comment": "",
+        "uuid": "5a69906e-5590-49c8-a58e-44a2950d210f",
+        "value": "s6.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867695",
+        "comment": "",
+        "uuid": "5a69906f-5110-4a74-9f39-4d4f950d210f",
+        "value": "s7.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867695",
+        "comment": "",
+        "uuid": "5a69906f-a1ac-4909-a062-4fa9950d210f",
+        "value": "s8.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867696",
+        "comment": "",
+        "uuid": "5a699070-4c28-48af-9d47-4c2c950d210f",
+        "value": "s9.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867696",
+        "comment": "",
+        "uuid": "5a699070-fdc8-470b-985a-4aac950d210f",
+        "value": "s10.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867696",
+        "comment": "",
+        "uuid": "5a699070-7454-4f66-80c2-461a950d210f",
+        "value": "s11.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867697",
+        "comment": "",
+        "uuid": "5a699071-b0f8-4eda-8714-405c950d210f",
+        "value": "s12.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867697",
+        "comment": "",
+        "uuid": "5a699071-173c-4880-bff4-464f950d210f",
+        "value": "s13.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867698",
+        "comment": "",
+        "uuid": "5a699072-6948-4c15-b16a-4c47950d210f",
+        "value": "s14.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867698",
+        "comment": "",
+        "uuid": "5a699072-04a8-4517-973c-4dbb950d210f",
+        "value": "s15.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867698",
+        "comment": "",
+        "uuid": "5a699072-4c00-4238-978a-423e950d210f",
+        "value": "s16.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867699",
+        "comment": "",
+        "uuid": "5a699073-274c-4e95-8b1e-4cd3950d210f",
+        "value": "s17.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867699",
+        "comment": "",
+        "uuid": "5a699073-66bc-49fa-a283-42d7950d210f",
+        "value": "s18.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867700",
+        "comment": "",
+        "uuid": "5a699074-9010-4bd4-919d-44fc950d210f",
+        "value": "s19.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867700",
+        "comment": "",
+        "uuid": "5a699074-60bc-44db-95fa-4bb8950d210f",
+        "value": "s20.nyoogle.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867700",
+        "comment": "",
+        "uuid": "5a699074-3bcc-4681-9a48-44be950d210f",
+        "value": "109.206.161.12",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867701",
+        "comment": "",
+        "uuid": "5a699075-43c8-437d-924b-459f950d210f",
+        "value": "109.206.161.14",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867701",
+        "comment": "",
+        "uuid": "5a699075-a360-4bfa-8128-4d45950d210f",
+        "value": "109.206.161.15",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867702",
+        "comment": "",
+        "uuid": "5a699076-3a50-4309-99f0-416d950d210f",
+        "value": "109.206.161.16",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867702",
+        "comment": "",
+        "uuid": "5a699076-8568-49d8-a475-4709950d210f",
+        "value": "109.206.161.17",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867702",
+        "comment": "",
+        "uuid": "5a699076-ff60-4712-986f-48c5950d210f",
+        "value": "109.206.161.21",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867703",
+        "comment": "",
+        "uuid": "5a699077-a89c-443c-8ce3-4f23950d210f",
+        "value": "109.206.161.22",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867703",
+        "comment": "",
+        "uuid": "5a699077-f0a0-4e7b-bdc2-4cf1950d210f",
+        "value": "109.206.161.24",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867704",
+        "comment": "",
+        "uuid": "5a699078-d2fc-4056-9c27-4958950d210f",
+        "value": "109.206.161.115",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867704",
+        "comment": "",
+        "uuid": "5a699078-0308-4ec1-94a8-434e950d210f",
+        "value": "109.206.161.116",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867704",
+        "comment": "",
+        "uuid": "5a699078-9060-45de-9968-4cc7950d210f",
+        "value": "109.206.161.118",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867705",
+        "comment": "",
+        "uuid": "5a699079-d880-4382-ace5-40b8950d210f",
+        "value": "109.206.161.123",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867705",
+        "comment": "",
+        "uuid": "5a699079-fc34-4b3d-8a4b-4342950d210f",
+        "value": "109.206.161.69",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867706",
+        "comment": "",
+        "uuid": "5a69907a-f8cc-478f-b2a4-4f9e950d210f",
+        "value": "109.206.161.71",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867706",
+        "comment": "",
+        "uuid": "5a69907a-4b0c-4214-a67a-4c06950d210f",
+        "value": "109.206.161.72",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867706",
+        "comment": "",
+        "uuid": "5a69907a-837c-4750-8d95-47a3950d210f",
+        "value": "109.206.161.103",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867707",
+        "comment": "",
+        "uuid": "5a69907b-cbdc-4520-8e92-4a2d950d210f",
+        "value": "109.206.161.104",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867707",
+        "comment": "",
+        "uuid": "5a69907b-4340-4570-8011-4e27950d210f",
+        "value": "109.206.161.105",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867708",
+        "comment": "",
+        "uuid": "5a69907c-83dc-4e86-80fe-47f8950d210f",
+        "value": "109.206.161.106",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867708",
+        "comment": "",
+        "uuid": "5a69907c-74d0-4dcc-809f-4503950d210f",
+        "value": "109.206.161.107",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867708",
+        "comment": "",
+        "uuid": "5a69907c-1fd8-4853-a020-4ddb950d210f",
+        "value": "109.206.161.108",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867709",
+        "comment": "",
+        "uuid": "5a69907d-e360-475e-8ebf-4d26950d210f",
+        "value": "109.206.161.117",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1516867709",
+        "comment": "",
+        "uuid": "5a69907d-95bc-4234-92ba-4d41950d210f",
+        "value": "109.206.161.124",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

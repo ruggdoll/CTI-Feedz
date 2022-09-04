@@ -1,0 +1,1141 @@
+{
+  "Event": {
+    "date": "2021-01-05",
+    "timestamp": "1609857141",
+    "analysis": "2",
+    "uuid": "4ce77fdd-19a8-4037-ac75-4ece0c05d63f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1609857165",
+    "info": "C2-JARM - A list of JARM hashes for different ssl implementations used by some C2 tools.",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#0071c3",
+        "name": "osint:lifetime=\"perpetual\""
+      },
+      {
+        "colour": "#0087e8",
+        "name": "osint:certainty=\"50\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0c9900",
+        "name": "cycat:type=\"fingerprint\""
+      },
+      {
+        "colour": "#13f200",
+        "name": "cycat:scope=\"investigation\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"Cobalt Strike\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"metasploit\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1609856323",
+        "comment": "",
+        "uuid": "f572abd2-6032-4d7b-a43a-b7e3c02ec2cc",
+        "value": "https://github.com/cedowens/C2-JARM",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1609854971",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "ced5e867-1f14-4ffb-9689-8b567dc4fc67",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609854971",
+            "comment": "",
+            "uuid": "db1bef7e-6b94-40a6-94eb-e5b8c47ff6c5",
+            "value": "2ad2ad0002ad2ad00042d42d000000ad9bf51cc3f5a1e29eecb81d0c7b06eb",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609854971",
+            "comment": "",
+            "uuid": "2c127d4d-5c31-47c4-94fb-bff1bbb00674",
+            "value": "Mythic",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609854971",
+            "comment": "",
+            "uuid": "6cfc5cd7-4bec-479d-96d2-05c708aafd77",
+            "value": "https://github.com/its-a-feature/Mythic",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609854971",
+            "comment": "",
+            "uuid": "61ad29ea-41a7-45ad-81c6-6ac7c737254f",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609854971",
+            "comment": "",
+            "uuid": "c1257f87-04cc-412b-8643-bd77b0b3f620",
+            "value": "python 3 w/aiohttp 3",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609855129",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "e93aa5ee-e092-4ef5-8e41-3429a83d2abe",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609855129",
+            "comment": "",
+            "uuid": "a764fde0-771a-49f3-9702-f553f0daa10b",
+            "value": "07d14d16d21d21d00042d43d000000aa99ce74e2c6d013c745aa52b5cc042d",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609855129",
+            "comment": "",
+            "uuid": "706d348d-6db7-4fa9-afc3-1c79baeaf25b",
+            "value": "Metasploit ssl listener",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609855129",
+            "comment": "",
+            "uuid": "4df63fc2-8887-4744-b28f-d9fe004434ce",
+            "value": "https://github.com/rapid7/metasploit-framework",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609855129",
+            "comment": "",
+            "uuid": "c05806f2-43a0-4895-81f4-85c6e255f4f9",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609855129",
+            "comment": "",
+            "uuid": "10aff875-65e8-4d18-a105-bdd98197629d",
+            "value": "ruby 2.7.0p0",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609855210",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "e6dd5ea7-3f49-4a62-bb21-b9ce07651d20",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609855210",
+            "comment": "",
+            "uuid": "b50ff3c6-6cd9-4371-be55-8a89a7fc545e",
+            "value": "07d14d16d21d21d07c42d43d000000f50d155305214cf247147c43c0f1a823",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609855210",
+            "comment": "",
+            "uuid": "2fa1d211-4cb4-4b04-afae-4c51e96e08ff",
+            "value": "Metasploit ssl listener",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609855210",
+            "comment": "",
+            "uuid": "fe088a1c-acc5-426c-9337-d756b9a98531",
+            "value": "https://github.com/rapid7/metasploit-framework",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609855210",
+            "comment": "",
+            "uuid": "0cd2a53a-27f3-47d6-98c0-97c68ea4eb47",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609855210",
+            "comment": "",
+            "uuid": "2a80b9e7-8403-426e-8b7e-d8b10430e3a8",
+            "value": "ruby",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609855535",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "a758246f-0986-4fe6-b97e-5abaa78aaa1c",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609855535",
+            "comment": "",
+            "uuid": "449c5134-2c5a-411d-b700-064ce3d0d5a1",
+            "value": "07d14d16d21d21d07c42d41d00041d24a458a375eef0c576d23a7bab9a9fb1",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609855535",
+            "comment": "",
+            "uuid": "34040bae-2bad-4dd3-8dec-219ae06f87fb",
+            "value": "Cobalt Strike",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609855535",
+            "comment": "",
+            "uuid": "5a8c65ce-a5ee-4a30-a05e-ccc4764bde6c",
+            "value": "https://www.cobaltstrike.com/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609855535",
+            "comment": "",
+            "uuid": "94f82e21-704d-4b5d-bdfb-673d7d7d6210",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609855535",
+            "comment": "",
+            "uuid": "7f3f56cf-14e1-42c0-97e3-809fe3e7ad0c",
+            "value": "Java 11",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609855804",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "14941eb1-e8eb-424e-baec-9bbe3484c37c",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609855804",
+            "comment": "",
+            "uuid": "08ca7b92-8172-4739-ac7c-3f972cc8a328",
+            "value": "29d21b20d29d29d21c41d21b21b41d494e0df9532e75299f15ba73156cee38",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609855804",
+            "comment": "",
+            "uuid": "fad3fccb-ef05-4c4c-bd93-7dd5ea0d216a",
+            "value": "Merlin",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609855804",
+            "comment": "",
+            "uuid": "99f11535-af75-480e-b4e5-23750e58a893",
+            "value": "https://github.com/Ne0nd0g/merlin",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609855804",
+            "comment": "",
+            "uuid": "1887a168-ee89-4ce1-81a3-7ee8c64a0fa3",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609855804",
+            "comment": "",
+            "uuid": "1a340b19-e004-4912-8b89-a786b6eaf10e",
+            "value": "go 1.15.2 linux/amd64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609855865",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "149bb42e-13f3-40cd-86f2-a777bcd48e5c",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609855865",
+            "comment": "",
+            "uuid": "89af9cc4-f17a-4aae-b816-467f6fb4410b",
+            "value": "00000000000000000041d00000041d9535d5979f591ae8e547c5e5743e5b64",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609855865",
+            "comment": "",
+            "uuid": "9553b5f5-cd91-415f-9f3e-eb4ff4fb2e41",
+            "value": "Deimos",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609855865",
+            "comment": "",
+            "uuid": "de402bf3-2c76-48dd-bbc4-1175f681b4e6",
+            "value": "https://github.com/DeimosC2/DeimosC2",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609855865",
+            "comment": "",
+            "uuid": "5559888d-fc30-4f6f-9410-9b779fd6aca7",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609855865",
+            "comment": "",
+            "uuid": "c1bbab5c-0986-406e-b8d3-ef943c916417",
+            "value": "go 1.15.2 linux/amd64 with github.com/gorilla/websocket package",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609855929",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "71540ec8-7ab5-4101-833b-9581fa00aec3",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609855929",
+            "comment": "",
+            "uuid": "0d79a2ce-2bcc-4972-a162-edceab95f71e",
+            "value": "2ad2ad0002ad2ad22c42d42d000000faabb8fd156aa8b4d8a37853e1063261",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609855929",
+            "comment": "",
+            "uuid": "a13f2baf-9827-489d-9674-3b06a5d06804",
+            "value": "MacC2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609855929",
+            "comment": "",
+            "uuid": "42f879f6-629d-4e43-8d5b-aaa98a0c9c03",
+            "value": "https://github.com/cedowens/MacC2",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609855929",
+            "comment": "",
+            "uuid": "8644069d-b351-4d10-904e-5783aaae069b",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609855929",
+            "comment": "",
+            "uuid": "d6f89037-50c0-4460-b1ca-b89311d5419b",
+            "value": "python 3.8.6 w/aiohttp 3",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609855980",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "2167582f-1957-42e4-b487-07ab72472ebd",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609855980",
+            "comment": "",
+            "uuid": "ba06f416-b663-481e-89f7-eff6bd163088",
+            "value": "2ad2ad0002ad2ad00042d42d000000ad9bf51cc3f5a1e29eecb81d0c7b06eb",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609855980",
+            "comment": "",
+            "uuid": "c73119c6-0185-4ce4-9236-65d290d0873f",
+            "value": "MacC2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609855980",
+            "comment": "",
+            "uuid": "90b06fa0-129e-4218-b4e7-bca7209df738",
+            "value": "https://github.com/cedowens/MacC2",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609855980",
+            "comment": "",
+            "uuid": "c841489d-53f6-4a0c-a9c1-76368f92ebaf",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609855980",
+            "comment": "",
+            "uuid": "918e6d7a-670e-48c3-ae5e-2eaa1dbba809",
+            "value": "python 3.8.2 w/aiohttp 3",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609856029",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "8217d319-e5d7-4060-84ac-3cf744310696",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609856029",
+            "comment": "",
+            "uuid": "d0c773b3-60a6-4f65-afee-9b62c8e7917e",
+            "value": "2ad000000000000000000000000000eeebf944d0b023a00f510f06a29b4f46",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609856029",
+            "comment": "",
+            "uuid": "ce2cd483-5478-413c-954d-09e0ccae2f19",
+            "value": "MacShellSwift",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609856029",
+            "comment": "",
+            "uuid": "1e917e1a-8cfd-4f4d-8b4f-a9680a92b872",
+            "value": "https://github.com/cedowens/MacShellSwift",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609856029",
+            "comment": "",
+            "uuid": "73e97aac-333e-46a0-82ff-96ef1fe6143d",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609856029",
+            "comment": "",
+            "uuid": "9ad1e43d-ed19-4e62-84f5-60e65fe943b4",
+            "value": "python 3.8.6 socket",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609856074",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "34e5ca1e-c73e-4d3c-a0b6-d4050ed3333c",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609856074",
+            "comment": "",
+            "uuid": "eb638ebb-b415-42a5-a0ec-e921aba3e8f0",
+            "value": "2ad000000000000000000000000000eeebf944d0b023a00f510f06a29b4f46",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609856074",
+            "comment": "",
+            "uuid": "8ad8e0cc-ca3b-4254-bf54-27806f22587f",
+            "value": "MacShell",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609856074",
+            "comment": "",
+            "uuid": "c54ba9b9-0bba-4068-8008-8adc23303b91",
+            "value": "https://github.com/cedowens/MacShellSwift",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609856074",
+            "comment": "",
+            "uuid": "c0ff2c54-cb3b-47e5-8583-0a21bca31678",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609856074",
+            "comment": "",
+            "uuid": "c26b76fa-3580-43a3-9249-fcefe4d87388",
+            "value": "python 3.8.6 socket",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609856129",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "673d0d58-9054-4746-88e6-4e6a0ba0dec6",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609856129",
+            "comment": "",
+            "uuid": "05fa1dff-6273-470a-b49c-431994743fdb",
+            "value": "2ad2ad0002ad2ad00041d2ad2ad41da5207249a18099be84ef3c8811adc883",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609856129",
+            "comment": "",
+            "uuid": "e9af814d-14bc-427b-bfff-4405779c931a",
+            "value": "Sliver",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609856129",
+            "comment": "",
+            "uuid": "21e9691b-95be-41a4-971b-11b08bf0fdea",
+            "value": "https://github.com/BishopFox/sliver",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609856129",
+            "comment": "",
+            "uuid": "133624cd-879e-4695-a0fd-0423467dd688",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609856129",
+            "comment": "",
+            "uuid": "351e1c90-ee5f-4ea4-8f2a-71246084365c",
+            "value": "go 1.15.2 linux/amd64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609856197",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "961dd2b0-5313-4148-bb63-9b5ed35da7c0",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609856197",
+            "comment": "",
+            "uuid": "8c3f9ef9-70f8-44ee-9884-c963b2917b2c",
+            "value": "20d14d20d21d20d20c20d14d20d20daddf8a68a1444c74b6dbe09910a511e6",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609856197",
+            "comment": "",
+            "uuid": "ebf3ebf0-9d01-490b-a91e-587b2be69cd8",
+            "value": "EvilGinx2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609856197",
+            "comment": "",
+            "uuid": "9e987aac-60ed-490a-9250-a952a2dcda82",
+            "value": "https://github.com/kgretzky/evilginx2",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609856197",
+            "comment": "",
+            "uuid": "d62d2f32-f935-4f48-9121-c064cb2e06f8",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609856197",
+            "comment": "",
+            "uuid": "ef99db24-fa12-44f6-8ebe-ec984577bd87",
+            "value": "go 1.10.4 linux/amd64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609856245",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "3858ea64-da2d-4f65-a09e-8f6b8d6221aa",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609856245",
+            "comment": "",
+            "uuid": "7814567b-ad50-4351-8d2d-21ce8a382dd3",
+            "value": "2ad2ad0002ad2ad00042d42d000000ad9bf51cc3f5a1e29eecb81d0c7b06eb",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609856245",
+            "comment": "",
+            "uuid": "5e0e2530-9051-460a-8990-bb03e4791a90",
+            "value": "Shad0w",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "reference",
+            "timestamp": "1609856245",
+            "comment": "",
+            "uuid": "fc29c257-02dc-4c94-b27d-bbd4f2caa13f",
+            "value": "https://github.com/bats3c/shad0w",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609856245",
+            "comment": "",
+            "uuid": "1365786b-5c55-4ec2-b140-5dfda158e75b",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609856245",
+            "comment": "",
+            "uuid": "7db599cc-c1a7-478b-9ea6-95d585ce5643",
+            "value": "python 3.8 flask",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609856289",
+        "name": "jarm",
+        "sharing_group_id": "0",
+        "uuid": "992020a7-615a-444c-b1f7-7770dbd88f3d",
+        "comment": "",
+        "description": "Jarm object to describe an TLS/SSL implementation used for malicious or legitimate use-case.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "8220ce60-ce3f-4be4-afa9-743f94ec37e0",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "jarm",
+            "timestamp": "1609856289",
+            "comment": "",
+            "uuid": "3991d211-7c60-4c55-bf9d-1e8cb0e26eed",
+            "value": "07d19d12d21d21d07c07d19d07d21da5a8ab90bcc6bf8bbc6fbec4bcaa8219",
+            "to_ids": true,
+            "type": "jarm-fingerprint",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "tool",
+            "timestamp": "1609856289",
+            "comment": "",
+            "uuid": "4ba185ae-af87-4a08-959d-3a6c1e2f83c1",
+            "value": "Get2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "scope",
+            "timestamp": "1609856290",
+            "comment": "",
+            "uuid": "b2963c66-ff54-41fd-8484-a9271d710be2",
+            "value": "Malicious - C2",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "tls-implementation",
+            "timestamp": "1609856290",
+            "comment": "",
+            "uuid": "814aaeef-74ae-48de-aaf5-745cc3e42a90",
+            "value": "N/A",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1609857042",
+        "name": "report",
+        "sharing_group_id": "0",
+        "uuid": "4d3e74f4-45fc-48b5-bed2-df9fee9a7546",
+        "comment": "",
+        "description": "Metadata used to generate an executive level report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "70a68471-df22-4e3f-aa1a-5a3be19f82df",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "0",
+            "comment": "",
+            "uuid": "c3967118-f1c3-41d3-a51c-5ad6ac34cc4e",
+            "object_uuid": "4d3e74f4-45fc-48b5-bed2-df9fee9a7546",
+            "relationship_type": "references",
+            "referenced_uuid": "f572abd2-6032-4d7b-a43a-b7e3c02ec2cc"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "summary",
+            "timestamp": "1609857008",
+            "comment": "",
+            "uuid": "631bc767-1690-4513-bbb7-ab93acb34a34",
+            "value": "A list of JARM hashes for different ssl implementations used by some C2 tools. Also adding other useful red team tools that use ssl (ex: EvilGinx2).\r\n\r\nFor more info on JARM hashing, check out the work by the Salesforce security team on their JARM github link here: https://github.com/salesforce/jarm\r\n\r\nThis is a neat way to fingerprint ssl servers by the software implementation. This alone would not be sufficient to detect C2 in a high fidelity manner, but JARM hashes coupled with other high value indicators would certainly be of value. This also highlights the need for red teams to ensure their C2 infra is not exposed for public access.\r\n\r\nI plan to add more to this list over time. Feel free to contribute!!",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

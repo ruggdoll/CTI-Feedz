@@ -1,0 +1,244 @@
+{
+  "Event": {
+    "date": "2017-11-28",
+    "timestamp": "1512283042",
+    "analysis": "2",
+    "uuid": "5a216518-dd10-4191-9ac8-4919950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1512283057",
+    "info": "OSINT - Google Discovers New Tizi Android Spyware",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#211c1c",
+        "name": "Android Malware"
+      },
+      {
+        "colour": "#3c6b00",
+        "name": "malware_classification:malware-category=\"Spyware\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:android=\"Tizi\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "",
+        "uuid": "5a2167bd-e750-4d4a-b4f2-4c20950d210f",
+        "value": "com.press.nasa.com.tanofresh",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "com.press.nasa.com.tanofresh",
+        "uuid": "5a2167bd-5f98-45bc-a1b5-4862950d210f",
+        "value": "4d780a6fc18458311250d4d1edc750468fdb9b3e4c950dce5b35d4567b47d4a7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "",
+        "uuid": "5a2167bd-e184-46a4-98e8-43eb950d210f",
+        "value": "com.dailyworkout.tizi",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "com.dailyworkout.tizi",
+        "uuid": "5a2167bd-d7fc-4be3-ab49-488d950d210f",
+        "value": "7c6af091a7b0f04fb5b212bd3c180ddcc6abf7cd77478fd22595e5b7aa7cfd9f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "",
+        "uuid": "5a2167bd-5ebc-4c51-9b93-4f70950d210f",
+        "value": "com.system.update.systemupdate",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "com.system.update.systemupdate",
+        "uuid": "5a2167bd-fb5c-4b49-b44f-43c6950d210f",
+        "value": "7a956c754f003a219ea1d2205de3ef5bc354419985a487254b8aeb865442a55e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512282367",
+        "comment": "",
+        "uuid": "5a216d15-6b0c-4b76-9e83-41a6950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/google-discovers-new-tizi-android-spyware/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512282367",
+        "comment": "",
+        "uuid": "5a216d33-5f44-4643-a153-4bb2950d210f",
+        "value": "Google's security team discovered a new strain of Android malware, named Tizi, and which has been used primarily to target users in African countries.\r\n\r\nCategorized as spyware, Google says Tizi can carry out a wide range of operations, but most focus on social media apps and activity.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "com.system.update.systemupdate - Xchecked via VT: 7a956c754f003a219ea1d2205de3ef5bc354419985a487254b8aeb865442a55e",
+        "uuid": "5a2398ff-ea08-42ea-a97e-bb2c02de0b81",
+        "value": "184152328f8662006376b6a0b5a50f5f9219c8ce",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "com.system.update.systemupdate - Xchecked via VT: 7a956c754f003a219ea1d2205de3ef5bc354419985a487254b8aeb865442a55e",
+        "uuid": "5a2398ff-7da0-457c-9904-bb2c02de0b81",
+        "value": "9d073c17499632150dc72ac92590780d",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512282367",
+        "comment": "com.system.update.systemupdate - Xchecked via VT: 7a956c754f003a219ea1d2205de3ef5bc354419985a487254b8aeb865442a55e",
+        "uuid": "5a2398ff-21e4-4169-b6c8-bb2c02de0b81",
+        "value": "https://www.virustotal.com/file/7a956c754f003a219ea1d2205de3ef5bc354419985a487254b8aeb865442a55e/analysis/1512003768/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "com.dailyworkout.tizi - Xchecked via VT: 7c6af091a7b0f04fb5b212bd3c180ddcc6abf7cd77478fd22595e5b7aa7cfd9f",
+        "uuid": "5a2398ff-8f34-41cb-9e82-bb2c02de0b81",
+        "value": "501ca245120882a82021c8b8a2e5304b6e03eef5",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282367",
+        "comment": "com.dailyworkout.tizi - Xchecked via VT: 7c6af091a7b0f04fb5b212bd3c180ddcc6abf7cd77478fd22595e5b7aa7cfd9f",
+        "uuid": "5a2398ff-2ad0-4330-b947-bb2c02de0b81",
+        "value": "abe47a9e7d8da5c3a4f7579b61e9d72f",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512282367",
+        "comment": "com.dailyworkout.tizi - Xchecked via VT: 7c6af091a7b0f04fb5b212bd3c180ddcc6abf7cd77478fd22595e5b7aa7cfd9f",
+        "uuid": "5a2398ff-ddf4-4e19-9f96-bb2c02de0b81",
+        "value": "https://www.virustotal.com/file/7c6af091a7b0f04fb5b212bd3c180ddcc6abf7cd77478fd22595e5b7aa7cfd9f/analysis/1512160033/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282368",
+        "comment": "com.press.nasa.com.tanofresh - Xchecked via VT: 4d780a6fc18458311250d4d1edc750468fdb9b3e4c950dce5b35d4567b47d4a7",
+        "uuid": "5a239900-6dfc-4a68-aef0-bb2c02de0b81",
+        "value": "7ebdea26b6a0b7e9e7606d70c187ab0be934386e",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1512282368",
+        "comment": "com.press.nasa.com.tanofresh - Xchecked via VT: 4d780a6fc18458311250d4d1edc750468fdb9b3e4c950dce5b35d4567b47d4a7",
+        "uuid": "5a239900-6ad0-4ebd-bc73-bb2c02de0b81",
+        "value": "d0da76c2f0c5aa3ef5af897bec2f0e52",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1512282368",
+        "comment": "com.press.nasa.com.tanofresh - Xchecked via VT: 4d780a6fc18458311250d4d1edc750468fdb9b3e4c950dce5b35d4567b47d4a7",
+        "uuid": "5a239900-da84-4a68-89a5-bb2c02de0b81",
+        "value": "https://www.virustotal.com/file/4d780a6fc18458311250d4d1edc750468fdb9b3e4c950dce5b35d4567b47d4a7/analysis/1512212017/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

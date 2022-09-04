@@ -1,0 +1,185 @@
+{
+  "Event": {
+    "date": "2017-11-17",
+    "timestamp": "1511360400",
+    "analysis": "2",
+    "uuid": "5a142fcd-cb4c-4b8b-99c5-0efd950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1511380245",
+    "info": "OSINT - 0000 Cryptomix Ransomware Variant Released",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"CryptoMix\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1511360394",
+        "comment": "",
+        "uuid": "5a14304e-d2f4-4c56-aefa-0e94950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/0000-cryptomix-ransomware-variant-released/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511360394",
+        "comment": "",
+        "uuid": "5a14322a-c1fc-4da1-a612-531a950d210f",
+        "value": "Yesterday, MalwareHunterTeam discovered another variant of the CryptoMix ransomware, which puts it at two releases of new variants this week. This variant appends the .0000 extension to encrypted files and changes the contact emails used by the ransomware.",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511360394",
+        "comment": "",
+        "uuid": "5a143471-8128-4796-8508-52fe950d210f",
+        "value": "y0000@tuta.io",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511360394",
+        "comment": "",
+        "uuid": "5a143472-2628-4ccc-8568-52fe950d210f",
+        "value": "y0000@protonmail.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511360394",
+        "comment": "",
+        "uuid": "5a143472-6984-4ba2-8331-52fe950d210f",
+        "value": "y0000z@yandex.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511360394",
+        "comment": "",
+        "uuid": "5a143472-b188-4823-943a-52fe950d210f",
+        "value": "y0000s@yandex.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511360394",
+        "comment": "Ransomnote",
+        "uuid": "5a143472-a184-4a18-9349-52fe950d210f",
+        "value": "_HELP_INSTRUCTION.TXT",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511360394",
+        "comment": "Ransomnote",
+        "uuid": "5a143472-7340-4b78-b95a-52fe950d210f",
+        "value": "%ALLUSERSPROFILE%\\[random].exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511360394",
+        "comment": "",
+        "uuid": "5a143472-cc54-4e2c-903c-52fe950d210f",
+        "value": "7bbd1d047b5cb3d7f073e3a5cfbf81cdb8fee970fe62ee4135f56e68245eba2f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511360394",
+        "comment": "- Xchecked via VT: 7bbd1d047b5cb3d7f073e3a5cfbf81cdb8fee970fe62ee4135f56e68245eba2f",
+        "uuid": "5a15878a-c77c-469b-ae6a-434402de0b81",
+        "value": "0b79a93d4a57cfd2d1f9d328c90e04136edd80c0",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1511360394",
+        "comment": "- Xchecked via VT: 7bbd1d047b5cb3d7f073e3a5cfbf81cdb8fee970fe62ee4135f56e68245eba2f",
+        "uuid": "5a15878a-e380-4c76-98e8-45b402de0b81",
+        "value": "7f3f613651f070bca3e212ecddf84e1f",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1511360394",
+        "comment": "- Xchecked via VT: 7bbd1d047b5cb3d7f073e3a5cfbf81cdb8fee970fe62ee4135f56e68245eba2f",
+        "uuid": "5a15878a-da1c-45e1-a2a8-450202de0b81",
+        "value": "https://www.virustotal.com/file/7bbd1d047b5cb3d7f073e3a5cfbf81cdb8fee970fe62ee4135f56e68245eba2f/analysis/1511335852/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

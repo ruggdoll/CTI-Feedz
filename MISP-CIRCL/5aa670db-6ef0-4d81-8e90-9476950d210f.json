@@ -1,0 +1,703 @@
+{
+  "Event": {
+    "date": "2018-03-12",
+    "timestamp": "1520857725",
+    "analysis": "2",
+    "uuid": "5aa670db-6ef0-4d81-8e90-9476950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1520857733",
+    "info": "OSINT - APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#10cb00",
+        "name": "misp-galaxy:threat-actor=\"Mirage\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Network activity",
+        "timestamp": "1520857671",
+        "comment": "Possible linked APT15 domains include:",
+        "uuid": "5aa670f5-39b4-4382-9f91-0fa3950d210f",
+        "value": "micakiz.wikaba.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857671",
+        "comment": "Possible linked APT15 domains include:",
+        "uuid": "5aa670f6-d5ac-4682-9a04-0fa3950d210f",
+        "value": "cavanic9.net",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857672",
+        "comment": "Possible linked APT15 domains include:",
+        "uuid": "5aa670f6-d5d4-4202-9a37-0fa3950d210f",
+        "value": "ridingduck.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857672",
+        "comment": "Possible linked APT15 domains include:",
+        "uuid": "5aa670f7-0014-4df2-a56f-0fa3950d210f",
+        "value": "zipcodeterm.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857672",
+        "comment": "Possible linked APT15 domains include:",
+        "uuid": "5aa670f7-6a48-4bdf-8746-0fa3950d210f",
+        "value": "dnsapp.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857673",
+        "comment": "RoyalDNS backdoor was seen communicating to the domain:",
+        "uuid": "5aa67102-ced4-4a30-b0d7-0fa3950d210f",
+        "value": "andspurs.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857673",
+        "comment": "The BS2005 backdoor utilised the following domains for C2:",
+        "uuid": "5aa6710e-52b4-40af-ac3b-0fa3950d210f",
+        "value": "run.linodepower.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857673",
+        "comment": "The BS2005 backdoor utilised the following domains for C2:",
+        "uuid": "5aa6710f-fe88-4d3d-96a7-0fa3950d210f",
+        "value": "singa.linodepower.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857674",
+        "comment": "The BS2005 backdoor utilised the following domains for C2:",
+        "uuid": "5aa6710f-50d0-4454-860d-0fa3950d210f",
+        "value": "log.autocount.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857674",
+        "comment": "The RoyalCli backdoor was attempting to communicate to the following domains:",
+        "uuid": "5aa6711b-a1c4-40d1-92b7-0fa3950d210f",
+        "value": "news.memozilla.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1520857675",
+        "comment": "The RoyalCli backdoor was attempting to communicate to the following domains:",
+        "uuid": "5aa6711b-f3b8-4787-b246-0fa3950d210f",
+        "value": "video.memozilla.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1520857413",
+        "comment": "Royal DNS",
+        "uuid": "5aa67145-28d0-47cb-927a-d9cd950d210f",
+        "value": "bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1520857413",
+        "comment": "BS2005",
+        "uuid": "5aa67145-68d0-4b05-a406-d9cd950d210f",
+        "value": "750d9eecd533f89b8aa13aeab173a1cf813b021b6824bc30e60f5db6fa7b950b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1520857414",
+        "comment": "BS2005",
+        "uuid": "5aa67146-a2d0-4ed0-968e-d9cd950d210f",
+        "value": "6ea9cc475d41ca07fa206eb84b10cf2bbd2392366890de5ae67241afa2f4269f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1520857414",
+        "comment": "RoyalCli",
+        "uuid": "5aa67146-e6a4-40d8-a37c-d9cd950d210f",
+        "value": "6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1520857414",
+        "comment": "MS Exchange Tool",
+        "uuid": "5aa67146-1288-4aa0-9671-d9cd950d210f",
+        "value": "16b868d1bef6be39f69b4e976595e7bd46b6c0595cf6bc482229dbb9e64f1bce",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1520857675",
+        "comment": "",
+        "uuid": "5aa67163-e99c-4bf6-9649-d928950d210f",
+        "value": "%USERPROFILE%\\documents\\visual studio 2010\\Projects\\RoyalCli\\Release\\RoyalCli.pdb",
+        "to_ids": false,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1520857676",
+        "comment": "",
+        "uuid": "5aa67177-ac60-43db-9bd5-4053950d210f",
+        "value": "APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS\r\nIn May 2017, NCC Group's Incident Response team reacted to an ongoing incident where our client, which provides a range of services to UK Government, suffered a network compromise involving the advanced persistent threat group APT15.\r\n\r\nAPT15 is also known as, Ke3chang, Mirage, Vixen Panda GREF and Playful Dragon.\r\nA number of sensitive documents were stolen by the attackers during the incident and we believe APT15 was targeting information related to UK government departments and military technology.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Other",
+        "timestamp": "1520857676",
+        "comment": "",
+        "uuid": "5aa671e4-c8f4-4d39-ad4b-9394950d210f",
+        "value": "5aa64b62-8f2c-4081-a6f9-4480950d210f",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1520857676",
+        "comment": "",
+        "uuid": "5aa67218-06ac-49e7-baa9-d9cd950d210f",
+        "value": "https://github.com/nccgroup/Royal_APT",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1520857680",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "0e812898-7fc4-40f8-ac95-7a23e22438de",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1520857686",
+            "comment": "",
+            "uuid": "5aa67256-1c04-4a97-84a8-947502de0b81",
+            "object_uuid": "0e812898-7fc4-40f8-ac95-7a23e22438de",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "bf2e6e7d-19c6-4341-94b9-8f15b563b0b3"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1520857677",
+            "comment": "BS2005",
+            "uuid": "5aa6724d-b8c0-487a-860b-947502de0b81",
+            "value": "201e74fd33724a872ab89f8a002a560d1ce73e54",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1520857677",
+            "comment": "BS2005",
+            "uuid": "5aa6724d-6bd4-49c4-8c18-947502de0b81",
+            "value": "750d9eecd533f89b8aa13aeab173a1cf813b021b6824bc30e60f5db6fa7b950b",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1520857678",
+            "comment": "BS2005",
+            "uuid": "5aa6724e-c468-4b60-a221-947502de0b81",
+            "value": "ed21ce2beee56f0a0b1c5a62a80c128b",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1520857678",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "bf2e6e7d-19c6-4341-94b9-8f15b563b0b3",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1520857678",
+            "comment": "BS2005",
+            "uuid": "5aa6724e-e14c-4ad9-ad8e-947502de0b81",
+            "value": "https://www.virustotal.com/file/750d9eecd533f89b8aa13aeab173a1cf813b021b6824bc30e60f5db6fa7b950b/analysis/1520793006/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1520857679",
+            "comment": "BS2005",
+            "uuid": "5aa6724f-fd84-4c88-9a54-947502de0b81",
+            "value": "44/67",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1520857679",
+            "comment": "BS2005",
+            "uuid": "5aa6724f-d5a8-4efc-b433-947502de0b81",
+            "value": "2018-03-11T18:30:06",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1520857682",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "06f1e0a0-004c-4356-9f89-380b53274f42",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1520857686",
+            "comment": "",
+            "uuid": "5aa67256-9704-459d-8bd4-947502de0b81",
+            "object_uuid": "06f1e0a0-004c-4356-9f89-380b53274f42",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "326d28d2-bc18-4205-945a-2b3ef2cfa9fa"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1520857679",
+            "comment": "Royal DNS",
+            "uuid": "5aa6724f-0b60-4f1e-b424-947502de0b81",
+            "value": "3d4ee6cbfaeb7890bb0b2d41547849f8e2d9243f",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1520857679",
+            "comment": "Royal DNS",
+            "uuid": "5aa6724f-cfc0-4955-b212-947502de0b81",
+            "value": "bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1520857680",
+            "comment": "Royal DNS",
+            "uuid": "5aa67250-c2c4-4584-8881-947502de0b81",
+            "value": "941a4fc3d2a3289017cf9c56584d1168",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1520857680",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "326d28d2-bc18-4205-945a-2b3ef2cfa9fa",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1520857680",
+            "comment": "Royal DNS",
+            "uuid": "5aa67250-7bc8-45a9-b533-947502de0b81",
+            "value": "https://www.virustotal.com/file/bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d/analysis/1520841997/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1520857681",
+            "comment": "Royal DNS",
+            "uuid": "5aa67251-59a4-4b15-9b43-947502de0b81",
+            "value": "7/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1520857681",
+            "comment": "Royal DNS",
+            "uuid": "5aa67251-5338-45f7-a3c9-947502de0b81",
+            "value": "2018-03-12T08:06:37",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1520857684",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "f1bdc5bc-932a-4efa-9855-e8e3981fbd2f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1520857686",
+            "comment": "",
+            "uuid": "5aa67256-1c8c-4434-aaec-947502de0b81",
+            "object_uuid": "f1bdc5bc-932a-4efa-9855-e8e3981fbd2f",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "3d28abc7-0edd-438c-bd55-54bfbf90e295"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1520857682",
+            "comment": "RoyalCli",
+            "uuid": "5aa67252-6ed4-45b9-9df8-947502de0b81",
+            "value": "a35297163ed0efcb71e63069a3115737d2fe2d1d",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1520857682",
+            "comment": "RoyalCli",
+            "uuid": "5aa67252-c304-4294-81a7-947502de0b81",
+            "value": "6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1520857682",
+            "comment": "RoyalCli",
+            "uuid": "5aa67252-26e8-4190-bc90-947502de0b81",
+            "value": "5e5c9e6e710f67f4886e4f4169d02b1d",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1520857683",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "3d28abc7-0edd-438c-bd55-54bfbf90e295",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1520857683",
+            "comment": "RoyalCli",
+            "uuid": "5aa67253-ffe8-4691-9928-947502de0b81",
+            "value": "https://www.virustotal.com/file/6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785/analysis/1520793104/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1520857683",
+            "comment": "RoyalCli",
+            "uuid": "5aa67253-2ca8-410a-914b-947502de0b81",
+            "value": "45/67",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1520857683",
+            "comment": "RoyalCli",
+            "uuid": "5aa67253-568c-41df-8205-947502de0b81",
+            "value": "2018-03-11T18:31:44",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1520857687",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "c752a171-4c3d-403e-bb4a-5dae51f2993f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1520857687",
+            "comment": "",
+            "uuid": "5aa67257-4ca4-4b10-940e-947502de0b81",
+            "object_uuid": "c752a171-4c3d-403e-bb4a-5dae51f2993f",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "8840afc4-669d-4a92-8a3e-a104c2994436"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1520857684",
+            "comment": "MS Exchange Tool",
+            "uuid": "5aa67254-c7e4-443f-8966-947502de0b81",
+            "value": "63fbd3feb41c0b6de892b4a70a6241d123ec1e5a",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1520857684",
+            "comment": "MS Exchange Tool",
+            "uuid": "5aa67254-1f90-49ec-af2c-947502de0b81",
+            "value": "16b868d1bef6be39f69b4e976595e7bd46b6c0595cf6bc482229dbb9e64f1bce",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1520857684",
+            "comment": "MS Exchange Tool",
+            "uuid": "5aa67254-46f4-409b-843b-947502de0b81",
+            "value": "d21a7e349e796064ce10f2f6ede31c71",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1520857685",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "8840afc4-669d-4a92-8a3e-a104c2994436",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1520857685",
+            "comment": "MS Exchange Tool",
+            "uuid": "5aa67255-56f0-4687-875c-947502de0b81",
+            "value": "https://www.virustotal.com/file/16b868d1bef6be39f69b4e976595e7bd46b6c0595cf6bc482229dbb9e64f1bce/analysis/1520844201/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1520857685",
+            "comment": "MS Exchange Tool",
+            "uuid": "5aa67255-5500-48d8-9364-947502de0b81",
+            "value": "2/67",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1520857685",
+            "comment": "MS Exchange Tool",
+            "uuid": "5aa67255-bb78-4fff-b7bf-947502de0b81",
+            "value": "2018-03-12T08:43:21",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

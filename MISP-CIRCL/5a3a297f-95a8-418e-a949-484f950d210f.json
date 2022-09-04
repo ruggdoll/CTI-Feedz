@@ -1,0 +1,75 @@
+{
+  "Event": {
+    "date": "2017-11-09",
+    "timestamp": "1513825272",
+    "analysis": "2",
+    "uuid": "5a3a297f-95a8-418e-a949-484f950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1514468116",
+    "info": "OSINT - How Mobile Bankbots Disguise as Perfectly Trustworthy Apps",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#f24722",
+        "name": "Banker"
+      },
+      {
+        "colour": "#002f76",
+        "name": "ms-caro-malware-full:malware-family=\"Banker\""
+      },
+      {
+        "colour": "#5f0077",
+        "name": "ms-caro-malware:malware-platform=\"AndroidOS\""
+      },
+      {
+        "colour": "#211c1c",
+        "name": "Android Malware"
+      },
+      {
+        "colour": "#001a40",
+        "name": "ms-caro-malware-full:malware-platform=\"AndroidOS\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1513764306",
+        "comment": "",
+        "uuid": "5a3a2992-b630-4ff6-a166-4b16950d210f",
+        "value": "https://www.riskiq.com/blog/labs/mobile-bankbot/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1513764306",
+        "comment": "",
+        "uuid": "5a3a3286-581c-42a0-9d48-487f950d210f",
+        "value": "91.226.11.200",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

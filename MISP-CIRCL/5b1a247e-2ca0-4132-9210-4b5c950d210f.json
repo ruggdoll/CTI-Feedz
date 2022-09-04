@@ -1,0 +1,578 @@
+{
+  "Event": {
+    "date": "2018-06-08",
+    "timestamp": "1528891759",
+    "analysis": "2",
+    "uuid": "5b1a247e-2ca0-4132-9210-4b5c950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1528904315",
+    "info": "OSINT - PLEAD Downloader Used by BlackTech",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#3b7500",
+        "name": "circl:incident-classification=\"malware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#440055",
+        "name": "ms-caro-malware:malware-type=\"RemoteAccess\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"PLEAD Downloader\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1528440980",
+        "comment": "",
+        "uuid": "5b1a2875-c1a4-4f26-bd0e-4114950d210f",
+        "value": "https://blog.jpcert.or.jp/2018/06/plead-downloader-used-by-blacktech.html",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1528440988",
+        "comment": "",
+        "uuid": "5b1a288c-3f38-4fe7-ae67-4bf8950d210f",
+        "value": "In a past article, we introduced TSCookie, malware which seems to be used by BlackTech[1]. It has been revealed that this actor also uses another type of malware \u00e2\u20ac\u0153PLEAD\u00e2\u20ac\u009d. (\u00e2\u20ac\u0153PLEAD\u00e2\u20ac\u009d is referred to both as a name of malware including TSCookie and its attack campaign [2]. In this article, we refer to \u00e2\u20ac\u0153PLEAD\u00e2\u20ac\u009d as a type malware apart from TSCookie.) PLEAD has two kinds \u00e2\u20ac\u201c RAT (Remote Access Tool) and downloader. The RAT operates based on commands that are provided from C&C servers.\u00e3\u20ac\u20ac(Please refer to a blog post from LAC for more information [3].) On the other hand, PLEAD downloader downloads modules and runs it on memory in the same way as TSCookie does.\r\n\r\nThis article presents behaviour of PLEAD downloader in detail.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1528443752",
+        "comment": "C&C Servers",
+        "uuid": "5b1a3368-3038-4087-9526-48ad950d210f",
+        "value": "em.totalpople.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1528443753",
+        "comment": "C&C Servers",
+        "uuid": "5b1a3369-e80c-44c4-9aea-4ac3950d210f",
+        "value": "office.panasocin.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1528443754",
+        "comment": "C&C Servers",
+        "uuid": "5b1a336a-8174-4113-8e83-40b1950d210f",
+        "value": "gstrap.jkub.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1528443755",
+        "comment": "C&C Servers",
+        "uuid": "5b1a336b-1bac-43b5-a0b3-4d10950d210f",
+        "value": "woc.yasonbin.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1528443756",
+        "comment": "C&C Servers",
+        "uuid": "5b1a336c-85bc-4802-b014-4eda950d210f",
+        "value": "210.71.209.206",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1528440408",
+        "name": "microblog",
+        "sharing_group_id": "0",
+        "uuid": "5b1a2658-b030-445a-a759-4d35950d210f",
+        "comment": "",
+        "description": "Microblog post like a Twitter tweet or a post on a Facebook wall.",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "4",
+        "template_uuid": "8ec8c911-ddbe-4f5b-895b-fbff70c42a60",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "post",
+            "timestamp": "1528440408",
+            "comment": "",
+            "uuid": "5b1a2658-cc14-4c7f-8628-4f2d950d210f",
+            "value": "New Blog Post: PLEAD Downloader Used by BlackTech ^ST",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "type",
+            "timestamp": "1528440408",
+            "comment": "",
+            "uuid": "5b1a2658-532c-44e0-a108-4a3e950d210f",
+            "value": "Twitter",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "url",
+            "timestamp": "1528440408",
+            "comment": "",
+            "uuid": "5b1a2658-2a94-4db5-8438-4423950d210f",
+            "value": "https://mobile.twitter.com/jpcert_en/status/1004964546195279872",
+            "to_ids": true,
+            "type": "url",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "link",
+            "timestamp": "1528440409",
+            "comment": "",
+            "uuid": "5b1a2659-9eb4-47eb-8195-4a47950d210f",
+            "value": "https://t.co/keNYZ2kyzs?amp=1",
+            "to_ids": true,
+            "type": "url",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "link",
+            "timestamp": "1528440409",
+            "comment": "",
+            "uuid": "5b1a2659-8ef8-4001-a42a-444c950d210f",
+            "value": "https://blog.jpcert.or.jp/2018/06/plead-downloader-used-by-blacktech.html",
+            "to_ids": true,
+            "type": "url",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "creation-date",
+            "timestamp": "1528440410",
+            "comment": "",
+            "uuid": "5b1a265a-f408-4e74-ae87-4927950d210f",
+            "value": "2018-06-08T07:53:00",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "username",
+            "timestamp": "1528440410",
+            "comment": "",
+            "uuid": "5b1a265a-d9d0-486b-8a42-4f6c950d210f",
+            "value": "@jpcert_en",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1528442218",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1a2d6a-5750-4781-8f5b-4851950d210f",
+        "comment": "PLEAD",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1528442218",
+            "comment": "",
+            "uuid": "5b1a2d6a-fe14-407e-afbd-4841950d210f",
+            "value": "bc2c8cc9896cdd5816509f43cb5dca7433198251d754a997a70db7e8ed5cca40",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528442219",
+            "comment": "",
+            "uuid": "5b1a2d6b-52d0-4e93-89ee-4480950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528442279",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1a2da7-ed88-444a-89e2-4906950d210f",
+        "comment": "PLEAD",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1528442279",
+            "comment": "",
+            "uuid": "5b1a2da7-3248-4ae5-8beb-4f2c950d210f",
+            "value": "a26df4f62ada084a596bf0f603691bc9c02024be98abec4a9872f0ff0085f940",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528442280",
+            "comment": "",
+            "uuid": "5b1a2da8-8e68-4a0e-a552-4ad8950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528442988",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1a306c-bd54-4540-a856-45c0950d210f",
+        "comment": "PLEAD",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1528442989",
+            "comment": "",
+            "uuid": "5b1a306d-d98c-4e68-9952-46f1950d210f",
+            "value": "2ddb2030ab3373b9438102b541aa4623b7dfee972850dcef05742ecbe8982e22",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528442990",
+            "comment": "",
+            "uuid": "5b1a306e-df9c-43ab-ab1a-4e7c950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528443127",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1a30f7-6900-4a9a-bbb4-4302950d210f",
+        "comment": "PLEAD",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1528443128",
+            "comment": "",
+            "uuid": "5b1a30f8-6de8-4f92-acde-48b3950d210f",
+            "value": "eec3f761f7eabe9ed569f39e896be24c9bbb8861b15dbde1b3d539505cd9dd8d",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528443128",
+            "comment": "",
+            "uuid": "5b1a30f8-dee4-417d-a76a-4596950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528443542",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1a3296-49dc-44e9-92a5-49e3950d210f",
+        "comment": "PLEAD Module",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1528443542",
+            "comment": "",
+            "uuid": "5b1a3296-78fc-4309-9e44-4d49950d210f",
+            "value": "23f554cc5bea9d4ccd62b0bbccaa4599f225ebce4ad956a576cc1a9b2a73dc15",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528443543",
+            "comment": "",
+            "uuid": "5b1a3297-ec90-4006-9f8a-47a3950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528874969",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "a0d856e3-b418-4bb2-b43d-6d49deb9ad90",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528874975",
+            "comment": "",
+            "uuid": "5b20c7df-73b0-4913-8b78-a44802de0b81",
+            "object_uuid": "a0d856e3-b418-4bb2-b43d-6d49deb9ad90",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "73db3348-942a-4a3d-b49c-2b583a468f0e"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874967",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "73db3348-942a-4a3d-b49c-2b583a468f0e",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874971",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "4219f752-d15a-432c-a61f-96110776542c",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528874975",
+            "comment": "",
+            "uuid": "5b20c7df-7be0-4c52-b75e-a44802de0b81",
+            "object_uuid": "4219f752-d15a-432c-a61f-96110776542c",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "14f64b5c-4b8f-466f-adb7-6ae747ea8d3a"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874969",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "14f64b5c-4b8f-466f-adb7-6ae747ea8d3a",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874973",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "b1043de8-cbda-4643-ba40-b859674fcb3b",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528874975",
+            "comment": "",
+            "uuid": "5b20c7df-0310-4453-b65c-a44802de0b81",
+            "object_uuid": "b1043de8-cbda-4643-ba40-b859674fcb3b",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "94567159-8daf-424a-931c-a92997695b6e"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874972",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "94567159-8daf-424a-931c-a92997695b6e",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874976",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "e31dadf4-722b-4f28-aae2-7970b10d50f7",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528874975",
+            "comment": "",
+            "uuid": "5b20c7df-67e8-4101-be73-a44802de0b81",
+            "object_uuid": "e31dadf4-722b-4f28-aae2-7970b10d50f7",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "12242c4a-f4d9-444f-abd3-27deff5869a1"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874974",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "12242c4a-f4d9-444f-abd3-27deff5869a1",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      }
+    ]
+  }
+}

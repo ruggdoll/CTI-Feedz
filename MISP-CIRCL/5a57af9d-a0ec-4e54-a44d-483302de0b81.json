@@ -1,0 +1,1205 @@
+{
+  "Event": {
+    "date": "2018-01-11",
+    "timestamp": "1515726034",
+    "analysis": "2",
+    "uuid": "5a57af9d-a0ec-4e54-a44d-483302de0b81",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1518770817",
+    "info": "OSINT - First Kotlin-Developed Malicious App Signs Users Up for Premium SMS Services",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#37ab00",
+        "name": "enisa:nefarious-activity-abuse=\"mobile-malware\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1515696310",
+        "comment": "",
+        "uuid": "5a57afa7-8ce0-494d-ab37-a42202de0b81",
+        "value": "http://blog.trendmicro.com/trendlabs-security-intelligence/first-kotlin-developed-malicious-app-signs-users-premium-sms-services/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1515696309",
+        "comment": "",
+        "uuid": "5a57afb4-44f4-4a4e-8220-466302de0b81",
+        "value": "We spotted a malicious app (detected by Trend Micro as ANDROIDOS_BKOTKLIND.HRX) that appears to be the first developed using Kotlin\u00e2\u20ac\u201dan open-source programming language for modern multiplatform applications. The samples we found on Google Play posed as Swift Cleaner, a utility tool that cleans and optimizes Android devices. The malicious app, which has 1,000-5,000 installs as of writing, is capable of remote command execution, information theft, SMS sending, URL forwarding, and click ad fraud. It can also sign up users for premium SMS subscription services without their permission.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1515696246",
+        "comment": "C&C servers",
+        "uuid": "5a57afdd-4bf0-4561-9258-395902de0b81",
+        "value": "http://adx.gmpmobi.com",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1515696246",
+        "comment": "C&C servers",
+        "uuid": "5a57afdd-6840-472e-a6aa-395902de0b81",
+        "value": "http://52.76.80.41",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696152",
+        "comment": "Malicious app",
+        "uuid": "5a57b018-2d2c-4378-9cfc-3c5902de0b81",
+        "value": "77d0c7dd4b3d87be6d9dfb0a9c371b4d8eeadccb8fde41d942f1c35e5e3ec063",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696152",
+        "comment": "Malicious app",
+        "uuid": "5a57b018-1330-4ca7-b9f9-3c5902de0b81",
+        "value": "5886316c0b54bbb7ce6978acdb1ab4e2cf2b1494647b9d9ad014802e6bf5c7b8",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696152",
+        "comment": "Malicious app",
+        "uuid": "5a57b019-1f5c-4013-9bb8-3c5902de0b81",
+        "value": "aeef3ff7cc543bbacb6ab4df8da639b98be8f3c225678a4d0935f467bc6d720e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696153",
+        "comment": "Malicious app",
+        "uuid": "5a57b019-7774-4f34-bf82-3c5902de0b81",
+        "value": "621092856e20e628a577dbe9248649eae78d1af611d9168635b22057c6c7552b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696153",
+        "comment": "Malicious app",
+        "uuid": "5a57b019-1000-45df-a397-3c5902de0b81",
+        "value": "329b9c5670ecdf25248e484e23c21bbc86f943d7573ff131c0dc71bc80812d1c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696153",
+        "comment": "Malicious app",
+        "uuid": "5a57b019-e96c-4880-b290-3c5902de0b81",
+        "value": "2856f3d1282ddc6bcfe65b0c91a87d998edccb777387e3f998bc3b6f1d0b3342",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696153",
+        "comment": "Malicious app",
+        "uuid": "5a57b019-6488-4aef-ab2f-3c5902de0b81",
+        "value": "4f649e0ea6a6f022e7a5701cecb5b7653d1334eb40918e52db8f3daacfb3b660",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696153",
+        "comment": "Malicious app",
+        "uuid": "5a57b019-4864-4123-b207-3c5902de0b81",
+        "value": "ab2c4886a4e0681a55b29c653b506b66721a3f36a1b098afa7f56da6f89bf5de",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696153",
+        "comment": "Malicious app",
+        "uuid": "5a57b019-3e78-43ff-a9fb-3c5902de0b81",
+        "value": "7d3e61c2c58906e09d56121be94601744e362e6f8c6b7bf87472b62b0cf8ce57",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1515696153",
+        "comment": "Malicious app",
+        "uuid": "5a57b019-7df4-48b1-b615-3c5902de0b81",
+        "value": "b4822eeb71c83e4aab5ddfecfb58459e5c5e10d382a2364da1c42621f58e119b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1515696249",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "bc1cef6c-4d5a-436a-9579-8cd4b6d782b2",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518770816",
+            "comment": "",
+            "uuid": "5a57b078-cfbc-48b1-8703-46f902de0b81",
+            "object_uuid": "bc1cef6c-4d5a-436a-9579-8cd4b6d782b2",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "1bf0aa26-cd3c-47a6-81ac-3afdca27d963"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-6a88-40aa-bf1f-412a02de0b81",
+            "value": "0a2b8a1012fbaeb0285025a43a4e467823eb1b2e",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-36e4-4db7-b780-4ddc02de0b81",
+            "value": "1d64514bc3391a1c0490d66fd219922e",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-a58c-4e12-8200-441302de0b81",
+            "value": "5886316c0b54bbb7ce6978acdb1ab4e2cf2b1494647b9d9ad014802e6bf5c7b8",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696246",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "1bf0aa26-cd3c-47a6-81ac-3afdca27d963",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-d2f4-4ab7-90a0-41b102de0b81",
+            "value": "https://www.virustotal.com/file/5886316c0b54bbb7ce6978acdb1ab4e2cf2b1494647b9d9ad014802e6bf5c7b8/analysis/1515614450/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-7f24-41a0-90c9-4ccb02de0b81",
+            "value": "4/63",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-3af4-4a65-a72c-4fe402de0b81",
+            "value": "2018-01-10T20:00:50",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696249",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "476c045c-ea54-420b-a03a-8b26fbe58a1b",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518770816",
+            "comment": "",
+            "uuid": "5a57b078-f2e8-479c-9458-4a9502de0b81",
+            "object_uuid": "476c045c-ea54-420b-a03a-8b26fbe58a1b",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "2105ed48-0685-4700-b987-90f75b49e94a"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-3754-44c7-94a5-44f002de0b81",
+            "value": "9c79b28664797ae1b8af916226aeebd5060b1760",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-af58-4330-bd83-41dd02de0b81",
+            "value": "d50e0523db467cf821df7ce3d8c0dc75",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-3d20-4b1e-90da-4dab02de0b81",
+            "value": "77d0c7dd4b3d87be6d9dfb0a9c371b4d8eeadccb8fde41d942f1c35e5e3ec063",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696246",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "2105ed48-0685-4700-b987-90f75b49e94a",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-8eac-4262-9b4b-448e02de0b81",
+            "value": "https://www.virustotal.com/file/77d0c7dd4b3d87be6d9dfb0a9c371b4d8eeadccb8fde41d942f1c35e5e3ec063/analysis/1515685812/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-1410-454e-8d2c-432902de0b81",
+            "value": "13/63",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-ed18-4a2e-8f84-4c8202de0b81",
+            "value": "2018-01-11T15:50:12",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696249",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "e894048c-7d7d-493b-8f2c-70fad8bcd38a",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518770817",
+            "comment": "",
+            "uuid": "5a57b078-1c1c-44d6-91fe-4d4b02de0b81",
+            "object_uuid": "e894048c-7d7d-493b-8f2c-70fad8bcd38a",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "ad758221-7d66-4cec-901f-37c6833698ec"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b076-3860-49ff-87ab-4d7002de0b81",
+            "value": "7e7f9e4fcca6f7517b1882e83d2e64470460c815",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1515696246",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-901c-47ca-9936-4beb02de0b81",
+            "value": "c0ffae6b8cdb5148533ea11810fb870e",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-c280-4a04-867a-44bb02de0b81",
+            "value": "329b9c5670ecdf25248e484e23c21bbc86f943d7573ff131c0dc71bc80812d1c",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696247",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "ad758221-7d66-4cec-901f-37c6833698ec",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-229c-466c-9fb3-482a02de0b81",
+            "value": "https://www.virustotal.com/file/329b9c5670ecdf25248e484e23c21bbc86f943d7573ff131c0dc71bc80812d1c/analysis/1515614398/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-4148-4bb2-b46d-41f402de0b81",
+            "value": "5/63",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-e530-42b2-b507-4e3002de0b81",
+            "value": "2018-01-10T19:59:58",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696250",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "76c68a27-afc3-4d94-866b-ffb5c7cdd2c4",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518770817",
+            "comment": "",
+            "uuid": "5a57b078-d2f4-4aa9-bd55-4fc202de0b81",
+            "object_uuid": "76c68a27-afc3-4d94-866b-ffb5c7cdd2c4",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "0a23e347-6cea-4755-b85b-f90a9c9e7541"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-dfc8-4925-8b23-4f3502de0b81",
+            "value": "3ec367d4aea942dbf161aef627f2dc8f3847a3a6",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-e450-4b57-bc64-480c02de0b81",
+            "value": "9c66ff93022d399ab592d5587661c777",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-8604-4418-8f95-4bf102de0b81",
+            "value": "7d3e61c2c58906e09d56121be94601744e362e6f8c6b7bf87472b62b0cf8ce57",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696247",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "0a23e347-6cea-4755-b85b-f90a9c9e7541",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-8070-4497-9e7a-4bd602de0b81",
+            "value": "https://www.virustotal.com/file/7d3e61c2c58906e09d56121be94601744e362e6f8c6b7bf87472b62b0cf8ce57/analysis/1515693693/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-7aac-448d-a455-42da02de0b81",
+            "value": "15/61",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-dbc8-4d10-ae56-4eec02de0b81",
+            "value": "2018-01-11T18:01:33",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696250",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "080d7c7a-d09d-4d58-86fb-b3a5f2e8481e",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518770817",
+            "comment": "",
+            "uuid": "5a57b078-81c4-4103-83c6-4a9002de0b81",
+            "object_uuid": "080d7c7a-d09d-4d58-86fb-b3a5f2e8481e",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "f0b92dc7-6edb-4f1e-8ea7-00651f07c42c"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-5ae0-4932-9190-405502de0b81",
+            "value": "2cbffddfbfd727d7595e3c37cc4e1bf588486e2c",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-33b4-43c4-9494-497f02de0b81",
+            "value": "05c310308d916af4c56a89f8bbe45783",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-4fb0-44f7-8d3c-477102de0b81",
+            "value": "aeef3ff7cc543bbacb6ab4df8da639b98be8f3c225678a4d0935f467bc6d720e",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696247",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "f0b92dc7-6edb-4f1e-8ea7-00651f07c42c",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-d794-475e-a057-488002de0b81",
+            "value": "https://www.virustotal.com/file/aeef3ff7cc543bbacb6ab4df8da639b98be8f3c225678a4d0935f467bc6d720e/analysis/1515685805/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-94bc-4055-9c9f-414702de0b81",
+            "value": "9/63",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-d464-4a45-b8e6-45c402de0b81",
+            "value": "2018-01-11T15:50:05",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696250",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "85c68cf1-f521-42e7-83e5-6809af80abad",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518770817",
+            "comment": "",
+            "uuid": "5a57b078-fba0-4dbb-bd7f-40f202de0b81",
+            "object_uuid": "85c68cf1-f521-42e7-83e5-6809af80abad",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "13297574-af51-485e-8807-1c7b66f655ec"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-11c4-467d-9243-404802de0b81",
+            "value": "d8d9b5b6ee549f842450f5fd73e88ba48c0fb1ba",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-e7ac-4c5b-8803-479202de0b81",
+            "value": "1cf1ed1a16ebe9aa92acd0857a73632a",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-e828-4d09-a3e2-46ba02de0b81",
+            "value": "ab2c4886a4e0681a55b29c653b506b66721a3f36a1b098afa7f56da6f89bf5de",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696247",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "13297574-af51-485e-8807-1c7b66f655ec",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-7e74-4b45-a123-44bd02de0b81",
+            "value": "https://www.virustotal.com/file/ab2c4886a4e0681a55b29c653b506b66721a3f36a1b098afa7f56da6f89bf5de/analysis/1515685808/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-497c-49ec-a8ed-437202de0b81",
+            "value": "13/63",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-b3f8-4044-bb43-491a02de0b81",
+            "value": "2018-01-11T15:50:08",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696250",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "ee58fd13-7578-4389-9c9c-c1ce4f99df7f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518770817",
+            "comment": "",
+            "uuid": "5a57b079-2130-4d54-88f1-4d5602de0b81",
+            "object_uuid": "ee58fd13-7578-4389-9c9c-c1ce4f99df7f",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "c6570cb6-61e3-4cd2-8e44-cb309a0726cb"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-d600-4d95-9cbd-41cd02de0b81",
+            "value": "3096250fe90826f05aee32474c7e20fe8a268e5b",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-46f4-43b8-93a2-4a3102de0b81",
+            "value": "f15f17a6dd14785a12ab4b804cb16d3e",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-ba90-486e-b36b-47d602de0b81",
+            "value": "621092856e20e628a577dbe9248649eae78d1af611d9168635b22057c6c7552b",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696247",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "c6570cb6-61e3-4cd2-8e44-cb309a0726cb",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1515696247",
+            "comment": "Malicious app",
+            "uuid": "5a57b077-7ed8-4033-9d28-4a8c02de0b81",
+            "value": "https://www.virustotal.com/file/621092856e20e628a577dbe9248649eae78d1af611d9168635b22057c6c7552b/analysis/1515688818/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-ca70-4101-b2cc-476302de0b81",
+            "value": "12/62",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-6bb0-47e3-bcbe-4ffb02de0b81",
+            "value": "2018-01-11T16:40:18",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696251",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "59c0d9e3-395f-444f-9080-64f72087ac06",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518770817",
+            "comment": "",
+            "uuid": "5a57b079-d8c0-4647-9741-45ec02de0b81",
+            "object_uuid": "59c0d9e3-395f-444f-9080-64f72087ac06",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "23fad007-c563-45d2-90d1-cda2d4d05347"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-b0b0-47ca-b7b4-4b1c02de0b81",
+            "value": "78a6859349f3503c40b54f8706ec97e6272c496c",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-3b98-4c94-8c99-47f802de0b81",
+            "value": "43183779b1da5cb60b949ab38d3c69c0",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-1f50-4625-86b2-4d6f02de0b81",
+            "value": "b4822eeb71c83e4aab5ddfecfb58459e5c5e10d382a2364da1c42621f58e119b",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696248",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "23fad007-c563-45d2-90d1-cda2d4d05347",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-a5fc-4c98-a267-45ad02de0b81",
+            "value": "https://www.virustotal.com/file/b4822eeb71c83e4aab5ddfecfb58459e5c5e10d382a2364da1c42621f58e119b/analysis/1515685803/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-5600-43a6-b9d7-408302de0b81",
+            "value": "9/63",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-c784-4dc8-afa2-4c8002de0b81",
+            "value": "2018-01-11T15:50:03",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696251",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "05de6304-76c1-4b35-822e-bcde5a58d1f8",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518770817",
+            "comment": "",
+            "uuid": "5a57b079-a2c0-4fe5-ad0a-468502de0b81",
+            "object_uuid": "05de6304-76c1-4b35-822e-bcde5a58d1f8",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "d2c9839e-e81e-4a2b-91b4-f8520b27adee"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-37d0-433c-85f1-404f02de0b81",
+            "value": "d4743b60452d2ca240f0045fed4b4b90b9a8b638",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-931c-4b77-b51e-4aca02de0b81",
+            "value": "a18a70c259276e30b6a6305f568ed700",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-4bd4-43eb-97e6-445b02de0b81",
+            "value": "2856f3d1282ddc6bcfe65b0c91a87d998edccb777387e3f998bc3b6f1d0b3342",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1515696248",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "d2c9839e-e81e-4a2b-91b4-f8520b27adee",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-58cc-4fc9-affe-415602de0b81",
+            "value": "https://www.virustotal.com/file/2856f3d1282ddc6bcfe65b0c91a87d998edccb777387e3f998bc3b6f1d0b3342/analysis/1515685814/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-7444-4c22-8bb0-471802de0b81",
+            "value": "12/63",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1515696248",
+            "comment": "Malicious app",
+            "uuid": "5a57b078-d3f8-4875-885b-436202de0b81",
+            "value": "2018-01-11T15:50:14",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

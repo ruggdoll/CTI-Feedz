@@ -1,0 +1,306 @@
+{
+  "Event": {
+    "date": "2018-05-30",
+    "timestamp": "1540562337",
+    "analysis": "2",
+    "uuid": "5b17e074-3d90-4f06-bbf0-44c9950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1540562343",
+    "info": "OSINT - New Backup Cryptomix Ransomware Variant Actively Infecting Users",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"CryptoMix\""
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#3b7500",
+        "name": "circl:incident-classification=\"malware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1528291649",
+        "comment": "",
+        "uuid": "5b17e09f-9920-45b0-a75f-4505950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/new-backup-cryptomix-ransomware-variant-actively-infecting-users/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1528291639",
+        "comment": "",
+        "uuid": "5b17e0b7-59f0-4cbf-85cb-44aa950d210f",
+        "value": "Today MalwareHunterTeam discovered a new variant of the Cryptomix Ransomware that appends the .BACKUP extension to encrypted files, changes the contact email, and slightly changes the ransom note's name.\r\n\r\nIn this article I will provide a brief summary of any changes that have occurred in this new variant.  As we are always looking for weaknesses, if you are a victim of this variant and decide to pay the ransom, please send us the decryptor so we can take a look at it. You can also discuss or receive support for Cryptomix ransomware infections in our dedicated Cryptomix Help & Support Topic.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528292368",
+        "comment": "",
+        "uuid": "5b17e410-2d8c-47d1-be8d-4885950d210f",
+        "value": "HELP_INSTRUCTION.TXT",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528292368",
+        "comment": "",
+        "uuid": "5b17e410-7af0-4622-ba57-4635950d210f",
+        "value": "%ALLUSERSPROFILE%\\[random].exe",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528292459",
+        "comment": "",
+        "uuid": "5b17e46b-082c-45e1-bddc-42da950d210f",
+        "value": "backuppc@tuta.io",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528292460",
+        "comment": "",
+        "uuid": "5b17e46c-434c-4200-a688-45db950d210f",
+        "value": "backuppc@protonmail.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528292461",
+        "comment": "",
+        "uuid": "5b17e46d-dc9c-4316-9673-4556950d210f",
+        "value": "backuppc1@protonmail.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528292461",
+        "comment": "",
+        "uuid": "5b17e46d-853c-4181-8b8c-496e950d210f",
+        "value": "b4ckuppc1@yandex.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528292461",
+        "comment": "",
+        "uuid": "5b17e46d-8d20-471f-924e-417f950d210f",
+        "value": "b4ckuppc2@yandex.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528292462",
+        "comment": "",
+        "uuid": "5b17e46e-9ca8-4358-8c42-4b78950d210f",
+        "value": "backuppc1@dr.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1528291754",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b17e1aa-6668-41e8-b3b3-44a8950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1528291755",
+            "comment": "",
+            "uuid": "5b17e1ab-232c-49ec-80c4-43e4950d210f",
+            "value": "44d5b6d36294d2f3bdc773eb7a43ba49c03febc60556616a7d641dd9ee5d13d8",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528291756",
+            "comment": "",
+            "uuid": "5b17e1ac-f684-442f-b4a6-4060950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1540562316",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "8194c5c7-6727-4c94-af68-34d80ebfd5b4",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1540562316",
+            "comment": "",
+            "uuid": "64500077-0647-472d-ba2d-1acd6983c32f",
+            "value": "48182d1c42a37ce24925bcc79d147bf2",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1540562317",
+            "comment": "",
+            "uuid": "35ccfdb2-b098-45f0-995b-f3f0de5b206a",
+            "value": "fdec8b08069600ff74fb3aed138fca79d9528410",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1540562317",
+            "comment": "",
+            "uuid": "7e5f0b7e-327d-48e4-80c8-ad8eb73ec411",
+            "value": "44d5b6d36294d2f3bdc773eb7a43ba49c03febc60556616a7d641dd9ee5d13d8",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1540562317",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "a9233e35-64ad-4e30-8903-06a77f907b2b",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1540562318",
+            "comment": "",
+            "uuid": "b87d43aa-9f62-43bb-a1a2-012f2918e4f0",
+            "value": "2018-10-26T00:47:39",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1540562318",
+            "comment": "",
+            "uuid": "59650c9c-ff05-4a24-83f5-cf1a4701a580",
+            "value": "https://www.virustotal.com/file/44d5b6d36294d2f3bdc773eb7a43ba49c03febc60556616a7d641dd9ee5d13d8/analysis/1540514859/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1540562322",
+            "comment": "",
+            "uuid": "f8220fb9-ebdf-4559-80a1-e195ee129a15",
+            "value": "50/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

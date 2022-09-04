@@ -1,0 +1,557 @@
+{
+  "Event": {
+    "date": "2018-11-18",
+    "timestamp": "1542637546",
+    "analysis": "0",
+    "uuid": "5bf26acf-d95c-4892-a05d-4db5950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1542637552",
+    "info": "OSINT - CozyBear \u00e2\u20ac\u201c In from the Cold?",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#12e100",
+        "name": "misp-galaxy:threat-actor=\"APT 29\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-intrusion-set=\"APT29\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-malware=\"CozyCar\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-intrusion-set=\"APT29 - G0016\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-malware=\"CozyCar\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:malpedia=\"Cobalt Strike\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:rat=\"Cobalt Strike\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-tool=\"Cobalt Strike\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-enterprise-attack-tool=\"Cobalt Strike - S0154\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-tool=\"Cobalt Strike\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#326300",
+        "name": "circl:incident-classification=\"phishing\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1542614180",
+        "comment": "",
+        "uuid": "5bf26c6f-d748-499e-a651-40e3950d210f",
+        "value": "https://pylos.co/2018/11/18/cozybear-in-from-the-cold/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1542617834",
+        "comment": "",
+        "uuid": "5bf27aea-d798-4848-88f8-43a7950d210f",
+        "value": "pandorasong.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1542614707",
+        "name": "domain-ip",
+        "sharing_group_id": "0",
+        "uuid": "5bf26eb3-588c-479a-8c42-48b6950d210f",
+        "comment": "mail server",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1542614707",
+            "comment": "",
+            "uuid": "5bf26eb3-7a60-4770-af08-4389950d210f",
+            "value": "216.251.161.198",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1542614708",
+            "comment": "",
+            "uuid": "5bf26eb4-219c-47b0-be79-4be7950d210f",
+            "value": "mx1.era.citon.com",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1542614867",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bf26f31-11ec-4a5b-aea4-4fee950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1542614866",
+            "comment": "",
+            "uuid": "5bf26f52-1228-47e5-947e-405d950d210f",
+            "object_uuid": "5bf26f31-11ec-4a5b-aea4-4fee950d210f",
+            "relationship_type": "dropped",
+            "referenced_uuid": "5bf26f43-b2c0-4102-8ba0-472a950d210f"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1542614834",
+            "comment": "",
+            "uuid": "5bf26f32-2910-4db7-a08b-493f950d210f",
+            "value": "ds7002.lnk",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1542614834",
+            "comment": "",
+            "uuid": "5bf26f32-e92c-4486-9f53-4b6f950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1542614878",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bf26f43-b2c0-4102-8ba0-472a950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1542614877",
+            "comment": "",
+            "uuid": "5bf26f5d-8810-43c3-9c61-4e88950d210f",
+            "object_uuid": "5bf26f43-b2c0-4102-8ba0-472a950d210f",
+            "relationship_type": "dropped-by",
+            "referenced_uuid": "5bf26f31-11ec-4a5b-aea4-4fee950d210f"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1542614851",
+            "comment": "",
+            "uuid": "5bf26f43-ef80-4bae-b9b4-444a950d210f",
+            "value": "cyzfc.dat",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1542614851",
+            "comment": "",
+            "uuid": "5bf26f43-c2b4-4c98-8b0a-412a950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1542615846",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bf27326-3988-4648-8349-48a8950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1542615846",
+            "comment": "",
+            "uuid": "5bf27326-3158-4092-97dd-47af950d210f",
+            "value": "7486-the-shocking-truth-about-election-rigging-in-america.rtf.lnk",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1542615846",
+            "comment": "",
+            "uuid": "5bf27326-559c-4fd2-8e9a-4151950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1542615937",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bf27381-7984-4244-933f-402b950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1542615937",
+            "comment": "",
+            "uuid": "5bf27381-dfcc-47a1-be1f-431e950d210f",
+            "value": "2cea2a1f53dac3f4fff156eacc2ecc8e98b1a64f0f5b5ee1c42c69d9a226c55c",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1542615938",
+            "comment": "",
+            "uuid": "5bf27382-be44-45af-a885-47e9950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1542618149",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5bf27c25-d538-45b8-be16-44f0950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "15",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1542618149",
+            "comment": "",
+            "uuid": "5bf27c25-7a34-4b6b-87ee-4e24950d210f",
+            "value": "b77ff307ea74a3ab41c92036aea4a049b3c2e69b12a857d26910e535544dfb05",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1542618150",
+            "comment": "",
+            "uuid": "5bf27c26-2b80-4a3c-940c-4b7c950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1542637530",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "f815afa9-6251-4258-af1c-d3c6354478f9",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1542637530",
+            "comment": "",
+            "uuid": "470bf785-2b3e-4ada-97e4-0ab1cc6b0cdb",
+            "value": "16bbc967a8b6a365871a05c74a4f345b",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1542637530",
+            "comment": "",
+            "uuid": "2a450f9e-bfae-4d06-aefe-c4de80a891da",
+            "value": "9858d5cb2a6614be3c48e33911bf9f7978b441bf",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1542637531",
+            "comment": "",
+            "uuid": "97118ed3-5aad-42bc-9dd7-bb355bd0146f",
+            "value": "b77ff307ea74a3ab41c92036aea4a049b3c2e69b12a857d26910e535544dfb05",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1542637531",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "13b82a46-f0a2-4216-b6ff-f15d7e5aa85f",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1542637531",
+            "comment": "",
+            "uuid": "17a08ecf-8c7a-44f0-8d62-5610b7f6016b",
+            "value": "2018-11-19T03:46:22",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1542637532",
+            "comment": "",
+            "uuid": "fe091e77-2656-44c2-9dba-067a12240376",
+            "value": "https://www.virustotal.com/file/b77ff307ea74a3ab41c92036aea4a049b3c2e69b12a857d26910e535544dfb05/analysis/1542599182/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1542637532",
+            "comment": "",
+            "uuid": "38131c5b-7a1f-432f-ae28-1d344e1b044e",
+            "value": "38/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1542637532",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "6c5c8753-80c8-496e-8f41-0c72d76ceceb",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1542637533",
+            "comment": "",
+            "uuid": "1de5a03a-f12f-4592-a680-8ea91fbddb4b",
+            "value": "6ed0020b0851fb71d5b0076f4ee95f3c",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1542637533",
+            "comment": "",
+            "uuid": "886d09f5-a091-4a07-a487-de64d25fb989",
+            "value": "e431261c63f94a174a1308defccc674dabbe3609",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1542637534",
+            "comment": "",
+            "uuid": "86833f7b-86f9-4b2c-97be-2abce35391d6",
+            "value": "2cea2a1f53dac3f4fff156eacc2ecc8e98b1a64f0f5b5ee1c42c69d9a226c55c",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1542637534",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "4c234bd0-9fb2-4f60-9e0f-971e8746024d",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1542637534",
+            "comment": "",
+            "uuid": "fb3ad0e4-c955-44af-93d8-874ab7cd17bd",
+            "value": "2018-11-19T03:14:57",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1542637535",
+            "comment": "",
+            "uuid": "5f7203c2-d42b-46a5-88da-090e96f40841",
+            "value": "https://www.virustotal.com/file/2cea2a1f53dac3f4fff156eacc2ecc8e98b1a64f0f5b5ee1c42c69d9a226c55c/analysis/1542597297/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1542637535",
+            "comment": "",
+            "uuid": "c1f98fdf-637c-4e0e-be43-b1e622dfe8cd",
+            "value": "22/55",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

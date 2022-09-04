@@ -1,0 +1,211 @@
+{
+  "Event": {
+    "date": "2018-05-15",
+    "timestamp": "1526398950",
+    "analysis": "0",
+    "uuid": "5afafce0-0598-4ca0-b52a-41f4950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1526398981",
+    "info": "OSINT - A tale of two zero-days",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#0082e1",
+        "name": "osint:certainty=\"75\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1526398191",
+        "comment": "",
+        "uuid": "5afafcef-4ebc-4561-bcd3-4ec7950d210f",
+        "value": "https://www.welivesecurity.com/2018/05/15/tale-two-zero-days/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1526398212",
+        "comment": "",
+        "uuid": "5afafd04-9874-4fb6-afa8-3556950d210f",
+        "value": "Late in March 2018, ESET researchers identified an interesting malicious PDF sample. A closer look revealed that the sample exploits two previously unknown vulnerabilities: a remote-code execution vulnerability in Adobe Reader and a privilege escalation vulnerability in Microsoft Windows.\r\n\r\nThe use of the combined vulnerabilities is extremely powerful, as it allows an attacker to execute arbitrary code with the highest possible privileges on the vulnerable target, and with only the most minimal of user interaction. APT groups regularly use such combinations to perform their attacks, such as in the Sednit campaign from last year.\r\n\r\nOnce the PDF sample was discovered, ESET contacted and worked together with the Microsoft Security Response Center, Windows Defender ATP research team, and Adobe Product Security Incident Response Team as they fixed these bugs.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1526398245",
+        "comment": "",
+        "uuid": "5afafd25-5ed0-4e07-8d1e-4572950d210f",
+        "value": "CVE-2018-4990",
+        "to_ids": false,
+        "type": "vulnerability",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#0088cc",
+            "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"Exploitation of Vulnerability - T1068\""
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1526398263",
+        "comment": "",
+        "uuid": "5afafd37-b6d8-48ea-9226-4e32950d210f",
+        "value": "CVE-2018-8120",
+        "to_ids": false,
+        "type": "vulnerability",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#0088cc",
+            "name": "misp-galaxy:mitre-enterprise-attack-attack-pattern=\"Exploitation of Vulnerability - T1068\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1526398282",
+        "comment": "",
+        "uuid": "5afafd4a-8f80-4711-8ec3-4fb0950d210f",
+        "value": "c82cfead292eeca601d3cf82c8c5340cb579d1c6",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1526398283",
+        "comment": "",
+        "uuid": "5afafd4b-48e8-4271-98d2-477b950d210f",
+        "value": "0d3f335ccca4575593054446f5f219eba6cd93fe",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1526398926",
+        "comment": "",
+        "uuid": "5afaffce-12b8-41cf-8ce1-434a950d210f",
+        "value": "http://www.ivanlef0u.tuxfamily.org/?p=86",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1526398947",
+        "comment": "",
+        "uuid": "5afaffe3-f688-4ddb-ad6b-4d54950d210f",
+        "value": "http://j00ru.vexillium.org/?p=290",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1526398358",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "e1aaf6c9-d880-4111-ae8c-e18bacfa93e3",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1526398359",
+            "comment": "",
+            "uuid": "5afafd97-8c48-4dc7-b535-42fc02de0b81",
+            "object_uuid": "e1aaf6c9-d880-4111-ae8c-e18bacfa93e3",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "8e273621-4ed2-4eab-8afa-c8332486d797"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1526398356",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "8e273621-4ed2-4eab-8afa-c8332486d797",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      },
+      {
+        "timestamp": "1526398360",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "87e5d719-47c0-48f7-a306-167eae1963bf",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1526398359",
+            "comment": "",
+            "uuid": "5afafd97-ddf0-4ac2-9163-472702de0b81",
+            "object_uuid": "87e5d719-47c0-48f7-a306-167eae1963bf",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "55b2aaba-335d-46dc-95ba-5460b43332fd"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1526398358",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "55b2aaba-335d-46dc-95ba-5460b43332fd",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      }
+    ]
+  }
+}

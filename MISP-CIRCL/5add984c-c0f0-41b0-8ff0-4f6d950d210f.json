@@ -1,0 +1,171 @@
+{
+  "Event": {
+    "date": "2018-04-10",
+    "timestamp": "1525369091",
+    "analysis": "2",
+    "uuid": "5add984c-c0f0-41b0-8ff0-4f6d950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1525369142",
+    "info": "OSINT - Maktub ransomware: possibly rebranded as Iron",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#3b7500",
+        "name": "circl:incident-classification=\"malware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"MaktubLocker\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1525271745",
+        "comment": "",
+        "uuid": "5add9863-d254-4801-8bdb-450a950d210f",
+        "value": "https://bartblaze.blogspot.lu/2018/04/maktub-ransomware-possibly-rebranded-as.html",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1525271745",
+        "comment": "",
+        "uuid": "5add9996-2390-47f3-977f-4d52950d210f",
+        "value": "t is currently unknown if Iron is indeed a new variant by the same creators of Maktub, or if it was simply inspired by the latter, by copying the design for the payment portal for example.\r\n\r\nWe know the Iron ransomware has mimicked at least three ransomware families:\r\n\r\n    Maktub (payment portal design)\r\n    DMA Locker (Iron Unlocker, decryption tool)\r\n    Satan (exclusion list)",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1525271745",
+        "comment": "",
+        "uuid": "5add9d5d-023c-4570-af2c-483d950d210f",
+        "value": "recoverfile@mail2tor.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1525271745",
+        "comment": "",
+        "uuid": "5add9d5e-04e8-4270-b81c-4c29950d210f",
+        "value": "!HELP_YOUR_FILES.HTML",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1525271746",
+        "comment": "C2",
+        "uuid": "5adda3de-ecd4-4318-8703-4692950d210f",
+        "value": "http://y5mogzal2w25p6bn.ml",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1525271746",
+        "comment": "",
+        "uuid": "5adda3fa-cc40-4e61-a1ee-4e32950d210f",
+        "value": "oldblackjack@outlook.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Persistence mechanism",
+        "timestamp": "1525271747",
+        "comment": "",
+        "uuid": "5adda3fb-a844-4dc0-814c-4fae950d210f",
+        "value": "HKCU\\Software\\CryptoA:",
+        "to_ids": false,
+        "type": "regkey",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1524473152",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5add9d40-8f68-4a08-874a-4872950d210f",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1524473152",
+            "comment": "",
+            "uuid": "5add9d40-827c-445a-a400-4438950d210f",
+            "value": "1cimKyzS64PRNEiG89iFU3qzckVuEQuUj",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1524473153",
+            "comment": "",
+            "uuid": "5add9d41-2808-4b5c-a7d9-4ef2950d210f",
+            "value": "BTC",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

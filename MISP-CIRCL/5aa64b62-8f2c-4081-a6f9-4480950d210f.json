@@ -1,0 +1,161 @@
+{
+  "Event": {
+    "date": "2018-03-12",
+    "timestamp": "1520848045",
+    "analysis": "2",
+    "uuid": "5aa64b62-8f2c-4081-a6f9-4480950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1520850411",
+    "info": "OSINT -  Royal APT - APT15 - Related Information from NCC Group Cyber Defense Operations Research",
+    "threat_level_id": "2",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#10cb00",
+        "name": "misp-galaxy:threat-actor=\"Mirage\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1520847726",
+        "comment": "",
+        "uuid": "5aa64b6e-0564-4bc5-a030-45ee950d210f",
+        "value": "https://github.com/nccgroup/Royal_APT",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1520847748",
+        "comment": "",
+        "uuid": "5aa64b84-59cc-4718-8777-4991950d210f",
+        "value": "# Royal_APT\r\nRoyal APT - APT15 - Related Information from NCC Group Cyber Defense Operations Research\r\n\r\n\r\n## Decoding scripts\r\nDecoder scripts for BS2005 and RoyalCLI samples found by NCC Group can be found in the scripts directory. \r\n\r\n### BS2005\r\n  `bs_decoder.py` will extract and decrypt commands included in html files sent to the sample `6ea9cc475d41ca07fa206eb84b10cf2bbd2392366890de5ae67241afa2f4269f`; namely `Alive.htm` and `Contents.htm`. It will also decode beacons sent to the C2.\r\n\r\nUsage:\r\n\r\n`bs2005_decoder.py html <htmlPath>/<htmlsDir>`\r\n\r\n`bs2005_decoder.py beacon <beaconString>`\r\n\r\n### RoyalCLI\r\n`rcli_decoder.py` will decode RoyalCli config, RoyalCli html commands and the uris. \r\n\r\n\r\nUsage:\r\n\r\n`royalcli_decoder.py html <htmlPath>/<htmlsDir>`\r\n\r\n`royalcli_decoder.py cfg <configPath>`\r\n\r\n`royalcli_decoder.py uri <beaconString>`\r\n`\r\n\r\n## Yara signatures\r\nYara signatures for the RoyalCLI, RoyalDNS and BS2005 samples found by NCC Group can be found in `apt15.yara` in the signatures folder.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Support Tool",
+        "timestamp": "1520847818",
+        "comment": "",
+        "uuid": "5aa64bca-75a8-47e0-aaa3-4347950d210f",
+        "value": "https://github.com/nccgroup/Royal_APT/blob/master/scripts/bs_decoder.py",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Support Tool",
+        "timestamp": "1520847818",
+        "comment": "",
+        "uuid": "5aa64bca-3e68-44ee-b082-4db1950d210f",
+        "value": "https://github.com/nccgroup/Royal_APT/blob/master/scripts/rcli_decoder.py",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1520847852",
+        "comment": "",
+        "uuid": "5aa64bec-90c4-4add-9864-405f950d210f",
+        "value": "rule clean_apt15_patchedcmd{\r\n\tmeta:\r\n\t\tauthor = \"Ahmed Zaki\"\r\n        \tdescription = \"This is a patched CMD. This is the CMD that RoyalCli uses.\"\r\n\t\tsha256 = \"90d1f65cfa51da07e040e066d4409dc8a48c1ab451542c894a623bc75c14bf8f\"\r\n\tstrings:\r\n        \t$ = \"eisableCMD\" wide\r\n        \t$ = \"%WINDOWS_COPYRIGHT%\" wide\r\n        \t$ = \"Cmd.Exe\" wide\r\n        \t$ = \"Windows Command Processor\" wide\r\n\t\t\r\n\tcondition:\r\n        \tall of them\r\n}",
+        "to_ids": true,
+        "type": "yara",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1520847878",
+        "comment": "",
+        "uuid": "5aa64c06-d010-43af-ad1b-4b49950d210f",
+        "value": "rule malware_apt15_royalcli_1{\r\n\tmeta:\r\n        \tdescription = \"Generic strings found in the Royal CLI tool\"\r\n\t\tauthor = \"David Cannings\"\r\n\t\tsha256 = \"6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785\"\r\n\r\n\tstrings:\r\n\t    $ = \"%s~clitemp%08x.tmp\" fullword\r\n\t\t$ = \"qg.tmp\" fullword\r\n\t\t$ = \"%s /c %s>%s\" fullword\r\n\t\t$ = \"hkcmd.exe\" fullword\r\n\t\t$ = \"%snewcmd.exe\" fullword\r\n\t\t$ = \"%shkcmd.exe\" fullword\r\n\t\t$ = \"%s~clitemp%08x.ini\" fullword\r\n\t\t$ = \"myRObject\" fullword\r\n\t\t$ = \"myWObject\" fullword\r\n\t\t$ = \"10 %d %x\\x0D\\x0A\"\r\n\t\t$ = \"4 %s  %d\\x0D\\x0A\"\r\n\t\t$ = \"6 %s  %d\\x0D\\x0A\"\r\n\t\t$ = \"1 %s  %d\\x0D\\x0A\"\r\n\t\t$ = \"3 %s  %d\\x0D\\x0A\"\r\n\t\t$ = \"5 %s  %d\\x0D\\x0A\"\r\n\t\t$ = \"2 %s  %d 0 %d\\x0D\\x0A\"\r\n\t\t$ = \"2 %s  %d 1 %d\\x0D\\x0A\"\r\n\t\t$ = \"%s file not exist\" fullword\r\n\r\n\tcondition:\r\n\t    5 of them\r\n}",
+        "to_ids": true,
+        "type": "yara",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1520847894",
+        "comment": "",
+        "uuid": "5aa64c16-3ca0-47e9-aea8-445d950d210f",
+        "value": "rule malware_apt15_royalcli_2{\r\n\tmeta:\r\n\t\tauthor = \"Nikolaos Pantazopoulos\"\r\n        \tdescription = \"APT15 RoyalCli backdoor\"\r\n\r\n\tstrings:\r\n\t\t\t\t\r\n\t\t$string1 = \"%shkcmd.exe\" fullword\r\n\t\t$string2 = \"myRObject\" fullword\r\n\t\t$string3 = \"%snewcmd.exe\" fullword\r\n\t\t$string4 = \"%s~clitemp%08x.tmp\" fullword\r\n\t\t$string5 = \"hkcmd.exe\" fullword\r\n    $string6 = \"myWObject\" fullword\r\n\r\n\t\tcondition:\r\n\t\t\tuint16(0) == 0x5A4D and 2 of them\r\n}",
+        "to_ids": true,
+        "type": "yara",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1520847918",
+        "comment": "",
+        "uuid": "5aa64c2e-b3d0-4c8c-88ba-41ce950d210f",
+        "value": "rule malware_apt15_bs2005{\r\n\tmeta:\r\n        \tauthor\t=\t\"Ahmed Zaki\"\r\n        \tmd5\t=\t\"ed21ce2beee56f0a0b1c5a62a80c128b\"\r\n        \tdescription\t=\t\"APT15 bs2005\"\r\n    \tstrings:\r\n        \t$ = \"%s&%s&%s&%s\"  wide ascii\r\n        \t$ = \"%s\\\\%s\"  wide ascii\r\n        \t$ = \"WarOnPostRedirect\"  wide ascii fullword\r\n        \t$ = \"WarnonZoneCrossing\"  wide ascii fullword\r\n        \t$ = \"^^^^^\" wide ascii fullword\r\n        \t/*\r\n        \t     \"%s\" /C \"%s > \"%s\\tmp.txt\" 2>&1 \"     \r\n       \t\t*/\r\n        \t$ =  /\"?%s\\s*\"?\\s*\\/C\\s*\"?%s\\s*>\\s*\\\\?\"?%s\\\\(\\w+\\.\\w+)?\"\\s*2>&1\\s*\"?/ \r\n        \t$ =\"IEharden\" wide ascii fullword\r\n        \t$ =\"DEPOff\" wide ascii fullword\r\n        \t$ =\"ShownVerifyBalloon\" wide ascii fullword\r\n        \t$ =\"IEHardenIENoWarn\" wide ascii fullword\r\n\r\n    \tcondition:\r\n        \t(uint16(0) == 0x5A4D and 5 of them) or \r\n        \t( uint16(0) == 0x5A4D and 3 of them and \r\n            \t\t( pe.imports(\"advapi32.dll\", \"CryptDecrypt\") and pe.imports(\"advapi32.dll\", \"CryptEncrypt\") and\r\n              \t\tpe.imports(\"ole32.dll\", \"CoCreateInstance\")\r\n            \t\t)\r\n        \t)\r\n}",
+        "to_ids": true,
+        "type": "yara",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1520847937",
+        "comment": "",
+        "uuid": "5aa64c41-c7e0-4cf1-accc-4186950d210f",
+        "value": "rule malware_apt15_royaldll{\r\n\tmeta:\r\n\t\tauthor = \"David Cannings\"\r\n    \t\tdescription = \"DLL implant, originally rights.dll and runs as a service\"\r\n    \t\tsha256 = \"bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d\"\r\n\tstrings:\r\n\t    /*\r\n\t      56                push    esi\r\n\t      B8 A7 C6 67 4E    mov     eax, 4E67C6A7h\r\n\t      83 C1 02          add     ecx, 2\r\n\t      BA 04 00 00 00    mov     edx, 4\r\n\t      57                push    edi\r\n\t      90                nop\r\n\t    */\r\n\t    // JSHash implementation (Justin Sobel's hash algorithm)\r\n\t    $opcodes_jshash = { B8 A7 C6 67 4E 83 C1 02 BA 04 00 00 00 57 90 }\r\n\r\n\t    /*\r\n\t      0F B6 1C 03       movzx   ebx, byte ptr [ebx+eax]\r\n\t      8B 55 08          mov     edx, [ebp+arg_0]\r\n\t      30 1C 17          xor     [edi+edx], bl\r\n\t      47                inc     edi\r\n\t      3B 7D 0C          cmp     edi, [ebp+arg_4]\r\n\t      72 A4             jb      short loc_10003F31\r\n\t    */\r\n\t    // Encode loop, used to \"encrypt\" data before DNS request\r\n\t    $opcodes_encode = { 0F B6 1C 03 8B 55 08 30 1C 17 47 3B 7D 0C }\r\n\r\n\t    /*\r\n\t      68 88 13 00 00    push    5000 # Also seen 3000, included below\r\n\t      FF D6             call    esi ; Sleep\r\n\t      4F                dec     edi\r\n\t      75 F6             jnz     short loc_10001554\r\n\t    */\r\n\t    // Sleep loop\r\n\t    $opcodes_sleep_loop = { 68 (88|B8) (13|0B) 00 00 FF D6 4F 75 F6 }\r\n\r\n\t    // Generic strings\r\n\t    $ = \"Nwsapagent\" fullword\r\n\t    $ = \"\\\"%s\\\">>\\\"%s\\\"\\\\s.txt\"\r\n\t    $ = \"myWObject\" fullword\r\n\t    $ = \"del c:\\\\windows\\\\temp\\\\r.exe /f /q\"\r\n\t    $ = \"del c:\\\\windows\\\\temp\\\\r.ini /f /q\"\r\n\r\n\t  condition:\r\n\t    3 of them\r\n}",
+        "to_ids": true,
+        "type": "yara",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1520847958",
+        "comment": "",
+        "uuid": "5aa64c56-5e0c-4f67-85f1-45b8950d210f",
+        "value": "rule malware_apt15_royaldll_2\t{\r\n\tmeta:\r\n\t\tauthor\t=\t\"Ahmed Zaki\"\r\n\t\tsha256\t=\t\"bc937f6e958b339f6925023bc2af375d669084e9551fd3753e501ef26e36b39d\"\r\n\t\tdescription\t=\t\"DNS backdoor used by APT15\"\r\n\tstrings:\r\n\t\t$= \"SOFTWARE\\\\Microsoft\\\\Windows NT\\\\CurrentVersion\\\\Svchost\" wide ascii \r\n\t\t$= \"netsvcs\" wide ascii fullword\r\n\t\t$= \"%SystemRoot%\\\\System32\\\\svchost.exe -k netsvcs\" wide ascii fullword\r\n\t\t$= \"SYSTEM\\\\CurrentControlSet\\\\Services\\\\\" wide ascii\r\n\t\t$= \"myWObject\" wide ascii \r\n\tcondition:\r\n\t\tuint16(0) == 0x5A4D and all of them\r\n\t\tand pe.exports(\"ServiceMain\")\r\n\t\tand filesize > 50KB and filesize < 600KB\r\n}",
+        "to_ids": true,
+        "type": "yara",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1520847977",
+        "comment": "",
+        "uuid": "5aa64c69-3158-48ff-ad30-4a95950d210f",
+        "value": "rule malware_apt15_exchange_tool {\r\n\tmeta:\r\n\t\tauthor = \"Ahmed Zaki\"\r\n\t\tmd5 = \"d21a7e349e796064ce10f2f6ede31c71\"\r\n        \tdescription = \"This is a an exchange enumeration/hijacking tool used by an APT 15\"\r\n\r\n\tstrings:\r\n\t\t$s1= \"subjectname\" fullword\r\n\t\t$s2= \"sendername\" fullword\r\n\t\t$s3= \"WebCredentials\" fullword\r\n\t\t$s4= \"ExchangeVersion\"\tfullword\r\n\t\t$s5= \"ExchangeCredentials\"\tfullword\r\n\t\t$s6= \"slfilename\"\tfullword\r\n\t\t$s7= \"EnumMail\"\tfullword\r\n\t\t$s8= \"EnumFolder\"\tfullword\r\n\t\t$s9= \"set_Credentials\"\tfullword\r\n\t\t$s10 = \"/de\" wide\r\n\t\t$s11 = \"/sn\" wide\r\n\t\t$s12 = \"/sbn\" wide\r\n\t\t$s13 = \"/list\" wide\r\n\t\t$s14 = \"/enum\" wide\r\n\t\t$s15 = \"/save\" wide\r\n\t\t$s16 = \"/ao\" wide\r\n\t\t$s17 = \"/sl\" wide\r\n\t\t$s18 = \"/v or /t is null\" wide\r\n\t\t$s19 = \"2007\" wide\r\n\t\t$s20 = \"2010\" wide\r\n\t\t$s21 = \"2010sp1\" wide\r\n\t\t$s22 = \"2010sp2\" wide\r\n\t\t$s23 = \"2013\" wide\r\n\t\t$s24 = \"2013sp1\" wide\r\n\r\n\tcondition:\r\n\t\tuint16(0) == 0x5A4D and 15 of ($s*)\r\n}",
+        "to_ids": true,
+        "type": "yara",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1520847997",
+        "comment": "",
+        "uuid": "5aa64c7d-9a98-4431-9e76-47b5950d210f",
+        "value": "rule malware_apt15_generic {\r\n\tmeta:\r\n\t\tauthor = \"David Cannings\"\r\n\t\tdescription = \"Find generic data potentially relating to AP15 tools\"\r\n\t\r\n\tstrings:\r\n\t    // Appears to be from copy/paste code\r\n\t    $str01 = \"myWObject\" fullword\r\n\t    $str02 = \"myRObject\" fullword\r\n\r\n\t    /*\r\n\t      6A 02             push    2               ; dwCreationDisposition\r\n\t      6A 00             push    0               ; lpSecurityAttributes\r\n\t      6A 00             push    0               ; dwShareMode\r\n\t      68 00 00 00 C0    push    0C0000000h      ; dwDesiredAccess\r\n\t      50                push    eax             ; lpFileName\r\n\t      FF 15 44 F0 00 10 call    ds:CreateFileA\r\n\t    */\r\n\t    // Arguments for CreateFileA\r\n\t    $opcodes01 = { 6A (02|03) 6A 00 6A 00 68 00 00 00 C0 50 FF 15 }\r\n\r\n  \tcondition:\r\n\t\t2 of them\r\n}",
+        "to_ids": true,
+        "type": "yara",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}

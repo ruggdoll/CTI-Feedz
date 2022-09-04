@@ -1,0 +1,2515 @@
+{
+  "Event": {
+    "date": "2018-01-31",
+    "timestamp": "1517540435",
+    "analysis": "2",
+    "uuid": "5a7238f2-7ea4-499a-89f6-450b02de0b81",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1518771269",
+    "info": "OSINT - Smominru Monero mining botnet making millions for operators",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1517488861",
+        "comment": "",
+        "uuid": "5a723909-f0f0-4dfa-b8b7-44fe02de0b81",
+        "value": "Even with recent volatility in the price of most cryptocurrencies, especially Bitcoin, interest among mainstream users and the media remains high. At the same time, Bitcoin alternatives like Monero and Ethereum continue their overall upward trend in value (Figure 1), putting them squarely in the crosshairs of threat actors looking for quick profits and anonymous transactions. Because obtaining these cryptocurrencies through legitimate mining mechanisms is quite resource-intensive, cybercriminals are stealing them, demanding ransomware payments  in them, and harnessing other computers to mine them for free. Recently, Proofpoint researchers have been tracking the massive Smominru botnet, the combined computing power of which had earned millions of dollars for its operators.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1517488862",
+        "comment": "",
+        "uuid": "5a723916-3788-47c7-a70a-432502de0b81",
+        "value": "https://www.proofpoint.com/us/threat-insight/post/smominru-monero-mining-botnet-making-millions-operators",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517488862",
+        "comment": "Since the end of May 2017, we have been monitoring a Monero miner that spreads using the EternalBlue Exploit (CVE-2017-0144).",
+        "uuid": "5a723935-bf74-4ea6-ba45-ee7702de0b81",
+        "value": "CVE-2017-0144",
+        "to_ids": false,
+        "type": "vulnerability",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517488863",
+        "comment": "At least 25 hosts were conducting attacks via EternalBlue (CVE-2017-0144 SMB) to infect new nodes and increase the size of the botnet. The hosts all appear to sit behind the network autonomous system AS63199. Other researchers also reported attacks via MySQL [3], and we believe the actors are also likely using EsteemAudit (CVE-2017-0176), like most other EternalBlue attackers. The botnet\u00e2\u20ac\u2122s command and control (C&C) infrastructure is hosted behind SharkTech, who we notified of the abuse but did not receive a reply to abuse notification.",
+        "uuid": "5a723955-5430-48e4-976e-465a02de0b81",
+        "value": "CVE-2017-0176",
+        "to_ids": false,
+        "type": "vulnerability",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488863",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a72399d-8ba0-4d8e-bd4a-4d4102de0b81",
+        "value": "148.153.34.114",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488864",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a72399d-0d98-4599-89c2-4c9e02de0b81",
+        "value": "118.193.81.70",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488864",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a72399e-cd14-491a-bb01-4cde02de0b81",
+        "value": "118.193.31.14",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488865",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a72399e-0cbc-46d1-8db9-4aad02de0b81",
+        "value": "118.193.28.58",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488865",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a72399f-5eec-49b8-9e5b-497102de0b81",
+        "value": "164.52.12.110",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488866",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a72399f-4114-48f0-bd34-4ce902de0b81",
+        "value": "148.153.24.98",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488866",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a0-9fbc-4402-afa4-437302de0b81",
+        "value": "164.52.13.58",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488866",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a0-9a04-48d4-854d-440602de0b81",
+        "value": "148.153.38.78",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488867",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a0-1728-4a2c-b7a8-49ac02de0b81",
+        "value": "118.193.22.58",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488867",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a1-3eb8-4e05-8a34-42f502de0b81",
+        "value": "103.241.229.122",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488868",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a1-df5c-4a4f-9230-4cc102de0b81",
+        "value": "148.153.39.186",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488868",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a2-b0c0-4de5-89c2-4aaa02de0b81",
+        "value": "148.153.14.246",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488869",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a2-8e18-403a-b976-46cf02de0b81",
+        "value": "118.193.31.110",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488869",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a2-72dc-4348-bb4f-499d02de0b81",
+        "value": "118.193.27.198",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488870",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a3-1900-4d9f-91ae-482f02de0b81",
+        "value": "164.52.25.106",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488870",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a3-66e4-4708-9a76-47a002de0b81",
+        "value": "164.52.1.46",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488871",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a4-e710-43bf-98dd-490d02de0b81",
+        "value": "148.153.36.34",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488871",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a4-4890-4892-a9db-40e102de0b81",
+        "value": "118.193.21.186",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488872",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a5-9d44-4b30-a5a7-4baf02de0b81",
+        "value": "164.52.12.162",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488872",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a5-224c-4629-bb56-4b8e02de0b81",
+        "value": "148.153.24.106",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488873",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a5-8f14-4b49-85f3-4eb502de0b81",
+        "value": "148.153.44.46",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488873",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a6-f020-4087-81a4-42fe02de0b81",
+        "value": "164.52.11.222",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488874",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a6-861c-4d25-a9fd-4c0c02de0b81",
+        "value": "118.193.29.6",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488874",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a7-2978-41cc-8885-428902de0b81",
+        "value": "148.153.8.86",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517488874",
+        "comment": "Attacking IP (via EB)",
+        "uuid": "5a7239a7-9454-42de-b5ae-481102de0b81",
+        "value": "164.52.1.14",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517435618",
+        "comment": "ups.rar",
+        "uuid": "5a723ae2-140c-452f-889f-4daa02de0b81",
+        "value": "da3b2e4da23aae505bf991cb68833d01d0c5b75645d246dfa9b6e403be1798c8",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517435618",
+        "comment": "EternalBlue dropped",
+        "uuid": "5a723ae2-c428-440c-9be4-4bb102de0b81",
+        "value": "8ceb370e5f32dd732809c827f8eda38cc9b746d40adea3dca33b8c27ee38eb6f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517435619",
+        "comment": "EternalBlue dropped",
+        "uuid": "5a723ae3-8304-4789-91de-4b0b02de0b81",
+        "value": "5e15c97546a19759a8397e51e98a2d8168e6e27aff4dc518220459ed3184e4e2",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517435619",
+        "comment": "64.rar",
+        "uuid": "5a723ae3-feb8-4011-993a-493e02de0b81",
+        "value": "2e3f534bd6b7d1cf18dc727820124faed92fb28f1d4626c9658587b9b3c09509",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517435620",
+        "comment": "0107.rar (Smominru - Coin Miner)",
+        "uuid": "5a723ae4-261c-4c19-b8cd-4cd602de0b81",
+        "value": "b7f8b5cb8fc7bd5c14105fde118f5ac7a808e590e52f16c70128b4bd28aa4b5a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517435620",
+        "comment": "0121.rar (Smominru Coin Miner)",
+        "uuid": "5a723ae4-1520-45c3-b378-412002de0b81",
+        "value": "32e0712ff24e5f9ab8ee682a53514c501486f0836ef24125503335d86bd10a4e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517435621",
+        "comment": "0126.rar (Smominru Coin Miner)",
+        "uuid": "5a723ae5-1970-44f3-bdbf-423e02de0b81",
+        "value": "3b1824b41f3853376e21153d9125781dbb57b820d8a9a6cc037f82ea87f50973",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517435621",
+        "comment": "0114.rar (Smominru - Coin Miner)",
+        "uuid": "5a723ae5-64bc-4529-86ee-420e02de0b81",
+        "value": "f1c36aebdcd92a04fd689d31944e5388e7e9b9421063ec4c98804ac7a04e6b0d",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517435771",
+        "comment": "Smominru C&C (Binary Server)",
+        "uuid": "5a723b7b-b10c-4792-977a-411302de0b81",
+        "value": "209.58.186.145",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517435772",
+        "comment": "Smominru C&C",
+        "uuid": "5a723b7c-92ec-49fd-be05-47b102de0b81",
+        "value": "103.95.29.8",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517435772",
+        "comment": "Smominru C&C (WMI call)",
+        "uuid": "5a723b7c-f44c-442c-a15d-43f102de0b81",
+        "value": "45.58.140.194",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517435772",
+        "comment": "Smominru C&C (binary server)",
+        "uuid": "5a723b7d-5ee4-4b59-aae7-409102de0b81",
+        "value": "170.178.171.162",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517435773",
+        "comment": "Smominru C&C (WMI call)  Sinkholed domain",
+        "uuid": "5a723b7d-cf18-46da-b75d-42cb02de0b81",
+        "value": "103.95.30.26",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517435773",
+        "comment": "Smominru binary server",
+        "uuid": "5a723b7d-39fc-4346-b8dc-4d2202de0b81",
+        "value": "68.64.166.82",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517435774",
+        "comment": "Smominru binary server",
+        "uuid": "5a723b7e-8b04-4a40-862f-455402de0b81",
+        "value": "27.255.79.151",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517488875",
+        "comment": "Smominru C&C",
+        "uuid": "5a723b7e-eab4-493f-ba7b-4dbe02de0b81",
+        "value": "down.my0709.xyz",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517435775",
+        "comment": "Smominru C&C",
+        "uuid": "5a723b7f-97d8-449f-8ed6-489b02de0b81",
+        "value": "198.148.80.194",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1517435390",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5a7239fe-2ec0-4295-a0f1-ee7702de0b81",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1517435391",
+            "comment": "",
+            "uuid": "5a7239ff-8b94-41dd-91e0-ee7702de0b81",
+            "value": "43Lm9q14s7GhMLpUsiXY3MH6G67Sn81B5DqmN46u8WnBXNvJmC6FwH3ZMwAmkEB1nHSrujgthFPQeQCFPCwwE7m7TpspYBd",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1517435391",
+            "comment": "",
+            "uuid": "5a7239ff-9bcc-43f2-8e1f-ee7702de0b81",
+            "value": "XMR",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "text",
+            "timestamp": "1517435392",
+            "comment": "",
+            "uuid": "5a723a00-2378-4cb9-8c44-ee7702de0b81",
+            "value": "used after 2018-01-14",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517435459",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5a723a43-35dc-43c6-aebc-448102de0b81",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1517435460",
+            "comment": "",
+            "uuid": "5a723a44-1f80-459f-ab1f-4f7b02de0b81",
+            "value": "47Tscy1QuJn1fxHiBRjWFtgHmvqkW71YZCQL33LeunfH4rsGEHx5UGTPdfXNJtMMATMz8bmaykGVuDFGWP3KyufBSdzxBb2",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1517435460",
+            "comment": "",
+            "uuid": "5a723a44-3498-4397-9114-49b602de0b81",
+            "value": "XMR",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "text",
+            "timestamp": "1517435461",
+            "comment": "",
+            "uuid": "5a723a45-3cb4-4b1b-80a1-4d6102de0b81",
+            "value": "used from before 2017/05 till 2017/09\r\n\r\n \r\n\r\nMined 2000 Monero",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517435512",
+        "name": "coin-address",
+        "sharing_group_id": "0",
+        "uuid": "5a723a78-fa6c-4f56-b48b-41ff02de0b81",
+        "comment": "",
+        "description": "An address used in a cryptocurrency",
+        "meta-category": "financial",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d0e6997e-78da-4815-a6a1-cfc1c1cb8a46",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Financial fraud",
+            "object_relation": "address",
+            "timestamp": "1517435512",
+            "comment": "",
+            "uuid": "5a723a78-bfe8-4820-84b5-4a5602de0b81",
+            "value": "45bbP2muiJHD8Fd5tZyPAfC2RsajyEcsRVVMZ7Tm5qJjdTMprexz6yQ5DVQ1BbmjkMYm9nMid2QSbiGLvvfau7At5V18FzQ",
+            "to_ids": true,
+            "type": "btc",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "symbol",
+            "timestamp": "1517435512",
+            "comment": "",
+            "uuid": "5a723a78-7cb8-482c-baf0-447e02de0b81",
+            "value": "XMR",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "text",
+            "timestamp": "1517435513",
+            "comment": "",
+            "uuid": "5a723a79-95e4-426e-9a91-4ee402de0b81",
+            "value": "from 2017/09 till 2018-01-13\r\n\r\nMined around 6800 Monero",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517478243",
+        "name": "domain-ip",
+        "sharing_group_id": "0",
+        "uuid": "5a72dd50-62b4-49c8-ba81-b1ce950d210f",
+        "comment": "Smominru C&C",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "5",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517478243",
+            "comment": "",
+            "uuid": "5a72dd50-2b88-42d5-acde-b1ce950d210f",
+            "value": "198.148.80.194",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517478243",
+            "comment": "",
+            "uuid": "5a72dd50-a684-44f6-9cb4-b1ce950d210f",
+            "value": "down.down0116.info",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517478223",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72e14f-c2c4-4a5b-b3b9-5bec950d210f",
+        "comment": "Smominru C&C (Binary Server)",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517478223",
+            "comment": "",
+            "uuid": "5a72e14f-192c-4747-84e5-5bec950d210f",
+            "value": "down.oo000oo.club",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517478223",
+            "comment": "",
+            "uuid": "5a72e14f-19fc-42c9-85b8-5bec950d210f",
+            "value": "209.58.186.145",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517478224",
+            "comment": "",
+            "uuid": "5a72e150-385c-4dfb-a4a0-5bec950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517478378",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72e1ea-ce94-495a-ab42-7a86950d210f",
+        "comment": "Smominru C&C",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517478378",
+            "comment": "",
+            "uuid": "5a72e1ea-2f24-4c8c-b1fa-7a86950d210f",
+            "value": "www.cyg2016.xyz",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517478379",
+            "comment": "",
+            "uuid": "5a72e1eb-0690-4781-890d-7a86950d210f",
+            "value": "103.95.29.8",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517478379",
+            "comment": "",
+            "uuid": "5a72e1eb-f7fc-4b93-b7e4-7a86950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517478472",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72e248-e0fc-4718-8b49-8f0b950d210f",
+        "comment": "Smominru C&C (Binary Server)",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517478473",
+            "comment": "",
+            "uuid": "5a72e249-8258-4d48-8ee0-8f0b950d210f",
+            "value": "down.mys2016.info",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517478473",
+            "comment": "",
+            "uuid": "5a72e249-80e4-4c04-94e8-8f0b950d210f",
+            "value": "103.95.29.8",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517478474",
+            "comment": "",
+            "uuid": "5a72e24a-e768-4491-9ac5-8f0b950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517478612",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72e2d4-d378-4bfe-89bc-b1e2950d210f",
+        "comment": "Smominru C&C (WMI call)",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517478612",
+            "comment": "",
+            "uuid": "5a72e2d4-6c00-4ae9-b564-b1e2950d210f",
+            "value": "wmi.mykings.top.info",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517478612",
+            "comment": "",
+            "uuid": "5a72e2d4-f494-469b-b4c1-b1e2950d210f",
+            "value": "45.58.140.194",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517478613",
+            "comment": "",
+            "uuid": "5a72e2d5-5fc0-4bb0-822f-b1e2950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517478716",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72e33c-e520-40ad-991f-b1fb950d210f",
+        "comment": "Smominru C&C (WMI call)",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517478717",
+            "comment": "",
+            "uuid": "5a72e33d-9b10-4c7a-a604-b1fb950d210f",
+            "value": "wmi.oo000oo.club",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517478717",
+            "comment": "",
+            "uuid": "5a72e33d-cc40-416f-9d28-b1fb950d210f",
+            "value": "45.58.140.194",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517478718",
+            "comment": "",
+            "uuid": "5a72e33e-6250-4f01-8aff-b1fb950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517479147",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72e4eb-bb78-4f19-ae51-b1db950d210f",
+        "comment": "Smominru C&C",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517479147",
+            "comment": "",
+            "uuid": "5a72e4eb-4bc4-486c-99c2-b1db950d210f",
+            "value": "xmr.5b6b7b.ru",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517479148",
+            "comment": "",
+            "uuid": "5a72e4ec-342c-4238-9164-b1db950d210f",
+            "value": "45.58.140.194",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517479148",
+            "comment": "",
+            "uuid": "5a72e4ec-73e8-4b09-b260-b1db950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517480257",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72e941-384c-4ed5-8bb4-4b0a950d210f",
+        "comment": "Smominru C&C (binary server)",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517480257",
+            "comment": "",
+            "uuid": "5a72e941-dcc0-46d3-ba29-4246950d210f",
+            "value": "64.myxmr.pw",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517480257",
+            "comment": "",
+            "uuid": "5a72e941-a440-41a2-b723-48d4950d210f",
+            "value": "170.178.171.162",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517480258",
+            "comment": "",
+            "uuid": "5a72e942-23c4-4e85-9525-41b4950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517480825",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72eb79-1514-4dc9-87d4-4763950d210f",
+        "comment": "Smominru C&C (WMI call) - Sinkholed domain",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517480825",
+            "comment": "",
+            "uuid": "5a72eb79-d3a8-4ef6-ba17-4045950d210f",
+            "value": "wmi.my0709.xyz",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517480826",
+            "comment": "",
+            "uuid": "5a72eb7a-1e88-4a3f-afe7-4663950d210f",
+            "value": "103.95.30.26",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517480826",
+            "comment": "",
+            "uuid": "5a72eb7a-1190-4302-9678-4bf5950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481180",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72ecdc-ad08-41d6-b1cc-8f0b950d210f",
+        "comment": "Smominru binary server",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481180",
+            "comment": "",
+            "uuid": "5a72ecdc-f4dc-4bf4-ba96-8f0b950d210f",
+            "value": "ftp.ruisgood.ru",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517481181",
+            "comment": "",
+            "uuid": "5a72ecdd-5588-44bd-b5be-8f0b950d210f",
+            "value": "68.64.166.82",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517481181",
+            "comment": "",
+            "uuid": "5a72ecdd-9ec0-4659-8edd-8f0b950d210f",
+            "value": "21",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481280",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72ed40-73e4-40d3-b0c0-b1fb950d210f",
+        "comment": "Smominru binary server",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481281",
+            "comment": "",
+            "uuid": "5a72ed41-e808-4e0f-a381-b1fb950d210f",
+            "value": "ftp.oo000oo.me",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517481281",
+            "comment": "",
+            "uuid": "5a72ed41-3f74-4d68-916b-b1fb950d210f",
+            "value": "68.64.166.82",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517481281",
+            "comment": "",
+            "uuid": "5a72ed41-2ac8-4618-a365-b1fb950d210f",
+            "value": "21",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481308",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72ed5c-1854-41db-ac03-5bf2950d210f",
+        "comment": "Smominru binary server",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481308",
+            "comment": "",
+            "uuid": "5a72ed5c-8a7c-4a3b-a651-5bf2950d210f",
+            "value": "ftp.ftp0118.info",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517481309",
+            "comment": "",
+            "uuid": "5a72ed5d-94b0-46fa-8863-5bf2950d210f",
+            "value": "68.64.166.82",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517481309",
+            "comment": "",
+            "uuid": "5a72ed5d-8d1c-49b5-8024-5bf2950d210f",
+            "value": "21",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481332",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72ed74-9234-4129-81bb-47f3950d210f",
+        "comment": "Smominru binary server",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481333",
+            "comment": "",
+            "uuid": "5a72ed75-9880-448e-9b02-47c1950d210f",
+            "value": "js.mys2016.info",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517481333",
+            "comment": "",
+            "uuid": "5a72ed75-ca30-4ea5-b0cd-449e950d210f",
+            "value": "27.255.79.151",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517481333",
+            "comment": "",
+            "uuid": "5a72ed75-f48c-4c10-8388-4bc8950d210f",
+            "value": "280",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481386",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72edaa-8670-4ea1-a903-4e28950d210f",
+        "comment": "Smominru C&C (Binary Server)",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481386",
+            "comment": "",
+            "uuid": "5a72edaa-342c-4783-8194-406f950d210f",
+            "value": "64.mymyxmra.ru",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517481387",
+            "comment": "",
+            "uuid": "5a72edab-b200-44bb-adeb-431e950d210f",
+            "value": "170.178.171.162",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517481387",
+            "comment": "",
+            "uuid": "5a72edab-c7a0-4413-a928-4c03950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481481",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72ee09-c0b0-48d0-9a90-4d69950d210f",
+        "comment": "Smominru C&C",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481481",
+            "comment": "",
+            "uuid": "5a72ee09-54e0-4300-93b4-4f49950d210f",
+            "value": "xmr.xmr5b.ru",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517481482",
+            "comment": "",
+            "uuid": "5a72ee0a-1624-4b74-b56a-4ee8950d210f",
+            "value": "45.58.140.194",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517481482",
+            "comment": "",
+            "uuid": "5a72ee0a-d9b8-4825-82d7-4d2b950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481552",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72ee50-f530-4793-8783-6767950d210f",
+        "comment": "Smominru C&C",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481553",
+            "comment": "",
+            "uuid": "5a72ee51-4fc0-4d0d-8efb-6767950d210f",
+            "value": "js.my0115.ru",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517481553",
+            "comment": "",
+            "uuid": "5a72ee51-7088-4a4d-9dc8-6767950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481587",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72ee73-9cc0-4425-b60a-4260950d210f",
+        "comment": "Smominru C&C (WMI call)",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481587",
+            "comment": "",
+            "uuid": "5a72ee73-add0-484f-a7fd-4ee3950d210f",
+            "value": "wmi.my0115.ru",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517481588",
+            "comment": "",
+            "uuid": "5a72ee74-7974-4ccd-aa57-48be950d210f",
+            "value": "103.95.30.26",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517481588",
+            "comment": "",
+            "uuid": "5a72ee74-fed8-4e91-9d7f-47b5950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481613",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a72ee8d-cc5c-48e6-b05a-5bee950d210f",
+        "comment": "Smominru C&C (Binary Server)",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481613",
+            "comment": "",
+            "uuid": "5a72ee8d-0174-4c34-b302-5bee950d210f",
+            "value": "down.my0115.ru",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517481614",
+            "comment": "",
+            "uuid": "5a72ee8e-7834-49ad-acf0-5bee950d210f",
+            "value": "103.95.30.26",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517481614",
+            "comment": "",
+            "uuid": "5a72ee8e-99a4-4314-937e-5bee950d210f",
+            "value": "8888",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517481633",
+        "name": "domain-ip",
+        "sharing_group_id": "0",
+        "uuid": "5a72eea1-0f08-4da7-a5a1-b1db950d210f",
+        "comment": "Smominru C&C",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "5",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "ip",
+            "timestamp": "1517481633",
+            "comment": "",
+            "uuid": "5a72eea1-5d20-4812-a933-b1db950d210f",
+            "value": "103.95.30.26",
+            "to_ids": true,
+            "type": "ip-dst",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517481634",
+            "comment": "",
+            "uuid": "5a72eea2-e5dc-4b35-9f01-b1db950d210f",
+            "value": "down.my0709.xyz",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488879",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "1e2fd26e-d1ec-406d-bb1b-b4d72f61d52f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771268",
+            "comment": "",
+            "uuid": "5a730b04-c964-45f2-8265-4b3a02de0b81",
+            "object_uuid": "1e2fd26e-d1ec-406d-bb1b-b4d72f61d52f",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "0b7e3026-09c1-4f49-af9a-07f5ceb0592b"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517488876",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730aec-ea98-4103-9143-470302de0b81",
+            "value": "a56c110dcf859d83aa1fa5ad455e94539dfa8d12",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517488876",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730aec-0a08-4fce-90b5-4eb102de0b81",
+            "value": "1487e2b148f7a4869c212f78cb28d682",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517488877",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730aed-5d18-427e-86aa-43c802de0b81",
+            "value": "8ceb370e5f32dd732809c827f8eda38cc9b746d40adea3dca33b8c27ee38eb6f",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488877",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "0b7e3026-09c1-4f49-af9a-07f5ceb0592b",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517488877",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730aed-3e50-42bb-927c-450902de0b81",
+            "value": "https://www.virustotal.com/file/8ceb370e5f32dd732809c827f8eda38cc9b746d40adea3dca33b8c27ee38eb6f/analysis/1517456055/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517488878",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730aee-fe60-4ff3-a8a3-428102de0b81",
+            "value": "45/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517488878",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730aee-cf3c-4a4b-b699-434c02de0b81",
+            "value": "2018-02-01T03:34:15",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488882",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "b538582a-ca89-45a4-895c-35d517c9b279",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771268",
+            "comment": "",
+            "uuid": "5a730b05-66c8-4573-9dae-44f102de0b81",
+            "object_uuid": "b538582a-ca89-45a4-895c-35d517c9b279",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "a804d5b1-7ca5-406d-9a56-e06577b0629d"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517488879",
+            "comment": "0107.rar (Smominru - Coin Miner)",
+            "uuid": "5a730aef-b894-4a00-a320-40ae02de0b81",
+            "value": "d789b6b33d739810cab2e3f5a55933dd16721823",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517488879",
+            "comment": "0107.rar (Smominru - Coin Miner)",
+            "uuid": "5a730aef-2530-437d-925f-472102de0b81",
+            "value": "ff604679b2e12040dea81f6ecffd5ea2",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517488880",
+            "comment": "0107.rar (Smominru - Coin Miner)",
+            "uuid": "5a730af0-79dc-47e8-a72d-48d402de0b81",
+            "value": "b7f8b5cb8fc7bd5c14105fde118f5ac7a808e590e52f16c70128b4bd28aa4b5a",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488880",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "a804d5b1-7ca5-406d-9a56-e06577b0629d",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517488880",
+            "comment": "0107.rar (Smominru - Coin Miner)",
+            "uuid": "5a730af0-28d8-461f-8bc1-48eb02de0b81",
+            "value": "https://www.virustotal.com/file/b7f8b5cb8fc7bd5c14105fde118f5ac7a808e590e52f16c70128b4bd28aa4b5a/analysis/1517457171/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517488881",
+            "comment": "0107.rar (Smominru - Coin Miner)",
+            "uuid": "5a730af1-ebd8-4440-a145-46e502de0b81",
+            "value": "49/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517488881",
+            "comment": "0107.rar (Smominru - Coin Miner)",
+            "uuid": "5a730af1-2a48-4e30-b9dc-468602de0b81",
+            "value": "2018-02-01T03:52:51",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488885",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "c7f56e48-5ca3-4ab4-8a44-d508a7c3f1b5",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771268",
+            "comment": "",
+            "uuid": "5a730b05-0150-4550-9b86-44a802de0b81",
+            "object_uuid": "c7f56e48-5ca3-4ab4-8a44-d508a7c3f1b5",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "857bce07-e7e4-4cfb-a435-fbb587cf250a"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517488882",
+            "comment": "0126.rar (Smominru Coin Miner)",
+            "uuid": "5a730af2-eea8-413a-b78a-492b02de0b81",
+            "value": "6ca9bc55382736c6fb173afb789318ee7067f206",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517488882",
+            "comment": "0126.rar (Smominru Coin Miner)",
+            "uuid": "5a730af2-b2c4-426d-b64b-42bb02de0b81",
+            "value": "0224b573793d1780e3fec22739526c8f",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517488883",
+            "comment": "0126.rar (Smominru Coin Miner)",
+            "uuid": "5a730af3-52d4-418d-8c97-40d102de0b81",
+            "value": "3b1824b41f3853376e21153d9125781dbb57b820d8a9a6cc037f82ea87f50973",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488883",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "857bce07-e7e4-4cfb-a435-fbb587cf250a",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517488883",
+            "comment": "0126.rar (Smominru Coin Miner)",
+            "uuid": "5a730af3-4578-439d-b113-485d02de0b81",
+            "value": "https://www.virustotal.com/file/3b1824b41f3853376e21153d9125781dbb57b820d8a9a6cc037f82ea87f50973/analysis/1517153840/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517488884",
+            "comment": "0126.rar (Smominru Coin Miner)",
+            "uuid": "5a730af4-2254-4135-a0e4-4ed602de0b81",
+            "value": "28/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517488884",
+            "comment": "0126.rar (Smominru Coin Miner)",
+            "uuid": "5a730af4-9a70-46ec-b537-492902de0b81",
+            "value": "2018-01-28T15:37:20",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488888",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "994aa712-e77a-411f-bec0-cf4b547a61a1",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771268",
+            "comment": "",
+            "uuid": "5a730b05-a2e0-47fe-a4fe-4e3c02de0b81",
+            "object_uuid": "994aa712-e77a-411f-bec0-cf4b547a61a1",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "28763b93-461a-4389-8100-45731b4fcb27"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517488885",
+            "comment": "64.rar",
+            "uuid": "5a730af5-1824-4820-bb8e-44b902de0b81",
+            "value": "53accdd58a67fe7bc7fbcaefa1e2b65c13aba9ff",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517488886",
+            "comment": "64.rar",
+            "uuid": "5a730af6-8c40-43fa-959b-4ea502de0b81",
+            "value": "6ca24e8ae6988ee1187be72c777e7397",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517488886",
+            "comment": "64.rar",
+            "uuid": "5a730af6-91e8-4591-b16d-4a0402de0b81",
+            "value": "2e3f534bd6b7d1cf18dc727820124faed92fb28f1d4626c9658587b9b3c09509",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488887",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "28763b93-461a-4389-8100-45731b4fcb27",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517488887",
+            "comment": "64.rar",
+            "uuid": "5a730af7-d48c-4b0b-be0c-452702de0b81",
+            "value": "https://www.virustotal.com/file/2e3f534bd6b7d1cf18dc727820124faed92fb28f1d4626c9658587b9b3c09509/analysis/1517457638/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517488887",
+            "comment": "64.rar",
+            "uuid": "5a730af7-12c8-4405-af2c-47c102de0b81",
+            "value": "42/64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517488888",
+            "comment": "64.rar",
+            "uuid": "5a730af8-d5c4-4360-b181-4c4002de0b81",
+            "value": "2018-02-01T04:00:38",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488891",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "fae35839-05f9-4c5d-86f2-0694b89e6be3",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771268",
+            "comment": "",
+            "uuid": "5a730b05-de7c-4803-ad11-495902de0b81",
+            "object_uuid": "fae35839-05f9-4c5d-86f2-0694b89e6be3",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "38c84b61-e001-46f6-a99c-172c5e4e5d67"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517488888",
+            "comment": "0121.rar (Smominru Coin Miner)",
+            "uuid": "5a730af8-ba7c-4433-beba-416202de0b81",
+            "value": "c788a27c9f18f1e732e34e60a73b83ccdcfd9a29",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517488889",
+            "comment": "0121.rar (Smominru Coin Miner)",
+            "uuid": "5a730af9-6634-4f1e-9756-40de02de0b81",
+            "value": "ebdc2be63b2fcb8fe22845c75850c9e6",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517488889",
+            "comment": "0121.rar (Smominru Coin Miner)",
+            "uuid": "5a730af9-3898-4143-bd27-421302de0b81",
+            "value": "32e0712ff24e5f9ab8ee682a53514c501486f0836ef24125503335d86bd10a4e",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488890",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "38c84b61-e001-46f6-a99c-172c5e4e5d67",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517488890",
+            "comment": "0121.rar (Smominru Coin Miner)",
+            "uuid": "5a730afa-b5b4-4ef0-9030-4a5302de0b81",
+            "value": "https://www.virustotal.com/file/32e0712ff24e5f9ab8ee682a53514c501486f0836ef24125503335d86bd10a4e/analysis/1517399898/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517488890",
+            "comment": "0121.rar (Smominru Coin Miner)",
+            "uuid": "5a730afa-eb88-472e-9db8-491e02de0b81",
+            "value": "43/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517488891",
+            "comment": "0121.rar (Smominru Coin Miner)",
+            "uuid": "5a730afb-ff20-49ea-8d61-439d02de0b81",
+            "value": "2018-01-31T11:58:18",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488894",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "959bcddc-d26f-44f7-9a79-07df0acb6a95",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771268",
+            "comment": "",
+            "uuid": "5a730b05-8e28-4baf-9bc9-4f8d02de0b81",
+            "object_uuid": "959bcddc-d26f-44f7-9a79-07df0acb6a95",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "33bb45b6-d3bd-4cc1-bec6-84cb666c0c0d"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517488891",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730afb-fd50-4da2-96af-4f8902de0b81",
+            "value": "368ef0af957492ad0b55ce1351da1b44f67dbcb8",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517488892",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730afc-08b8-4f2c-8c4a-498b02de0b81",
+            "value": "f63e34b172bc6c88c002a2d25c738ea9",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517488892",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730afc-2d2c-4a34-b967-454102de0b81",
+            "value": "5e15c97546a19759a8397e51e98a2d8168e6e27aff4dc518220459ed3184e4e2",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488893",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "33bb45b6-d3bd-4cc1-bec6-84cb666c0c0d",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517488893",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730afd-5ae4-4e1d-976f-4e1e02de0b81",
+            "value": "https://www.virustotal.com/file/5e15c97546a19759a8397e51e98a2d8168e6e27aff4dc518220459ed3184e4e2/analysis/1517462947/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517488893",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730afd-1514-4e7f-8862-49ae02de0b81",
+            "value": "37/63",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517488894",
+            "comment": "EternalBlue dropped",
+            "uuid": "5a730afe-2ad4-4d85-af66-4a4702de0b81",
+            "value": "2018-02-01T05:29:07",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488897",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "eb0f9ec8-b388-422a-99dc-5d7a32e340b3",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771268",
+            "comment": "",
+            "uuid": "5a730b05-3230-49fc-b2f1-49ae02de0b81",
+            "object_uuid": "eb0f9ec8-b388-422a-99dc-5d7a32e340b3",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "c38c22d3-60e6-4336-94d4-f9772f9e56fe"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517488894",
+            "comment": "0114.rar (Smominru - Coin Miner)",
+            "uuid": "5a730afe-0fdc-4e97-bb5b-406d02de0b81",
+            "value": "b8a53e651be77914428f6a3cefc797041ff3df51",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517488895",
+            "comment": "0114.rar (Smominru - Coin Miner)",
+            "uuid": "5a730aff-4bd8-43e9-ac6d-47ea02de0b81",
+            "value": "822b8150022ba179560ac42384ff997e",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517488895",
+            "comment": "0114.rar (Smominru - Coin Miner)",
+            "uuid": "5a730aff-4a6c-4daf-90be-493202de0b81",
+            "value": "f1c36aebdcd92a04fd689d31944e5388e7e9b9421063ec4c98804ac7a04e6b0d",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488896",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "c38c22d3-60e6-4336-94d4-f9772f9e56fe",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517488896",
+            "comment": "0114.rar (Smominru - Coin Miner)",
+            "uuid": "5a730b00-d828-4158-99c6-4f4702de0b81",
+            "value": "https://www.virustotal.com/file/f1c36aebdcd92a04fd689d31944e5388e7e9b9421063ec4c98804ac7a04e6b0d/analysis/1517332171/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517488896",
+            "comment": "0114.rar (Smominru - Coin Miner)",
+            "uuid": "5a730b00-cfac-4258-a9b1-4f4202de0b81",
+            "value": "49/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517488897",
+            "comment": "0114.rar (Smominru - Coin Miner)",
+            "uuid": "5a730b01-39ac-4f84-93b3-498602de0b81",
+            "value": "2018-01-30T17:09:31",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488900",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "055ccd02-bd02-4e47-9fd1-1e668f23f024",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771269",
+            "comment": "",
+            "uuid": "5a730b05-9ea0-4f53-a361-49d802de0b81",
+            "object_uuid": "055ccd02-bd02-4e47-9fd1-1e668f23f024",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "1718834e-3131-4711-92e4-4fd9e25abcb7"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517488897",
+            "comment": "ups.rar",
+            "uuid": "5a730b01-a8a0-4494-8ea7-4b8002de0b81",
+            "value": "0b5616228f6556b320ac0d2f586504538abb638e",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517488898",
+            "comment": "ups.rar",
+            "uuid": "5a730b02-ecac-48c3-9481-409b02de0b81",
+            "value": "6b13994f83dad0d45764911a88564a7b",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517488898",
+            "comment": "ups.rar",
+            "uuid": "5a730b02-df4c-4212-8585-439002de0b81",
+            "value": "da3b2e4da23aae505bf991cb68833d01d0c5b75645d246dfa9b6e403be1798c8",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517488899",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "1718834e-3131-4711-92e4-4fd9e25abcb7",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517488899",
+            "comment": "ups.rar",
+            "uuid": "5a730b03-589c-47de-a519-4d8702de0b81",
+            "value": "https://www.virustotal.com/file/da3b2e4da23aae505bf991cb68833d01d0c5b75645d246dfa9b6e403be1798c8/analysis/1517457719/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517488899",
+            "comment": "ups.rar",
+            "uuid": "5a730b03-0afc-42a7-a1b0-48e002de0b81",
+            "value": "49/64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517488900",
+            "comment": "ups.rar",
+            "uuid": "5a730b04-ae70-4fab-b15f-48c602de0b81",
+            "value": "2018-02-01T04:01:59",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

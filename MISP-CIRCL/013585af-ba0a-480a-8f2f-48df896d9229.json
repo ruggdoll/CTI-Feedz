@@ -1,0 +1,363 @@
+{
+  "Event": {
+    "date": "2022-08-19",
+    "timestamp": "1660912821",
+    "analysis": "2",
+    "uuid": "013585af-ba0a-480a-8f2f-48df896d9229",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1660912855",
+    "info": "OSINT - JSSLoader: the shellcode edition",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:mitre-intrusion-set=\"FIN7 - G0046\""
+      },
+      {
+        "colour": "#dd5a72",
+        "name": "misp-galaxy:threat-actor=\"FIN7\""
+      },
+      {
+        "colour": "#004646",
+        "name": "type:OSINT"
+      },
+      {
+        "colour": "#0071c3",
+        "name": "osint:lifetime=\"perpetual\""
+      },
+      {
+        "colour": "#0087e8",
+        "name": "osint:certainty=\"50\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:clear"
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910204",
+        "comment": "",
+        "uuid": "33ff2767-0cd0-4f23-8d5e-ef4e7c599a31",
+        "value": "cc2171d14d0d3c4d117155185f7c911f781aac15b57adef6c32eb0149d5da3ba",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910204",
+        "comment": "",
+        "uuid": "328fe82a-fbab-4589-9a7b-11e5caef263a",
+        "value": "bf1371e2d79115fc7cfc89266cd7a59c02b04a74e1246435392eb5e20c661d8f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910204",
+        "comment": "",
+        "uuid": "42764a9c-4661-481b-acd0-66649ddcf5cb",
+        "value": "b08e713196b712c42da2df9da7836d270306065fbf6d4720f25d80e4104daf38",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910204",
+        "comment": "",
+        "uuid": "6b066e8f-f78f-43f4-9331-8cdd54c8e719",
+        "value": "7a234d1a2415834290a3a9c7274aadb7253dcfe24edb10b22f1a4a33fd027a08",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910204",
+        "comment": "",
+        "uuid": "3d35309b-d8b1-4c14-b565-2d158cbc6b59",
+        "value": "7a17ef218eebfdd4d3e70add616adcd5b78105becd6616c88b79b261d1a78fdf",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910204",
+        "comment": "",
+        "uuid": "92e60ec9-126c-4708-b444-04ade49d2d2c",
+        "value": "410cd107dfd37752936bd20d022ea614cd373aa9d37db255f65dc434e653236a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910204",
+        "comment": "",
+        "uuid": "2281dea8-11e1-4763-976a-f312d7fb0154",
+        "value": "35f5c781d61d398ce47a8881228346a81afb4915bf083518bf2b4cc8d6a2685b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910304",
+        "comment": "",
+        "uuid": "9a498744-8261-428a-98bf-49d000228346",
+        "value": "529f476f952fd1526d2038cb0012e5bdd8a702f3",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910304",
+        "comment": "",
+        "uuid": "b765a67f-1c41-4c2f-92c0-c654b37adff5",
+        "value": "0eaf6289dd7ebe8ae0879a4a72d1518e1d4ffac9",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910304",
+        "comment": "",
+        "uuid": "e081fdb9-1972-4090-bfc4-123e792897a1",
+        "value": "f1aff007c04c6fd3739dbeac537edaaa",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910304",
+        "comment": "",
+        "uuid": "6d0ce48e-c437-46de-ae24-7472fbea594b",
+        "value": "4a1e60be00e59617d53122d70c64506c",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910304",
+        "comment": "",
+        "uuid": "1406da62-389f-4c9b-8112-8a2eeb651c48",
+        "value": "4961aec62fac8beeafffa5bfc841fab8",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910304",
+        "comment": "",
+        "uuid": "8d74be00-dc29-43aa-8497-db3684056d65",
+        "value": "2956c03bff952b22387eed8172a26ba5",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910304",
+        "comment": "",
+        "uuid": "79754502-9a01-49f3-858f-9696336fd465",
+        "value": "1e12ac069c1898ffe271ebdfcbd689c1",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910352",
+        "comment": "",
+        "uuid": "d72a4609-ff18-46b7-8921-eac3740002d4",
+        "value": "d2742d7c4b7454745795c547594bb4f9dbddecfe",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910352",
+        "comment": "",
+        "uuid": "00698b4e-497c-459d-94fa-e12da80c9008",
+        "value": "9d0f6c8be3214eee1dda6ebb4bb41ef97cfe28b4",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1660910352",
+        "comment": "",
+        "uuid": "cfdc5e5b-057b-49cd-b9db-646250947783",
+        "value": "5c7b4da950b0f1845b38ef1aa11ca41b4731c766",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1660910745",
+        "name": "report",
+        "sharing_group_id": "0",
+        "uuid": "aaff4760-ea84-46a6-a79a-27919f325ed3",
+        "comment": "",
+        "description": "Metadata used to generate an executive level report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "70a68471-df22-4e3f-aa1a-5a3be19f82df",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "link",
+            "timestamp": "1660910745",
+            "comment": "",
+            "uuid": "fadbc54c-4adb-46b8-9d9e-b001f35b0f44",
+            "value": "https://malwarebytes.app.box.com/s/ym6r7o5hq0rx2nxjbctfv2sw5vx386ni",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "summary",
+            "timestamp": "1660910745",
+            "comment": "",
+            "uuid": "ddcaf51a-7f89-4427-b93d-82804562da14",
+            "value": "JSSLoader: the shellcode edition",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "type",
+            "timestamp": "1660910745",
+            "comment": "",
+            "uuid": "8555a473-687e-475b-943b-1d9cdb633669",
+            "value": "Report",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1660911074",
+        "name": "github-user",
+        "sharing_group_id": "0",
+        "uuid": "9560a135-3e58-4c09-bade-b3109a40ec35",
+        "comment": "Decoding of the strings is crucial for getting deeper understanding of the malware functionality. The following tool was used for strings deobfuscation:\uf0b7https://gist.github.com/hasherezade/6eb355c2c81e640e7470fafe4db3f069(it loads the original shellcode, and then deploys a decoding function out of it)",
+        "description": "GitHub user",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "3",
+        "template_uuid": "4329b5e6-8e6a-4b55-8fd1-9033782017d4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Social network",
+            "object_relation": "username",
+            "timestamp": "1660911074",
+            "comment": "",
+            "uuid": "3c958b8f-aa3c-4c6e-86c0-f303835be16e",
+            "value": "hasherezade",
+            "to_ids": false,
+            "type": "github-username",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Social network",
+            "object_relation": "repository",
+            "timestamp": "1660911074",
+            "comment": "",
+            "uuid": "83112dd4-06fb-44d3-99da-9c3458d38ea9",
+            "value": "https://gist.github.com/hasherezade/6eb355c2c81e640e7470fafe4db3f069",
+            "to_ids": false,
+            "type": "github-repository",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1660911217",
+        "name": "github-user",
+        "sharing_group_id": "0",
+        "uuid": "c41f294b-2395-4d53-a671-577483c9180b",
+        "comment": "generated listing",
+        "description": "GitHub user",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "3",
+        "template_uuid": "4329b5e6-8e6a-4b55-8fd1-9033782017d4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Social network",
+            "object_relation": "username",
+            "timestamp": "1660911217",
+            "comment": "",
+            "uuid": "b32b4209-2439-4aa4-842e-c54b189bde12",
+            "value": "hasherezade",
+            "to_ids": false,
+            "type": "github-username",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Social network",
+            "object_relation": "repository",
+            "timestamp": "1660911217",
+            "comment": "",
+            "uuid": "1ce528f7-24dc-4602-968c-fd2e019c9909",
+            "value": "https://gist.github.com/hasherezade/4048e435cda43be374277afb06744ab1",
+            "to_ids": false,
+            "type": "github-repository",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3850 @@
+{
+  "Event": {
+    "date": "2018-01-29",
+    "timestamp": "1517281238",
+    "analysis": "2",
+    "uuid": "5a6f379d-3854-4457-949e-41bb950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1518771182",
+    "info": "OSINT - VERMIN: Quasar RAT and Custom Malware Used In Ukraine",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:rat=\"Quasar RAT\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238266",
+        "comment": "Quasar",
+        "uuid": "5a6f37fa-a5bc-4e02-bb58-480d950d210f",
+        "value": "0157b43eb3c20928b77f8700ad8eb279a0aa348921df074cd22ebaff01edaae6",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238267",
+        "comment": "Quasar",
+        "uuid": "5a6f37fb-b69c-44bd-b2a8-459e950d210f",
+        "value": "154ef5037e5de49a6e3c48ea7221a02a5df33c34420a586cbff6a46dc5026a91",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238267",
+        "comment": "Quasar",
+        "uuid": "5a6f37fb-850c-456a-8e95-48f2950d210f",
+        "value": "24956d8edcf2a1fd26805ec58cfd1ee7498e1a59af8cc2f4b832a7ab34948c18",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238268",
+        "comment": "Quasar",
+        "uuid": "5a6f37fc-4254-4ad5-ae0c-4f19950d210f",
+        "value": "250cf8b44fc3ae86b467dd3a1c261a6c3d1645a8a21addfe7f2e2241ff8b79fc",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238268",
+        "comment": "Quasar",
+        "uuid": "5a6f37fc-1188-4b79-a9bb-4ea7950d210f",
+        "value": "4c5e019e0e55a3fe378aa339d52c235c06ecc5053625a5d54d65c4ae38c6e3da",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238268",
+        "comment": "Quasar",
+        "uuid": "5a6f37fc-134c-483d-a237-4c94950d210f",
+        "value": "92295b38daa4e44b9d257e56c5b271bbbf6a620312dc58e48e56473427170aa1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238269",
+        "comment": "Quasar",
+        "uuid": "5a6f37fd-dc10-41aa-96f5-4b90950d210f",
+        "value": "9ea00514c4ae9519a8938924b02826cfafeb75fc70f16c422aeadb8317a146c1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238269",
+        "comment": "Quasar",
+        "uuid": "5a6f37fd-7798-4a86-928c-43f1950d210f",
+        "value": "a3c84c5f8d981653a2a391d29f32c8127fba8f0ab7da8815330a228205c99ba6",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238270",
+        "comment": "Quasar",
+        "uuid": "5a6f37fe-86f0-422b-83c9-45bc950d210f",
+        "value": "7b08b0d4d68ebf5238eaa8a40f815b83de372e345eb22cc3d50a4bb1869db78e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238270",
+        "comment": "Quasar",
+        "uuid": "5a6f37fe-f424-4a48-8738-4e6d950d210f",
+        "value": "f75861216f5716b0227733e6a093776f693361626efebe37618935b9c6e1bdfd",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238270",
+        "comment": "Quasar",
+        "uuid": "5a6f37fe-4e0c-4156-8a1e-40f2950d210f",
+        "value": "51b0bb172c6e5eaa8e333fbf2451ae27094991b6330025374b9082ae8cd879cf",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238271",
+        "comment": "Quasar",
+        "uuid": "5a6f37ff-251c-453c-81d3-4b8e950d210f",
+        "value": "46ae101a8dc8bf434d2c599aaabfb72a0843d21e2150a6c745c0c4a771c09da3",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238271",
+        "comment": "Quasar",
+        "uuid": "5a6f37ff-c250-44f4-ba76-4b3e950d210f",
+        "value": "488db27f3d619b3067d95515a356997ea8e840c65daa2799bdd473dce93362f2",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238272",
+        "comment": "Quasar",
+        "uuid": "5a6f3800-55e0-491f-be92-44c2950d210f",
+        "value": "5a05d2171e6aeb5edd9d39c7f46cd3bf0e2ee3ee803431a58a9945a56ce935f6",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238272",
+        "comment": "Quasar",
+        "uuid": "5a6f3800-160c-40bc-9935-4fa7950d210f",
+        "value": "6f4e20e421451c3d8490067f8424d7efbcc5edeb82f80bb5562c76d4adfb0181",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238273",
+        "comment": "Quasar",
+        "uuid": "5a6f3801-1808-4faa-8944-4c44950d210f",
+        "value": "9a81cffe79057d8d307910143efd1455f956f2de2c7cc8fb07a7c17000913d59",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238273",
+        "comment": "Quasar",
+        "uuid": "5a6f3801-ff04-4575-9453-431a950d210f",
+        "value": "c84afdd28fa0923a09f6dd3af1e3821cdb07862b2796fa004cd3229bc6129cbe",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238273",
+        "comment": "Quasar",
+        "uuid": "5a6f3801-9620-47c0-97ab-411d950d210f",
+        "value": "6cf63ae829984a47aca93f8a1261afe5a06930f04fab6f86f6f7f9631fde59ec",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238274",
+        "comment": "Quasar",
+        "uuid": "5a6f3802-4480-4847-b42f-4db6950d210f",
+        "value": "aa982fe7d28bbf55865047b16334efbe3fcb6bae06e5ed9cab544f1c8d307317",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238290",
+        "comment": "VERMIN",
+        "uuid": "5a6f3812-2fdc-4a17-8a08-445f950d210f",
+        "value": "2963c5eacaad13ace807edd634a4a5896cb5536f961f43afcf8c1f25c08a5eef",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238290",
+        "comment": "VERMIN",
+        "uuid": "5a6f3812-6f6c-4a88-b041-4546950d210f",
+        "value": "677edb1a0a86c8bd0df150f2d9c5c3bc1d20d255b6f7944c4adcff3c45df4851",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238290",
+        "comment": "VERMIN",
+        "uuid": "5a6f3812-4308-4f43-8701-47e1950d210f",
+        "value": "74ba162eef84bf13d1d79cb26192a4692c09fed57f321230ddb7668a88e3935d",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238291",
+        "comment": "VERMIN",
+        "uuid": "5a6f3813-9fa0-4953-b93d-445b950d210f",
+        "value": "e1d917769267302d58a2fd00bc49d4aee5a472227a75f9366b46ce243e9cbef7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238291",
+        "comment": "VERMIN",
+        "uuid": "5a6f3813-ee04-44a9-b7fc-4018950d210f",
+        "value": "eb48a31f8f81635d24f343a09247284149884bd713d3bc1c0b9c936bca8bafd7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238292",
+        "comment": "VERMIN",
+        "uuid": "5a6f3814-df80-4caa-abf1-4772950d210f",
+        "value": "15c52b01d2b9294e2dd4d9711cde99e10f11cd188e0d1e4fa9db78f9805626c3",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238292",
+        "comment": "VERMIN",
+        "uuid": "5a6f3814-89e4-427b-b691-4d1a950d210f",
+        "value": "31a1419d9121f55859ecf2d01f07da38bd37bb11d0ed9544a35d5d69472c358e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238293",
+        "comment": "VERMIN",
+        "uuid": "5a6f3815-05ac-490c-b0b8-4875950d210f",
+        "value": "5586fb423aff39a02cddf5e456a83a8301afe9ed78ecbc8de2cd852bc0cd498f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238293",
+        "comment": "VERMIN",
+        "uuid": "5a6f3815-b354-43fe-8fc6-4ce5950d210f",
+        "value": "5ee12dd028f5f8c2c0eb76f28c2ce273423998b36f3fc20c9e291f39825601f9",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238294",
+        "comment": "VERMIN",
+        "uuid": "5a6f3816-8268-467f-92f9-4757950d210f",
+        "value": "98073a58101dda103ea03bbd4b3554491d227f52ec01c245c3782e63c0fdbc07",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238294",
+        "comment": "VERMIN",
+        "uuid": "5a6f3816-b928-47f0-95f1-419f950d210f",
+        "value": "c5647603337a4e9bfbb2259c0aec7fa9868c87ded2ab74e9d233bdb2a3bb163e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238294",
+        "comment": "VERMIN",
+        "uuid": "5a6f3816-49a4-4aaf-8ac6-48dc950d210f",
+        "value": "eb46b8978619a72f4b0d3ea8961dde527f8e27e89701ccd6e5643c33b103d901",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517238295",
+        "comment": "VERMIN",
+        "uuid": "5a6f3817-a538-4354-8845-4083950d210f",
+        "value": "abd05a20b8aa21d58ee01a02ae804a0546fbf6811d71559423b6b5afdfbe7e64",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Support Tool",
+        "timestamp": "1517238818",
+        "data": "IyEvdXNyL2xvY2FsL2Jpbi9weXRob24KCl9fYXV0aG9yX18gPSAiSnVhbiBDIENvcnRlcyIKX192ZXJzaW9uX18gPSAiMS4wIgpfX2VtYWlsX18gPSAiamNvcnRlc0BwYWxvYWx0b25ldHdvcmtzLmNvbSIKCmZyb20gcmFuZG9tIGltcG9ydCByYW5kaW50CmltcG9ydCB6bGliCmltcG9ydCBiaW5hc2NpaQppbXBvcnQgc3lzCmltcG9ydCBsb2dnaW5nCmltcG9ydCBoYXNobGliCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgb3MKaW1wb3J0IHN0cnVjdApmcm9tIHRhYnVsYXRlIGltcG9ydCB0YWJ1bGF0ZQpmcm9tIENyeXB0byBpbXBvcnQgUmFuZG9tCmZyb20gQ3J5cHRvLkNpcGhlciBpbXBvcnQgQUVTCgpkZWYgcGFyc2VfYXJndW1lbnRzKCk6CiAgICAiIiJBcmd1bWVudCBQYXJzZXIiIiIKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKAogICAgICAgIHVzYWdlPSJEZWNyeXB0IHN0cmluZ3MgZm9yIFZlcm1pblJBVCIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItdiIsCiAgICAgICAgIi0tdmVyYm9zaXR5IiwKICAgICAgICBhY3Rpb249InN0b3JlX3RydWUiLAogICAgICAgIGRlc3Q9InZ2ZXJib3NlIiwKICAgICAgICBoZWxwPSJQcmludCBkZWJ1Z2dpbmcgaW5mb3JtYXRpb24iKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLW8iLAogICAgICAgICItLW91dHB1dCIsCiAgICAgICAgZGVzdD0ib3V0cHV0X2ZpbGUiLAogICAgICAgIHR5cGU9c3RyLAogICAgICAgIGhlbHA9Ik91dHB1dCByZXN1bHRzIGZpbGUiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiaW5wdXQiLAogICAgICAgIHR5cGU9c3RyLAogICAgICAgIGFjdGlvbj0nc3RvcmUnLAogICAgICAgIGhlbHA9IklucHV0IGZpbGUgb2YgbmV3bGluZSBzZXBhcmF0ZWQgc3RyaW5ncyBvciBzaW5nbGUgc3RyaW5nIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi1iIiwKICAgICAgICAiLS1ibG9iIiwKICAgICAgICBhY3Rpb249J3N0b3JlX3RydWUnLAogICAgICAgIGhlbHA9IlBhcmFtIHVzZSBmb3IgZGVjcnlwdGluZyBibG9icyBvZiBkYXRhIGluc3RlYWQgb2Ygc3RyaW5ncy4gQmxvYiBpcyBhdXRvc2F2ZSB0byAnYmxvYi5vdXQnIikKICAgIHJldHVybiBwYXJzZXIKCmRlZiB3cml0ZV9vdXQob3V0cHV0X2xpc3QsIGhlYWRlcnMsIG91dHB1dF9maWxlPUZhbHNlKToKICAgICIiIgogICAgUHJldHR5IG91dHB1dHMgbGlzdAogICAgOnBhcmFtIG91dHB1dF9saXN0OiBMaXN0IHRvIG91dHB1dAogICAgIiIiCiAgICBwcmludCB0YWJ1bGF0ZShvdXRwdXRfbGlzdCwgaGVhZGVycywgdGFibGVmbXQ9InNpbXBsZSIpCiAgICBwcmludCAiIgogICAgaWYgb3V0cHV0X2ZpbGU6CiAgICAgICAgd2l0aCBvcGVuKG91dHB1dF9maWxlLCAiYWIiKSBhcyBmaWxlOgogICAgICAgICAgICBmaWxlLndyaXRlKHRhYnVsYXRlKG91dHB1dF9saXN0LCBoZWFkZXJzLCB0YWJsZWZtdD0ic2ltcGxlIikpCiAgICAgICAgICAgIGZpbGUud3JpdGUoIlxuXG4iKQoKZGVmIGdlbmVyYXRlQXJyYXkoKToKICAgIGFieXRlID0gYnl0ZWFycmF5KDYpCiAgICBmb3IgaSBpbiByYW5nZSgwLDYpOgogICAgICAgYWJ5dGVbaV0gPSByYW5kaW50KDAsIDB4N0ZGRkZGRkYpICUgNwoKICAgIHJldHVybiBhYnl0ZTsKCmRlZiBwYXJzZUVuY3J5cHRlU3RyKGVuY3J5cHRTdHIpOgogICAgdHJ5OgogICAgICAgIGRlY29kZWQgPSBlbmNyeXB0U3RyLmRlY29kZSgnYmFzZTY0JykKICAgICAgICBoYXJkY29kZWRfY3JjMzIgPSBkZWNvZGVkWy00Ol0KICAgICAgICBwYXJzZWRFbmNyeXB0ZWQgPSBkZWNvZGVkWzE2Oi00XQogICAgICAgIGl2ID0gZGVjb2RlZFs6MTZdCiAgICAgICAgcmV0dXJuIGhhcmRjb2RlZF9jcmMzMixwYXJzZWRFbmNyeXB0ZWQsaXYKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludCBlCgpkZWYgYnJ1dGVGb3JjZUNSQzMyVmFsdWUodmFsdWVjcmMzMik6CiAgICB3aGlsZSAoVHJ1ZSk6CiAgICAgICAgYXJyeSA9IGdlbmVyYXRlQXJyYXkoKQogICAgICAgIGNyYzMyID0gYmluYXNjaWkuY3JjMzIoYXJyeSkKICAgICAgICBjcmMzMiA9IGNyYzMyICUgKDEgPDwgMzIpCiAgICAgICAgaWYgY3JjMzIgPT0gdmFsdWVjcmMzMjoKICAgICAgICAgICAgcmV0dXJuKGFycnkpCgpkZWYgZGVjcnlwdFN0cihzdHIsa2V5LGl2KToKICAgIGFlcyA9IEFFUy5uZXcoa2V5LCBBRVMuTU9ERV9DQkMsIGl2KQogICAgYmxvYiA9IGFlcy5kZWNyeXB0KHN0cikKICAgIHJldHVybiBibG9iCgpkZWYgcGFyc2VQbGFpblRleHQoc3RyKToKICAgIGNoYXIgPSAiIgogICAgZm9yIGkgaW4gc3RyOgogICAgICAgIGlmIDB4MjAgPD0gb3JkKGkpIDw9IDB4MTI3OgogICAgICAgICAgICBjaGFyICs9IGkKICAgICAgICBlbHNlOgogICAgICAgICAgICBjb250aW51ZQogICAgcmV0dXJuIGNoYXIKCmRlZiBwYXJzZVVuaWNkZShzdHIpOgogICAgdHJ5OgogICAgICAgIHVuaSA9ICIiCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UoMCxsZW4oc3RyKS8yKToKICAgICAgICAgICAgdW5pICs9IHN0cltpXQogICAgICAgIHJldHVybiB1bmkuZGVjb2RlKCd1dGYxNicpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQgZQoKZGVmIG1haW4oKToKICAgICIiIk1haW4gTWV0aG9kIiIiCiAgICBhcmdzID0gcGFyc2VfYXJndW1lbnRzKCkucGFyc2VfYXJncygpCiAgICBzdHJzID0gW10KCiAgICBpZiBhcmdzLnZ2ZXJib3NlOgogICAgICAgIGxvZ2dpbmcuYmFzaWNDb25maWcoCiAgICAgICAgICAgIGxldmVsPWxvZ2dpbmcuREVCVUcsCiAgICAgICAgICAgIGZvcm1hdD0nICUoYXNjdGltZSlzIC0gJShsZXZlbG5hbWUpcyAtICUobWVzc2FnZSlzJykKCiAgICBpZiBhcmdzLmJsb2IgYW5kIG9zLnBhdGguZXhpc3RzKGFyZ3MuaW5wdXQpICE9IFRydWU6CiAgICAgICAgYiA9IGFyZ3MuaW5wdXQKICAgICAgICBjcmMzMkhhcmRjb2RlLCBlbmNyeXB0ZWRTdHIsIGl2ID0gcGFyc2VFbmNyeXB0ZVN0cihiKQogICAgICAgIGNyYzMySGFyZGNvZGUgPSBieXRlYXJyYXkoY3JjMzJIYXJkY29kZSkKICAgICAgICBjcmMzMkhhcmRjb2RlID0gc3RydWN0LnVucGFjaygnPEknLCBjcmMzMkhhcmRjb2RlKVswXQogICAgICAgIGJydXRlQXJyYXkgPSBicnV0ZUZvcmNlQ1JDMzJWYWx1ZShjcmMzMkhhcmRjb2RlKQogICAgICAgIG0gPSBoYXNobGliLm1kNSgpCiAgICAgICAgbS51cGRhdGUoYnJ1dGVBcnJheSkKICAgICAgICBrZXkgPSBtLmRpZ2VzdCgpCiAgICAgICAgcGxhaW4gPSBkZWNyeXB0U3RyKGVuY3J5cHRlZFN0ciwga2V5LCBpdikKICAgICAgICB3aXRoIG9wZW4oJ2Jsb2Iub3V0JywgIndiIikgYXMgZmlsZToKICAgICAgICAgICAgZmlsZS53cml0ZShwbGFpbikKCgogICAgaWYgb3MucGF0aC5leGlzdHMoYXJncy5pbnB1dCkgIT0gVHJ1ZToKICAgICAgICBzdHJzLmFwcGVuZChhcmdzLmlucHV0KQoKICAgIGVsc2U6CiAgICAgICAgd2l0aCBvcGVuKGFyZ3MuaW5wdXQsICJyYiIpIGFzIG9wZW5fZmlsZToKICAgICAgICAgICAgZm9yIGxpbmUgaW4gb3Blbl9maWxlOgogICAgICAgICAgICAgICAgaGFzaCA9IGxpbmUucnN0cmlwKCkKICAgICAgICAgICAgICAgIHN0cnMuYXBwZW5kKGhhc2gpCgogICAgZm9yIHMgaW4gc3RyczoKCiAgICAgICAgY3JjMzJIYXJkY29kZSxlbmNyeXB0ZWRTdHIsaXYgPSBwYXJzZUVuY3J5cHRlU3RyKHMpCiAgICAgICAgY3JjMzJIYXJkY29kZSA9IGJ5dGVhcnJheShjcmMzMkhhcmRjb2RlKQogICAgICAgIGNyYzMySGFyZGNvZGUgPSBzdHJ1Y3QudW5wYWNrKCc8SScsIGNyYzMySGFyZGNvZGUpWzBdCiAgICAgICAgYnJ1dGVBcnJheSA9IGJydXRlRm9yY2VDUkMzMlZhbHVlKGNyYzMySGFyZGNvZGUpCiAgICAgICAgbSA9IGhhc2hsaWIubWQ1KCkKICAgICAgICBtLnVwZGF0ZShicnV0ZUFycmF5KQogICAgICAgIGtleSA9IG0uZGlnZXN0KCkKICAgICAgICBwbGFpbiA9IGRlY3J5cHRTdHIoZW5jcnlwdGVkU3RyLGtleSxpdikKICAgICAgICBwYXJzZXN0ciA9IHBhcnNlUGxhaW5UZXh0KHBsYWluKQogICAgICAgIHVuaXN0ciA9IHBhcnNlVW5pY2RlKHBsYWluKQogICAgICAgIGhlYWRlcnMgPSBbIkFTQ0lJIiwiVU5JQ09ERSJdCiAgICAgICAgb3V0cHV0bGlzdCA9IFtbcGFyc2VzdHIsdW5pc3RyXV0KICAgICAgICB3cml0ZV9vdXQob3V0cHV0bGlzdCwgaGVhZGVycywgYXJncy5vdXRwdXRfZmlsZSkKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBtYWluKCkK",
+        "comment": "Appendix C \u00e2\u20ac\u201c Python script to decode VERMIN resources",
+        "uuid": "5a6f3881-b480-46d9-a301-4260950d210f",
+        "value": "decode.py",
+        "to_ids": false,
+        "type": "attachment",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238818",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38ad-93e4-4b0b-a2c1-47f2950d210f",
+        "value": "akamaicdn.ru",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238819",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38ad-41bc-4a25-b32c-45d8950d210f",
+        "value": "cdnakamai.ru",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238819",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38ae-5850-40a7-ad87-4475950d210f",
+        "value": "www.akamaicdn.ru",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238819",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38ae-df40-45f5-8499-47d8950d210f",
+        "value": "www.akamainet066.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238820",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38af-536c-4de4-a1a4-4ac6950d210f",
+        "value": "www.akamainet023.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238820",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38af-c7ac-4c40-b997-4624950d210f",
+        "value": "www.akamainet021.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238821",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38af-d484-423b-b7c2-4daa950d210f",
+        "value": "akamainet023.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238821",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b0-42b0-4be2-aa6e-41e9950d210f",
+        "value": "akamainet022.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238821",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b0-c490-4fa9-bbe4-44d2950d210f",
+        "value": "akamainet021.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238822",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b1-ad80-43e8-8a27-4220950d210f",
+        "value": "www.akamainet022.info",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238822",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b2-4a14-40ba-a8d3-43c5950d210f",
+        "value": "akamainet066.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238823",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b2-0d58-42bc-9edd-46a0950d210f",
+        "value": "akamainet024.info",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238823",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b3-accc-46fa-9698-4a48950d210f",
+        "value": "www.cdnakamai.ru",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238824",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b3-4bc0-4722-8c76-4696950d210f",
+        "value": "notifymail.ru",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238824",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b3-eadc-4c21-8240-49c6950d210f",
+        "value": "www.notifymail.ru",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238825",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b4-0c54-44d2-8233-4fbb950d210f",
+        "value": "mailukr.net",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238825",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b4-dcf0-46e0-8098-425f950d210f",
+        "value": "tech-adobe.dyndns.biz",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238825",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b5-fcf4-4a40-8f34-4e9c950d210f",
+        "value": "www.mailukr.net",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238826",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b5-e0a8-4166-a7c5-4e35950d210f",
+        "value": "185.158.153.222",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238826",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b5-7450-4dbb-af03-4382950d210f",
+        "value": "94.158.47.228",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238827",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b6-5254-45b8-bf1b-485d950d210f",
+        "value": "195.78.105.23",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238827",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b6-bcdc-4774-bf0d-47c5950d210f",
+        "value": "94.158.46.251",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238828",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b7-9f5c-4800-b676-4f92950d210f",
+        "value": "188.227.75.189",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238828",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b7-6004-461b-b0fd-4a99950d210f",
+        "value": "212.116.121.46",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238828",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b7-b0b0-41e8-867b-470c950d210f",
+        "value": "185.125.46.24",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517238829",
+        "comment": "C2 Addresses",
+        "uuid": "5a6f38b8-4604-426a-9216-4db1950d210f",
+        "value": "5.200.53.181",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1517238973",
+        "comment": "",
+        "uuid": "5a6f3abd-6410-4428-a09e-4816950d210f",
+        "value": "%APPDATA%\\Microsoft\\AddIns\\settings.dat",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1517238987",
+        "comment": "",
+        "uuid": "5a6f3acb-08d4-4861-ae24-43aa950d210f",
+        "value": "Z:\\Projects\\Vermin\\TaskScheduler\\obj\\Release\\Licenser.pdb",
+        "to_ids": true,
+        "type": "pdb",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1517239023",
+        "comment": "",
+        "uuid": "5a6f3aef-7370-4493-b1ac-4d14950d210f",
+        "value": "https://twitter.com/blu3_team/status/917050823724732419",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1517238832",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "1d9be292-dba6-4626-bdcc-c3cc94cd6427",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771178",
+            "comment": "",
+            "uuid": "5a6f3a7c-2cf8-4fc5-80ca-4cdd02de0b81",
+            "object_uuid": "1d9be292-dba6-4626-bdcc-c3cc94cd6427",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "2fe8fec4-eb73-4466-aaff-81baf3f665e8"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238829",
+            "comment": "Quasar",
+            "uuid": "5a6f3a2d-ef50-40c7-8719-45e902de0b81",
+            "value": "39525cbca591f2a10946ba62a56e4c3382cd4fc0",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238830",
+            "comment": "Quasar",
+            "uuid": "5a6f3a2e-b3a4-4a82-a90a-4e1302de0b81",
+            "value": "dc0ab74129a4be18d823b71a54b0cab0",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238830",
+            "comment": "Quasar",
+            "uuid": "5a6f3a2e-2454-4ef2-be3d-4dfa02de0b81",
+            "value": "4c5e019e0e55a3fe378aa339d52c235c06ecc5053625a5d54d65c4ae38c6e3da",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238831",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "2fe8fec4-eb73-4466-aaff-81baf3f665e8",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238831",
+            "comment": "Quasar",
+            "uuid": "5a6f3a2f-7ac0-4e75-b028-4c2402de0b81",
+            "value": "https://www.virustotal.com/file/4c5e019e0e55a3fe378aa339d52c235c06ecc5053625a5d54d65c4ae38c6e3da/analysis/1496635005/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238831",
+            "comment": "Quasar",
+            "uuid": "5a6f3a2f-c960-492b-9617-421702de0b81",
+            "value": "40/61",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238832",
+            "comment": "Quasar",
+            "uuid": "5a6f3a30-2ab4-469b-83d6-4ae302de0b81",
+            "value": "2017-06-05T03:56:45",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238835",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "464c0d84-bec5-4624-9226-e83fb79abe65",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771178",
+            "comment": "",
+            "uuid": "5a6f3a7c-933c-40f7-b598-4d4002de0b81",
+            "object_uuid": "464c0d84-bec5-4624-9226-e83fb79abe65",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "39e7fa59-4876-4433-a546-5ad01dd89d95"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238833",
+            "comment": "Quasar",
+            "uuid": "5a6f3a31-7ab8-4dd1-a6e0-430302de0b81",
+            "value": "a40451a9485f465338d15c4985adc7c798f788d3",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238833",
+            "comment": "Quasar",
+            "uuid": "5a6f3a31-bcf8-4bb3-9d45-49f402de0b81",
+            "value": "46f09e5230dfced7939131d704bdb592",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238833",
+            "comment": "Quasar",
+            "uuid": "5a6f3a31-c650-4c62-9ab4-4a5d02de0b81",
+            "value": "5a05d2171e6aeb5edd9d39c7f46cd3bf0e2ee3ee803431a58a9945a56ce935f6",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238834",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "39e7fa59-4876-4433-a546-5ad01dd89d95",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238834",
+            "comment": "Quasar",
+            "uuid": "5a6f3a32-d430-483f-b80a-49dc02de0b81",
+            "value": "https://www.virustotal.com/file/5a05d2171e6aeb5edd9d39c7f46cd3bf0e2ee3ee803431a58a9945a56ce935f6/analysis/1486445762/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238834",
+            "comment": "Quasar",
+            "uuid": "5a6f3a32-721c-4893-bc16-46ee02de0b81",
+            "value": "23/56",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238835",
+            "comment": "Quasar",
+            "uuid": "5a6f3a33-f69c-40a1-aacc-4d7202de0b81",
+            "value": "2017-02-07T05:36:02",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238838",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "b9b273dc-465f-4c74-aaf5-c47c4db6ff49",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771178",
+            "comment": "",
+            "uuid": "5a6f3a7d-b74c-450f-bda6-4cf102de0b81",
+            "object_uuid": "b9b273dc-465f-4c74-aaf5-c47c4db6ff49",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "7e00522f-7a22-4c38-954c-065f327ae27a"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238835",
+            "comment": "Quasar",
+            "uuid": "5a6f3a33-e520-42c0-a96b-4c9e02de0b81",
+            "value": "cc6ed0e81c5fbaa45e6e491637c6497cedec839c",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238836",
+            "comment": "Quasar",
+            "uuid": "5a6f3a34-a6e8-482c-8fa5-4e7002de0b81",
+            "value": "3ddc543facdc43dc5b1bdfa110fcffa3",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238836",
+            "comment": "Quasar",
+            "uuid": "5a6f3a34-83b4-42a8-8dae-40a202de0b81",
+            "value": "a3c84c5f8d981653a2a391d29f32c8127fba8f0ab7da8815330a228205c99ba6",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238836",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "7e00522f-7a22-4c38-954c-065f327ae27a",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238836",
+            "comment": "Quasar",
+            "uuid": "5a6f3a34-11c8-40ec-9843-4d8202de0b81",
+            "value": "https://www.virustotal.com/file/a3c84c5f8d981653a2a391d29f32c8127fba8f0ab7da8815330a228205c99ba6/analysis/1517234967/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238837",
+            "comment": "Quasar",
+            "uuid": "5a6f3a35-5bc4-4a30-8017-436102de0b81",
+            "value": "32/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238837",
+            "comment": "Quasar",
+            "uuid": "5a6f3a35-7230-4f8c-b3a1-476d02de0b81",
+            "value": "2018-01-29T14:09:27",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238841",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "03348905-4bbd-4f58-8370-bef8f3a2b7ef",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771178",
+            "comment": "",
+            "uuid": "5a6f3a7d-dbf4-4409-9405-40c602de0b81",
+            "object_uuid": "03348905-4bbd-4f58-8370-bef8f3a2b7ef",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "908e2c6d-188d-4434-a5f4-e3bf349ff63d"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238838",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a36-b3bc-4c4c-a851-40ac02de0b81",
+            "value": "3cba047ed980a7f25d341bfa05cbc14ec0c26e9c",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238838",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a36-46b0-44d8-a0a5-483402de0b81",
+            "value": "2b044a21687003c78ff8628c3a69b0a0",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238839",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a37-88c0-42bc-bfe6-494f02de0b81",
+            "value": "31a1419d9121f55859ecf2d01f07da38bd37bb11d0ed9544a35d5d69472c358e",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238839",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "908e2c6d-188d-4434-a5f4-e3bf349ff63d",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238839",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a37-6b38-48a2-94c0-4b5602de0b81",
+            "value": "https://www.virustotal.com/file/31a1419d9121f55859ecf2d01f07da38bd37bb11d0ed9544a35d5d69472c358e/analysis/1517235863/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238839",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a37-5214-4611-af77-411602de0b81",
+            "value": "46/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238840",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a38-cce8-4193-8483-4b3202de0b81",
+            "value": "2018-01-29T14:24:23",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238843",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "0870e838-42ad-470c-a177-d10678e2b685",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771178",
+            "comment": "",
+            "uuid": "5a6f3a7d-11f8-4fd8-a05a-4cc802de0b81",
+            "object_uuid": "0870e838-42ad-470c-a177-d10678e2b685",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "b9407d74-26b8-4e0c-98c9-9d8e75bd96d1"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238840",
+            "comment": "Quasar",
+            "uuid": "5a6f3a38-af68-4f06-b007-41ef02de0b81",
+            "value": "bdb5e0b6ca0aa03e0beca23b46a8420473091dff",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238841",
+            "comment": "Quasar",
+            "uuid": "5a6f3a39-0530-4ed2-bc2f-4a3602de0b81",
+            "value": "07633a79d28bb8b4ef8a6283b881be0e",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238841",
+            "comment": "Quasar",
+            "uuid": "5a6f3a39-f090-4158-80c9-405602de0b81",
+            "value": "6cf63ae829984a47aca93f8a1261afe5a06930f04fab6f86f6f7f9631fde59ec",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238841",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "b9407d74-26b8-4e0c-98c9-9d8e75bd96d1",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238841",
+            "comment": "Quasar",
+            "uuid": "5a6f3a39-2968-4717-b509-427602de0b81",
+            "value": "https://www.virustotal.com/file/6cf63ae829984a47aca93f8a1261afe5a06930f04fab6f86f6f7f9631fde59ec/analysis/1517235215/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238842",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3a-7b74-4938-a75f-462902de0b81",
+            "value": "22/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238843",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3b-fa00-4d41-bc3e-43f102de0b81",
+            "value": "2018-01-29T14:13:35",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238846",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "baa647b0-1c09-413a-af07-54da786df266",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771178",
+            "comment": "",
+            "uuid": "5a6f3a7d-5ab4-474f-993b-49e502de0b81",
+            "object_uuid": "baa647b0-1c09-413a-af07-54da786df266",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "6e9a6b22-ccd0-44f4-a7a4-d5c54062e0a5"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238843",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3b-9208-42a9-8bbe-41f902de0b81",
+            "value": "3a05b21c7b973cf293a5e07e181bf715a58e4785",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238844",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3c-2df4-4689-867f-4ff102de0b81",
+            "value": "3293594b0eb0fada3c0c6f031a361050",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238844",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3c-f310-4b3a-9290-4b9e02de0b81",
+            "value": "46ae101a8dc8bf434d2c599aaabfb72a0843d21e2150a6c745c0c4a771c09da3",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238845",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "6e9a6b22-ccd0-44f4-a7a4-d5c54062e0a5",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238845",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3d-1224-4d6c-84bb-4f1702de0b81",
+            "value": "https://www.virustotal.com/file/46ae101a8dc8bf434d2c599aaabfb72a0843d21e2150a6c745c0c4a771c09da3/analysis/1517235034/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238845",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3d-422c-4643-9363-410e02de0b81",
+            "value": "44/64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238845",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3d-2b90-49f8-8ab8-46ab02de0b81",
+            "value": "2018-01-29T14:10:34",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238849",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "18e8d7ce-a4c8-4f0c-841b-81d4f8cacd1e",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7d-cf38-4cd4-a138-4c3f02de0b81",
+            "object_uuid": "18e8d7ce-a4c8-4f0c-841b-81d4f8cacd1e",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "31b81fca-2950-49d9-b6a2-8ab7b732abf7"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238846",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3e-39d0-4a1d-b323-432602de0b81",
+            "value": "a719e91031ed18bb70dd78684b012eb072efdb03",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238846",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3e-5d00-4b63-9097-4ed702de0b81",
+            "value": "dca799ab332b1d6b599d909e17d2574c",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238847",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3f-ceac-4024-ab8b-413602de0b81",
+            "value": "0157b43eb3c20928b77f8700ad8eb279a0aa348921df074cd22ebaff01edaae6",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238847",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "31b81fca-2950-49d9-b6a2-8ab7b732abf7",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238847",
+            "comment": "Quasar",
+            "uuid": "5a6f3a3f-cce4-4151-8b67-483d02de0b81",
+            "value": "https://www.virustotal.com/file/0157b43eb3c20928b77f8700ad8eb279a0aa348921df074cd22ebaff01edaae6/analysis/1517235108/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238848",
+            "comment": "Quasar",
+            "uuid": "5a6f3a40-07c0-4650-9833-44bb02de0b81",
+            "value": "44/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238848",
+            "comment": "Quasar",
+            "uuid": "5a6f3a40-8e64-437a-bd18-400802de0b81",
+            "value": "2018-01-29T14:11:48",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238851",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "68e51b07-074d-4889-af2f-0b008a94d048",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7d-1db8-4585-8c95-42c102de0b81",
+            "object_uuid": "68e51b07-074d-4889-af2f-0b008a94d048",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "6d24fb20-9e41-440f-8860-992698e1567e"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238849",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a41-d56c-406e-a582-473f02de0b81",
+            "value": "4c1e5e0bb72c78c4ce0d37aed939478aaa35a94f",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238849",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a41-7e7c-45eb-82fb-4e8e02de0b81",
+            "value": "9f88187d774cc9eaf89dc65479c4302d",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238850",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a42-aa50-45aa-a21b-4b9002de0b81",
+            "value": "5ee12dd028f5f8c2c0eb76f28c2ce273423998b36f3fc20c9e291f39825601f9",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238850",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "6d24fb20-9e41-440f-8860-992698e1567e",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238850",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a42-d814-4088-9ff0-455502de0b81",
+            "value": "https://www.virustotal.com/file/5ee12dd028f5f8c2c0eb76f28c2ce273423998b36f3fc20c9e291f39825601f9/analysis/1508335858/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238850",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a42-0fb0-4203-aed1-453f02de0b81",
+            "value": "43/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238851",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a43-5f24-4dd0-b218-485702de0b81",
+            "value": "2017-10-18T14:10:58",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238854",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "0824551a-554e-4119-8e73-938369593536",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7d-9d50-455f-b37e-4ce002de0b81",
+            "object_uuid": "0824551a-554e-4119-8e73-938369593536",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "ae2fb6e2-eb53-4135-80aa-c99f699f00d1"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238851",
+            "comment": "Quasar",
+            "uuid": "5a6f3a43-2c74-4215-afaa-4a2a02de0b81",
+            "value": "4712af28168fd728a13efd520e0665ffd076b6fb",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238852",
+            "comment": "Quasar",
+            "uuid": "5a6f3a44-d508-4186-9f3c-433f02de0b81",
+            "value": "47161360b84388d1c254eb68ad3d6dfa",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238852",
+            "comment": "Quasar",
+            "uuid": "5a6f3a44-847c-4df9-ac79-4a4102de0b81",
+            "value": "9ea00514c4ae9519a8938924b02826cfafeb75fc70f16c422aeadb8317a146c1",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238853",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "ae2fb6e2-eb53-4135-80aa-c99f699f00d1",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238853",
+            "comment": "Quasar",
+            "uuid": "5a6f3a45-1f00-45f3-810d-4bf602de0b81",
+            "value": "https://www.virustotal.com/file/9ea00514c4ae9519a8938924b02826cfafeb75fc70f16c422aeadb8317a146c1/analysis/1517235115/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238853",
+            "comment": "Quasar",
+            "uuid": "5a6f3a45-323c-4e64-a563-464902de0b81",
+            "value": "36/64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238854",
+            "comment": "Quasar",
+            "uuid": "5a6f3a46-c494-4eb0-9953-4a7c02de0b81",
+            "value": "2018-01-29T14:11:55",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238857",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "e183b4ca-ca78-403e-bcb3-d1d29c449eef",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7d-c3d4-4d40-8d8b-441202de0b81",
+            "object_uuid": "e183b4ca-ca78-403e-bcb3-d1d29c449eef",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "bf5aaef8-82a3-4e2e-941e-b8c4ffe63414"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238854",
+            "comment": "Quasar",
+            "uuid": "5a6f3a46-cb88-4b49-9748-4dcf02de0b81",
+            "value": "a841ff1ee379269f00261337a043448d3d72e6fd",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238855",
+            "comment": "Quasar",
+            "uuid": "5a6f3a47-38a0-4e6c-8ae0-4b9b02de0b81",
+            "value": "752292c4d4ad51feb489ee1e06498c7f",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238855",
+            "comment": "Quasar",
+            "uuid": "5a6f3a47-d56c-4e8d-ac6a-4f5402de0b81",
+            "value": "9a81cffe79057d8d307910143efd1455f956f2de2c7cc8fb07a7c17000913d59",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238855",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "bf5aaef8-82a3-4e2e-941e-b8c4ffe63414",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238856",
+            "comment": "Quasar",
+            "uuid": "5a6f3a48-9b74-42cc-9ff3-46ab02de0b81",
+            "value": "https://www.virustotal.com/file/9a81cffe79057d8d307910143efd1455f956f2de2c7cc8fb07a7c17000913d59/analysis/1512695747/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238856",
+            "comment": "Quasar",
+            "uuid": "5a6f3a48-b3b0-48f4-95ae-493e02de0b81",
+            "value": "37/67",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238856",
+            "comment": "Quasar",
+            "uuid": "5a6f3a48-66d0-4f45-aed6-49d902de0b81",
+            "value": "2017-12-08T01:15:47",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238860",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "db392010-acf6-4a58-8b99-41ce01c4df3a",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7d-3004-498c-b9e6-4d5102de0b81",
+            "object_uuid": "db392010-acf6-4a58-8b99-41ce01c4df3a",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "eec3e342-608c-4964-ae3b-00800c520b8c"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238857",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a49-2980-4154-a6f0-490102de0b81",
+            "value": "b5f81c804e47b76c74c38df03a5cbe8a4fe69a9a",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238857",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a49-56d8-4796-91fc-45b202de0b81",
+            "value": "c1b8a7f861a7555a14e1a68067469a20",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238858",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4a-9a30-4e55-8b1a-498302de0b81",
+            "value": "5586fb423aff39a02cddf5e456a83a8301afe9ed78ecbc8de2cd852bc0cd498f",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238858",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "eec3e342-608c-4964-ae3b-00800c520b8c",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238858",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4a-6bb4-40e5-a89d-430102de0b81",
+            "value": "https://www.virustotal.com/file/5586fb423aff39a02cddf5e456a83a8301afe9ed78ecbc8de2cd852bc0cd498f/analysis/1517177517/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238859",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4b-7dd8-46d5-beac-456c02de0b81",
+            "value": "45/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238859",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4b-ddb8-4a19-bdfc-4c6002de0b81",
+            "value": "2018-01-28T22:11:57",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238863",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "2d1f5a63-e7b2-4a40-82b2-1b5b504fdeed",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7d-8c90-4922-a1c6-40bb02de0b81",
+            "object_uuid": "2d1f5a63-e7b2-4a40-82b2-1b5b504fdeed",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "31ca081a-a527-41f1-a3b3-64001f2951b3"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238860",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4c-0f44-4aa8-ae86-412b02de0b81",
+            "value": "10128ab8770fbdecd81b8894208a760a3c266d78",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238860",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4c-6d20-4dfb-9c95-44fb02de0b81",
+            "value": "5feae6cb9915c6378c4bb68740557d0a",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238861",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4d-03f4-4609-b600-42f102de0b81",
+            "value": "98073a58101dda103ea03bbd4b3554491d227f52ec01c245c3782e63c0fdbc07",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238862",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "31ca081a-a527-41f1-a3b3-64001f2951b3",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238862",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4e-560c-42bd-bbd6-4ce502de0b81",
+            "value": "https://www.virustotal.com/file/98073a58101dda103ea03bbd4b3554491d227f52ec01c245c3782e63c0fdbc07/analysis/1508198972/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238862",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4e-533c-4de0-b3cc-412102de0b81",
+            "value": "46/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238863",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a4f-d810-4bc4-a109-4f3d02de0b81",
+            "value": "2017-10-17T00:09:32",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238866",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "bea6a180-0d2b-417c-a99a-4da282536b95",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7d-b898-4e2a-b274-48e402de0b81",
+            "object_uuid": "bea6a180-0d2b-417c-a99a-4da282536b95",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "8649e8ec-168b-4e02-90b0-3e712cf43bad"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238863",
+            "comment": "Quasar",
+            "uuid": "5a6f3a4f-b49c-40b3-aa6f-4b5c02de0b81",
+            "value": "025081a1df7eae50a8404c507409d54a5973a3a1",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238864",
+            "comment": "Quasar",
+            "uuid": "5a6f3a50-08d0-45b9-bf38-4b2102de0b81",
+            "value": "71afb620857627400a648f91e6865991",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238864",
+            "comment": "Quasar",
+            "uuid": "5a6f3a50-e03c-4b2a-abed-4c5702de0b81",
+            "value": "92295b38daa4e44b9d257e56c5b271bbbf6a620312dc58e48e56473427170aa1",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238864",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "8649e8ec-168b-4e02-90b0-3e712cf43bad",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238864",
+            "comment": "Quasar",
+            "uuid": "5a6f3a50-e3c0-4731-a4c6-4d7f02de0b81",
+            "value": "https://www.virustotal.com/file/92295b38daa4e44b9d257e56c5b271bbbf6a620312dc58e48e56473427170aa1/analysis/1461326472/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238865",
+            "comment": "Quasar",
+            "uuid": "5a6f3a51-9850-4f08-8694-47ee02de0b81",
+            "value": "15/56",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238865",
+            "comment": "Quasar",
+            "uuid": "5a6f3a51-df44-4aa2-bdb2-4d6e02de0b81",
+            "value": "2016-04-22T12:01:12",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238869",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "e85ea249-c648-4fd8-a113-69e50469ebd8",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7d-fe58-4e22-a1e7-4eff02de0b81",
+            "object_uuid": "e85ea249-c648-4fd8-a113-69e50469ebd8",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "8007182f-0cf9-43e4-8744-f382785a66f9"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238866",
+            "comment": "Quasar",
+            "uuid": "5a6f3a52-4a38-4207-8ab5-468902de0b81",
+            "value": "c8f7a30f8fd70e8565ed65eadc5b671a5beafb97",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238866",
+            "comment": "Quasar",
+            "uuid": "5a6f3a52-ec1c-4db8-b435-425a02de0b81",
+            "value": "c189875f8b2bebc9f5a2e2af2f34e647",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238867",
+            "comment": "Quasar",
+            "uuid": "5a6f3a53-c1d4-43ba-9668-476902de0b81",
+            "value": "51b0bb172c6e5eaa8e333fbf2451ae27094991b6330025374b9082ae8cd879cf",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238867",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "8007182f-0cf9-43e4-8744-f382785a66f9",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238867",
+            "comment": "Quasar",
+            "uuid": "5a6f3a53-6d4c-47aa-8c52-490c02de0b81",
+            "value": "https://www.virustotal.com/file/51b0bb172c6e5eaa8e333fbf2451ae27094991b6330025374b9082ae8cd879cf/analysis/1449835304/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238867",
+            "comment": "Quasar",
+            "uuid": "5a6f3a53-a990-44eb-bbfd-42c502de0b81",
+            "value": "33/54",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238868",
+            "comment": "Quasar",
+            "uuid": "5a6f3a54-f0fc-48f3-9043-433c02de0b81",
+            "value": "2015-12-11T12:01:44",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238871",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "64cedeaa-9cfe-4fc6-b3c8-932c9749389c",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7e-b1e0-4482-a1c7-494e02de0b81",
+            "object_uuid": "64cedeaa-9cfe-4fc6-b3c8-932c9749389c",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "6a90b9ce-29c1-4eb4-b2cb-0e6d9837371a"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238868",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a54-4b34-49c7-a866-4c4a02de0b81",
+            "value": "3f9e7e6ab64f1f0a105cd42438198a23c3c99de6",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238869",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a55-d110-4ca3-823f-476702de0b81",
+            "value": "242f0ab53ac5d194af091296517ec10a",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238869",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a55-4854-4fb9-a5ad-496402de0b81",
+            "value": "eb46b8978619a72f4b0d3ea8961dde527f8e27e89701ccd6e5643c33b103d901",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238870",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "6a90b9ce-29c1-4eb4-b2cb-0e6d9837371a",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238870",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a56-89d4-46cf-b7d9-476b02de0b81",
+            "value": "https://www.virustotal.com/file/eb46b8978619a72f4b0d3ea8961dde527f8e27e89701ccd6e5643c33b103d901/analysis/1487600035/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238870",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a56-200c-4dea-b55a-4a2a02de0b81",
+            "value": "21/59",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238871",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a57-b61c-467c-abfd-4cc002de0b81",
+            "value": "2017-02-20T14:13:55",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238875",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "a5ed311b-5e4e-47dd-b6bd-bc811f076f86",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771179",
+            "comment": "",
+            "uuid": "5a6f3a7e-4ccc-4c10-b4e7-436802de0b81",
+            "object_uuid": "a5ed311b-5e4e-47dd-b6bd-bc811f076f86",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "16899616-c8db-4453-95c7-8e762de660cc"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238872",
+            "comment": "Quasar",
+            "uuid": "5a6f3a58-b4f0-4c93-a549-438302de0b81",
+            "value": "376d309c999d536c47b8f8f1cecb32e5c74c00ce",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238872",
+            "comment": "Quasar",
+            "uuid": "5a6f3a58-2630-4253-a3f4-4eb402de0b81",
+            "value": "d2c6e6b0fbe37685ddb865cf6b523d8c",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238873",
+            "comment": "Quasar",
+            "uuid": "5a6f3a59-e0f4-4124-a5d4-471402de0b81",
+            "value": "154ef5037e5de49a6e3c48ea7221a02a5df33c34420a586cbff6a46dc5026a91",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238873",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "16899616-c8db-4453-95c7-8e762de660cc",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238873",
+            "comment": "Quasar",
+            "uuid": "5a6f3a59-3cf8-4798-98fb-436d02de0b81",
+            "value": "https://www.virustotal.com/file/154ef5037e5de49a6e3c48ea7221a02a5df33c34420a586cbff6a46dc5026a91/analysis/1517234807/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238874",
+            "comment": "Quasar",
+            "uuid": "5a6f3a5a-1924-430a-8269-45ea02de0b81",
+            "value": "32/64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238874",
+            "comment": "Quasar",
+            "uuid": "5a6f3a5a-a080-4342-8b6f-45b402de0b81",
+            "value": "2018-01-29T14:06:47",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238878",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "fcb27540-c9f1-4750-bfc5-7993b0831741",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771180",
+            "comment": "",
+            "uuid": "5a6f3a7e-3080-4797-b061-48f802de0b81",
+            "object_uuid": "fcb27540-c9f1-4750-bfc5-7993b0831741",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "edab7b9b-2c87-47e1-befa-565a3d7c8439"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238875",
+            "comment": "Quasar",
+            "uuid": "5a6f3a5b-b4e0-4da3-a07b-431602de0b81",
+            "value": "3ee410dd50fc64f39dff0c4ee8cc676f0f7d5a74",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238875",
+            "comment": "Quasar",
+            "uuid": "5a6f3a5b-dd54-440e-af01-462c02de0b81",
+            "value": "5b5060ebb405140f87a1bb65e06c9e29",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238876",
+            "comment": "Quasar",
+            "uuid": "5a6f3a5c-bfd8-4d27-8426-4d5202de0b81",
+            "value": "f75861216f5716b0227733e6a093776f693361626efebe37618935b9c6e1bdfd",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238876",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "edab7b9b-2c87-47e1-befa-565a3d7c8439",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238876",
+            "comment": "Quasar",
+            "uuid": "5a6f3a5c-9700-4a4b-a67c-437302de0b81",
+            "value": "https://www.virustotal.com/file/f75861216f5716b0227733e6a093776f693361626efebe37618935b9c6e1bdfd/analysis/1507776322/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238877",
+            "comment": "Quasar",
+            "uuid": "5a6f3a5d-4884-45da-b1a1-4f3602de0b81",
+            "value": "45/64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238877",
+            "comment": "Quasar",
+            "uuid": "5a6f3a5d-5c1c-4593-9b4e-4bb102de0b81",
+            "value": "2017-10-12T02:45:22",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238880",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "b9dd7e05-878a-4429-b680-cf431464a73d",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771180",
+            "comment": "",
+            "uuid": "5a6f3a7e-88d8-4461-a620-4c9e02de0b81",
+            "object_uuid": "b9dd7e05-878a-4429-b680-cf431464a73d",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "c9d2ab7b-0b4c-4e35-a869-99ae3d39410f"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238877",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a5d-6c20-4e5f-a77b-47ea02de0b81",
+            "value": "0735541949585c310f4da1ff515dcc9878df19fb",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238878",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a5e-ec40-4124-9317-42e502de0b81",
+            "value": "632d08020499a6b5ee4852ecadc79f2e",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238878",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a5e-6c2c-403e-bd90-40fe02de0b81",
+            "value": "c5647603337a4e9bfbb2259c0aec7fa9868c87ded2ab74e9d233bdb2a3bb163e",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238879",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "c9d2ab7b-0b4c-4e35-a869-99ae3d39410f",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238879",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a5f-341c-4ec8-8b96-43d402de0b81",
+            "value": "https://www.virustotal.com/file/c5647603337a4e9bfbb2259c0aec7fa9868c87ded2ab74e9d233bdb2a3bb163e/analysis/1517235729/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238879",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a5f-a170-43b8-b559-439202de0b81",
+            "value": "32/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238880",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a60-db80-4126-93ad-469602de0b81",
+            "value": "2018-01-29T14:22:09",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238883",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "e26a37d6-f07e-4e6c-af03-f108a1105b25",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771180",
+            "comment": "",
+            "uuid": "5a6f3a7e-3cc8-4f6e-8845-46da02de0b81",
+            "object_uuid": "e26a37d6-f07e-4e6c-af03-f108a1105b25",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "56c1bb1a-f157-4e3b-9dcf-c01a873a722e"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238880",
+            "comment": "Quasar",
+            "uuid": "5a6f3a60-5b90-4aee-8c0d-4d8602de0b81",
+            "value": "bfd7158e1c2f6ba525e24f85ed8ccf8ef40fd370",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238880",
+            "comment": "Quasar",
+            "uuid": "5a6f3a61-259c-441e-b9af-4c0102de0b81",
+            "value": "80b3d1c12fb6aaedc59ce4323b0850fe",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238882",
+            "comment": "Quasar",
+            "uuid": "5a6f3a62-5970-4d7c-800b-4efb02de0b81",
+            "value": "7b08b0d4d68ebf5238eaa8a40f815b83de372e345eb22cc3d50a4bb1869db78e",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238882",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "56c1bb1a-f157-4e3b-9dcf-c01a873a722e",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238882",
+            "comment": "Quasar",
+            "uuid": "5a6f3a62-5ac0-4f37-99c8-43aa02de0b81",
+            "value": "https://www.virustotal.com/file/7b08b0d4d68ebf5238eaa8a40f815b83de372e345eb22cc3d50a4bb1869db78e/analysis/1517235119/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238882",
+            "comment": "Quasar",
+            "uuid": "5a6f3a62-b570-4c60-a951-4eed02de0b81",
+            "value": "42/64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238883",
+            "comment": "Quasar",
+            "uuid": "5a6f3a63-0efc-49a1-a059-4e5002de0b81",
+            "value": "2018-01-29T14:11:59",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238886",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "ede96584-eb72-49a7-9f26-64b016ce5f46",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771180",
+            "comment": "",
+            "uuid": "5a6f3a7e-afa0-4882-aa02-465702de0b81",
+            "object_uuid": "ede96584-eb72-49a7-9f26-64b016ce5f46",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "994c08ac-acee-400e-bb69-14c42237c1cd"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238883",
+            "comment": "Quasar",
+            "uuid": "5a6f3a63-f508-4067-9242-407c02de0b81",
+            "value": "8a5dd45162ff27573095b0048dbbdc86c01dc287",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238884",
+            "comment": "Quasar",
+            "uuid": "5a6f3a64-cc94-45b9-8300-45db02de0b81",
+            "value": "d6c9f0bd1c0c106b2caaddcdff2b5785",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238884",
+            "comment": "Quasar",
+            "uuid": "5a6f3a64-b5a0-4c6b-920c-4c7502de0b81",
+            "value": "c84afdd28fa0923a09f6dd3af1e3821cdb07862b2796fa004cd3229bc6129cbe",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238885",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "994c08ac-acee-400e-bb69-14c42237c1cd",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238885",
+            "comment": "Quasar",
+            "uuid": "5a6f3a65-d438-4514-9c70-4a2502de0b81",
+            "value": "https://www.virustotal.com/file/c84afdd28fa0923a09f6dd3af1e3821cdb07862b2796fa004cd3229bc6129cbe/analysis/1517235128/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238885",
+            "comment": "Quasar",
+            "uuid": "5a6f3a65-4354-4382-bc4d-491002de0b81",
+            "value": "30/61",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238886",
+            "comment": "Quasar",
+            "uuid": "5a6f3a66-33b8-41cf-b498-41cb02de0b81",
+            "value": "2018-01-29T14:12:08",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238889",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "d6a26376-374d-4a00-942b-2839e120aa73",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771180",
+            "comment": "",
+            "uuid": "5a6f3a7e-67ac-4457-b53e-4abc02de0b81",
+            "object_uuid": "d6a26376-374d-4a00-942b-2839e120aa73",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "c34845a5-7c9c-4065-9748-5b13e173b87c"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238886",
+            "comment": "Quasar",
+            "uuid": "5a6f3a66-790c-4381-885a-436402de0b81",
+            "value": "323160c88a254127d9adb2848ae044afff376a4d",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238887",
+            "comment": "Quasar",
+            "uuid": "5a6f3a67-607c-4775-9edd-4d3602de0b81",
+            "value": "fdc16eb59377efecd5411fedd87fb9d2",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238887",
+            "comment": "Quasar",
+            "uuid": "5a6f3a67-9af0-40a2-b56b-4ee902de0b81",
+            "value": "24956d8edcf2a1fd26805ec58cfd1ee7498e1a59af8cc2f4b832a7ab34948c18",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238887",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "c34845a5-7c9c-4065-9748-5b13e173b87c",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238888",
+            "comment": "Quasar",
+            "uuid": "5a6f3a68-2c3c-4239-ae18-4a3f02de0b81",
+            "value": "https://www.virustotal.com/file/24956d8edcf2a1fd26805ec58cfd1ee7498e1a59af8cc2f4b832a7ab34948c18/analysis/1517235112/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238888",
+            "comment": "Quasar",
+            "uuid": "5a6f3a68-4e64-4f55-aca0-44be02de0b81",
+            "value": "42/64",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238888",
+            "comment": "Quasar",
+            "uuid": "5a6f3a68-3a4c-40e7-9cca-4a1702de0b81",
+            "value": "2018-01-29T14:11:52",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238892",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "2f999597-3850-4594-b271-e8fe0ab5d6e5",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771181",
+            "comment": "",
+            "uuid": "5a6f3a7e-2560-4d63-8ef5-486e02de0b81",
+            "object_uuid": "2f999597-3850-4594-b271-e8fe0ab5d6e5",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "5d559431-716b-47d2-83df-05fd3810e321"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238889",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a69-d8c8-47cc-a4ba-454b02de0b81",
+            "value": "70d97367a3dbd5d45482b6af8c78c58b64d3f3b3",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238889",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a69-9c68-424d-ae7b-4dbf02de0b81",
+            "value": "7e859fe3d7ae323c8103567a399e87dc",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238890",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6a-4730-4171-acb9-4fb902de0b81",
+            "value": "15c52b01d2b9294e2dd4d9711cde99e10f11cd188e0d1e4fa9db78f9805626c3",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238890",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "5d559431-716b-47d2-83df-05fd3810e321",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238890",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6a-a8b0-45fe-8acd-4c8002de0b81",
+            "value": "https://www.virustotal.com/file/15c52b01d2b9294e2dd4d9711cde99e10f11cd188e0d1e4fa9db78f9805626c3/analysis/1517235860/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238891",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6b-32fc-4b62-b916-444d02de0b81",
+            "value": "41/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238892",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6c-436c-4cbb-b319-4d9502de0b81",
+            "value": "2018-01-29T14:24:20",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238895",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "588a8a84-a6e4-4f1e-a3b5-f721724a4049",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771181",
+            "comment": "",
+            "uuid": "5a6f3a7e-78d4-4da1-9b6a-40ef02de0b81",
+            "object_uuid": "588a8a84-a6e4-4f1e-a3b5-f721724a4049",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "79d44c23-7f8f-4c10-958a-c5b4543aa7f9"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238892",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6c-76cc-42b6-acce-482902de0b81",
+            "value": "27ac7a29e1fc43b0ac26759857da9cefbba83a21",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238892",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6c-d8a4-402f-a929-48f302de0b81",
+            "value": "0b85887358fb335ad0dd7ccbc2d64bb4",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238893",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6d-90d0-4106-8492-421202de0b81",
+            "value": "74ba162eef84bf13d1d79cb26192a4692c09fed57f321230ddb7668a88e3935d",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238893",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "79d44c23-7f8f-4c10-958a-c5b4543aa7f9",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238893",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6d-90dc-48b0-a2e4-428c02de0b81",
+            "value": "https://www.virustotal.com/file/74ba162eef84bf13d1d79cb26192a4692c09fed57f321230ddb7668a88e3935d/analysis/1517235491/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238894",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6e-4af8-4c65-b91f-468102de0b81",
+            "value": "12/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238894",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a6e-2850-4d23-ad53-41d602de0b81",
+            "value": "2018-01-29T14:18:11",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238898",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "a138407f-4844-4813-be9b-ccbba36de11e",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771181",
+            "comment": "",
+            "uuid": "5a6f3a7e-e28c-42b6-934a-48bd02de0b81",
+            "object_uuid": "a138407f-4844-4813-be9b-ccbba36de11e",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "76d75400-8a3c-42f2-86c3-a4da8e92c1d1"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238895",
+            "comment": "Quasar",
+            "uuid": "5a6f3a6f-03c8-450a-861f-488a02de0b81",
+            "value": "0b933c3200ac070abe1abbbbf7aeaa262e055cdb",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238895",
+            "comment": "Quasar",
+            "uuid": "5a6f3a6f-8744-4bb3-a900-449702de0b81",
+            "value": "83d6588446dc3ab7ba38315ecc29fbb5",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238896",
+            "comment": "Quasar",
+            "uuid": "5a6f3a70-68b4-4c21-b852-49e202de0b81",
+            "value": "250cf8b44fc3ae86b467dd3a1c261a6c3d1645a8a21addfe7f2e2241ff8b79fc",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238896",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "76d75400-8a3c-42f2-86c3-a4da8e92c1d1",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238896",
+            "comment": "Quasar",
+            "uuid": "5a6f3a70-359c-4436-b14e-4a1f02de0b81",
+            "value": "https://www.virustotal.com/file/250cf8b44fc3ae86b467dd3a1c261a6c3d1645a8a21addfe7f2e2241ff8b79fc/analysis/1517234870/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238896",
+            "comment": "Quasar",
+            "uuid": "5a6f3a70-4c00-4bd3-a24a-4fa702de0b81",
+            "value": "37/65",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238897",
+            "comment": "Quasar",
+            "uuid": "5a6f3a71-4c30-4f70-81c7-41c402de0b81",
+            "value": "2018-01-29T14:07:50",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238900",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "ad32df7d-9acc-4252-b689-4a669a8823fd",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771181",
+            "comment": "",
+            "uuid": "5a6f3a7e-f92c-416c-989a-4ef502de0b81",
+            "object_uuid": "ad32df7d-9acc-4252-b689-4a669a8823fd",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "87098385-cbf7-4885-bcde-f5845d185baf"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238897",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a71-3558-480f-9ce1-404a02de0b81",
+            "value": "03f08a46aedb3d27cdd5b34b277cb499c827c80a",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238898",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a72-ff44-46d5-b56b-458402de0b81",
+            "value": "8d8a84790c774adf4c677d2238999eb5",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238898",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a72-ed1c-4c47-b2d9-48b602de0b81",
+            "value": "2963c5eacaad13ace807edd634a4a5896cb5536f961f43afcf8c1f25c08a5eef",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238898",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "87098385-cbf7-4885-bcde-f5845d185baf",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238899",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a73-7dc8-49cc-b0b5-4e2102de0b81",
+            "value": "https://www.virustotal.com/file/2963c5eacaad13ace807edd634a4a5896cb5536f961f43afcf8c1f25c08a5eef/analysis/1517235853/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238899",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a73-4a6c-4480-b3bd-426302de0b81",
+            "value": "34/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238899",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a73-0a98-4d0f-9530-4ef102de0b81",
+            "value": "2018-01-29T14:24:13",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238903",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "c01c77b8-0ea5-478e-86c5-27cbc6ae2464",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771181",
+            "comment": "",
+            "uuid": "5a6f3a7e-7d74-452a-8e23-412b02de0b81",
+            "object_uuid": "c01c77b8-0ea5-478e-86c5-27cbc6ae2464",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "a22fcdc0-cc48-4364-8cef-6a6928c30423"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238900",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a74-d2e0-4320-8492-404e02de0b81",
+            "value": "346fba4a345b0d2433487efef8eb20b3ae4c6148",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238901",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a75-27d0-480e-b453-4d9602de0b81",
+            "value": "47cfac75d2158bf513bcd1ed5e3dd58c",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238901",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a75-17ac-4a23-b9f4-497102de0b81",
+            "value": "e1d917769267302d58a2fd00bc49d4aee5a472227a75f9366b46ce243e9cbef7",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238902",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "a22fcdc0-cc48-4364-8cef-6a6928c30423",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238902",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a76-c630-4978-9e53-42e802de0b81",
+            "value": "https://www.virustotal.com/file/e1d917769267302d58a2fd00bc49d4aee5a472227a75f9366b46ce243e9cbef7/analysis/1517235858/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238902",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a76-2558-4e14-8a7e-445002de0b81",
+            "value": "31/66",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238902",
+            "comment": "VERMIN",
+            "uuid": "5a6f3a76-4fec-477e-b965-41f302de0b81",
+            "value": "2018-01-29T14:24:18",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238906",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "3939e98d-0f06-43f4-a3ee-414d8497bc73",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771181",
+            "comment": "",
+            "uuid": "5a6f3a7e-273c-4a05-a8ac-442b02de0b81",
+            "object_uuid": "3939e98d-0f06-43f4-a3ee-414d8497bc73",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "80198a2a-38cc-46c2-88d5-42b55674df2b"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238903",
+            "comment": "Quasar",
+            "uuid": "5a6f3a77-9f20-4244-8ab1-434702de0b81",
+            "value": "1fbe4989522d57919340b618f4ab37bcb08d1ca7",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238903",
+            "comment": "Quasar",
+            "uuid": "5a6f3a77-e14c-4f34-81fd-468602de0b81",
+            "value": "50b1f0391995a0ce5c2d937e880b93ee",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238904",
+            "comment": "Quasar",
+            "uuid": "5a6f3a78-9dcc-46aa-ac37-473902de0b81",
+            "value": "6f4e20e421451c3d8490067f8424d7efbcc5edeb82f80bb5562c76d4adfb0181",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238904",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "80198a2a-38cc-46c2-88d5-42b55674df2b",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238904",
+            "comment": "Quasar",
+            "uuid": "5a6f3a78-7f64-4c36-b5c4-4bbc02de0b81",
+            "value": "https://www.virustotal.com/file/6f4e20e421451c3d8490067f8424d7efbcc5edeb82f80bb5562c76d4adfb0181/analysis/1478099523/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238905",
+            "comment": "Quasar",
+            "uuid": "5a6f3a79-c738-4cb3-a44e-4b0a02de0b81",
+            "value": "29/57",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238905",
+            "comment": "Quasar",
+            "uuid": "5a6f3a79-cee8-4c11-8eb7-476602de0b81",
+            "value": "2016-11-02T15:12:03",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238909",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "bdaa5408-83ca-4245-8b77-920a710339fc",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771182",
+            "comment": "",
+            "uuid": "5a6f3a7f-ec1c-4608-9926-47bc02de0b81",
+            "object_uuid": "bdaa5408-83ca-4245-8b77-920a710339fc",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "82728331-7584-4cf4-b953-8e966abd4a37"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517238906",
+            "comment": "Quasar",
+            "uuid": "5a6f3a7a-5354-456e-8404-48e302de0b81",
+            "value": "b77c718b4c7f161edc7a69157f3c73c3d68733ef",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517238906",
+            "comment": "Quasar",
+            "uuid": "5a6f3a7a-1c00-4c75-94a5-45a802de0b81",
+            "value": "4373f3cf99a279ac0c3d442f2844a89f",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517238907",
+            "comment": "Quasar",
+            "uuid": "5a6f3a7b-6d28-4ab9-9d80-4bb102de0b81",
+            "value": "aa982fe7d28bbf55865047b16334efbe3fcb6bae06e5ed9cab544f1c8d307317",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517238907",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "82728331-7584-4cf4-b953-8e966abd4a37",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517238907",
+            "comment": "Quasar",
+            "uuid": "5a6f3a7b-3df0-41dc-825d-468d02de0b81",
+            "value": "https://www.virustotal.com/file/aa982fe7d28bbf55865047b16334efbe3fcb6bae06e5ed9cab544f1c8d307317/analysis/1446359135/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517238908",
+            "comment": "Quasar",
+            "uuid": "5a6f3a7c-b8ac-4e9b-ae31-486d02de0b81",
+            "value": "30/56",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517238908",
+            "comment": "Quasar",
+            "uuid": "5a6f3a7c-5b2c-4544-b042-4eac02de0b81",
+            "value": "2015-11-01T06:25:35",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

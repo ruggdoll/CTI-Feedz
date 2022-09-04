@@ -1,0 +1,458 @@
+{
+  "Event": {
+    "date": "2018-03-15",
+    "timestamp": "1528874953",
+    "analysis": "2",
+    "uuid": "5b1e2aab-9e84-4908-9db2-4bb8950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1528904452",
+    "info": "OSINT -  Goodfellas, the Brazilian carding scene is after you",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"PRILEX\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#3b7500",
+        "name": "circl:incident-classification=\"malware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1528703837",
+        "comment": "",
+        "uuid": "5b1e2b05-0db8-4b98-b0c7-41d7950d210f",
+        "value": "https://securelist.com/goodfellas-the-brazilian-carding-scene-is-after-you/84263/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1528703830",
+        "comment": "",
+        "uuid": "5b1e2b50-9cc0-4415-876b-4a99950d210f",
+        "value": "There are three ways of doing things in the malware business: the right way, the wrong way and the way Brazilians do it. From the early beginnings, using skimmers on ATMs, compromising point of sales systems, or even modifying the hardware of processing devices, Latin America has been a fertile ground for collecting credit and debit cards en masse.\r\n\r\nBrazil started the migration to EMV cards in 1999 and nowadays almost all cards issued in the country are chip-enabled. A small Java-based application lives inside this chip and can be easily manipulated in order to create a \u00e2\u20ac\u0153golden ticket\u00e2\u20ac\u009d card that will be valid in most (if not all) point of sale systems. Having this knowledge has enabled the criminals to update their activities, allowing them to create their own cards featuring this new technology and keeping them \u00e2\u20ac\u0153in the business.\u00e2\u20ac\u009d\r\n\r\nEnter the world of Brazilian malware development, incorporating every trick in the book and adding a custom made malware that can easily collect data from chip and PIN protected cards; all while offering a nicely designed interface for administering the ill-gotten information, validating numbers, and offering their \u00e2\u20ac\u0153customers\u00e2\u20ac\u009d an easy to use package to burn their cloned card.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1528703931",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1e2bbb-576c-482a-b05c-41ef950d210f",
+        "comment": "Trojan.Win32.Prilex.b",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1528703931",
+            "comment": "",
+            "uuid": "5b1e2bbb-375c-436c-a0e3-47ba950d210f",
+            "value": "7ab092ea240430f45264b5dcbd350156",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528703932",
+            "comment": "",
+            "uuid": "5b1e2bbc-bbf0-48c5-81da-48e8950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528704010",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1e2c0a-c3fc-406b-8feb-4b6e950d210f",
+        "comment": "Trojan.Win32.Prilex.c",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1528704010",
+            "comment": "",
+            "uuid": "5b1e2c0a-5e90-4042-898e-4484950d210f",
+            "value": "34fb450417471eba939057e903b25523",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528704010",
+            "comment": "",
+            "uuid": "5b1e2c0a-a1ec-4b03-b1de-447d950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528704273",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1e2d11-43cc-4383-bb6d-41b5950d210f",
+        "comment": "Trojan.Win32.Prilex.h ",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1528704274",
+            "comment": "",
+            "uuid": "5b1e2d12-d5f8-46b5-b0d1-47d6950d210f",
+            "value": "26dcd3aa4918d4b7438e8c0ebd9e1cfd",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528704274",
+            "comment": "",
+            "uuid": "5b1e2d12-6d60-4170-b87a-463a950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528705610",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1e324a-724c-4fb6-a9cb-4b4a950d210f",
+        "comment": "Trojan.Win32.Prilex.f",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1528705610",
+            "comment": "",
+            "uuid": "5b1e324a-42a4-4e43-b184-44cd950d210f",
+            "value": "f5ff2992bdb1979642599ee54cfbc3d3",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528705611",
+            "comment": "",
+            "uuid": "5b1e324b-c9cc-4613-b39b-4796950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528705635",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1e3263-e11c-42cf-b81e-4757950d210f",
+        "comment": "Trojan.Win32.Prilex.m ",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1528705635",
+            "comment": "",
+            "uuid": "5b1e3263-3284-4bdd-a2ae-4991950d210f",
+            "value": "7ae9043778fee965af4f8b66721bdfab",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528705636",
+            "comment": "",
+            "uuid": "5b1e3264-35fc-4d8f-a634-406a950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528874895",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "11027696-51a5-490c-8a4f-473fd0489c29",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528874904",
+            "comment": "",
+            "uuid": "5b20c798-5b64-4f21-bcbb-a44a02de0b81",
+            "object_uuid": "11027696-51a5-490c-8a4f-473fd0489c29",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "50c83155-900b-441a-83d6-2a391a274548"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874894",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "50c83155-900b-441a-83d6-2a391a274548",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874898",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b136ef2-fa8b-46dc-b170-42ff816d565b",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528874905",
+            "comment": "",
+            "uuid": "5b20c799-2c68-4675-a0fb-a44a02de0b81",
+            "object_uuid": "5b136ef2-fa8b-46dc-b170-42ff816d565b",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "aa90e50e-5831-4a40-90ff-abe012c776d8"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874896",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "aa90e50e-5831-4a40-90ff-abe012c776d8",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874900",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "dda87322-1b8c-4646-bc31-7a076d5bc6b4",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528874905",
+            "comment": "",
+            "uuid": "5b20c799-a930-4ddc-bb75-a44a02de0b81",
+            "object_uuid": "dda87322-1b8c-4646-bc31-7a076d5bc6b4",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "25746874-1cb9-4718-ba55-35a0bd263c31"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874899",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "25746874-1cb9-4718-ba55-35a0bd263c31",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874902",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "7abef902-1194-4ec5-a86e-c8d67e3d6b4f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528874905",
+            "comment": "",
+            "uuid": "5b20c799-c0ac-4c13-b5dd-a44a02de0b81",
+            "object_uuid": "7abef902-1194-4ec5-a86e-c8d67e3d6b4f",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "205f50f6-77e7-43ac-a764-d13afc79e6b8"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874901",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "205f50f6-77e7-43ac-a764-d13afc79e6b8",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874905",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "d7dd0509-3912-4c63-846b-2d8511faaffd",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528874905",
+            "comment": "",
+            "uuid": "5b20c799-2e74-41a0-82d7-a44a02de0b81",
+            "object_uuid": "d7dd0509-3912-4c63-846b-2d8511faaffd",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "4a34ea3f-eb37-49e5-a937-c0fc11a122e9"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528874903",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "4a34ea3f-eb37-49e5-a937-c0fc11a122e9",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      }
+    ]
+  }
+}

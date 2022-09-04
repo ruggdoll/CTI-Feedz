@@ -1,0 +1,352 @@
+{
+  "Event": {
+    "date": "2018-05-15",
+    "timestamp": "1536238352",
+    "analysis": "0",
+    "uuid": "5b84012a-f9d4-4d92-abb3-344f950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1536238378",
+    "info": "OSINT - New Bip Dharma Ransomware Variant Released",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Dharma Ransomware\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1535379466",
+        "comment": "",
+        "uuid": "5b840189-c774-4f4c-83b7-5fb0950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/new-bip-dharma-ransomware-variant-released/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1535379476",
+        "comment": "",
+        "uuid": "5b8401a0-d0e4-422e-a664-33af950d210f",
+        "value": "Today, Michael Gillespie noticed what appeared to be a new variant of the Crysis/Dharma Ransomware uploaded to his ID-Ransomware site. Jakub Kroustek then discovered some samples to confirm that it was indeed a new Dharma variant. This new version will append the .Bip extension to encrypted files. It is not known exactly how this variant is being distributed, but in the past Dharma is typically spread by hacking into Remote Desktop Services and manually installing the ransomware.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1536157268",
+        "comment": "",
+        "uuid": "5b8fe654-8db4-444c-ad10-495f950d210f",
+        "value": "beamsell@qq.com",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1535379389",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b8407bd-2440-40cd-80a2-5fb0950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1535379389",
+            "comment": "",
+            "uuid": "5b8407bd-2e48-4d88-8dc9-5fb0950d210f",
+            "value": "208989df29236594c9d889d54b666041bc7df1d0b53cedd16e4f68636e036bb7",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1535379390",
+            "comment": "",
+            "uuid": "5b8407be-6f3c-4b13-8fea-5fb0950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1535379566",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b84086e-d5ec-4ab2-b371-0716950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1535379566",
+            "comment": "",
+            "uuid": "5b84086e-6970-41d9-bfac-0716950d210f",
+            "value": "%UserProfile%\\AppData\\Roaming\\Info.hta",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1535379566",
+            "comment": "",
+            "uuid": "5b84086e-8e5c-4464-88a4-0716950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1535379584",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b840880-b12c-4619-be47-0716950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1535379584",
+            "comment": "",
+            "uuid": "5b840880-de24-4e22-90f6-0716950d210f",
+            "value": "%UserProfile%\\AppData\\Roaming\\[filename.exe]",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1535379584",
+            "comment": "",
+            "uuid": "5b840880-8cc8-4ab0-9e7a-0716950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1535380188",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b840adc-296c-4705-8c8f-0716950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1535380188",
+            "comment": "",
+            "uuid": "5b840adc-8bbc-402b-9974-0716950d210f",
+            "value": "FILES ENCRYPTED.txt",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1535380188",
+            "comment": "",
+            "uuid": "5b840adc-c198-4927-a4a1-0716950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1536238344",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "4da3496e-b9b6-48b4-9b2d-42beb59eb7ca",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1536238355",
+            "comment": "",
+            "uuid": "5b912313-f4cc-4292-9e24-4a3e02de0b81",
+            "object_uuid": "4da3496e-b9b6-48b4-9b2d-42beb59eb7ca",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "499803fa-d2c3-4722-8fb9-f1134171354f"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1536238343",
+            "comment": "",
+            "uuid": "6647a831-e205-4827-bd04-b92af2f8e3dc",
+            "value": "b84e41893fa55503a84688b36556db05",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1536238345",
+            "comment": "",
+            "uuid": "5778ca06-cb45-4793-9e93-531db811a383",
+            "value": "94f83bfb5451383b9c7b486d05f38e1856fe62a5",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1536238347",
+            "comment": "",
+            "uuid": "f6a74a13-3854-4f00-85b6-0fe1d81a9b09",
+            "value": "208989df29236594c9d889d54b666041bc7df1d0b53cedd16e4f68636e036bb7",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1536238349",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "499803fa-d2c3-4722-8fb9-f1134171354f",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1536238350",
+            "comment": "",
+            "uuid": "45a6abd8-a4ca-4133-bddb-bdd48c7ac32b",
+            "value": "2018-08-24T17:37:17",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1536238352",
+            "comment": "",
+            "uuid": "c55fb0f7-f9ce-4a7b-9b44-e99390947433",
+            "value": "https://www.virustotal.com/file/208989df29236594c9d889d54b666041bc7df1d0b53cedd16e4f68636e036bb7/analysis/1535132237/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1536238354",
+            "comment": "",
+            "uuid": "b4c4e081-c8bd-4467-8211-fc83b3779c3f",
+            "value": "52/68",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "Event": {
+    "date": "2018-06-01",
+    "timestamp": "1528891752",
+    "analysis": "2",
+    "uuid": "5b17eaaf-783c-4624-b5f4-42d5950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1528904384",
+    "info": "OSINT - Sigrun Ransomware Author Decrypting Russian Victims for Free",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#2c4f00",
+        "name": "malware_classification:malware-category=\"Ransomware\""
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Sigrun Ransomware\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1528294869",
+        "comment": "",
+        "uuid": "5b17ed4b-d91c-42b3-b3f5-4998950d210f",
+        "value": "https://www.bleepingcomputer.com/news/security/sigrun-ransomware-author-decrypting-russian-victims-for-free/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1528294862",
+        "comment": "",
+        "uuid": "5b17ed5f-5934-4b17-918d-4149950d210f",
+        "value": "The author of the Sigrun Ransomware is providing decryption for Russian victims for free, while asking for a ransom payment of $2,500 in Bitcoin or Dash for everyone else. It is not uncommon for Russian ransomware developers to purposely avoid targeting Russian citizens and to outwardly help such victims for free.",
+        "to_ids": false,
+        "type": "text",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00223b",
+            "name": "osint:source-type=\"blog-post\""
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528356973",
+        "comment": "",
+        "uuid": "5b18e06d-07dc-4b4e-870e-262b950d210f",
+        "value": "RESTORE-SIGRUN.txt",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528356974",
+        "comment": "",
+        "uuid": "5b18e06e-0884-4617-8b91-262b950d210f",
+        "value": "RESTORE-SIGRUN.html",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1528357046",
+        "comment": "",
+        "uuid": "5b18e0b6-1ccc-41f1-b246-1dc5950d210f",
+        "value": "sigrun_decryptor@protonmail.ch",
+        "to_ids": true,
+        "type": "email-src",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1528356608",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b18df00-e54c-4f8c-8aff-1dc7950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1528356609",
+            "comment": "",
+            "uuid": "5b18df01-4aec-4bc3-87b5-1dc7950d210f",
+            "value": "664b482e22e0f108660cf03fb7d1507d929e8242eb6c5762e577096a50a8cc5b",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528356609",
+            "comment": "",
+            "uuid": "5b18df01-5338-4a84-9eb0-1dc7950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528875487",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "09bc113b-4699-4395-b2c8-f7e57415bab4",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1528875487",
+            "comment": "",
+            "uuid": "5b20c9df-4ef4-46e6-a617-a44b02de0b81",
+            "object_uuid": "09bc113b-4699-4395-b2c8-f7e57415bab4",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "7aeb92ee-c416-4eea-bd3d-bffb83f3b67c"
+          }
+        ],
+        "Attribute": []
+      },
+      {
+        "timestamp": "1528875486",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "7aeb92ee-c416-4eea-bd3d-bffb83f3b67c",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "2",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": []
+      }
+    ]
+  }
+}

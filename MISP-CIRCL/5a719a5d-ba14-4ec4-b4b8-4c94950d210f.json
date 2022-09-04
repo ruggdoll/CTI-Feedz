@@ -1,0 +1,318 @@
+{
+  "Event": {
+    "date": "2018-01-23",
+    "timestamp": "1517454034",
+    "analysis": "2",
+    "uuid": "5a719a5d-ba14-4ec4-b4b8-4c94950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1518771211",
+    "info": "OSINT - Analyzing CrossRAT",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#4bec00",
+        "name": "enisa:nefarious-activity-abuse=\"remote-access-tool\""
+      },
+      {
+        "colour": "#850048",
+        "name": "workflow:todo=\"create-missing-misp-galaxy-cluster-values\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:rat=\"CrossRat\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1517404415",
+        "comment": "",
+        "uuid": "5a719a75-8c84-4da4-a006-41dd950d210f",
+        "value": "The EFF/Lookout report describes CrossRat as a \u00e2\u20ac\u0153newly discovered desktop surveillanceware tool\u00e2\u20ac\u00a6which is able to target Windows, OSX, and Linux.\u00e2\u20ac\u009d Of course the OSX (macOS) part intrigues me the most, so this post may have somewhat of a \u00e2\u20ac\u02dcMac-slant.\u00e2\u20ac\u2122",
+        "to_ids": false,
+        "type": "comment",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1517404415",
+        "comment": "",
+        "uuid": "5a719a99-1774-46c6-820b-4b7d950d210f",
+        "value": "https://digitasecurity.com/blog/2018/01/23/crossrat/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1517404415",
+        "comment": "",
+        "uuid": "5a71ac17-ec40-42e2-ac4d-47ec950d210f",
+        "value": "mediamgrs.jar",
+        "to_ids": true,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1517404416",
+        "comment": "on port 2223.",
+        "uuid": "5a71acc8-fcc0-4835-8908-46fd950d210f",
+        "value": "flexberry.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1517404416",
+        "comment": "",
+        "uuid": "5a71acef-87b0-4f2d-a464-4844950d210f",
+        "value": "crossrat/client.class",
+        "to_ids": false,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1517404416",
+        "comment": "",
+        "uuid": "5a71acef-d690-4c29-bdad-4574950d210f",
+        "value": "crossrat/k.class",
+        "to_ids": false,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1517404417",
+        "comment": "",
+        "uuid": "5a71ad6b-4fe4-41ef-b4f2-452a950d210f",
+        "value": "crossrat/j.class",
+        "to_ids": false,
+        "type": "filename",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1517394738",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5a719b32-1108-47a6-aa7c-4847950d210f",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "9",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "filename",
+            "timestamp": "1517394738",
+            "comment": "",
+            "uuid": "5a719b32-fbc0-4cff-bb3d-4f9f950d210f",
+            "value": "hmar6.jar",
+            "to_ids": true,
+            "type": "filename",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517394739",
+            "comment": "",
+            "uuid": "5a719b33-3644-4c1c-9cec-488f950d210f",
+            "value": "15af5bbf3c8d5e5db41fd7c3d722e8b247b40f2da747d5c334f7fd80b715a649",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1517394739",
+            "comment": "",
+            "uuid": "5a719b33-71d8-4268-873b-4fd9950d210f",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1517404420",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "ba79aee9-019a-4cf1-aa7e-8dd9c091d4c3",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "7",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "ObjectReference": [
+          {
+            "timestamp": "1518771211",
+            "comment": "",
+            "uuid": "5a71c104-4034-4505-b082-406702de0b81",
+            "object_uuid": "ba79aee9-019a-4cf1-aa7e-8dd9c091d4c3",
+            "relationship_type": "analysed-with",
+            "referenced_uuid": "3883cdf4-fe7a-4c52-beb5-8b4ab2ee37d1"
+          }
+        ],
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1517404417",
+            "comment": "",
+            "uuid": "5a71c101-ef58-4aca-985d-441702de0b81",
+            "value": "b23e070dadc997759574d5ee92c7753b84968f50",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1517404418",
+            "comment": "",
+            "uuid": "5a71c102-4654-4c01-9262-475602de0b81",
+            "value": "85b794e080d83a91e904b97769e1e770",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1517404418",
+            "comment": "",
+            "uuid": "5a71c102-4f64-4ca5-877a-499102de0b81",
+            "value": "15af5bbf3c8d5e5db41fd7c3d722e8b247b40f2da747d5c334f7fd80b715a649",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517404419",
+        "name": "virustotal-report",
+        "sharing_group_id": "0",
+        "uuid": "3883cdf4-fe7a-4c52-beb5-8b4ab2ee37d1",
+        "comment": "",
+        "description": "VirusTotal report",
+        "meta-category": "misc",
+        "distribution": "5",
+        "template_version": "1",
+        "template_uuid": "d7dd0154-e04f-4c34-a2fb-79f3a3a52aa4",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "External analysis",
+            "object_relation": "permalink",
+            "timestamp": "1517404419",
+            "comment": "",
+            "uuid": "5a71c103-d788-427c-823b-49f802de0b81",
+            "value": "https://www.virustotal.com/file/15af5bbf3c8d5e5db41fd7c3d722e8b247b40f2da747d5c334f7fd80b715a649/analysis/1517401865/",
+            "to_ids": false,
+            "type": "link",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "detection-ratio",
+            "timestamp": "1517404419",
+            "comment": "",
+            "uuid": "5a71c103-59d4-42dd-a748-4e6f02de0b81",
+            "value": "33/57",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Other",
+            "object_relation": "last-submission",
+            "timestamp": "1517404419",
+            "comment": "",
+            "uuid": "5a71c103-c41c-4d36-aecf-453202de0b81",
+            "value": "2018-01-31T12:31:05",
+            "to_ids": false,
+            "type": "datetime",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      },
+      {
+        "timestamp": "1517409088",
+        "name": "ip-port",
+        "sharing_group_id": "0",
+        "uuid": "5a71d340-9298-45fe-a0d4-43b8950d210f",
+        "comment": "",
+        "description": "An IP address (or domain) and a port seen as a tuple (or as a triple) in a specific time frame.",
+        "meta-category": "network",
+        "distribution": "5",
+        "template_version": "6",
+        "template_uuid": "9f8cea74-16fe-4968-a2b4-026676949ac6",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Network activity",
+            "object_relation": "domain",
+            "timestamp": "1517409088",
+            "comment": "",
+            "uuid": "5a71d340-95b8-4ba8-9256-4243950d210f",
+            "value": "flexberry.com",
+            "to_ids": true,
+            "type": "domain",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Network activity",
+            "object_relation": "dst-port",
+            "timestamp": "1517409089",
+            "comment": "",
+            "uuid": "5a71d341-be70-4699-9f93-434f950d210f",
+            "value": "2223",
+            "to_ids": false,
+            "type": "port",
+            "deleted": false,
+            "disable_correlation": false
+          }
+        ]
+      }
+    ]
+  }
+}

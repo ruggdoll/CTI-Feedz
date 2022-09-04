@@ -1,0 +1,231 @@
+{
+  "Event": {
+    "date": "2018-06-07",
+    "timestamp": "1621849776",
+    "analysis": "2",
+    "uuid": "5b1e9c95-75a8-4132-93e5-58ed0acd0835",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1589184029",
+    "info": "Trend Micro Blog: New KillDisk Variant Hits Latin American Financial Organizations Again",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "5a68c02d-959c-4c8a-a571-0dcac0a8060a",
+      "name": "Synovus Financial"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:tool=\"KillDisk Wiper\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1528732831",
+        "comment": "",
+        "uuid": "5b1e9c9f-b7cc-4e7e-a82e-a34d0acd0835",
+        "value": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-killdisk-variant-hits-latin-american-financial-organizations-again/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1528974652",
+        "comment": "",
+        "uuid": "5b224d3c-47c8-4350-ba6c-adb2950d210f",
+        "value": "https://www.flashpoint-intel.com/blog/banco-de-chile-mbr-killler-reveals-hidden-nexus-buhtrap/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ],
+    "Object": [
+      {
+        "timestamp": "1528734296",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1e9ce9-3bdc-4c77-b177-ef180acd0835",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1528732905",
+            "comment": "",
+            "uuid": "5b1e9ce9-bcb0-4b28-af93-ef180acd0835",
+            "value": "9e33143916f648ec338f209eb0bd4789",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "text",
+            "timestamp": "1528732905",
+            "comment": "",
+            "uuid": "5b1e9ce9-fbfc-4d4a-8388-ef180acd0835",
+            "value": "TROJ_KILLMBR.EE",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1528732905",
+            "comment": "",
+            "uuid": "5b1e9ce9-18f4-4b88-95d0-ef180acd0835",
+            "value": "a3f2c60aa5af9d903a31ec3c1d02eeeb895c02fcf3094a049a3bdf3aa3d714c8",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1528732905",
+            "comment": "",
+            "uuid": "5b1e9ce9-9fec-493a-9f6d-ef180acd0835",
+            "value": "2aa3803869edee7fa1ab7cf96d992ccfecc89e7b",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "ssdeep",
+            "timestamp": "1528732905",
+            "comment": "",
+            "uuid": "5b1e9ce9-c4f4-493b-912a-ef180acd0835",
+            "value": "24576:RFquItQkg9t8RLlwGcGZ7fgOUe9UEnc1ykkkVVqWyvLMekOc:RF3ItQz9pda7f35ncIsbHyIe",
+            "to_ids": true,
+            "type": "ssdeep",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528732905",
+            "comment": "",
+            "uuid": "5b1e9ce9-ae6c-433e-bbf3-ef180acd0835",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      },
+      {
+        "timestamp": "1528734313",
+        "name": "file",
+        "sharing_group_id": "0",
+        "uuid": "5b1e9d13-fc1c-4e57-b621-7e220acd0835",
+        "comment": "",
+        "description": "File object describing a file with meta-information",
+        "meta-category": "file",
+        "distribution": "5",
+        "template_version": "11",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "deleted": false,
+        "Attribute": [
+          {
+            "category": "Payload delivery",
+            "object_relation": "md5",
+            "timestamp": "1528732947",
+            "comment": "",
+            "uuid": "5b1e9d13-f870-4e95-a036-7e220acd0835",
+            "value": "c1831baa5505f5a557380e0ab3f60f48",
+            "to_ids": true,
+            "type": "md5",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "text",
+            "timestamp": "1528732947",
+            "comment": "",
+            "uuid": "5b1e9d13-7330-44a8-b71b-7e220acd0835",
+            "value": "TROJ_KILLDISK.IUE",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha256",
+            "timestamp": "1528732947",
+            "comment": "",
+            "uuid": "5b1e9d13-2ff4-4b9e-9deb-7e220acd0835",
+            "value": "1a09b182c63207aa6988b064ec0ee811c173724c33cf6dfe36437427a5c23446",
+            "to_ids": true,
+            "type": "sha256",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "sha1",
+            "timestamp": "1528732947",
+            "comment": "",
+            "uuid": "5b1e9d13-5eec-4052-8593-7e220acd0835",
+            "value": "2766d7eaf2003f435f1a868b3687355823d34470",
+            "to_ids": true,
+            "type": "sha1",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Payload delivery",
+            "object_relation": "ssdeep",
+            "timestamp": "1528732947",
+            "comment": "",
+            "uuid": "5b1e9d13-abfc-4193-9062-7e220acd0835",
+            "value": "12288:OKBvYh1y8HO4CckkbSsSqq1Z+yBBFBMekSflStF0hUHegbcyFS:fc1ykkkVVqWyvLMekYoS",
+            "to_ids": true,
+            "type": "ssdeep",
+            "deleted": false,
+            "disable_correlation": false
+          },
+          {
+            "category": "Other",
+            "object_relation": "state",
+            "timestamp": "1528732947",
+            "comment": "",
+            "uuid": "5b1e9d13-0454-4b30-95ab-7e220acd0835",
+            "value": "Malicious",
+            "to_ids": false,
+            "type": "text",
+            "deleted": false,
+            "disable_correlation": true
+          }
+        ]
+      }
+    ]
+  }
+}

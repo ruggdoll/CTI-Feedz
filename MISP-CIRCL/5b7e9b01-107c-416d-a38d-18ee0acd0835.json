@@ -1,0 +1,4132 @@
+{
+  "Event": {
+    "date": "2018-08-23",
+    "timestamp": "1551156019",
+    "analysis": "2",
+    "uuid": "5b7e9b01-107c-416d-a38d-18ee0acd0835",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1551176187",
+    "info": "TALOS Blog: Picking Apart Remcos Botnet-In-A-Box",
+    "threat_level_id": "2",
+    "Orgc": {
+      "uuid": "5a68c02d-959c-4c8a-a571-0dcac0a8060a",
+      "name": "Synovus Financial"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#00223b",
+        "name": "osint:source-type=\"blog-post\""
+      },
+      {
+        "colour": "#00aad0",
+        "name": "veris:action:malware:variety=\"C2\""
+      },
+      {
+        "colour": "#00add3",
+        "name": "veris:action:social:vector=\"Documents\""
+      },
+      {
+        "colour": "#00bde6",
+        "name": "veris:action:misuse:vector=\"Remote access\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "External analysis",
+        "timestamp": "1535023908",
+        "comment": "",
+        "uuid": "5b7e9b24-0020-4e3a-8119-18eb0acd0835",
+        "value": "https://blog.talosintelligence.com/2018/08/picking-apart-remcos.html",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024817",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-5294-448f-9278-1a850acd0835",
+        "value": "0409e5a5a78bfe510576b516069d4119b45a717728edb1cd346f65cfb53b2de2",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024817",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-5b1c-4c2f-95ea-1a850acd0835",
+        "value": "0ebfbcbf8c35ff8cbf36e38799b5129c7b70c6895d5f11d1ab562a511a2ec76e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-b12c-4183-8956-1a850acd0835",
+        "value": "18f461b274aa21fc27491173968ebe87517795f24732ce977ccea5f627b116f9",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-d214-4f21-bc26-1a850acd0835",
+        "value": "2f81f5483bbdd78d3f6c23ea164830ae263993f349842dd1d1e6e6d055822720",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-2054-43ea-8d4c-1a850acd0835",
+        "value": "3772fcfbb09ec55b4e701a5e5b4c5c9182656949e6bd96bbd758947dfdfeba62",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-61f0-4dca-9e46-1a850acd0835",
+        "value": "43282cb81e28bd2b7d4086f9ba4a3c538c3d875871bdcf881e58c6b0da017824",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-25c4-4a1e-b75a-1a850acd0835",
+        "value": "48dec6683bd806a79493c7d9fc3a1b720d24ad8c6db4141bbec77e2aebad1396",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-b7d8-4c76-a63d-1a850acd0835",
+        "value": "4938f6b52e34768e2834dfacbc6f1d577f7ab0136b01c6160dd120364a1f9e1a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-5a14-45be-aa2d-1a850acd0835",
+        "value": "4e0bcef2b9251e2aaecbf6501c8df706bf449b0e12434873833c6091deb94f0e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-0584-4199-99bf-1a850acd0835",
+        "value": "72578440a76e491e7f6c53e39b02bd041383ecf293c90538dda82e5d1417cad1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-d8f8-4482-a601-1a850acd0835",
+        "value": "77cf87134a04f759be3543708f0664b80a05bb8315acb19d39aaa519d1da8e92",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-a758-46a5-8724-1a850acd0835",
+        "value": "8abcb3084bb72c1cb49aebaf0a0c221a40538a062a1b8830c1b48d913211a403",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-95c0-4af1-b333-1a850acd0835",
+        "value": "94ff6d708820dda59738401ea10eb1b0d7d98d104a998ba6cee70e728eb5f29f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024817",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-7eb0-49cc-b96e-1a850acd0835",
+        "value": "9cccdb290dbbedfe54beb36d6359e711aee1b20f6b2b1563b32fb459a92d4b95",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-71c8-445a-96a8-1a850acd0835",
+        "value": "aa7a3655dc5d9e0d69137cb8ba7cc18137eff290fde8c060ac678aa938f16ec7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-f9d8-41b0-8853-1a850acd0835",
+        "value": "ad78b68616b803243d56593e0fdd6adeb07bfc43d0715710a2c14417bba90033",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024817",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-4578-46c0-b05f-1a850acd0835",
+        "value": "bb3e5959a76a82db52840c4c03ae2d1e766b834553cfb53ff6123331f0be5d12",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024817",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-b168-455f-83cb-1a850acd0835",
+        "value": "c5b9c3a3bbfa89c83e1fb3955492044fd8bf61f7061ce1a0722a393e974cec7c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024818",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-27e4-4e83-ae0e-1a850acd0835",
+        "value": "d3612813abf81d0911d0d9147a5fe09629af515bdb361bd42bc5a79d845f928f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024817",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-e578-4e38-9117-1a850acd0835",
+        "value": "e302fb178314aa574b89da065204bc6007d16c29f1dfcddcb3b1c90026cdd130",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024817",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-dc14-4da9-8bcb-1a850acd0835",
+        "value": "e7c3c8195ff950b0d3f7e9c23c25bb757668b9c131b141528183541fc125d613",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024817",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-dff8-4c29-b65d-1a850acd0835",
+        "value": "ef5e1af8b3e0f7f6658a513a6008cbfb83710f54d8327423db4bb65fa03d3813",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload delivery",
+        "timestamp": "1535024817",
+        "comment": "Malicious Office Documents",
+        "uuid": "5b7e9b43-d75c-4a47-8f98-1a850acd0835",
+        "value": "f2c4e058a29c213c7283be382a2e0ad97d649d02275f3c53b67a99b262e48dd2",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00add3",
+            "name": "veris:action:social:vector=\"Documents\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-6bec-4de5-b18e-1a790acd0835",
+        "value": "07380d9df664ef6f998ff887129ad2ac7b11d0aba15f0d72b6e150a776c6a1ef",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-93ec-4954-93e7-1a790acd0835",
+        "value": "1e5d5226acaeac5cbcadba1faab4567b4e46b2e6724b61f8c705d99af80ca410",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-b4b8-498f-af52-1a790acd0835",
+        "value": "224009a766eef638333fa49bb85e2bb9f5428d2e61e83425204547440bb6f58d",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-f5cc-48ac-a73e-1a790acd0835",
+        "value": "27dd5a3466e4bade2238aa7f6d5cb7015110ceb10ba00c1769e4bc44fe80bcb8",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-3704-4af7-bea8-1a790acd0835",
+        "value": "502c4c424c8f435254953c1d32a1f7ae1e67fb88ebd7a31594afc7278dcafde3",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-eab0-4f18-a847-1a790acd0835",
+        "value": "5a9fa1448bc90a7d8f5e6ae49284cd99120c2cad714e47c65192d339dad2fc59",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-7424-402d-8cdd-1a790acd0835",
+        "value": "91032c5ddbb0447e1c772ccbe22c7966174ee014df8ada5f01085136426a0d20",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-72c8-4661-a450-1a790acd0835",
+        "value": "9114a31330bb389fa242512ae4fd1ba0c9956f9bf9f33606d9d3561cc1b54722",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-2fb0-4b3d-9b34-1a790acd0835",
+        "value": "9fe46627164c0858ab72a7553cba32d2240f323d54961f77b5f4f59fe18be8fa",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-77cc-40be-8e60-1a790acd0835",
+        "value": "c2307a9f18335967b3771028100021bbcf26cc66a0e47cd46b21aba4218b6f90",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-b7d8-4f82-aa09-1a790acd0835",
+        "value": "c51677bed0c3cfd27df7ee801da88241b659b2fa59e1c246be6db277ce8844d6",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 1 Executables",
+        "uuid": "5b7e9b98-d68c-4ab9-8ee6-1a790acd0835",
+        "value": "da352ba8731afee3fdbca199ce8c8916a31283c07b2f4ebaec504bda2966892b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#5fb4b2",
+            "name": "Stage 1"
+          },
+          {
+            "colour": "#00a9cf",
+            "name": "veris:action:malware:variety=\"Downloader\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-0650-4da4-9c83-1a840acd0835",
+        "value": "01d4f90e8c11045800d77ea0b706071b0497ac874ac634f7bc35829eeda177c0",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-4c18-4e07-981a-1a840acd0835",
+        "value": "01d75f2dd7d3a8df8ec45ace0c433de4e9042c84773cb94952dcdaa91de53d4c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-6e54-4f46-869f-1a840acd0835",
+        "value": "0340b84c0a3ca20f9c09e1a81c9e9cb561607e491fca652b07a196cd40138648",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-90f4-492c-9f4a-1a840acd0835",
+        "value": "03db92dac329dcda5c70a0b18b25b998e36f5d7c4650398c9ec864c8dc28ec3b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-b010-4746-879a-1a840acd0835",
+        "value": "06aaccfece6cbee1fe3287ce2d6accd9b60931c585f54a4c400b280ced6567a3",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-f31c-4cf9-a394-1a840acd0835",
+        "value": "082a3c57ffec44191f71f8b170137a7d1c398b76fc93c5cdcb6714958d50f792",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-01d0-42f6-86f7-1a840acd0835",
+        "value": "098fd9d5eb438af073651243c07bedcf9e1a1363f682bdefc124588d0cbf356a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-1340-4cea-a9df-1a840acd0835",
+        "value": "0ba2cf704dbe7339815ab4fee0edbf52d7d077df8b865a13cdb2c5c41c8cae55",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-1ce0-4676-bc5a-1a840acd0835",
+        "value": "0bec16111e2199d4f62882cd59c2e3868b5c7539e64f5f3fb16dde94e2b4292e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-342c-468f-8959-1a840acd0835",
+        "value": "109486cc31d92c918d219b93721e3c17ed854ae2a73a9ff1a6fd0e796aebaf6b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-3f5c-4fa5-9b57-1a840acd0835",
+        "value": "156de314051af6a265626676bc594b98d0eafbaa8e1470bd1126ca037d64dee5",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-732c-40e3-9781-1a840acd0835",
+        "value": "17882008afd8cdeb44cab2798e6949e9556072f9d239c30c652bfa6938106123",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-a120-47a1-9b34-1a840acd0835",
+        "value": "1cc8f8b1487893b2b0ff118faa2333e1826ae1495b626e206ef108460d4f0fe7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-c744-407f-9159-1a840acd0835",
+        "value": "2003cb7cc8d8262b7975fcf9a2a9eb2b1aa7de32a5baffd2383ec4c251316ec9",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-d530-4ebe-b3c3-1a840acd0835",
+        "value": "23c5eda8a283e8570cdbbe07c11389c4085c0f0d239a27552f109506da0515c1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-f258-4672-a1e7-1a840acd0835",
+        "value": "23c8a5964de8b6b8a3138e704e3884c4986f1d5896e03577c18f68f16e44c598",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-0f80-4992-88df-1a840acd0835",
+        "value": "259c6c9f64c7d8a5ea07770ed04a94ef4266f115bee1211f4b0a161614f1caac",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-37fc-4153-83f1-1a840acd0835",
+        "value": "295bac213ab152f260641257bcb8ce5a53b79a2c8d06094447bc3e6cbd85a17c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-4c8c-454c-b6ea-1a840acd0835",
+        "value": "2b64b66d72d33debb0f35f2b69998763acb9888655b8b5a912d0eb6dd5f3fa8e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024823",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-6568-4992-a504-1a840acd0835",
+        "value": "2c620195dddbd080bff652a08fe7287023cb27ffe8418a2bbc478dad376b63b8",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-7804-48d9-a463-1a840acd0835",
+        "value": "2fad5192692c080dd477ed2ba9b36585fe6b59dc3467232b172ed5f959c90b65",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-9270-43aa-9706-1a840acd0835",
+        "value": "3102123a62009a62e4a75da567d6b65abd2de23c739cba7486dff4337927fec4",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024826",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-b894-47e7-8405-1a840acd0835",
+        "value": "3352d1fe7f437010528fe4655f955435ecfe3dd3f42da020267c505e5c03bdf9",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024826",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-d74c-4088-a5d1-1a840acd0835",
+        "value": "3b69867aabd0912ec4d46c50f059d60fe8a541f4b18a0bca5eac711e921cb00b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024355",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-05a4-4b21-bcbb-1a840acd0835",
+        "value": "3c64ed631aa34dd243e321f39a0ad5ea40db7ad94152ce97e48c43bb52ed9fbd",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-6768-4aab-b950-1a840acd0835",
+        "value": "3c67d3b92295c9f876ab657b76e92319868c6cdfee035e97597db8b5ef2ca9cc",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-b62c-4ec4-9a09-1a840acd0835",
+        "value": "3e2adc2b31db675bde5c51b93457cde98aa5df481dea548c3ea7b2eece2927c3",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024355",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-ff14-4f3e-9863-1a840acd0835",
+        "value": "40784da7bd130c13b57f200f45174bde52d5cab25695ba259a0fa205514f823a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-86bc-4e73-bfde-1a840acd0835",
+        "value": "43fb57e3bb4dd2017de2c53b308a8bd4a98f580d12d38884a615a3501be2d9de",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-a128-4571-aaae-1a840acd0835",
+        "value": "456067426d541f23350f326b9633499e0118c58ab7f3d18d5884f50278ce9365",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-c620-4cdf-a63c-1a840acd0835",
+        "value": "46d09b0d1e490a489c5ca2fbdda61cdeb40862cfe8a8a18a024f752ee1f9176a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-f4dc-4a65-bdba-1a840acd0835",
+        "value": "478ee337f4f4c014e7e20c1dac66af0739c6f8c4ab08eeca86087794ad0f6dc3",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-44cc-4c94-921b-1a840acd0835",
+        "value": "4b3fc2f015b690f584a0dc27bf7684420aca336f46ac7d80c38758c0ab8b7902",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024355",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-ae84-4828-98a4-1a840acd0835",
+        "value": "4d2ef2080eb70826119c4c31f8a0fc70a83edb8f0555572964662cb19446d0ff",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-4a18-4f56-b797-1a840acd0835",
+        "value": "4d7dd643a61c24ffb6bfc000b01e6a87ff7d50f1cd8cc70ae24a814da672b4b1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-8d88-4292-ba04-1a840acd0835",
+        "value": "4dda06c95f268ff8e9edb4d42da54534361b6c899e0717ed26a5cf6527325015",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-bb7c-4c33-b0b4-1a840acd0835",
+        "value": "4e55885791569c17891d8620a28b7563f441e0c80e875df828b33a5a006d544a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-d00c-4324-81b2-1a840acd0835",
+        "value": "5140c2417ee88bda726af50114b0479ab3a8f181da04fa01f9f673f63ae81361",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-27cc-4145-ac86-1a840acd0835",
+        "value": "516b4d6f893fd8f5cc68945d4f8184780ee747368bf0184194771ee098404fb7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-5f20-4d9b-aabd-1a840acd0835",
+        "value": "524acf303c0abbe4c98adc82d8c5c731c807bacca66d1733cfc98a9556c376ff",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-7798-4ebb-a24e-1a840acd0835",
+        "value": "53c5366e9c8e85bf7c05fef9fd7a568c29f1873d240c66d1e1c09674f74a2441",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-832c-48d2-a921-1a840acd0835",
+        "value": "54c6f757f25dafd4b641bc7c97e968bc3f104c50e6c7685e0306ec0c8b69004e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024825",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-9ba4-4e67-b911-1a840acd0835",
+        "value": "559b6a9797ae592030fc775ec95d30b8dd546811fcab3bd58ecbb078f64698f4",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-b5ac-4b84-b973-1a840acd0835",
+        "value": "577d1da8642cce737b54a205f15c14badf78414b4f1ebad83830ddf22c1cbe1d",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-e148-47e9-916d-1a840acd0835",
+        "value": "5dff2df99ba4a0000f839a59356c24e7c24749b1e12640327b3ba4890e9ffc28",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-fa88-4cab-8633-1a840acd0835",
+        "value": "64483724fdd0ba596f1dcebdf178bb9c856c9b4f6990d8ca47706cc233c41bb0",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-1fe4-4cce-be0a-1a840acd0835",
+        "value": "66df6a842e1d121f873b546d2d34fad685deb244a6efb61ca74c0c84aadb4ddc",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-402c-420b-a62e-1a840acd0835",
+        "value": "6a8e333328928f8497741e03ae829a86587b9005cccb2a33a6062c20cb759491",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-65ec-4655-897b-1a840acd0835",
+        "value": "6e8033042ef900bbcb6dd4994b33f13e6b0b95c352db78c59abfbbd9671bbb31",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-9ffc-430d-b5a5-1a840acd0835",
+        "value": "6f1440db04ca84002aa175d0ee84e2cff140b6112e54a6f360df6e2405bf20c1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024824",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-cb34-44e2-b8ba-1a840acd0835",
+        "value": "71f4ff98b5c43912e39c9b68c0ae1ed894903e94756f41cf5631445499356527",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-eca8-4b41-9de9-1a840acd0835",
+        "value": "73f15b77fcecec7fe5aa1d12323b973aa228331e5cac271252ba85773f105fa8",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-145c-4d24-834d-1a840acd0835",
+        "value": "76a774567ad0de6457fc9bd2db0bd2449a50e7c4c706a6670f35a36af2d075ef",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-2310-47f3-94fd-1a840acd0835",
+        "value": "78a855be6a92027bfe71c2172aa557f27f1b9ac5f9fad53d64ee9c0a5017205f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024355",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-3994-4d30-9ea3-1a840acd0835",
+        "value": "7b7f9c0f1d1c6515e7a5747ae0f32876eb4d089109547129673cd0cb2699d930",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-6cdc-4571-948a-1a840acd0835",
+        "value": "7b9f34fbbb87fe1084429de536aaac5f359df545ce0c9606bf5d60b9e4fb6a30",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-7a00-4dca-a006-1a840acd0835",
+        "value": "7c06540b8502809c7d07571abcd15251ee642b5e47c6f3eb35b773376769931b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-93a4-496e-830b-1a840acd0835",
+        "value": "80116d1b5a7b432c7f09b831ba04f3faaed996cff7384464ec13df41f4303242",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-ae10-450b-bf3c-1a840acd0835",
+        "value": "80f6104926429d0109f63d8181997c1a9baac48a9386c617d3958321631e2f62",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-c818-4e23-8021-1a840acd0835",
+        "value": "825bc14410b7d8c9e74aec56f4dc7b5e512dea6676583d5f0f98ff8762019409",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-d5a0-4030-bc7b-1a840acd0835",
+        "value": "825e1c58bb0be9371faab57df786e8b8045e40760a7b64e8cb9fe27a002933a1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-e7d8-4a3e-abfa-1a840acd0835",
+        "value": "8326d96a64605e869e86cd56c048460d8ad2e0f639cf8845fa802290a0e3b6ae",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-f948-4914-9247-1a840acd0835",
+        "value": "84fa28e2b009c2e65ee7c8e127638e5c5afe1bace9b6ed31a208ca312ac340e0",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-0860-4581-a31a-1a840acd0835",
+        "value": "84fd7f835de57d55ee857e7574664119ec4e8b51cf7a32c343e25d80a24fa68c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-1db8-4d2e-b22f-1a840acd0835",
+        "value": "8506e02b3869c95c7f4890277583f9f850c3d414136d2a87491e6e7d2b07c0a7",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-424c-4227-8d99-1a840acd0835",
+        "value": "851950510f4760bded5792e8d8cfcbe2debf31c41b807e760495752d55674bc4",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-5290-43b1-81ee-1a840acd0835",
+        "value": "88d606ce0dd8e695a0cd4221475ce904e9c460f801a4aaf696df92cdf3357c8e",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-6b6c-4ad5-bbc2-1a840acd0835",
+        "value": "8a02ab410a448068bb0851fc06bd62e083d80f480a138112a751ad6828af59c1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-895c-48b9-825f-1a840acd0835",
+        "value": "8a93e978fdbfdf1e5c620d1d5c2cce5f37dcb767c46b6bd8f537795466fdedb6",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-c2a4-4cdf-9cf4-1a840acd0835",
+        "value": "92033ab41d0a52c21978eefbea86c9b4a68c89cf9cb281304430cf46672256f5",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024818",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-e8c8-4acb-b859-1a840acd0835",
+        "value": "92f5bb456f3c0c9e3bdd9a5f429c73d874da1925d66bc853d5720d1cb6547257",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024355",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-0c94-4a43-ac8c-1a840acd0835",
+        "value": "9633246f366d63cbc70eb14b3c50d58de41ffce75ba7685d82c185ecfdda5686",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-7434-4a86-8c78-1a840acd0835",
+        "value": "990ccc084900c302273977c51d33e9f86c8be1275defa748942f2bfff855a381",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024818",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-b09c-4ca0-b6a0-1a840acd0835",
+        "value": "9a333cba2e9357d5ae0991b8adffe43be6b9bc6186e5757d0b900e528f1b07cf",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-d8b4-4541-bbb1-1a840acd0835",
+        "value": "9c9d06228848ad875e8bdc680f4bd39f34ca4b2701692de767887ec4c11a32c1",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-0e78-4e63-b041-1a840acd0835",
+        "value": "9ce43c6f333e122d3a01f4d182f01a6e3b0e904e3f642fccac640ac048cd154c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-4180-46ed-8190-1a840acd0835",
+        "value": "a37fb5d3be6c8db51f9d690533957612efc26cbdf52a7a012e8b1553f53a51cd",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-6eac-42e0-8c49-1a840acd0835",
+        "value": "a49afa2cb3ca97f22b39f74a09249e26937bc73f40ef3a4047ea7a0298f71a08",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-9c3c-472b-b94e-1a840acd0835",
+        "value": "a6d3232aeb2e3c6005036fb2777a3ce55cabf39ab8af66c09676852eae567193",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-bbbc-4251-85e2-1a840acd0835",
+        "value": "a7dbf2a824931b9a7a7ed026e7f2482bc4588c2463b10c58ce08bb6213a9a5bb",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024819",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-ea78-4dc1-a5b8-1a840acd0835",
+        "value": "a8662ef4e43e1a687536a40195b2ba2131ba88dd1e45a72237734f3a576f5c8a",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-1358-4c38-a583-1a840acd0835",
+        "value": "a90179bf57c3af8f72f39187fb8ed454d987f9d9bb756d3ad9e45e672d69a403",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-46c4-4975-b349-1a840acd0835",
+        "value": "a9c93dde254acdb091aca01eb000f18da1fe586dbd05e01dba572ec2bc294da6",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-6450-49e4-ba28-1a840acd0835",
+        "value": "b3fb560ffbd80ade545bd0f5b0f10526db4bf02b83db21283b65c63bf15cd85d",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-787c-43fb-bb00-1a840acd0835",
+        "value": "b45828548d894e2e2e78c7615e5441ebd199d0a4c31c684d54d49ba4321ac5af",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-9284-40f9-89a1-1a840acd0835",
+        "value": "b592be0c276387c4623cf0a847140a0d978de793a4d9fbb4813ed0f0fd37179d",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-a9d0-4e03-bffe-1a840acd0835",
+        "value": "b694796fc38e342bdf4593d134779a1e89d03159b563b6814e61962e0de5dc66",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-b5c8-4f5c-91fa-1a840acd0835",
+        "value": "b728ce62518691276f5ddb21a18a0df40412abd8afbbc55903eccaa471b62a17",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-c350-4434-81d4-1a840acd0835",
+        "value": "bb5b3a0ac4bdbaa62d08222dc2e5d871d88cf1a0755b2e715fea3fd6d24b3e65",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-ecf8-4fb5-8954-1a840acd0835",
+        "value": "bd60ca63e12af96922fe575119e3faa327a75ba588a3db59400ae6366799ce31",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-0444-417b-bf93-1a840acd0835",
+        "value": "be485848a73ca50633d69b7ed7057db89900262d15bf20194cb24cf23f2571fd",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024822",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-2108-44d5-8670-1a840acd0835",
+        "value": "c56b3c8b69c1c378d677984f8bbef6d18873755ebdbe8bccb8f208be1179dc8c",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-2e90-4f60-a7f7-1a840acd0835",
+        "value": "c75ba3917383a776dee26a215929d242b7896641a4157afa1d7d05913eb473fd",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-41f4-4a50-9096-1a840acd0835",
+        "value": "c99218e6a9577e3012522c7eac9f18197f517815f2c1ea63950c5ac205643055",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-5940-4b64-9bfd-1a840acd0835",
+        "value": "cd6caf2728bf88feefb6d388a56f60787e22b5f8b98d8041de47408b3133992b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-5fc0-491f-8e72-1a840acd0835",
+        "value": "ceacd96438f933acfbf6b01a34f37c36db4db79362f66d660fb6b33541581204",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-883c-4171-874c-1a840acd0835",
+        "value": "cee279204b9fc45dae530e1a4276ec6475d258e6e788e7c902fd066c5ec4cad0",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-93d0-4914-bfcc-1a840acd0835",
+        "value": "d525a3e1f20770000a6ec33a71a996c21b612b74d2be24d20a3f663f03e70d6f",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-b79c-4de6-a428-1a840acd0835",
+        "value": "df0739f3988579942007024e55f8374444e7076b1e12adb285f800985d5f8ae9",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-ccf4-411b-bd20-1a840acd0835",
+        "value": "e037f166b8e3066f5b8fc2f4dea6cf0d052dde5234b46c81e3d5ecf73dc713c2",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-e8f0-4a07-bab8-1a840acd0835",
+        "value": "e38d44886a37f06ccc3b2dee2e063a521999fb207ec8ad519f099581ca80dd58",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-f808-4206-9dc2-1a840acd0835",
+        "value": "e64d41fb84a83432f460905f7fdecf6a704c1b58748bad2ddf328b5ba6a7d7e5",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-2980-4618-97fa-1a840acd0835",
+        "value": "e67d9b689c50c9201ae26829ee0b9ef0a765f008c9fdf879827ad1b151f61f8b",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-425c-4d89-8285-1a840acd0835",
+        "value": "e69d1b46b3d56fe9f1cbafbb1fe681581da4799c24aeb00e15bcdafbcb0217cd",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-59a8-43e1-9a42-1a840acd0835",
+        "value": "e72ca0645ba6386b74d2d5414bed49fd3a8fb636446133064b850923abe6d518",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-86d4-4b55-80d1-1a840acd0835",
+        "value": "e87c200bfbd4def75783b5c18a468c36e770251daf0e7fe8a07da5ff678bd9ac",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-990c-4288-b5f8-1a840acd0835",
+        "value": "eaad66e48e3e3bf7c291baf791b910c7aab878b006cf37f653b152ec3118c0de",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-a888-49ff-b71b-1a840acd0835",
+        "value": "eb49b4f516251a86ef5d49ab634e25e7a1f88a1855cb46799081183048a844ee",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024821",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-b994-4ad4-985d-1a840acd0835",
+        "value": "eb8ddb4030665a4bee35306bb1a44d2faeb6e44c451d6ab4c7a39d105e396679",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-e788-4af9-8a6f-1a840acd0835",
+        "value": "ed35017d51eb8779401b17d7bc5c840c73cf769c05c11db864d27f0c941c0365",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-03e8-4881-9649-1a840acd0835",
+        "value": "ed788175ff97c12a87e7e966d45d0c1fd57d010c83ffc70ef9c91d8dff7641ea",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-3114-4da4-bee2-1a840acd0835",
+        "value": "f6e67e072595431848b21cede36a4c46fc649f5da8fdf039a1da099bd0a53990",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-4c48-425f-8b39-1a840acd0835",
+        "value": "f7657176304f05b26f7646f6a4af9178e39dce032a8e8d32a554e7b5cd807641",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-6f4c-4c3f-b431-1a840acd0835",
+        "value": "fbb72fd701951c13d477de6f7ac1084db0617e458038f1dafe8ffac7c7f28190",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024820",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-83dc-4fe7-9036-1a840acd0835",
+        "value": "fc50036f54d712b89e8f5f3a9de74a9a4ebf082af307091b61f6fc78449e54bb",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Payload installation",
+        "timestamp": "1535024826",
+        "comment": "Stage 2, Remcos",
+        "uuid": "5b7e9ce3-8d7c-4ee7-8f61-1a840acd0835",
+        "value": "1224fa13afd1f551b4400cf7c6e35da7d686824e3e9191ee8714d620660c5fbb",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00bde6",
+            "name": "veris:action:misuse:vector=\"Remote access\""
+          },
+          {
+            "colour": "#993700",
+            "name": "diamond-model:Capability"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024797",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-22d0-48cb-b74b-1ad10acd0835",
+        "value": "109.232.227.138",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-0be0-4dca-8221-1ad10acd0835",
+        "value": "54.36.251.117",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-5e5c-4e54-94a9-1ad10acd0835",
+        "value": "86.127.159.17",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-f08c-4230-9390-1ad10acd0835",
+        "value": "195.154.242.51",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-9b18-4272-9d8f-1ad10acd0835",
+        "value": "51.15.229.127",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-7b4c-4bd4-99bf-1ad10acd0835",
+        "value": "212.47.250.222",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-0808-471b-be90-1ad10acd0835",
+        "value": "191.101.22.136",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-5444-4169-83ba-1ad10acd0835",
+        "value": "185.209.20.221",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-cdbc-4151-a1b0-1ad10acd0835",
+        "value": "92.38.86.175",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-e398-4b59-bf59-1ad10acd0835",
+        "value": "139.60.162.153",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535036255",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-b1f8-4632-9a34-1ad10acd0835",
+        "value": "192.0.2.2",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024797",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-f51c-4a38-8a77-1ad10acd0835",
+        "value": "185.209.85.185",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9e-5e08-42d5-91c4-1ad10acd0835",
+        "value": "82.221.105.125",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9f-a3b8-4bef-98d5-1ad10acd0835",
+        "value": "185.125.205.74",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9f-e100-479f-ba0a-1ad10acd0835",
+        "value": "77.48.28.223",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9f-030c-4b7f-bba0-1ad10acd0835",
+        "value": "79.172.242.28",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9f-9908-4715-90f6-1ad10acd0835",
+        "value": "192.185.119.103",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024798",
+        "comment": "C2",
+        "uuid": "5b7e9d9f-b13c-40a1-88cf-1ad10acd0835",
+        "value": "181.52.113.172",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024797",
+        "comment": "C2",
+        "uuid": "5b7e9d9f-11f4-4562-b9fa-1ad10acd0835",
+        "value": "213.152.161.165",
+        "to_ids": true,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024729",
+        "comment": "C2",
+        "uuid": "5b7e9e04-3824-4dfe-b071-18ec0acd0835",
+        "value": "dboynyz.pdns.cz",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024779",
+        "comment": "C2",
+        "uuid": "5b7e9e04-5f84-4e50-bccd-18ec0acd0835",
+        "value": "streetz.club",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e04-7fec-4ef8-9942-18ec0acd0835",
+        "value": "mdformo.ddns.net",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e04-4da0-4333-a1e8-18ec0acd0835",
+        "value": "mdformo1.ddns.net",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-bc4c-44b5-a216-18ec0acd0835",
+        "value": "vitlop.ddns.net",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-b818-4039-bf32-18ec0acd0835",
+        "value": "ns1.madeinserverwick.club",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024779",
+        "comment": "C2",
+        "uuid": "5b7e9e05-7610-4ec9-b618-18ec0acd0835",
+        "value": "uploadtops.is",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-0964-4101-a089-18ec0acd0835",
+        "value": "prince.jumpingcrab.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024779",
+        "comment": "C2",
+        "uuid": "5b7e9e05-9708-4099-b116-18ec0acd0835",
+        "value": "timmason2.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-a708-451f-afaf-18ec0acd0835",
+        "value": "lenovoscanner.duckdns.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-3bfc-40d3-99cd-18ec0acd0835",
+        "value": "lenovoscannertwo.duckdns.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-ee3c-40a4-903d-18ec0acd0835",
+        "value": "lenovoscannerone.duckdns.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-80d8-4fad-8995-18ec0acd0835",
+        "value": "google.airdns.org",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024729",
+        "comment": "C2",
+        "uuid": "5b7e9e05-42b8-43eb-8c8c-18ec0acd0835",
+        "value": "civita2.no-ip.biz",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-eef8-4efc-b5fa-18ec0acd0835",
+        "value": "www.pimmas.com.tr",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-2540-4eed-b575-18ec0acd0835",
+        "value": "www.mervinsaat.com.tr",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-4d78-4ebb-8541-18ec0acd0835",
+        "value": "samurmakina.com.tr",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-1dcc-4302-a4d9-18ec0acd0835",
+        "value": "www.paulocamarao.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-b3ec-404c-831c-18ec0acd0835",
+        "value": "midatacreditoexperian.com.co",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-f878-4c62-bfa4-18ec0acd0835",
+        "value": "www.lebontour.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024730",
+        "comment": "C2",
+        "uuid": "5b7e9e05-a494-4503-b186-18ec0acd0835",
+        "value": "businesslisting.igg.biz",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1535024779",
+        "comment": "C2",
+        "uuid": "5b7e9e05-1618-47be-bc97-18ec0acd0835",
+        "value": "unifscon.com",
+        "to_ids": true,
+        "type": "domain",
+        "deleted": false,
+        "disable_correlation": false,
+        "Tag": [
+          {
+            "colour": "#00aad0",
+            "name": "veris:action:malware:variety=\"C2\""
+          },
+          {
+            "colour": "#cc4900",
+            "name": "diamond-model:Infrastructure"
+          }
+        ]
+      }
+    ]
+  }
+}

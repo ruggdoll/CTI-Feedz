@@ -1,0 +1,495 @@
+{
+  "Event": {
+    "date": "2017-11-09",
+    "timestamp": "1510261077",
+    "analysis": "1",
+    "uuid": "5a044feb-cda0-4844-b5f0-2214950d210f",
+    "published": true,
+    "extends_uuid": "",
+    "publish_timestamp": "1510261157",
+    "info": "M2M -  Locky 2017-11-03 : Affid=3, offline, \".asasin\" : \"Scanned image from MX-2600N\" - \"20171103_123456.doc\"",
+    "threat_level_id": "3",
+    "Orgc": {
+      "uuid": "55f6ea5e-2c60-40e5-964f-47a8950d210f",
+      "name": "CIRCL"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "name": "tlp:white"
+      },
+      {
+        "colour": "#006c6c",
+        "name": "ecsirt:malicious-code=\"ransomware\""
+      },
+      {
+        "colour": "#0088cc",
+        "name": "misp-galaxy:ransomware=\"Locky\""
+      }
+    ],
+    "Attribute": [
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044fec-f524-41fc-8865-75a9950d210f",
+        "value": "1f608125c16f3396000f6ec9d929d6c9",
+        "to_ids": true,
+        "type": "md5",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044fed-6f00-4baa-b022-4cfd950d210f",
+        "value": "http://336.linux1.testsider.dk/lbMld6sGda",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044fed-2e84-4587-a638-4751950d210f",
+        "value": "336.linux1.testsider.dk",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "336.linux1.testsider.dk",
+        "uuid": "5a044fed-7894-4890-a0a2-991b950d210f",
+        "value": "77.243.131.16",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044fed-b0d4-4426-937d-43b4950d210f",
+        "value": "http://betadesign.es/lbMld6sGda",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044fee-a7b0-4069-bf11-cda3950d210f",
+        "value": "betadesign.es",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044ff7-7674-4d8c-9596-2214950d210f",
+        "value": "http://comercialarques.es/lbMld6sGda",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044ff8-f574-49a0-afe2-4976950d210f",
+        "value": "comercialarques.es",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "comercialarques.es",
+        "uuid": "5a044ff8-d9f8-495b-a11d-4d06950d210f",
+        "value": "31.47.74.202",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044ff8-9090-4be9-986a-75a9950d210f",
+        "value": "http://deltaled.es/lbMld6sGda",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044ff8-4fd0-4326-908a-4829950d210f",
+        "value": "deltaled.es",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044ff9-3154-45cf-9bd2-991b950d210f",
+        "value": "http://testbxc.u-host.ru/lbMld6sGda",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "",
+        "uuid": "5a044ff9-2db4-4df3-8004-4582950d210f",
+        "value": "testbxc.u-host.ru",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261062",
+        "comment": "testbxc.u-host.ru",
+        "uuid": "5a044ff9-f2a0-4dac-b725-717b950d210f",
+        "value": "212.220.124.233",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a044ffa-f278-4e4a-baec-cda3950d210f",
+        "value": "http://unbescheiden.net/lbMld6sGda",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a044ffa-6388-4155-959f-45d7950d210f",
+        "value": "unbescheiden.net",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "unbescheiden.net",
+        "uuid": "5a044ffa-21bc-4cbb-9b9e-41eb950d210f",
+        "value": "212.223.152.138",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a044ffa-8784-424a-9f41-cd7d950d210f",
+        "value": "http://watchez.biz/lbMld6sGda",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a044ffa-6a70-4f12-86ee-cdb1950d210f",
+        "value": "watchez.biz",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a045019-b49c-4ab1-af1e-4bcf950d210f",
+        "value": "http://pabxconsultants.co.za/dhYtebv3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a045019-5050-44ec-bbe5-717b950d210f",
+        "value": "pabxconsultants.co.za",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "pabxconsultants.co.za",
+        "uuid": "5a04501a-67f4-411f-86ae-cda3950d210f",
+        "value": "41.72.154.151",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501a-1e60-42f3-877a-416e950d210f",
+        "value": "http://san-syo.co.jp/dhYtebv3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501a-f530-4544-8853-42a4950d210f",
+        "value": "san-syo.co.jp",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "san-syo.co.jp",
+        "uuid": "5a04501b-6870-42ac-91f8-47bc950d210f",
+        "value": "219.94.169.237",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501b-9bc0-43f0-a2d2-cd7d950d210f",
+        "value": "http://saranville.com/dhYtebv3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501b-b5e4-48f9-a097-cdb1950d210f",
+        "value": "saranville.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "saranville.com",
+        "uuid": "5a04501c-5960-4c09-a66b-2214950d210f",
+        "value": "27.254.148.14",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501c-9940-4606-ab46-4b38950d210f",
+        "value": "http://pwmsteel.com/dhYtebv3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501c-af58-4df0-9f87-cdb4950d210f",
+        "value": "pwmsteel.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "pwmsteel.com",
+        "uuid": "5a04501d-2d3c-42b1-a945-cd35950d210f",
+        "value": "50.21.229.37",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501d-fe00-4fcb-bb88-45ff950d210f",
+        "value": "http://visualindesign.be/dhYtebv3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501d-9d98-4447-b8d7-cc6f950d210f",
+        "value": "visualindesign.be",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "visualindesign.be",
+        "uuid": "5a04501d-9f10-423d-b00b-75a9950d210f",
+        "value": "5.135.178.149",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501e-6e10-4c26-9d36-4bfc950d210f",
+        "value": "http://twonkygames.com/dhYtebv3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501e-6d70-4cb2-aa7e-cdab950d210f",
+        "value": "twonkygames.com",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "twonkygames.com",
+        "uuid": "5a04501e-e6f8-44ce-96c8-4f95950d210f",
+        "value": "85.25.242.138",
+        "to_ids": false,
+        "type": "ip-dst",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501e-8ff0-4078-bc2e-991b950d210f",
+        "value": "http://evengrollighromsof.net/p66/dhYtebv3",
+        "to_ids": true,
+        "type": "url",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Network activity",
+        "timestamp": "1510261063",
+        "comment": "",
+        "uuid": "5a04501f-8b24-490c-861c-48d9950d210f",
+        "value": "evengrollighromsof.net",
+        "to_ids": true,
+        "type": "hostname",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510261063",
+        "comment": "- Xchecked via VT: 1f608125c16f3396000f6ec9d929d6c9",
+        "uuid": "5a04c147-52f0-4649-a1bc-4c0202de0b81",
+        "value": "73e8748f6a3a584a41ebc691083f060ff6fd030729415e5f12a6e8b0294990d0",
+        "to_ids": true,
+        "type": "sha256",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "Artifacts dropped",
+        "timestamp": "1510261063",
+        "comment": "- Xchecked via VT: 1f608125c16f3396000f6ec9d929d6c9",
+        "uuid": "5a04c147-a0d0-4cd1-aeb0-4e7602de0b81",
+        "value": "1fd9f901ab7f51a542e455b51e6442040d3fa39c",
+        "to_ids": true,
+        "type": "sha1",
+        "deleted": false,
+        "disable_correlation": false
+      },
+      {
+        "category": "External analysis",
+        "timestamp": "1510261063",
+        "comment": "- Xchecked via VT: 1f608125c16f3396000f6ec9d929d6c9",
+        "uuid": "5a04c147-2bf4-4e41-afaf-49be02de0b81",
+        "value": "https://www.virustotal.com/file/73e8748f6a3a584a41ebc691083f060ff6fd030729415e5f12a6e8b0294990d0/analysis/1510056897/",
+        "to_ids": false,
+        "type": "link",
+        "deleted": false,
+        "disable_correlation": false
+      }
+    ]
+  }
+}
