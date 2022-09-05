@@ -1,17 +1,17 @@
 {
   "Event": {
-    "timestamp": "1652093060",
-    "threat_level_id": "4",
-    "info": "[CERT-FR] Campagnes d'hame\u00e7onnage du mode op\u00e9ratoire d'attaquants Nobelium",
     "uuid": "6181159d-d7e0-422f-b7f5-26cc0abe1822",
-    "extends_uuid": "",
-    "publish_timestamp": "1659774673",
+    "timestamp": "1652093060",
     "analysis": "0",
     "published": true,
+    "publish_timestamp": "1659774673",
+    "extends_uuid": "",
     "date": "2021-11-02",
+    "info": "[CERT-FR] Campagnes d'hame\u00e7onnage du mode op\u00e9ratoire d'attaquants Nobelium",
+    "threat_level_id": "4",
     "Orgc": {
-      "name": "CERT-FR",
-      "uuid": "56bdf779-46f8-4353-bdf9-2bb95bce2212"
+      "uuid": "56bdf779-46f8-4353-bdf9-2bb95bce2212",
+      "name": "CERT-FR"
     },
     "Tag": [
       {
@@ -33,15 +33,15 @@
     ],
     "Attribute": [
       {
-        "timestamp": "1635849629",
-        "deleted": false,
-        "comment": "",
-        "uuid": "98fb6de0-6762-44c8-9d74-871e68120e72",
-        "disable_correlation": false,
-        "category": "Other",
-        "value": "Infrastructure de Commande et de Contr\u00f4le",
         "to_ids": true,
+        "uuid": "98fb6de0-6762-44c8-9d74-871e68120e72",
+        "timestamp": "1635849629",
+        "category": "Other",
+        "deleted": false,
         "type": "comment",
+        "comment": "",
+        "value": "Infrastructure de Commande et de Contr\u00f4le",
+        "disable_correlation": false,
         "Tag": [
           {
             "name": "DescriptionTechnique",
@@ -50,15 +50,15 @@
         ]
       },
       {
-        "timestamp": "1635859856",
-        "deleted": false,
-        "comment": "",
-        "uuid": "e63dbf73-7e56-468a-a702-cdb01990440d",
-        "disable_correlation": false,
-        "category": "Other",
-        "value": "2020-08-01",
         "to_ids": true,
+        "uuid": "e63dbf73-7e56-468a-a702-cdb01990440d",
+        "timestamp": "1635859856",
+        "category": "Other",
+        "deleted": false,
         "type": "comment",
+        "comment": "",
+        "value": "2020-08-01",
+        "disable_correlation": false,
         "Tag": [
           {
             "name": "cossi:relevantTimespan=\"from\"",
@@ -69,51 +69,51 @@
     ],
     "Object": [
       {
-        "timestamp": "1635849629",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
         "uuid": "e3f3284a-e6fa-4020-9a45-44f31f828deb",
-        "name": "domain-ip",
+        "timestamp": "1635849629",
         "template_version": "6",
         "meta-category": "network",
+        "deleted": false,
+        "comment": "",
         "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
         "Attribute": [
           {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
+            "to_ids": false,
             "uuid": "ff92d0f2-28cc-4277-bb6d-1cdc5c2f7315",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
+            "timestamp": "1635849629",
             "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
             "value": "2020-10-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "object_relation": "first-seen",
+            "disable_correlation": true
           },
           {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
+            "to_ids": false,
             "uuid": "f2aa70f1-8c6a-4968-a3da-4bdb36fbc6a1",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
+            "timestamp": "1635849629",
             "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
             "value": "2020-12-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "object_relation": "last-seen",
+            "disable_correlation": true
           },
           {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
+            "to_ids": true,
             "uuid": "8ed8b9a2-f95e-47f2-b4ad-1739dd5939f7",
-            "object_relation": "ip",
-            "disable_correlation": false,
+            "timestamp": "1635849629",
             "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
             "value": "45.179.89.37",
-            "to_ids": true,
-            "type": "ip-dst",
+            "object_relation": "ip",
+            "disable_correlation": false,
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
@@ -126,16 +126,16 @@
             ]
           },
           {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
+            "to_ids": true,
             "uuid": "e8aa928b-30cc-4739-aa1d-f78364f618c7",
-            "object_relation": "domain",
-            "disable_correlation": false,
+            "timestamp": "1635849629",
             "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
             "value": "hanproud.com",
-            "to_ids": true,
-            "type": "domain",
+            "object_relation": "domain",
+            "disable_correlation": false,
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
@@ -150,51 +150,51 @@
         ]
       },
       {
-        "timestamp": "1635849629",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
         "uuid": "77ea36fb-8bba-464b-86e3-d245b9881abb",
-        "name": "domain-ip",
+        "timestamp": "1635849629",
         "template_version": "6",
         "meta-category": "network",
+        "deleted": false,
+        "comment": "",
         "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
         "Attribute": [
           {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
+            "to_ids": false,
             "uuid": "690bd55c-c8ea-4c69-aa23-1f664a42ae70",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
+            "timestamp": "1635849629",
             "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
             "value": "2021-02-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "object_relation": "first-seen",
+            "disable_correlation": true
           },
           {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
+            "to_ids": false,
             "uuid": "74c06d8b-3d74-4cfa-b6cc-64b76260adf2",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
+            "timestamp": "1635849629",
             "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
             "value": "2021-05-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "object_relation": "last-seen",
+            "disable_correlation": true
           },
           {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
+            "to_ids": true,
             "uuid": "f0816314-14bf-4349-84cf-272c9ba17443",
-            "object_relation": "ip",
-            "disable_correlation": false,
+            "timestamp": "1635849629",
             "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
             "value": "139.99.167.177",
-            "to_ids": true,
-            "type": "ip-dst",
+            "object_relation": "ip",
+            "disable_correlation": false,
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
@@ -207,16 +207,16 @@
             ]
           },
           {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
+            "to_ids": true,
             "uuid": "c1b560f2-4279-40dc-b847-80fc0cf7ef7e",
-            "object_relation": "domain",
-            "disable_correlation": false,
+            "timestamp": "1635849629",
             "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
             "value": "cbdnewsandreviews.net",
-            "to_ids": true,
-            "type": "domain",
+            "object_relation": "domain",
+            "disable_correlation": false,
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
@@ -231,1104 +231,51 @@
         ]
       },
       {
-        "timestamp": "1635849629",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
         "uuid": "9df5a183-c151-48ad-aa4c-b7efa7a40163",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
-            "uuid": "c87fe1af-4133-4a8b-9fc9-a675fcf7c74c",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-02-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
-            "uuid": "7cf827d6-497d-46b2-92c8-2be3404d1bba",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-06-25T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
-            "uuid": "c436199c-57c8-4c6c-90cd-a1e269801892",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "51.38.85.225",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
-            "uuid": "9b485d25-f70a-4cde-b278-3f5d234620ea",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "cityloss.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "timestamp": "1635849629",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "5329cc1e-65ca-4fe7-905c-ba0f82d62b73",
-        "name": "domain-ip",
         "template_version": "6",
         "meta-category": "network",
+        "deleted": false,
+        "comment": "",
         "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
         "Attribute": [
           {
+            "to_ids": false,
+            "uuid": "c87fe1af-4133-4a8b-9fc9-a675fcf7c74c",
             "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
-            "uuid": "91c1b8ec-d10d-4461-80ea-808c43137e33",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
             "category": "Other",
-            "value": "2021-03-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849629",
             "deleted": false,
+            "type": "datetime",
             "comment": "",
-            "uuid": "eed05c91-6968-4916-ab09-9d428d09cda9",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-05-10T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
-            "uuid": "75f0061e-1d2a-42ff-8246-a3d40a0a97e2",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "190.183.61.30",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849629",
-            "deleted": false,
-            "comment": "",
-            "uuid": "d57170cc-9cd1-4ae6-b5e6-9599622aad2e",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "businesssalaries.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849630",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "fdda2a1a-3913-4258-a5df-2b3b5a3e8612",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "df6b4e21-7279-4eaf-b24b-fcc68e61f802",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-03-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "50a61e15-261d-4c30-8280-e3882782c082",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-04-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "e7024505-5c9c-4ca7-b706-f93ce8f9892f",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "185.243.215.198",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "ebad7ad4-0c35-4ecd-a45c-1c25e9acc758",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "trendignews.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849630",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "04bb451f-4c0d-470e-b697-dde549b833c5",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "5a9cfce0-c7e2-403e-9226-af0dd29ecc92",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-03-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "f3f12f81-d112-4825-ae12-3ff19431685a",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-09-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "13b29835-5a4c-4cb6-ac34-d45dabd7dbe5",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "192.99.221.77",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "293f3c11-2c9d-426f-96ec-119e851da0aa",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "worldhomeoutlet.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849630",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "a29c4b43-221e-4cf8-8f5c-30ea2b1681fc",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "a5a28b82-8fac-4af5-812c-e87c48a72021",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-03-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "0a43ca51-bee5-47f8-bbe1-f18478fee1b4",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-04-25T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "5bc978d9-ec4c-4007-9a36-d6c40953a5f7",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "37.120.247.135",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "f403ffa1-bdbc-4ab4-9aa1-993a43210008",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "giftbox4u.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849630",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "f89ed523-59cb-4401-a433-b46bbe6867c6",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "ffc860ef-c16e-419d-9bcd-eed6981f3beb",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-03-25T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "5740e050-cc5a-4632-9ff4-42502270184b",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-07-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "e177e415-9059-4a3b-9e33-300776e4fcd7",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "45.80.148.166",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "b419e4e1-6321-423f-9fbe-4359a5fe55f3",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "myexpertforum.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849630",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "397c3a84-cd04-43cf-b290-2d65d18e5a41",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "2aa132e5-7ca5-4573-aca1-5b36a2159c05",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-04-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "39e2e369-e203-4486-8e9d-2adca3660175",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-05-20T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "2e115bf3-be6e-44a5-b771-a32fd324ca45",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "45.135.167.27",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "10d2e608-9820-4af2-8029-45eedd7b3353",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "doggroomingnews.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849630",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "a5fc60c2-0ef1-4eaf-bfa8-862e886a6512",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "798cdbf4-ca73-4b67-8caf-17afc036f484",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-04-10T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "29b16ead-28ef-4629-81c4-cbcb7544e5cb",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-09-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "b71497f5-297c-4897-a72f-67d24e450db4",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "188.68.250.182",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "c2c0ac1b-8cfc-407b-a566-bcc48dc5796a",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "alifemap.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849630",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "23a3b255-c0f2-4d5c-aee2-e1dd94d8fcdc",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "0ff95223-50c9-4215-ba43-cde0b08c728f",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-04-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "57e1fdb5-5169-4228-8be5-96c2e3eb5d3b",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-06-25T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "ef750cc0-dcc9-4551-9465-b1193daa7cb1",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "54.38.137.218",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849630",
-            "deleted": false,
-            "comment": "",
-            "uuid": "5b936046-31eb-4354-a05d-c2709faa8a7b",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "enpport.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849631",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "7d667263-5619-48f0-8c67-e3969913b5c1",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "17986ed2-8280-43c6-8c0a-1888a2086f6e",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-04-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "61ba2a71-809f-4690-9945-3f9ca64806a8",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-06-24T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "288068f9-eebc-4541-a6a4-223eaae24311",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "83.171.237.173",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "42496a42-072d-4bb9-8e58-d25a97e147af",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "theyardservice.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849631",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "4a731b21-9535-44ba-a031-49cb3844685b",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "346c448c-7024-4a3c-9ec3-b31fcd37c283",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-04-20T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "f37821f1-98c4-44f7-b818-3da4bae3bea3",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-09-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "e87b792b-27b1-4a9c-a832-9a55fb31fc3d",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "37.59.225.51",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "da69cd92-183d-4a90-af2f-8c6ab901d623",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "celebsinformation.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849631",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "4f5a5f32-8def-45ea-b358-97cea364a3ae",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "f6002b98-279f-4294-96f0-c373e2d02a8d",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-02-20T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "fb6f85b1-1bc6-4fb2-acbd-ddc4adb88bff",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-06-10T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "1c4a1ca6-dc05-4cc1-b50e-89106cc8ce1a",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "31.42.177.114",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "320d3105-1407-4118-868a-becb86fb5900",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "dailydews.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849631",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "63d2e15d-291d-494d-98fd-df898902fed6",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "c1e0cba3-3df6-478c-ae62-3cf1d0eaa921",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-06-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "f3a6ffbc-a3cc-4e54-85c4-ffc613902a2c",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-06-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "bce01ce4-e28b-4db0-8fb4-27307e069130",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "81.17.30.46",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "3b0a3204-8c57-4d8b-89bd-3f0366866f90",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "ideasofbusiness.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849631",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "57a89186-cf43-47bd-9c2c-29fbbb0850d1",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "683631b7-1a1c-46d4-b31b-10bf1a7d5247",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
             "value": "2021-02-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "object_relation": "first-seen",
+            "disable_correlation": true
           },
           {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "8b0a4646-a735-43d4-babb-28432d2e8209",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
+            "to_ids": false,
+            "uuid": "7cf827d6-497d-46b2-92c8-2be3404d1bba",
+            "timestamp": "1635849629",
             "category": "Other",
-            "value": "2021-08-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-06-25T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
           },
           {
-            "timestamp": "1635849631",
+            "to_ids": true,
+            "uuid": "c436199c-57c8-4c6c-90cd-a1e269801892",
+            "timestamp": "1635849629",
+            "category": "Network activity",
             "deleted": false,
+            "type": "ip-dst",
             "comment": "",
-            "uuid": "dce44fdf-28d4-45bc-be11-1feaf1b8d869",
+            "value": "51.38.85.225",
             "object_relation": "ip",
             "disable_correlation": false,
-            "category": "Network activity",
-            "value": "79.143.87.166",
-            "to_ids": true,
-            "type": "ip-dst",
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
@@ -1341,16 +288,16 @@
             ]
           },
           {
-            "timestamp": "1635849631",
+            "to_ids": true,
+            "uuid": "9b485d25-f70a-4cde-b278-3f5d234620ea",
+            "timestamp": "1635849629",
+            "category": "Network activity",
             "deleted": false,
+            "type": "domain",
             "comment": "",
-            "uuid": "c860fcbb-c944-40a3-ba64-0b8b8f823b94",
+            "value": "cityloss.com",
             "object_relation": "domain",
             "disable_correlation": false,
-            "category": "Network activity",
-            "value": "newminigolf.com",
-            "to_ids": true,
-            "type": "domain",
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
@@ -1365,51 +312,51 @@
         ]
       },
       {
-        "timestamp": "1635849631",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "19eb5793-3293-42bf-baa0-4f3575d7acbf",
-        "name": "domain-ip",
+        "uuid": "5329cc1e-65ca-4fe7-905c-ba0f82d62b73",
+        "timestamp": "1635849629",
         "template_version": "6",
         "meta-category": "network",
+        "deleted": false,
+        "comment": "",
         "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
         "Attribute": [
           {
-            "timestamp": "1635849631",
+            "to_ids": false,
+            "uuid": "91c1b8ec-d10d-4461-80ea-808c43137e33",
+            "timestamp": "1635849629",
+            "category": "Other",
             "deleted": false,
+            "type": "datetime",
             "comment": "",
-            "uuid": "7c3d3695-9dec-4b7e-a3ef-f47b48ae2294",
+            "value": "2021-03-01T00:00:00+00:00",
             "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-06-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "disable_correlation": true
           },
           {
-            "timestamp": "1635849631",
+            "to_ids": false,
+            "uuid": "eed05c91-6968-4916-ab09-9d428d09cda9",
+            "timestamp": "1635849629",
+            "category": "Other",
             "deleted": false,
+            "type": "datetime",
             "comment": "",
-            "uuid": "45b462d2-2ae2-44ba-bf02-8cc199e7f744",
+            "value": "2021-05-10T00:00:00+00:00",
             "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-10-25T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "disable_correlation": true
           },
           {
-            "timestamp": "1635849631",
+            "to_ids": true,
+            "uuid": "75f0061e-1d2a-42ff-8246-a3d40a0a97e2",
+            "timestamp": "1635849629",
+            "category": "Network activity",
             "deleted": false,
+            "type": "ip-dst",
             "comment": "",
-            "uuid": "4b1295c5-b6a6-46a1-875e-3e57c6123893",
+            "value": "190.183.61.30",
             "object_relation": "ip",
             "disable_correlation": false,
-            "category": "Network activity",
-            "value": "51.89.50.153",
-            "to_ids": true,
-            "type": "ip-dst",
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
@@ -1422,16 +369,16 @@
             ]
           },
           {
-            "timestamp": "1635849631",
+            "to_ids": true,
+            "uuid": "d57170cc-9cd1-4ae6-b5e6-9599622aad2e",
+            "timestamp": "1635849629",
+            "category": "Network activity",
             "deleted": false,
+            "type": "domain",
             "comment": "",
-            "uuid": "a13be87c-e242-40b6-b486-a65203128170",
+            "value": "businesssalaries.com",
             "object_relation": "domain",
             "disable_correlation": false,
-            "category": "Network activity",
-            "value": "rchosts.com",
-            "to_ids": true,
-            "type": "domain",
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
@@ -1446,375 +393,780 @@
         ]
       },
       {
-        "timestamp": "1635849631",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "59f80dc9-cb68-42cb-aa2d-a50a664a6530",
-        "name": "domain-ip",
+        "uuid": "fdda2a1a-3913-4258-a5df-2b3b5a3e8612",
+        "timestamp": "1635849630",
         "template_version": "6",
         "meta-category": "network",
+        "deleted": false,
+        "comment": "",
         "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
         "Attribute": [
           {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "0ddd41ce-e41f-4b90-97da-f98276831f61",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
+            "to_ids": false,
+            "uuid": "df6b4e21-7279-4eaf-b24b-fcc68e61f802",
+            "timestamp": "1635849630",
             "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-03-01T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "50a61e15-261d-4c30-8280-e3882782c082",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-04-01T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "e7024505-5c9c-4ca7-b706-f93ce8f9892f",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "185.243.215.198",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "ebad7ad4-0c35-4ecd-a45c-1c25e9acc758",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "trendignews.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "04bb451f-4c0d-470e-b697-dde549b833c5",
+        "timestamp": "1635849630",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "5a9cfce0-c7e2-403e-9226-af0dd29ecc92",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-03-01T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "f3f12f81-d112-4825-ae12-3ff19431685a",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-09-01T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "13b29835-5a4c-4cb6-ac34-d45dabd7dbe5",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "192.99.221.77",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "293f3c11-2c9d-426f-96ec-119e851da0aa",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "worldhomeoutlet.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "a29c4b43-221e-4cf8-8f5c-30ea2b1681fc",
+        "timestamp": "1635849630",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "a5a28b82-8fac-4af5-812c-e87c48a72021",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-03-01T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "0a43ca51-bee5-47f8-bbe1-f18478fee1b4",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-04-25T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "5bc978d9-ec4c-4007-9a36-d6c40953a5f7",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "37.120.247.135",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "f403ffa1-bdbc-4ab4-9aa1-993a43210008",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "giftbox4u.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "f89ed523-59cb-4401-a433-b46bbe6867c6",
+        "timestamp": "1635849630",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "ffc860ef-c16e-419d-9bcd-eed6981f3beb",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-03-25T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "5740e050-cc5a-4632-9ff4-42502270184b",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-07-01T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "e177e415-9059-4a3b-9e33-300776e4fcd7",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "45.80.148.166",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "b419e4e1-6321-423f-9fbe-4359a5fe55f3",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "myexpertforum.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "397c3a84-cd04-43cf-b290-2d65d18e5a41",
+        "timestamp": "1635849630",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "2aa132e5-7ca5-4573-aca1-5b36a2159c05",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-04-01T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "39e2e369-e203-4486-8e9d-2adca3660175",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-05-20T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "2e115bf3-be6e-44a5-b771-a32fd324ca45",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "45.135.167.27",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "10d2e608-9820-4af2-8029-45eedd7b3353",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "doggroomingnews.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "a5fc60c2-0ef1-4eaf-bfa8-862e886a6512",
+        "timestamp": "1635849630",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "798cdbf4-ca73-4b67-8caf-17afc036f484",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-04-10T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "29b16ead-28ef-4629-81c4-cbcb7544e5cb",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-09-15T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "b71497f5-297c-4897-a72f-67d24e450db4",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "188.68.250.182",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "c2c0ac1b-8cfc-407b-a566-bcc48dc5796a",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "alifemap.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "23a3b255-c0f2-4d5c-aee2-e1dd94d8fcdc",
+        "timestamp": "1635849630",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "0ff95223-50c9-4215-ba43-cde0b08c728f",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-04-15T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "57e1fdb5-5169-4228-8be5-96c2e3eb5d3b",
+            "timestamp": "1635849630",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-06-25T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "ef750cc0-dcc9-4551-9465-b1193daa7cb1",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "54.38.137.218",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "5b936046-31eb-4354-a05d-c2709faa8a7b",
+            "timestamp": "1635849630",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "enpport.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "7d667263-5619-48f0-8c67-e3969913b5c1",
+        "timestamp": "1635849631",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "17986ed2-8280-43c6-8c0a-1888a2086f6e",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-04-15T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "61ba2a71-809f-4690-9945-3f9ca64806a8",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-06-24T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "288068f9-eebc-4541-a6a4-223eaae24311",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "83.171.237.173",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "42496a42-072d-4bb9-8e58-d25a97e147af",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "theyardservice.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "4a731b21-9535-44ba-a031-49cb3844685b",
+        "timestamp": "1635849631",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "346c448c-7024-4a3c-9ec3-b31fcd37c283",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-04-20T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "f37821f1-98c4-44f7-b818-3da4bae3bea3",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-09-01T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "e87b792b-27b1-4a9c-a832-9a55fb31fc3d",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "37.59.225.51",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "da69cd92-183d-4a90-af2f-8c6ab901d623",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "celebsinformation.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "4f5a5f32-8def-45ea-b358-97cea364a3ae",
+        "timestamp": "1635849631",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "f6002b98-279f-4294-96f0-c373e2d02a8d",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
             "value": "2021-02-20T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "object_relation": "first-seen",
+            "disable_correlation": true
           },
           {
+            "to_ids": false,
+            "uuid": "fb6f85b1-1bc6-4fb2-acbd-ddc4adb88bff",
             "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "218ff801-f9df-44ea-918e-06ffa35c3ad2",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
             "category": "Other",
-            "value": "2021-03-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849631",
             "deleted": false,
+            "type": "datetime",
             "comment": "",
-            "uuid": "241bf609-b558-4e90-8ef5-45951afe7daa",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "51.254.241.158",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849631",
-            "deleted": false,
-            "comment": "",
-            "uuid": "d15460f1-1323-4e7a-9f22-1cc8dd1a0715",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "stockmarketon.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849631",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "13232130-5088-4c44-a14b-c9762fa91e58",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "239afbd1-597b-4bdd-a416-c3875e085ff2",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-03-10T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "77ba8e51-99d6-411d-861b-314e6b9adff7",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-09-05T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "e0ff4181-53a6-497e-a92b-49813c1715da",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "91.234.254.144",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "e46c658a-dbcd-4ab2-81e4-4146278343db",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "stonecrestnews.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849632",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "e5e89737-d90a-40fc-a679-6b4a8c7e2463",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "5dea6365-492e-4d68-81be-753b5ed9e678",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-05-01T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "942ee708-a0d6-41e3-954a-cb81f7d2302d",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-09-25T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "507fa69d-3220-4e0d-8352-ab42e7887f96",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "194.135.81.18",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "1b1df484-6b15-4ea0-920e-f140b8983549",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "teachingdrive.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849632",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "5756b49f-8978-4733-96fb-f1258c013369",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "49ece1eb-736b-43ad-8dfa-3b9ef4a50106",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-03-15T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "de098062-74c4-422f-a899-f317d748f3f1",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-06-04T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "24b5ca52-2505-4f2b-8a77-7a03346b9004",
-            "object_relation": "ip",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "185.158.250.239",
-            "to_ids": true,
-            "type": "ip-dst",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "0fe725c2-1c98-4db5-bdb5-246191818ee8",
-            "object_relation": "domain",
-            "disable_correlation": false,
-            "category": "Network activity",
-            "value": "newstepsco.com",
-            "to_ids": true,
-            "type": "domain",
-            "Tag": [
-              {
-                "name": "kill-chain:Command and Control",
-                "colour": "#e200a3"
-              },
-              {
-                "name": "kill-chain:Delivery",
-                "colour": "#8a0064"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "timestamp": "1635849632",
-        "deleted": false,
-        "comment": "",
-        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
-        "uuid": "f44a0497-e022-4713-8948-f73bce2d5b2c",
-        "name": "domain-ip",
-        "template_version": "6",
-        "meta-category": "network",
-        "description": "A domain and IP address seen as a tuple in a specific time frame.",
-        "Attribute": [
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "c6f10de3-a114-4952-bc1a-e1c7516e2b99",
-            "object_relation": "first-seen",
-            "disable_correlation": true,
-            "category": "Other",
-            "value": "2021-02-25T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
-          },
-          {
-            "timestamp": "1635849632",
-            "deleted": false,
-            "comment": "",
-            "uuid": "a2768f2c-6ad1-47de-ae9a-dd3153406e2f",
-            "object_relation": "last-seen",
-            "disable_correlation": true,
-            "category": "Other",
             "value": "2021-06-10T00:00:00+00:00",
-            "to_ids": false,
-            "type": "datetime"
+            "object_relation": "last-seen",
+            "disable_correlation": true
           },
           {
-            "timestamp": "1635849632",
+            "to_ids": true,
+            "uuid": "1c4a1ca6-dc05-4cc1-b50e-89106cc8ce1a",
+            "timestamp": "1635849631",
+            "category": "Network activity",
             "deleted": false,
+            "type": "ip-dst",
             "comment": "",
-            "uuid": "82f2b29c-b8c5-4ff8-97db-d791c0e11a6a",
+            "value": "31.42.177.114",
             "object_relation": "ip",
             "disable_correlation": false,
-            "category": "Network activity",
-            "value": "195.206.181.169",
-            "to_ids": true,
-            "type": "ip-dst",
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
@@ -1827,16 +1179,664 @@
             ]
           },
           {
-            "timestamp": "1635849632",
+            "to_ids": true,
+            "uuid": "320d3105-1407-4118-868a-becb86fb5900",
+            "timestamp": "1635849631",
+            "category": "Network activity",
             "deleted": false,
+            "type": "domain",
             "comment": "",
-            "uuid": "716b252c-54d8-4dba-b495-08742ce263b3",
+            "value": "dailydews.com",
             "object_relation": "domain",
             "disable_correlation": false,
-            "category": "Network activity",
-            "value": "tacomanewspaper.com",
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "63d2e15d-291d-494d-98fd-df898902fed6",
+        "timestamp": "1635849631",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "c1e0cba3-3df6-478c-ae62-3cf1d0eaa921",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-06-01T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "f3a6ffbc-a3cc-4e54-85c4-ffc613902a2c",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-06-15T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
             "to_ids": true,
+            "uuid": "bce01ce4-e28b-4db0-8fb4-27307e069130",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "81.17.30.46",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "3b0a3204-8c57-4d8b-89bd-3f0366866f90",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
             "type": "domain",
+            "comment": "",
+            "value": "ideasofbusiness.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "57a89186-cf43-47bd-9c2c-29fbbb0850d1",
+        "timestamp": "1635849631",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "683631b7-1a1c-46d4-b31b-10bf1a7d5247",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-02-15T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "8b0a4646-a735-43d4-babb-28432d2e8209",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-08-15T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "dce44fdf-28d4-45bc-be11-1feaf1b8d869",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "79.143.87.166",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "c860fcbb-c944-40a3-ba64-0b8b8f823b94",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "newminigolf.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "19eb5793-3293-42bf-baa0-4f3575d7acbf",
+        "timestamp": "1635849631",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "7c3d3695-9dec-4b7e-a3ef-f47b48ae2294",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-06-15T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "45b462d2-2ae2-44ba-bf02-8cc199e7f744",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-10-25T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "4b1295c5-b6a6-46a1-875e-3e57c6123893",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "51.89.50.153",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "a13be87c-e242-40b6-b486-a65203128170",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "rchosts.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "59f80dc9-cb68-42cb-aa2d-a50a664a6530",
+        "timestamp": "1635849631",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "0ddd41ce-e41f-4b90-97da-f98276831f61",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-02-20T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "218ff801-f9df-44ea-918e-06ffa35c3ad2",
+            "timestamp": "1635849631",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-03-15T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "241bf609-b558-4e90-8ef5-45951afe7daa",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "51.254.241.158",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "d15460f1-1323-4e7a-9f22-1cc8dd1a0715",
+            "timestamp": "1635849631",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "stockmarketon.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "13232130-5088-4c44-a14b-c9762fa91e58",
+        "timestamp": "1635849631",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "239afbd1-597b-4bdd-a416-c3875e085ff2",
+            "timestamp": "1635849632",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-03-10T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "77ba8e51-99d6-411d-861b-314e6b9adff7",
+            "timestamp": "1635849632",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-09-05T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "e0ff4181-53a6-497e-a92b-49813c1715da",
+            "timestamp": "1635849632",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "91.234.254.144",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "e46c658a-dbcd-4ab2-81e4-4146278343db",
+            "timestamp": "1635849632",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "stonecrestnews.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "e5e89737-d90a-40fc-a679-6b4a8c7e2463",
+        "timestamp": "1635849632",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "5dea6365-492e-4d68-81be-753b5ed9e678",
+            "timestamp": "1635849632",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-05-01T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "942ee708-a0d6-41e3-954a-cb81f7d2302d",
+            "timestamp": "1635849632",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-09-25T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "507fa69d-3220-4e0d-8352-ab42e7887f96",
+            "timestamp": "1635849632",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "194.135.81.18",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "1b1df484-6b15-4ea0-920e-f140b8983549",
+            "timestamp": "1635849632",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "teachingdrive.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "5756b49f-8978-4733-96fb-f1258c013369",
+        "timestamp": "1635849632",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "49ece1eb-736b-43ad-8dfa-3b9ef4a50106",
+            "timestamp": "1635849632",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-03-15T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "de098062-74c4-422f-a899-f317d748f3f1",
+            "timestamp": "1635849632",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-06-04T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "24b5ca52-2505-4f2b-8a77-7a03346b9004",
+            "timestamp": "1635849632",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "185.158.250.239",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "0fe725c2-1c98-4db5-bdb5-246191818ee8",
+            "timestamp": "1635849632",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "newstepsco.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "f44a0497-e022-4713-8948-f73bce2d5b2c",
+        "timestamp": "1635849632",
+        "template_version": "6",
+        "meta-category": "network",
+        "deleted": false,
+        "comment": "",
+        "description": "A domain and IP address seen as a tuple in a specific time frame.",
+        "name": "domain-ip",
+        "template_uuid": "43b3b146-77eb-4931-b4cc-b66c60f28734",
+        "Attribute": [
+          {
+            "to_ids": false,
+            "uuid": "c6f10de3-a114-4952-bc1a-e1c7516e2b99",
+            "timestamp": "1635849632",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-02-25T00:00:00+00:00",
+            "object_relation": "first-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": false,
+            "uuid": "a2768f2c-6ad1-47de-ae9a-dd3153406e2f",
+            "timestamp": "1635849632",
+            "category": "Other",
+            "deleted": false,
+            "type": "datetime",
+            "comment": "",
+            "value": "2021-06-10T00:00:00+00:00",
+            "object_relation": "last-seen",
+            "disable_correlation": true
+          },
+          {
+            "to_ids": true,
+            "uuid": "82f2b29c-b8c5-4ff8-97db-d791c0e11a6a",
+            "timestamp": "1635849632",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "ip-dst",
+            "comment": "",
+            "value": "195.206.181.169",
+            "object_relation": "ip",
+            "disable_correlation": false,
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              },
+              {
+                "name": "kill-chain:Delivery",
+                "colour": "#8a0064"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "uuid": "716b252c-54d8-4dba-b495-08742ce263b3",
+            "timestamp": "1635849632",
+            "category": "Network activity",
+            "deleted": false,
+            "type": "domain",
+            "comment": "",
+            "value": "tacomanewspaper.com",
+            "object_relation": "domain",
+            "disable_correlation": false,
             "Tag": [
               {
                 "name": "kill-chain:Command and Control",
