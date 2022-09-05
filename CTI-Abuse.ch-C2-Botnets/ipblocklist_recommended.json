@@ -146,7 +146,7 @@
     {
         "ip_address": "103.253.107.198",
         "port": 7443,
-        "status": "online",
+        "status": "offline",
         "hostname": "sa1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -278,7 +278,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -608,18 +608,6 @@
         "as_name": "PLATEAU",
         "country": "US",
         "first_seen": "2021-12-17 22:33:08",
-        "last_online": "2022-09-05",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "182.191.92.203",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 17557,
-        "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
-        "country": "PK",
-        "first_seen": "2021-12-18 04:08:16",
         "last_online": "2022-09-05",
         "malware": "QakBot"
     },
@@ -1104,6 +1092,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "174.69.215.101",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip174-69-215-101.lf.br.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-03-16 19:54:01",
+        "last_online": "2022-09-05",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "188.166.229.148",
         "port": 443,
         "status": "online",
@@ -1130,7 +1130,7 @@
     {
         "ip_address": "32.221.224.140",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 46690,
         "as_name": "SNET-FCC",
@@ -1598,7 +1598,7 @@
     {
         "ip_address": "81.193.30.90",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 3243,
         "as_name": "MEO-RESIDENCIAL",
