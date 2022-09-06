@@ -278,7 +278,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -296,6 +296,18 @@
         "as_name": "COMCAST-7922",
         "country": "US",
         "first_seen": "2021-09-29 16:45:05",
+        "last_online": "2022-09-06",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "63.143.92.99",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 33576,
+        "as_name": "DIG001",
+        "country": "JM",
+        "first_seen": "2021-10-08 14:48:31",
         "last_online": "2022-09-06",
         "malware": "QakBot"
     },
@@ -1562,7 +1574,7 @@
     {
         "ip_address": "201.73.143.120",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": "cs-201-73-143-120.embratelcloud.com.br",
         "as_number": 4230,
         "as_name": "CLARO S.A.",
@@ -2096,6 +2108,18 @@
         "as_name": "PONYNET",
         "country": "LU",
         "first_seen": "2022-09-05 17:37:07",
+        "last_online": "2022-09-06",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "205.185.121.173",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "US",
+        "first_seen": "2022-09-06 17:12:16",
         "last_online": "2022-09-06",
         "malware": "BumbleBee"
     }
