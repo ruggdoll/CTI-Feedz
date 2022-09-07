@@ -278,12 +278,24 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
         "country": "US",
         "first_seen": "2021-09-29 14:05:04",
+        "last_online": "2022-09-07",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.46.53.140",
+        "port": 2222,
+        "status": "online",
+        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2021-09-29 14:35:05",
         "last_online": "2022-09-07",
         "malware": "QakBot"
     },
@@ -934,6 +946,18 @@
         "first_seen": "2022-03-03 08:35:18",
         "last_online": "2022-09-07",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "70.46.220.114",
+        "port": 443,
+        "status": "online",
+        "hostname": "70.46.220.114.nw.nuvox.net",
+        "as_number": 7029,
+        "as_name": "WINDSTREAM",
+        "country": "US",
+        "first_seen": "2022-03-03 18:06:08",
+        "last_online": "2022-09-07",
+        "malware": "QakBot"
     },
     {
         "ip_address": "47.23.89.61",
@@ -1610,7 +1634,7 @@
     {
         "ip_address": "201.73.143.120",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": "cs-201-73-143-120.embratelcloud.com.br",
         "as_number": 4230,
         "as_name": "CLARO S.A.",
@@ -1970,7 +1994,7 @@
     {
         "ip_address": "24.158.23.166",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "024-158-023-166.biz.spectrum.com",
         "as_number": 20115,
         "as_name": "CHARTER-20115",
