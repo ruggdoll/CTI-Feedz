@@ -146,7 +146,7 @@
     {
         "ip_address": "103.253.107.198",
         "port": 7443,
-        "status": "online",
+        "status": "offline",
         "hostname": "sa1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -374,7 +374,7 @@
     {
         "ip_address": "216.238.71.31",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "216.238.71.31.vultr.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
@@ -386,7 +386,7 @@
     {
         "ip_address": "216.238.71.31",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "216.238.71.31.vultr.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
@@ -398,7 +398,7 @@
     {
         "ip_address": "216.238.72.121",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "216.238.72.121.vultr.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
@@ -410,7 +410,7 @@
     {
         "ip_address": "216.238.72.121",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "216.238.72.121.vultr.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
@@ -818,7 +818,7 @@
     {
         "ip_address": "196.203.37.215",
         "port": 80,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 37719,
         "as_name": "Hexabyte-AS",
@@ -1202,7 +1202,7 @@
     {
         "ip_address": "37.34.253.233",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42961,
         "as_name": "GPRS-AS ZAIN",
@@ -1442,7 +1442,7 @@
     {
         "ip_address": "104.244.79.94",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 53667,
         "as_name": "PONYNET",
@@ -1524,6 +1524,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "94.36.193.176",
+        "port": 2222,
+        "status": "offline",
+        "hostname": "94-36-193-176.adsl-ull.clienti.tiscali.it",
+        "as_number": 8612,
+        "as_name": "TISCALI-",
+        "country": "IT",
+        "first_seen": "2022-06-08 14:14:03",
+        "last_online": "2022-09-08",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "51.161.73.194",
         "port": 443,
         "status": "online",
@@ -1598,7 +1610,7 @@
     {
         "ip_address": "201.73.143.120",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": "cs-201-73-143-120.embratelcloud.com.br",
         "as_number": 4230,
         "as_name": "CLARO S.A.",
@@ -1992,6 +2004,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "64.44.98.157",
+        "port": 443,
+        "status": "offline",
+        "hostname": "D",
+        "as_number": 20278,
+        "as_name": "NEXEON",
+        "country": "CA",
+        "first_seen": "2022-08-19 08:40:38",
+        "last_online": "2022-09-08",
+        "malware": "BumbleBee"
+    },
+    {
         "ip_address": "198.98.59.64",
         "port": 443,
         "status": "online",
@@ -2300,6 +2324,30 @@
         "as_name": "BACOM",
         "country": "CA",
         "first_seen": "2022-09-08 13:43:32",
+        "last_online": "2022-09-08",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "86.213.191.206",
+        "port": 2078,
+        "status": "online",
+        "hostname": "lfbn-bor-1-488-206.w86-213.abo.wanadoo.fr",
+        "as_number": 3215,
+        "as_name": "France Telecom - Orange",
+        "country": "FR",
+        "first_seen": "2022-09-08 16:44:07",
+        "last_online": "2022-09-08",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "200.161.62.126",
+        "port": 32101,
+        "status": "online",
+        "hostname": "200-161-62-126.dsl.telesp.net.br",
+        "as_number": 27699,
+        "as_name": "TELEFONICA BRASIL S.A",
+        "country": "BR",
+        "first_seen": "2022-09-08 16:53:32",
         "last_online": "2022-09-08",
         "malware": "QakBot"
     }
