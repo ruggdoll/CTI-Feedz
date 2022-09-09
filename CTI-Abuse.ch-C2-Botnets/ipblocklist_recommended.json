@@ -134,7 +134,7 @@
     {
         "ip_address": "103.253.107.198",
         "port": 7443,
-        "status": "online",
+        "status": "offline",
         "hostname": "sa1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -1344,6 +1344,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "94.36.193.176",
+        "port": 2222,
+        "status": "online",
+        "hostname": "94-36-193-176.adsl-ull.clienti.tiscali.it",
+        "as_number": 8612,
+        "as_name": "TISCALI-",
+        "country": "IT",
+        "first_seen": "2022-06-08 14:14:03",
+        "last_online": "2022-09-09",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "51.161.73.194",
         "port": 443,
         "status": "online",
@@ -1418,7 +1430,7 @@
     {
         "ip_address": "201.73.143.120",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": "cs-201-73-143-120.embratelcloud.com.br",
         "as_number": 4230,
         "as_name": "CLARO S.A.",
@@ -1774,18 +1786,6 @@
         "first_seen": "2022-07-10 17:42:40",
         "last_online": "2022-09-09",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "98.50.153.207",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 7922,
-        "as_name": "COMCAST-7922",
-        "country": "US",
-        "first_seen": "2022-07-18 16:33:31",
-        "last_online": "2022-09-09",
-        "malware": "QakBot"
     },
     {
         "ip_address": "51.77.41.66",
@@ -2144,6 +2144,18 @@
         "as_name": "MULTIMEDIA-AS",
         "country": "BG",
         "first_seen": "2022-09-09 05:54:16",
+        "last_online": "2022-09-09",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "81.214.220.237",
+        "port": 443,
+        "status": "online",
+        "hostname": "81.214.220.237.dynamic.ttnet.com.tr",
+        "as_number": 9121,
+        "as_name": "TTNET",
+        "country": "TR",
+        "first_seen": "2022-09-09 08:24:13",
         "last_online": "2022-09-09",
         "malware": "QakBot"
     }
