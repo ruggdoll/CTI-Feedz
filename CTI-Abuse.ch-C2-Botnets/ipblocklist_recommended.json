@@ -74,7 +74,7 @@
     {
         "ip_address": "178.128.197.110",
         "port": 4664,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1286,7 +1286,7 @@
     {
         "ip_address": "173.82.82.196",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": "196-82-82-173-dedicated.multacom.com",
         "as_number": 35916,
         "as_name": "MULTA-ASN1",
@@ -1574,7 +1574,7 @@
     {
         "ip_address": "81.193.30.90",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 3243,
         "as_name": "MEO-RESIDENCIAL",
@@ -1718,7 +1718,7 @@
     {
         "ip_address": "104.168.155.143",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": "cns63397.hostwindsdns.com",
         "as_number": 54290,
         "as_name": "HOSTWINDS",
@@ -1882,6 +1882,18 @@
         "first_seen": "2022-07-10 17:42:40",
         "last_online": "2022-09-09",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "98.50.153.207",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 7922,
+        "as_name": "COMCAST-7922",
+        "country": "US",
+        "first_seen": "2022-07-18 16:33:31",
+        "last_online": "2022-09-09",
+        "malware": "QakBot"
     },
     {
         "ip_address": "51.77.41.66",
@@ -2228,18 +2240,6 @@
         "as_name": "TTNET",
         "country": "TR",
         "first_seen": "2022-09-08 19:54:10",
-        "last_online": "2022-09-08",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "177.102.84.28",
-        "port": 32101,
-        "status": "offline",
-        "hostname": "177-102-84-28.dsl.telesp.net.br",
-        "as_number": 27699,
-        "as_name": "TELEFONICA BRASIL S.A",
-        "country": "BR",
-        "first_seen": "2022-09-08 19:54:11",
         "last_online": "2022-09-08",
         "malware": "QakBot"
     },
