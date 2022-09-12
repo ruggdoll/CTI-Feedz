@@ -122,7 +122,7 @@
     {
         "ip_address": "103.253.107.155",
         "port": 7443,
-        "status": "offline",
+        "status": "online",
         "hostname": "el1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -134,7 +134,7 @@
     {
         "ip_address": "103.253.107.198",
         "port": 7443,
-        "status": "online",
+        "status": "offline",
         "hostname": "sa1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -734,7 +734,7 @@
     {
         "ip_address": "24.55.67.176",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "dynamic.libertypr.net",
         "as_number": 14638,
         "as_name": "LCPRL",
@@ -1250,7 +1250,7 @@
     {
         "ip_address": "72.252.157.93",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 30689,
         "as_name": "FLOW-NET",
@@ -1740,18 +1740,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "24.158.23.166",
-        "port": 995,
-        "status": "offline",
-        "hostname": "024-158-023-166.biz.spectrum.com",
-        "as_number": 20115,
-        "as_name": "CHARTER-20115",
-        "country": "US",
-        "first_seen": "2022-07-08 18:26:20",
-        "last_online": "2022-09-12",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "51.68.145.174",
         "port": 443,
         "status": "online",
@@ -1980,18 +1968,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "81.131.161.131",
-        "port": 2078,
-        "status": "offline",
-        "hostname": "host81-131-161-131.range81-131.btcentralplus.com",
-        "as_number": 2856,
-        "as_name": "BT-UK-AS BTnet UK Regional network",
-        "country": "GB",
-        "first_seen": "2022-09-08 12:14:16",
-        "last_online": "2022-09-12",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "99.232.140.205",
         "port": 2222,
         "status": "online",
@@ -2066,7 +2042,7 @@
     {
         "ip_address": "173.189.167.21",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "h21.167.189.173.dynamic.ip.windstream.net",
         "as_number": 7029,
         "as_name": "WINDSTREAM",
@@ -2120,6 +2096,18 @@
         "as_name": "TBCOM-NET TBC",
         "country": "TW",
         "first_seen": "2022-09-08 19:54:11",
+        "last_online": "2022-09-12",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "191.97.234.238",
+        "port": 995,
+        "status": "online",
+        "hostname": "238-234-97-191.fibertel.com.ar",
+        "as_number": 7303,
+        "as_name": "Telecom Argentina S.A.",
+        "country": "AR",
+        "first_seen": "2022-09-08 22:54:15",
         "last_online": "2022-09-12",
         "malware": "QakBot"
     },
