@@ -122,7 +122,7 @@
     {
         "ip_address": "103.253.107.155",
         "port": 7443,
-        "status": "offline",
+        "status": "online",
         "hostname": "el1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -134,7 +134,7 @@
     {
         "ip_address": "103.253.107.198",
         "port": 7443,
-        "status": "online",
+        "status": "offline",
         "hostname": "sa1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -242,7 +242,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -266,7 +266,7 @@
     {
         "ip_address": "76.25.142.196",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "c-76-25-142-196.hsd1.co.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -996,21 +996,9 @@
         "malware": "Emotet"
     },
     {
-        "ip_address": "172.115.177.204",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "cpe-172-115-177-204.socal.res.rr.com",
-        "as_number": 20001,
-        "as_name": "TWC-20001-PACWEST",
-        "country": "US",
-        "first_seen": "2022-03-16 19:53:57",
-        "last_online": "2022-09-11",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "174.69.215.101",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip174-69-215-101.lf.br.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
@@ -1042,6 +1030,18 @@
         "first_seen": "2022-03-23 07:15:57",
         "last_online": "2022-09-12",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "37.34.253.233",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 42961,
+        "as_name": "GPRS-AS ZAIN",
+        "country": "KW",
+        "first_seen": "2022-04-04 16:58:21",
+        "last_online": "2022-09-12",
+        "malware": "QakBot"
     },
     {
         "ip_address": "149.56.131.28",
@@ -1716,18 +1716,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "98.50.153.207",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 7922,
-        "as_name": "COMCAST-7922",
-        "country": "US",
-        "first_seen": "2022-07-18 16:33:31",
-        "last_online": "2022-09-11",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "51.77.41.66",
         "port": 443,
         "status": "online",
@@ -1994,7 +1982,7 @@
     {
         "ip_address": "37.210.148.30",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
@@ -2036,6 +2024,18 @@
         "as_name": "SINGTEL-FIBRE Singtel Fibre Broadband",
         "country": "SG",
         "first_seen": "2022-09-09 00:33:44",
+        "last_online": "2022-09-12",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "81.214.220.237",
+        "port": 443,
+        "status": "online",
+        "hostname": "81.214.220.237.dynamic.ttnet.com.tr",
+        "as_number": 9121,
+        "as_name": "TTNET",
+        "country": "TR",
+        "first_seen": "2022-09-09 08:24:13",
         "last_online": "2022-09-12",
         "malware": "QakBot"
     },
