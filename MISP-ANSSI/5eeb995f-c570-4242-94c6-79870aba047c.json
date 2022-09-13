@@ -1,2767 +1,2767 @@
 {
   "Event": {
-    "threat_level_id": "4",
-    "published": true,
-    "publish_timestamp": "1656918312",
     "date": "2020-06-18",
-    "analysis": "0",
-    "uuid": "5eeb995f-c570-4242-94c6-79870aba047c",
-    "info": "[CERT-FR] Le groupe cybercriminel Silence",
-    "extends_uuid": "",
+    "published": true,
     "timestamp": "1656512127",
+    "analysis": "0",
+    "threat_level_id": "4",
+    "extends_uuid": "",
+    "info": "[CERT-FR] Le groupe cybercriminel Silence",
+    "publish_timestamp": "1656918312",
+    "uuid": "5eeb995f-c570-4242-94c6-79870aba047c",
     "Orgc": {
-      "uuid": "56bdf779-46f8-4353-bdf9-2bb95bce2212",
-      "name": "CERT-FR"
+      "name": "CERT-FR",
+      "uuid": "56bdf779-46f8-4353-bdf9-2bb95bce2212"
     },
     "Tag": [
       {
-        "colour": "#f89595",
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
+        "colour": "#f89595"
       },
       {
-        "colour": "#ffffff",
-        "name": "cossi:TLP=\"white\""
+        "name": "cossi:TLP=\"white\"",
+        "colour": "#ffffff"
       },
       {
-        "colour": "#008e63",
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
+        "name": "cossi:RechercheSourceOuverte=\"Autorisee\"",
+        "colour": "#008e63"
       },
       {
-        "colour": "#00714f",
-        "name": "cossi:fiabilite=\"Bonne\""
+        "name": "cossi:fiabilite=\"Bonne\"",
+        "colour": "#00714f"
       },
       {
-        "colour": "#26d275",
-        "name": "misp-galaxy:threat-actor=\"Silence group\""
+        "name": "misp-galaxy:threat-actor=\"Silence group\"",
+        "colour": "#26d275"
       },
       {
-        "colour": "#ffffff",
-        "name": "tlp:white"
+        "name": "tlp:white",
+        "colour": "#ffffff"
       }
     ],
     "Attribute": [
       {
-        "comment": "",
-        "type": "comment",
-        "value": "Silence est un groupe de cybercriminels suppos\u00e9ment russophone, actif depuis 2016, et ciblant des institutions financi\u00e8res \u00e0 travers le monde.",
-        "timestamp": "1592498527",
-        "uuid": "effb0b42-9d11-4107-9eb6-092e0ca028c7",
-        "deleted": false,
         "to_ids": true,
+        "comment": "",
+        "timestamp": "1592498527",
+        "deleted": false,
         "disable_correlation": false,
+        "type": "comment",
         "category": "Other",
+        "value": "Silence est un groupe de cybercriminels suppos\u00e9ment russophone, actif depuis 2016, et ciblant des institutions financi\u00e8res \u00e0 travers le monde.",
+        "uuid": "effb0b42-9d11-4107-9eb6-092e0ca028c7",
         "Tag": [
           {
-            "colour": "#00af7a",
-            "name": "DescriptionTechnique"
+            "name": "DescriptionTechnique",
+            "colour": "#00af7a"
           }
         ]
       },
       {
+        "to_ids": true,
         "comment": "Silence.Downloader",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "5.39.30.110",
-        "timestamp": "1592498527",
-        "uuid": "ab111bd5-f505-4733-adf3-217f5226dfa7",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "ab111bd5-f505-4733-adf3-217f5226dfa7"
       },
       {
+        "to_ids": true,
         "comment": "Silence.Downloader",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "54.36.191.97",
-        "timestamp": "1592498527",
-        "uuid": "83d39669-c2a1-48a9-8d9e-28c78205bf7f",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "83d39669-c2a1-48a9-8d9e-28c78205bf7f"
       },
       {
+        "to_ids": true,
         "comment": "Silence.Downloader",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "164.132.228.29",
-        "timestamp": "1592498527",
-        "uuid": "e00c43c5-2721-47c7-89fa-9059fe9f46d5",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "e00c43c5-2721-47c7-89fa-9059fe9f46d5"
       },
       {
+        "to_ids": true,
         "comment": "Silence.Downloader",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "137.74.224.142",
-        "timestamp": "1592498527",
-        "uuid": "d12438f1-b465-4f36-bac1-80acafdd98bf",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "d12438f1-b465-4f36-bac1-80acafdd98bf"
       },
       {
+        "to_ids": true,
         "comment": "Silence.Downloader",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "92.222.68.32",
-        "timestamp": "1592498527",
-        "uuid": "42908c70-e087-42b3-8fe7-f8501c63b7c7",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "42908c70-e087-42b3-8fe7-f8501c63b7c7"
       },
       {
+        "to_ids": true,
         "comment": "Exploit",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "139.99.156.100",
-        "timestamp": "1592498527",
-        "uuid": "01767c28-1952-4ce1-9979-09611a22b2c9",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "01767c28-1952-4ce1-9979-09611a22b2c9"
       },
       {
+        "to_ids": true,
         "comment": "Meterpreter",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "149.56.131.140",
-        "timestamp": "1592498527",
-        "uuid": "d122e843-aaf8-4d9c-b330-d8017a668823",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "d122e843-aaf8-4d9c-b330-d8017a668823"
       },
       {
+        "to_ids": true,
         "comment": "Exploit CVE-2017-0199",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "51.255.200.161",
-        "timestamp": "1592498527",
-        "uuid": "78f7cbee-9157-49d5-9942-1b86e4c1397c",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "78f7cbee-9157-49d5-9942-1b86e4c1397c"
       },
       {
+        "to_ids": true,
         "comment": "pakovelli@mail.com",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "109.13.212.72",
-        "timestamp": "1592498527",
-        "uuid": "0d122218-2730-4d31-aab9-a2e627c99ee5",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "0d122218-2730-4d31-aab9-a2e627c99ee5"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "217.160.233.141",
-        "timestamp": "1592498527",
-        "uuid": "ad4bd74f-e519-4150-a9c6-fa7cc11828a4",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "ad4bd74f-e519-4150-a9c6-fa7cc11828a4"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498527",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "187.70.187.188",
-        "timestamp": "1592498527",
-        "uuid": "81d5bfd4-cc99-426d-b5fb-cc5d099be19c",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "81d5bfd4-cc99-426d-b5fb-cc5d099be19c"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.70.186.146",
-        "timestamp": "1592498528",
-        "uuid": "3f6ba131-48a4-41de-a185-2a314a6c4f6e",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "3f6ba131-48a4-41de-a185-2a314a6c4f6e"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.36.19.42",
-        "timestamp": "1592498528",
-        "uuid": "825329bc-3418-4b7c-a906-cf29e9e10705",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "825329bc-3418-4b7c-a906-cf29e9e10705"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.175.58.136",
-        "timestamp": "1592498528",
-        "uuid": "668c6a40-30d6-4969-a723-61abf15c8fa0",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "668c6a40-30d6-4969-a723-61abf15c8fa0"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.29.8.45",
-        "timestamp": "1592498528",
-        "uuid": "b3eec42e-f799-4f07-9c11-6998718bc581",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "b3eec42e-f799-4f07-9c11-6998718bc581"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "5.39.218.210",
-        "timestamp": "1592498528",
-        "uuid": "f2bf27d6-88ee-464b-a05a-3c11657508c6",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "f2bf27d6-88ee-464b-a05a-3c11657508c6"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "5.188.231.47",
-        "timestamp": "1592498528",
-        "uuid": "9d830b89-0928-4b2a-9cd8-1609dc4c8a01",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "9d830b89-0928-4b2a-9cd8-1609dc4c8a01"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.70.184.32",
-        "timestamp": "1592498528",
-        "uuid": "0cbd2c9a-5851-4304-a5c1-46e4556b01b4",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "0cbd2c9a-5851-4304-a5c1-46e4556b01b4"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.20.187.89",
-        "timestamp": "1592498528",
-        "uuid": "a358dee6-affb-4569-a3f8-04ace3dd7ca5",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "a358dee6-affb-4569-a3f8-04ace3dd7ca5"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "193.109.69.5",
-        "timestamp": "1592498528",
-        "uuid": "f4f24f45-b526-4255-84c1-a5ac83226b01",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "f4f24f45-b526-4255-84c1-a5ac83226b01"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.29.9.41",
-        "timestamp": "1592498528",
-        "uuid": "b891a266-c8ce-4f84-b406-bc1438e0e324",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "b891a266-c8ce-4f84-b406-bc1438e0e324"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.161.208.9",
-        "timestamp": "1592498528",
-        "uuid": "5ee1f882-e086-4976-baf3-dcd99f2e9c03",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "5ee1f882-e086-4976-baf3-dcd99f2e9c03"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.70.186.149",
-        "timestamp": "1592498528",
-        "uuid": "ca54afa6-65a3-4cca-8b3e-7a0724575de2",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "ca54afa6-65a3-4cca-8b3e-7a0724575de2"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.70.186.151",
-        "timestamp": "1592498528",
-        "uuid": "e4f10c32-b96d-4194-b6c8-35294e96cb30",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "e4f10c32-b96d-4194-b6c8-35294e96cb30"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "151.248.115.41",
-        "timestamp": "1592498528",
-        "uuid": "42bb0a7e-f9ee-455b-a45f-d99313a96ff3",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "42bb0a7e-f9ee-455b-a45f-d99313a96ff3"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.154.52.83",
-        "timestamp": "1592498528",
-        "uuid": "c244570f-3d36-4082-8583-00c4541a1c47",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "c244570f-3d36-4082-8583-00c4541a1c47"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.154.52.142",
-        "timestamp": "1592498528",
-        "uuid": "aae17331-433b-4fcb-a7f4-af44a9c8ac54",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "aae17331-433b-4fcb-a7f4-af44a9c8ac54"
       },
       {
+        "to_ids": true,
         "comment": "Source : Group-IB",
+        "timestamp": "1592498528",
+        "deleted": false,
+        "disable_correlation": false,
         "type": "ip-dst",
+        "category": "Network activity",
         "value": "185.236.76.216",
-        "timestamp": "1592498528",
-        "uuid": "36b55174-6755-4a48-8634-bff434ec372a",
-        "deleted": false,
-        "to_ids": true,
-        "disable_correlation": false,
-        "category": "Network activity"
+        "uuid": "36b55174-6755-4a48-8634-bff434ec372a"
       },
       {
+        "to_ids": true,
         "comment": "r\u00e9soud l'ip 5.39.30.110 (C2) entre 2012 et juin 2019",
-        "type": "domain",
-        "value": "cours-a-domicile.fr",
         "timestamp": "1592498528",
-        "uuid": "c5483dba-4837-493b-bbfe-9a2ac8f18591",
         "deleted": false,
-        "to_ids": true,
         "disable_correlation": false,
-        "category": "Network activity"
+        "type": "domain",
+        "category": "Network activity",
+        "value": "cours-a-domicile.fr",
+        "uuid": "c5483dba-4837-493b-bbfe-9a2ac8f18591"
       },
       {
-        "comment": "",
-        "type": "comment",
-        "value": "2019-01-01",
-        "timestamp": "1592841698",
-        "uuid": "5f7074cb-0ac2-45e3-85f9-c7eefba54b46",
-        "deleted": false,
         "to_ids": true,
+        "comment": "",
+        "timestamp": "1592841698",
+        "deleted": false,
         "disable_correlation": false,
+        "type": "comment",
         "category": "Other",
+        "value": "2019-01-01",
+        "uuid": "5f7074cb-0ac2-45e3-85f9-c7eefba54b46",
         "Tag": [
           {
-            "colour": "#000000",
-            "name": "cossi:relevantTimespan=\"from\""
+            "name": "cossi:relevantTimespan=\"from\"",
+            "colour": "#000000"
           }
         ]
       }
     ],
     "Object": [
       {
-        "comment": "File Name: 'app.exe'\r\nFile Size: 117248 ProxyBot, 2019-01-17",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "f9118f68-a5c0-4f3f-b2a8-8b1a6d327933",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557881",
+        "comment": "File Name: 'app.exe'\r\nFile Size: 117248 ProxyBot, 2019-01-17",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "f9118f68-a5c0-4f3f-b2a8-8b1a6d327933",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557881",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "9b38aa473fde5803c87f6f29a8241abe",
-            "timestamp": "1592557881",
             "uuid": "a8146329-fa07-4b84-8b24-83e6b8fc3dc3",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557881",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "7067326bf1efd4898afa4318b1b1ceba0da86bb3",
-            "timestamp": "1592557881",
             "uuid": "17ee3d38-cdd3-4788-8e86-a778170cc5cf",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
-            "object_relation": "sha256",
-            "value": "0dc3422709765715812581d5c7ff85c40264933e6e530b911e73a09181bf2e3d",
             "timestamp": "1592557881",
+            "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
+            "value": "0dc3422709765715812581d5c7ff85c40264933e6e530b911e73a09181bf2e3d",
             "uuid": "1aea363a-6d42-4505-ac11-7d5b345fac4c",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592557882",
-            "uuid": "5eec813a-13dc-425c-a6d8-c4050aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec813a-13dc-425c-a6d8-c4050aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'winss.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-17",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "71d0cb72-c478-4123-a98f-893ed1676cb9",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592558089",
+        "comment": "File Name: 'winss.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-17",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "71d0cb72-c478-4123-a98f-893ed1676cb9",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592558089",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "3f5372c2776e5cc8aec8a7107f49cf8a",
-            "timestamp": "1592558089",
             "uuid": "ebd8c49a-7b43-4daa-8b5f-42e186014959",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592558089",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "5a7a2fcd906062f2c9e3bc5edf2b82741fc0658b",
-            "timestamp": "1592558089",
             "uuid": "a29d05d2-d04a-4b5b-b607-d6ebcdced965",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
-            "object_relation": "sha256",
-            "value": "14696a979206432f9bbd74f3cdf27bc22dcaf5889e33b612ca27065d1af5769e",
             "timestamp": "1592558089",
+            "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
+            "value": "14696a979206432f9bbd74f3cdf27bc22dcaf5889e33b612ca27065d1af5769e",
             "uuid": "d442e0b2-31c7-4f8e-b784-e97e6736a313",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592558090",
-            "uuid": "5eec820a-482c-4446-801d-c3cf0aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec820a-482c-4446-801d-c3cf0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'printsrv.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-26",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "bb27e24e-e6a9-40a8-be62-b150795ce0fa",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592558076",
+        "comment": "File Name: 'printsrv.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-26",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "bb27e24e-e6a9-40a8-be62-b150795ce0fa",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592558076",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "1136c47332daa275d2ecc179a0bf4c0c",
-            "timestamp": "1592558076",
             "uuid": "345f98b1-4bb0-4312-bb70-1e9581e83f65",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592558076",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "f4277cc5c755d90405a3b15201a1b4ed398deb61",
-            "timestamp": "1592558076",
             "uuid": "cffa698e-f399-4088-a4fa-7d66fa09b60d",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592558076",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "21176810b854c2253f522e71039c9344b81eff697b7a36abd86ab6c220ea23dc",
-            "timestamp": "1592558076",
             "uuid": "bf56c314-7daf-477e-85de-6053e35f0cde",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592558076",
-            "uuid": "5eec81fc-37b4-494e-bda5-c3d20aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec81fc-37b4-494e-bda5-c3d20aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'app.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-26",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "af10bb81-3b28-4c92-b5e7-976e3263547e",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592558059",
+        "comment": "File Name: 'app.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-26",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "af10bb81-3b28-4c92-b5e7-976e3263547e",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592558059",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "2fe01a04d6beef14555b2cf9a717615c",
-            "timestamp": "1592558059",
             "uuid": "1838e690-0f08-4984-89ed-e37fd6bdbcd9",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592558059",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "08c985a9187d3823d89c16f479a56181559681ae",
-            "timestamp": "1592558059",
             "uuid": "31b92675-09ec-4508-97af-09a0f0428cc1",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592558059",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "3b84b2948b95c291986b793e1d8e935792c298ee6b5bdd05b4d908738bf40156",
-            "timestamp": "1592558059",
             "uuid": "e755aff7-deaf-49fc-a075-5c461fe23bbc",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592558059",
-            "uuid": "5eec81eb-c144-4490-b9eb-264a0aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec81eb-c144-4490-b9eb-264a0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'samsung.exe'\r\nFile Size: 117248 ProxyBot, 2017-10-23",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "60443dd6-7cf3-4962-8fe4-a937d1e104e0",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592558046",
+        "comment": "File Name: 'samsung.exe'\r\nFile Size: 117248 ProxyBot, 2017-10-23",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "60443dd6-7cf3-4962-8fe4-a937d1e104e0",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592558046",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "121c7a3f139b1cc3d0bf62d951bbe5cb",
-            "timestamp": "1592558046",
             "uuid": "4dc4dc4c-4e68-43e4-8306-989d040b313f",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592558046",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "9bbbde6f0b574cd7fb5c9c752ae33393b82878a0",
-            "timestamp": "1592558046",
             "uuid": "33014358-2a8d-4294-879f-df8857cd89ae",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592558046",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "628172ab0dc7360ebc49ec15f6197d7f26f6e06c370aad9c55e5e87542bcb4ec",
-            "timestamp": "1592558046",
             "uuid": "04c2a809-8f9f-4028-ab83-d204c468f566",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592558046",
-            "uuid": "5eec81de-4a90-4c18-83c1-c4050aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec81de-4a90-4c18-83c1-c4050aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'apps.exe'\r\nFile Size: 117248 ProxyBot, 2018-01-17",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "728cca71-f107-47ff-91a4-90c56875ec2d",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592558033",
+        "comment": "File Name: 'apps.exe'\r\nFile Size: 117248 ProxyBot, 2018-01-17",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "728cca71-f107-47ff-91a4-90c56875ec2d",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592558033",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "d9a80697b07f7cfcc5c78a33f561cfbb",
-            "timestamp": "1592558033",
             "uuid": "29f854bb-8d0a-4229-a0aa-9254f529799c",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592558033",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "e83e6946bd81b55d834618a18213ce1a6c50abe0",
-            "timestamp": "1592558033",
             "uuid": "d2231936-ed64-4636-b7ab-3a3bf341f12d",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592558033",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "80fcfc8d923f8ba8b16f1336160feb86d703407ea582cf5fe9ac9a338638cbc3",
-            "timestamp": "1592558033",
             "uuid": "98cc7cb2-d12a-4348-b7e0-599bf3996285",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592558033",
-            "uuid": "5eec81d1-dd78-4b23-8018-c3d20aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec81d1-dd78-4b23-8018-c3d20aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'app.exe'\r\nFile Size: 117248 ProxyBot, 2018-03-23",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "f208daeb-5e5f-44c5-bc3f-946612ae8368",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592558015",
+        "comment": "File Name: 'app.exe'\r\nFile Size: 117248 ProxyBot, 2018-03-23",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "f208daeb-5e5f-44c5-bc3f-946612ae8368",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592558015",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "a6771cafd7114df25ac0ef2688722fdf",
-            "timestamp": "1592558015",
             "uuid": "39981c5e-b275-400b-a74f-4a86a1de294a",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592558015",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "69ff11f086e167f8d2f6849dbe6061f492327b94",
-            "timestamp": "1592558015",
             "uuid": "6445e61b-49a8-4008-9096-48acc5d8b445",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592558015",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "92200067104192655a5e2c90d2eec4c31470885996a62eddaa21346fd72633e8",
-            "timestamp": "1592558015",
             "uuid": "435804c7-1ffa-4a94-b524-ecbe054f242f",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592558015",
-            "uuid": "5eec81bf-cd60-4b17-8125-264a0aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec81bf-cd60-4b17-8125-264a0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'sok83.exe'\r\nFile Size: 117760 ProxyBot, 2016-08-01",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "58ef928e-9f3a-46bc-89aa-715f3f368f19",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557997",
+        "comment": "File Name: 'sok83.exe'\r\nFile Size: 117760 ProxyBot, 2016-08-01",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "58ef928e-9f3a-46bc-89aa-715f3f368f19",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557997",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "dc4ac53350cc4b30839db19d8d6f3b5f",
-            "timestamp": "1592557997",
             "uuid": "11030032-f06e-426f-9e95-f9f4d5c64eb9",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557997",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "7e107326a265ddb22e1c92b88c9105fcf3346a8b",
-            "timestamp": "1592557997",
             "uuid": "69fbaf20-d042-4c5f-93be-f08f4440f037",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
-            "object_relation": "sha256",
-            "value": "938c40310999d34a00055365a6f6739495b5f305d7da3068f6f86b4e7d80d137",
             "timestamp": "1592557997",
+            "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
+            "value": "938c40310999d34a00055365a6f6739495b5f305d7da3068f6f86b4e7d80d137",
             "uuid": "e6d3fb69-3da7-4885-bbd9-3a123e24a7b2",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117760",
             "timestamp": "1592557998",
-            "uuid": "5eec81ae-4174-4283-8ce2-c3d10aba047c",
-            "deleted": false,
-            "to_ids": false,
-            "disable_correlation": false,
-            "category": "Other"
-          }
-        ]
-      },
-      {
-        "comment": "File Name: 'application_client.exe'\r\nFile Size: 117760 ProxyBot, 2016-05-04",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "88f0a1ae-7774-47d2-9e03-a08f041e5396",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
-        "timestamp": "1592557980",
-        "Attribute": [
-          {
-            "comment": "",
-            "type": "md5",
-            "object_relation": "md5",
-            "value": "131014834d9b3d3e93c31553398ae524",
-            "timestamp": "1592557980",
-            "uuid": "c6fa3225-302a-4149-9dd3-c112e981f5e3",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "sha1",
-            "object_relation": "sha1",
-            "value": "7fd7481f11f3d41dc6184a867ad4970f7f7c05b3",
-            "timestamp": "1592557980",
-            "uuid": "bc696ca8-f0c8-4596-8368-7979397fc73c",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "sha256",
-            "object_relation": "sha256",
-            "value": "9acc58f99eac029f730a8e984cbc77c927d48cd590a0271d320acf5731902ad3",
-            "timestamp": "1592557980",
-            "uuid": "6e1078a5-0573-4d63-a78d-908f8737703b",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "size-in-bytes",
             "object_relation": "size-in-bytes",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "size-in-bytes",
+            "category": "Other",
             "value": "117760",
+            "uuid": "5eec81ae-4174-4283-8ce2-c3d10aba047c"
+          }
+        ]
+      },
+      {
+        "timestamp": "1592557980",
+        "comment": "File Name: 'application_client.exe'\r\nFile Size: 117760 ProxyBot, 2016-05-04",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "88f0a1ae-7774-47d2-9e03-a08f041e5396",
+        "description": "File object describing a file with meta-information",
+        "Attribute": [
+          {
+            "to_ids": true,
+            "comment": "",
             "timestamp": "1592557980",
-            "uuid": "5eec819c-4ff0-4f0d-bd0e-c3cf0aba047c",
+            "object_relation": "md5",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "md5",
+            "category": "Payload delivery",
+            "value": "131014834d9b3d3e93c31553398ae524",
+            "uuid": "c6fa3225-302a-4149-9dd3-c112e981f5e3",
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "comment": "",
+            "timestamp": "1592557980",
+            "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
+            "value": "7fd7481f11f3d41dc6184a867ad4970f7f7c05b3",
+            "uuid": "bc696ca8-f0c8-4596-8368-7979397fc73c",
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "comment": "",
+            "timestamp": "1592557980",
+            "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
+            "value": "9acc58f99eac029f730a8e984cbc77c927d48cd590a0271d320acf5731902ad3",
+            "uuid": "6e1078a5-0573-4d63-a78d-908f8737703b",
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              }
+            ]
+          },
+          {
+            "to_ids": false,
+            "comment": "",
+            "timestamp": "1592557980",
+            "object_relation": "size-in-bytes",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117760",
+            "uuid": "5eec819c-4ff0-4f0d-bd0e-c3cf0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'inteldrv.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-24",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "f875e278-ea11-417f-a076-632f742d2f29",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557966",
+        "comment": "File Name: 'inteldrv.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-24",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "f875e278-ea11-417f-a076-632f742d2f29",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557966",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "043b383e895a26848bef90abb8da2216",
-            "timestamp": "1592557966",
             "uuid": "a067ff45-fb98-4ca4-8577-f6efeae9b0c9",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557966",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "3727cf8ca830f067a65e446977292159baa2573d",
-            "timestamp": "1592557966",
             "uuid": "206f70bc-4a6d-443b-a15d-e3d9cc63f8a4",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557966",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "ae88e45b7e1c92b0e2a8e6c8f969bbdd0b260660a42468e5c61fa6ab834678ff",
-            "timestamp": "1592557966",
             "uuid": "6c6bd507-a436-4d1c-b0a4-a22353449d0a",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592557966",
-            "uuid": "5eec818e-dc2c-48b4-ae03-94a90aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec818e-dc2c-48b4-ae03-94a90aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'apcs.exe'\r\nFile Size: 117248 ProxyBot, 2016-07-12",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "b7c1a8d6-03ea-46a3-a0df-0ef72f5c8cab",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557950",
+        "comment": "File Name: 'apcs.exe'\r\nFile Size: 117248 ProxyBot, 2016-07-12",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "b7c1a8d6-03ea-46a3-a0df-0ef72f5c8cab",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557950",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "88cb1babb591381054001a7a588f7a28",
-            "timestamp": "1592557950",
             "uuid": "44e70d5e-87ae-41c1-90c5-8b3230ad9765",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557950",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "22d27a623118b8b6e5638b9ca4f975809951fd80",
-            "timestamp": "1592557950",
             "uuid": "f1fa14ae-cff5-46da-a209-780310dd746e",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
-            "object_relation": "sha256",
-            "value": "b7e2df9bdbff5c577d7afe9e3ceb7a1ff337e6b19eab9a319c4e033dae16f37c",
             "timestamp": "1592557950",
+            "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
+            "value": "b7e2df9bdbff5c577d7afe9e3ceb7a1ff337e6b19eab9a319c4e033dae16f37c",
             "uuid": "fbe918cc-504d-48ac-bdcc-ab0f05e00b61",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592557951",
-            "uuid": "5eec817f-b80c-459b-b5de-c3d20aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec817f-b80c-459b-b5de-c3d20aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'test.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-30",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "9a9ea373-46b8-4d1a-a260-4920c0131836",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557935",
+        "comment": "File Name: 'test.exe'\r\nFile Size: 117248 ProxyBot, 2019-09-30",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "9a9ea373-46b8-4d1a-a260-4920c0131836",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557935",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "7eee932149002f53b33b6f71d3f25fa8",
-            "timestamp": "1592557935",
             "uuid": "283f36fa-a532-480a-a20a-78883027e460",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557935",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "76dec76d27f7fea40a1152893d9f5152498d853b",
-            "timestamp": "1592557935",
             "uuid": "63695f1f-ccf6-42e3-b7de-aa90556ebdfa",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557935",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "daa1e35545004045a36753ae1af8d6d840141519a61f95bdf9a71d42b7b478c4",
-            "timestamp": "1592557935",
             "uuid": "c50ab66a-742f-4f9e-abb0-fe929f6fdc8d",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "117248",
             "timestamp": "1592557935",
-            "uuid": "5eec816f-1a80-47ef-acb8-9ab40aba047c",
-            "deleted": false,
-            "to_ids": false,
-            "disable_correlation": false,
-            "category": "Other"
-          }
-        ]
-      },
-      {
-        "comment": "File Name: 'aps.exe'\r\nFile Size: 117248 ProxyBot, 2018-10-25",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "8c54cfcf-2625-4ee7-8af9-a9a652026072",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
-        "timestamp": "1592557919",
-        "Attribute": [
-          {
-            "comment": "",
-            "type": "md5",
-            "object_relation": "md5",
-            "value": "b33cd8d369a7167351c69fe57bae0bb1",
-            "timestamp": "1592557919",
-            "uuid": "d62decfc-d499-4fd9-b4ea-75a2f384dad5",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "sha1",
-            "object_relation": "sha1",
-            "value": "325504b23944b32ecd93579a470e51d6c0a49bfd",
-            "timestamp": "1592557919",
-            "uuid": "8d5c7f5c-889c-4f26-812b-dfa7ddec5897",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "sha256",
-            "object_relation": "sha256",
-            "value": "eb1603d2619a3e736a52ca4fa3ca942eea0349908c482eb004b45f6f820edb77",
-            "timestamp": "1592557919",
-            "uuid": "de6596d8-7e69-4f7d-889c-c6e463b9b1fa",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "size-in-bytes",
             "object_relation": "size-in-bytes",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "size-in-bytes",
+            "category": "Other",
             "value": "117248",
+            "uuid": "5eec816f-1a80-47ef-acb8-9ab40aba047c"
+          }
+        ]
+      },
+      {
+        "timestamp": "1592557919",
+        "comment": "File Name: 'aps.exe'\r\nFile Size: 117248 ProxyBot, 2018-10-25",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "8c54cfcf-2625-4ee7-8af9-a9a652026072",
+        "description": "File object describing a file with meta-information",
+        "Attribute": [
+          {
+            "to_ids": true,
+            "comment": "",
             "timestamp": "1592557919",
-            "uuid": "5eec815f-0038-48f9-ac2b-c86c0aba047c",
+            "object_relation": "md5",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "md5",
+            "category": "Payload delivery",
+            "value": "b33cd8d369a7167351c69fe57bae0bb1",
+            "uuid": "d62decfc-d499-4fd9-b4ea-75a2f384dad5",
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "comment": "",
+            "timestamp": "1592557919",
+            "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
+            "value": "325504b23944b32ecd93579a470e51d6c0a49bfd",
+            "uuid": "8d5c7f5c-889c-4f26-812b-dfa7ddec5897",
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "comment": "",
+            "timestamp": "1592557919",
+            "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
+            "value": "eb1603d2619a3e736a52ca4fa3ca942eea0349908c482eb004b45f6f820edb77",
+            "uuid": "de6596d8-7e69-4f7d-889c-c6e463b9b1fa",
+            "Tag": [
+              {
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
+              }
+            ]
+          },
+          {
+            "to_ids": false,
+            "comment": "",
+            "timestamp": "1592557919",
+            "object_relation": "size-in-bytes",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "117248",
+            "uuid": "5eec815f-0038-48f9-ac2b-c86c0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'SocksTest.exe'\r\nFile Size: 49086 ProxyBot.net,2019-09-06",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "d67f6c8e-27d9-46e4-9351-a9029942a3ec",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557902",
+        "comment": "File Name: 'SocksTest.exe'\r\nFile Size: 49086 ProxyBot.net,2019-09-06",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "d67f6c8e-27d9-46e4-9351-a9029942a3ec",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557902",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "ad9486794e2bbf2cb74e1940af5b79dd",
-            "timestamp": "1592557902",
             "uuid": "69648f1f-4389-40c6-be63-f14ed319fa1d",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557902",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "e760443ecf79cd13604cb00313937e75d4f66251",
-            "timestamp": "1592557902",
             "uuid": "b413d16c-e283-4323-9229-679fd79b1fdb",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557902",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "6297365b051179d0ad0c47e5840bad4ae306f4f218ddc6b51473e6df6d9ae62a",
-            "timestamp": "1592557902",
             "uuid": "9b7dda1d-bd43-4539-93f3-67dee13477b6",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "49086",
             "timestamp": "1592557902",
-            "uuid": "5eec814e-89bc-4d55-88cc-264a0aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "49086",
+            "uuid": "5eec814e-89bc-4d55-88cc-264a0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'SocksTest.exe', 'Sgx.exe', 'ctr.exe'\r\nFile Size: 67072 ProxyBot.net,2019-01-22",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "a25c80bf-03b2-487f-a4c4-b5724dc226f5",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557864",
+        "comment": "File Name: 'SocksTest.exe', 'Sgx.exe', 'ctr.exe'\r\nFile Size: 67072 ProxyBot.net,2019-01-22",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "a25c80bf-03b2-487f-a4c4-b5724dc226f5",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557864",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "3ff094c23e3e2bc87c14774a021a2d56",
-            "timestamp": "1592557864",
             "uuid": "7720fec7-1ceb-474f-9d40-7ed2312c9bc1",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557864",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "2a54b8216b96897f9f5c31992ea0d6b43b96f32b",
-            "timestamp": "1592557864",
             "uuid": "77865379-fb9f-46dc-b492-af22aa61f543",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
-            "object_relation": "sha256",
-            "value": "67de8adb2cc41af5306645aa05b3b658f1781c2415e459a5b7a139569b0d8d57",
             "timestamp": "1592557864",
+            "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
+            "value": "67de8adb2cc41af5306645aa05b3b658f1781c2415e459a5b7a139569b0d8d57",
             "uuid": "d79a2621-1d1b-4cd5-9d4f-e7010e34f1ee",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "67072",
             "timestamp": "1592557865",
-            "uuid": "5eec8129-a304-4557-a85f-c3cf0aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "67072",
+            "uuid": "5eec8129-a304-4557-a85f-c3cf0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'SocksTest.exe', 'apps.exe'\r\nFile Size: 62392 ProxyBot.net,2017-07-06",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "7705bafb-cdaf-4e40-86e4-e24c88069b74",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557531",
+        "comment": "File Name: 'SocksTest.exe', 'apps.exe'\r\nFile Size: 62392 ProxyBot.net,2017-07-06",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "7705bafb-cdaf-4e40-86e4-e24c88069b74",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557531",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "8191dae4bdeda349bda38fd5791cb66f",
-            "timestamp": "1592557531",
             "uuid": "6698f72a-86f0-4d90-a2b5-afa75d009253",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557531",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "6779c673839bc62199933b9bd8a86dbcc34d475a",
-            "timestamp": "1592557531",
             "uuid": "8a8f944e-8260-43d4-9d89-0c54adb744d2",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557531",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "730969d84e8a843ebe4b8adea0489710dd854dd8b5f702ac9765865ba0e61d5f",
-            "timestamp": "1592557531",
             "uuid": "1a8b3977-c38b-4733-ab18-94b660e2eb24",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "62392",
             "timestamp": "1592557531",
-            "uuid": "5eec7fdb-2dec-4dce-b696-c46c0aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "62392",
+            "uuid": "5eec7fdb-2dec-4dce-b696-c46c0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'SocksTest.exe' File Size: 90112 ProxyBot.net,2019-03-12",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "d8f5ffd1-3b10-425b-a46c-87f1a8b9af1c",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557834",
+        "comment": "File Name: 'SocksTest.exe' File Size: 90112 ProxyBot.net,2019-03-12",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "d8f5ffd1-3b10-425b-a46c-87f1a8b9af1c",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557834",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "e262b258489d57d2c30c893bf5a15f83",
-            "timestamp": "1592557834",
             "uuid": "f11b3ed9-a9f8-46f8-a3f1-6660bafc8685",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557834",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "369f1e61fb89f651be5771dcfeaa172ba52b7de8",
-            "timestamp": "1592557834",
             "uuid": "ee6e5313-1e0c-435f-a118-dd580c9c3e30",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557834",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "816ca3c440d95809757c8cdb4644de6aded8ba1412e493421f72265cd9f084c2",
-            "timestamp": "1592557834",
             "uuid": "193ca8a0-cc59-4826-b546-eb35f971cf08",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "90112",
             "timestamp": "1592557834",
-            "uuid": "5eec810a-42cc-457c-912c-c3d20aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "90112",
+            "uuid": "5eec810a-42cc-457c-912c-c3d20aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'SocksTest.exe', 'SvcCore.exe'\r\nFile Size: 49072 ProxyBot.net,2019-03-18",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "ae81e684-053a-4ed6-854d-18cc08755fc5",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557737",
+        "comment": "File Name: 'SocksTest.exe', 'SvcCore.exe'\r\nFile Size: 49072 ProxyBot.net,2019-03-18",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "ae81e684-053a-4ed6-854d-18cc08755fc5",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557737",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "9065d850e48638000694e0941c881d73",
-            "timestamp": "1592557737",
             "uuid": "3ead660a-7f80-4a4e-8c71-0314dad7fb54",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557737",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "5fcb0495cf70946cf606b95b51ead132e4dded3e",
-            "timestamp": "1592557737",
             "uuid": "0de62543-2478-4abb-bf35-ee1b8f095fbf",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557737",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "817d39283306200c1c4526e18427a7295164e19d2a5cc8839194747f441b73b0",
-            "timestamp": "1592557737",
             "uuid": "55ff1e6b-bcf8-4e3a-82bb-0612f1ebbb9a",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "49072",
             "timestamp": "1592557737",
-            "uuid": "5eec80a9-45bc-412a-a83e-9ab40aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "49072",
+            "uuid": "5eec80a9-45bc-412a-a83e-9ab40aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'SocksTest.exe', '1'\r\nFile Size: 58256 ProxyBot.net,2019-06-05",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "72e0b710-7a74-46b3-a31c-4ae7fb6b864b",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557721",
+        "comment": "File Name: 'SocksTest.exe', '1'\r\nFile Size: 58256 ProxyBot.net,2019-06-05",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "72e0b710-7a74-46b3-a31c-4ae7fb6b864b",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557721",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "7e60310609e7b00da2f7a669ebd2b547",
-            "timestamp": "1592557721",
             "uuid": "9011eeca-2082-47a3-a9f0-143bb893c5a4",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557721",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "e2955b716250ec0f25510e5bc2ca05fa037ffdad",
-            "timestamp": "1592557721",
             "uuid": "b96ec9fb-1436-406c-8214-aefcfe1bbfa8",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557721",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "9066bd2f52e06497b110b60c4031fecb398eeeab6434543fb3a3d05329427778",
-            "timestamp": "1592557721",
             "uuid": "5c7e937f-9510-4701-a157-813843638f59",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "58256",
             "timestamp": "1592557721",
-            "uuid": "5eec8099-88a8-4837-8370-c3d10aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "58256",
+            "uuid": "5eec8099-88a8-4837-8370-c3d10aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'SocksTest.exe', '2', '1'\r\nFile Size: 58259 ProxyBot.net,2019-05-13",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "b886aa18-437d-4750-8e21-d7ac54b175ae",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557703",
+        "comment": "File Name: 'SocksTest.exe', '2', '1'\r\nFile Size: 58259 ProxyBot.net,2019-05-13",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "b886aa18-437d-4750-8e21-d7ac54b175ae",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557703",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "08f03feeed1aa88f35d5675713572898",
-            "timestamp": "1592557703",
             "uuid": "45ac6968-4cce-4192-a384-5301e847c3b3",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557703",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "0f5cf45240401aad6ea2118f99eb3fceca9d23e4",
-            "timestamp": "1592557703",
             "uuid": "6ac1cffb-69d4-4f8c-a46e-5fe19e68175e",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557703",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "c6652df62d738c02458f577ceda17530c1d0af99526a5c9f8f8652b20a636d9b",
-            "timestamp": "1592557703",
             "uuid": "0657ebff-1abf-4f2e-8e5a-bfc32b2a4cc1",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "58259",
             "timestamp": "1592557703",
-            "uuid": "5eec8087-7f34-46ef-8aea-c86c0aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "58259",
+            "uuid": "5eec8087-7f34-46ef-8aea-c86c0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'SocksTest.exe'\r\nFile Size: 81920 ProxyBot.net,2019-03-12",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "001034e5-cae6-4223-b262-44179a77463a",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557688",
+        "comment": "File Name: 'SocksTest.exe'\r\nFile Size: 81920 ProxyBot.net,2019-03-12",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "001034e5-cae6-4223-b262-44179a77463a",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557688",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "10d3d4c6f91b3e44dcb2eb9f9411f865",
-            "timestamp": "1592557688",
             "uuid": "36471f9c-1cd8-4529-bb44-5f854dd14f37",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557688",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "cab52c636a4b540661badf7da453eaf52bf1afef",
-            "timestamp": "1592557688",
             "uuid": "c4ed5eed-b85e-421d-8091-7eb2c2917c35",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557688",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "d24a65be7b98ce6b9c26f14af3cfe8d736ff102f291f31f5bee9cc90561d91c0",
-            "timestamp": "1592557688",
             "uuid": "a2d2e5e5-a191-422c-adb3-d1cf5b05a504",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "81920",
             "timestamp": "1592557688",
-            "uuid": "5eec8078-c960-4bf8-aa2c-c86c0aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "81920",
+            "uuid": "5eec8078-c960-4bf8-aa2c-c86c0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'SocksTest.exe', 'sapp.exe'\r\nFile Size: 56767 ProxyBot.net,2018-03-19",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "ce4d7dfa-19e6-4e28-9e2a-bdf7fa982b7b",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557669",
+        "comment": "File Name: 'SocksTest.exe', 'sapp.exe'\r\nFile Size: 56767 ProxyBot.net,2018-03-19",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "ce4d7dfa-19e6-4e28-9e2a-bdf7fa982b7b",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557669",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "50565c4b80f41d2e7eb989cd24082aab",
-            "timestamp": "1592557669",
             "uuid": "939a0a59-18b2-4271-990c-c912f4a21abd",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557669",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "5a4a1a46794941577e262c4f6899964977179d4f",
-            "timestamp": "1592557669",
             "uuid": "ba19e48a-f34d-4219-a6d5-e2ff070789c4",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557669",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "ddcc0d8eb861b596b46971adc301431b84ab43d53c1a7ae9da354786b5d4273b",
-            "timestamp": "1592557669",
             "uuid": "e46243dc-d6f8-41a5-874a-8ec8dcf02124",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "colour": "#e200a3"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "56767",
             "timestamp": "1592557669",
-            "uuid": "5eec8065-485c-4363-80bc-94a90aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "56767",
+            "uuid": "5eec8065-485c-4363-80bc-94a90aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'netsrvc32.exe'\r\nFile Size: 201216 Silence.MainModule,2017-07-05",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "2abe5865-7759-4683-8629-4578c36de3ae",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557652",
+        "comment": "File Name: 'netsrvc32.exe'\r\nFile Size: 201216 Silence.MainModule,2017-07-05",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "2abe5865-7759-4683-8629-4578c36de3ae",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557652",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "cfffc5a0e5bdc87ab11b75ec8a6715a4",
-            "timestamp": "1592557652",
             "uuid": "af11b6ce-c33b-490d-a36c-bea1315dff4c",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557652",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "2f622723cfa93d1e55807383e838cb893d84fdf7",
-            "timestamp": "1592557652",
             "uuid": "4709f0de-4585-483f-bd72-c81a468bdebf",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557652",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "1efd68cd651c6e7ee0b6849286b39627e8b8394bc3229e48a1a584695b5c7c59",
-            "timestamp": "1592557652",
             "uuid": "7e5299f1-1039-4620-b071-4ddf06f9009c",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "201216",
             "timestamp": "1592557652",
-            "uuid": "5eec8054-869c-4500-b6ce-c3d20aba047c",
-            "deleted": false,
-            "to_ids": false,
-            "disable_correlation": false,
-            "category": "Other"
-          }
-        ]
-      },
-      {
-        "comment": "File Name: 'srv_cons.exe'\r\nFile Size: 201216 Silence.MainModule,2017-07-05",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "dd97c94a-7e0f-489f-9963-b0a387fcbf69",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
-        "timestamp": "1592557636",
-        "Attribute": [
-          {
-            "comment": "",
-            "type": "md5",
-            "object_relation": "md5",
-            "value": "b43f65492f2f374c86998bd8ed39bfdd",
-            "timestamp": "1592557636",
-            "uuid": "5908cf1d-0457-4104-8d44-8394c2b45f4a",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "sha1",
-            "object_relation": "sha1",
-            "value": "404d30fd9d9d97dc93d105cfbc0cdfd3d514fe24",
-            "timestamp": "1592557636",
-            "uuid": "c597d801-df4c-4771-86e7-44863f6daab3",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "sha256",
-            "object_relation": "sha256",
-            "value": "31395b919164e51c2ae5cfbcfc801e1b0465e0b7367189272b4375037ec82824",
-            "timestamp": "1592557636",
-            "uuid": "bcad428b-6b6c-49a5-9d2a-35a38d740b98",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "size-in-bytes",
             "object_relation": "size-in-bytes",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "size-in-bytes",
+            "category": "Other",
             "value": "201216",
+            "uuid": "5eec8054-869c-4500-b6ce-c3d20aba047c"
+          }
+        ]
+      },
+      {
+        "timestamp": "1592557636",
+        "comment": "File Name: 'srv_cons.exe'\r\nFile Size: 201216 Silence.MainModule,2017-07-05",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "dd97c94a-7e0f-489f-9963-b0a387fcbf69",
+        "description": "File object describing a file with meta-information",
+        "Attribute": [
+          {
+            "to_ids": true,
+            "comment": "",
             "timestamp": "1592557636",
-            "uuid": "5eec8044-4964-49c2-a22f-264a0aba047c",
+            "object_relation": "md5",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "md5",
+            "category": "Payload delivery",
+            "value": "b43f65492f2f374c86998bd8ed39bfdd",
+            "uuid": "5908cf1d-0457-4104-8d44-8394c2b45f4a",
+            "Tag": [
+              {
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "comment": "",
+            "timestamp": "1592557636",
+            "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
+            "value": "404d30fd9d9d97dc93d105cfbc0cdfd3d514fe24",
+            "uuid": "c597d801-df4c-4771-86e7-44863f6daab3",
+            "Tag": [
+              {
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "comment": "",
+            "timestamp": "1592557636",
+            "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
+            "value": "31395b919164e51c2ae5cfbcfc801e1b0465e0b7367189272b4375037ec82824",
+            "uuid": "bcad428b-6b6c-49a5-9d2a-35a38d740b98",
+            "Tag": [
+              {
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
+              }
+            ]
+          },
+          {
+            "to_ids": false,
+            "comment": "",
+            "timestamp": "1592557636",
+            "object_relation": "size-in-bytes",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "201216",
+            "uuid": "5eec8044-4964-49c2-a22f-264a0aba047c"
           }
         ]
       },
       {
-        "comment": "File Size: 198656 Silence.MainModule,2017-11-22",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "2ae14824-99cb-4a77-8d01-ad4c42dd61e7",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557620",
+        "comment": "File Size: 198656 Silence.MainModule,2017-11-22",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "2ae14824-99cb-4a77-8d01-ad4c42dd61e7",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557620",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "a3de4a1e5b66d96183ad42800d6be862",
-            "timestamp": "1592557620",
             "uuid": "2ee659fc-d72b-4da0-889b-25712c71b1f8",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557620",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "1d65dcc1de578964c2cfe898f970822eedb2d8d4",
-            "timestamp": "1592557620",
             "uuid": "68b490e3-80f9-4e55-8aa9-f2a1d9bd8183",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557620",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "60706983b0fd6ae95f982c9b63c9fdbb5cb10e65b2ee654f10581e41dd032a58",
-            "timestamp": "1592557620",
             "uuid": "a7060df1-68d1-4689-8abb-8655e291b740",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "198656",
             "timestamp": "1592557620",
-            "uuid": "5eec8034-c488-45a8-9dd6-dada0aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "198656",
+            "uuid": "5eec8034-c488-45a8-9dd6-dada0aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: '2'\r\nFile Size: 86016 Silence.MainModule,2019-07-06",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "fddafab4-fc9a-4310-8f1d-c276a6556c77",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557604",
+        "comment": "File Name: '2'\r\nFile Size: 86016 Silence.MainModule,2019-07-06",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "fddafab4-fc9a-4310-8f1d-c276a6556c77",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557604",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "62d0f154f50e9a1041c8eb4d5fc1407f",
-            "timestamp": "1592557604",
             "uuid": "c7774435-196e-4efc-9b10-149b2306b7a5",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557604",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "08ba0b0ad45202c78c3a65da0209b97959012181",
-            "timestamp": "1592557604",
             "uuid": "27ac7f92-60fc-4f45-8bde-e0a553929029",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557604",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "714334fcf167a33a22f35b3df6528f947809fdba904ab1e15825a7fd4c4973c9",
-            "timestamp": "1592557604",
             "uuid": "8f84eb8f-085b-4343-8c12-1dd08fbdc1ee",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "86016",
             "timestamp": "1592557604",
-            "uuid": "5eec8024-29f0-497a-b049-c3d20aba047c",
-            "deleted": false,
-            "to_ids": false,
-            "disable_correlation": false,
-            "category": "Other"
-          }
-        ]
-      },
-      {
-        "comment": "File Name: '1'\r\nFile Size: 86016 Silence.MainModule,2019-05-21",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "2451bf74-fcef-49bb-94e9-3cafc9ac76d3",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
-        "timestamp": "1592557585",
-        "Attribute": [
-          {
-            "comment": "",
-            "type": "md5",
-            "object_relation": "md5",
-            "value": "b5343bc27d58d906406c9dbbe71aefbc",
-            "timestamp": "1592557585",
-            "uuid": "41a3290b-433c-41df-a94d-24ba2a36526c",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "sha1",
-            "object_relation": "sha1",
-            "value": "0b5f0c94ca5251a16bf142f8fdbae117d2996f66",
-            "timestamp": "1592557585",
-            "uuid": "f4453534-bf4a-441a-920f-f73a5c7b29c6",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "sha256",
-            "object_relation": "sha256",
-            "value": "a34103f4568484358ad60252ca7fd1df0b4d98717bd5fa7e0b47986f6bfa4f82",
-            "timestamp": "1592557585",
-            "uuid": "f3a78cc6-739a-4502-9262-403e4733d091",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
-            "Tag": [
-              {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
-              }
-            ]
-          },
-          {
-            "comment": "",
-            "type": "size-in-bytes",
             "object_relation": "size-in-bytes",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "size-in-bytes",
+            "category": "Other",
             "value": "86016",
+            "uuid": "5eec8024-29f0-497a-b049-c3d20aba047c"
+          }
+        ]
+      },
+      {
+        "timestamp": "1592557585",
+        "comment": "File Name: '1'\r\nFile Size: 86016 Silence.MainModule,2019-05-21",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "2451bf74-fcef-49bb-94e9-3cafc9ac76d3",
+        "description": "File object describing a file with meta-information",
+        "Attribute": [
+          {
+            "to_ids": true,
+            "comment": "",
             "timestamp": "1592557585",
-            "uuid": "5eec8011-92e8-4b80-b550-c3d20aba047c",
+            "object_relation": "md5",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "md5",
+            "category": "Payload delivery",
+            "value": "b5343bc27d58d906406c9dbbe71aefbc",
+            "uuid": "41a3290b-433c-41df-a94d-24ba2a36526c",
+            "Tag": [
+              {
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "comment": "",
+            "timestamp": "1592557585",
+            "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
+            "value": "0b5f0c94ca5251a16bf142f8fdbae117d2996f66",
+            "uuid": "f4453534-bf4a-441a-920f-f73a5c7b29c6",
+            "Tag": [
+              {
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
+              }
+            ]
+          },
+          {
+            "to_ids": true,
+            "comment": "",
+            "timestamp": "1592557585",
+            "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
+            "value": "a34103f4568484358ad60252ca7fd1df0b4d98717bd5fa7e0b47986f6bfa4f82",
+            "uuid": "f3a78cc6-739a-4502-9262-403e4733d091",
+            "Tag": [
+              {
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
+              }
+            ]
+          },
+          {
+            "to_ids": false,
+            "comment": "",
+            "timestamp": "1592557585",
+            "object_relation": "size-in-bytes",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "86016",
+            "uuid": "5eec8011-92e8-4b80-b550-c3d20aba047c"
           }
         ]
       },
       {
-        "comment": "File Size: 201220 Silence.MainModule,2018-02-02",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "28c5daf6-dfce-4325-8978-04142ad7a43f",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557567",
+        "comment": "File Size: 201220 Silence.MainModule,2018-02-02",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "28c5daf6-dfce-4325-8978-04142ad7a43f",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557567",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "dd74fcfa1a985beeb972022e3a722589",
-            "timestamp": "1592557567",
             "uuid": "1d024230-ec35-445c-a943-5d1804e24046",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557567",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "ee9177e67591ad4abcae7aa397fedbe1ed23580f",
-            "timestamp": "1592557567",
             "uuid": "c4ad3ce3-8e95-4d96-8a45-ce3e017ebd65",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557567",
             "object_relation": "sha256",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha256",
+            "category": "Payload delivery",
             "value": "dd7ce57e65f27e25dfb341adefe82d0b39b45a7b0e9f4c215efd20116b559c2a",
-            "timestamp": "1592557567",
             "uuid": "0ae14dcf-13b2-4fe5-b907-5340ec62d081",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": false,
             "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "201220",
             "timestamp": "1592557567",
-            "uuid": "5eec7fff-eca0-4a67-b1bf-c3d20aba047c",
+            "object_relation": "size-in-bytes",
             "deleted": false,
-            "to_ids": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "201220",
+            "uuid": "5eec7fff-eca0-4a67-b1bf-c3d20aba047c"
           }
         ]
       },
       {
-        "comment": "File Name: 'dwenole.exe'\r\nFile Size: 249344 Silence.MainModule,2018-03-25",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
-        "template_version": "15",
-        "uuid": "8f5b5441-ad65-403c-9430-bfda1d2794d9",
-        "name": "file",
-        "deleted": false,
-        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
         "timestamp": "1592557550",
+        "comment": "File Name: 'dwenole.exe'\r\nFile Size: 249344 Silence.MainModule,2018-03-25",
+        "template_version": "15",
+        "name": "file",
+        "deleted": false,
+        "meta-category": "file",
+        "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
+        "uuid": "8f5b5441-ad65-403c-9430-bfda1d2794d9",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592557550",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "c4f18d40b17e506f42f72b8ff111a614",
-            "timestamp": "1592557550",
             "uuid": "86c422ff-bdec-438c-9231-d10022364bc7",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592557550",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "850dbdf813221b991168314ef58b9847c772a3c0",
-            "timestamp": "1592557550",
             "uuid": "2710a2df-8ed0-4ab7-8157-fe83b7a0a655",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592557550",
             "object_relation": "sha256",
-            "value": "e2466ecf098e78dc7e191b005f9b67a9ef6ffdad0ce6b6c01d635b3d9cac5357",
-            "timestamp": "1592557550",
-            "uuid": "5644f0e4-7b98-4511-8079-2902c99694cf",
             "deleted": false,
-            "to_ids": true,
             "disable_correlation": false,
+            "type": "sha256",
             "category": "Payload delivery",
+            "value": "e2466ecf098e78dc7e191b005f9b67a9ef6ffdad0ce6b6c01d635b3d9cac5357",
+            "uuid": "5644f0e4-7b98-4511-8079-2902c99694cf",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
-            "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "249344",
-            "timestamp": "1592557550",
-            "uuid": "5eec7fee-f1a0-4002-89e2-c3d20aba047c",
-            "deleted": false,
             "to_ids": false,
+            "comment": "",
+            "timestamp": "1592557550",
+            "object_relation": "size-in-bytes",
+            "deleted": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "249344",
+            "uuid": "5eec7fee-f1a0-4002-89e2-c3d20aba047c"
           }
         ]
       },
       {
+        "timestamp": "1592558108",
         "comment": "File Size: 207872 Silence.MainModule,2019-03-12",
-        "meta-category": "file",
-        "description": "File object describing a file with meta-information",
         "template_version": "15",
-        "uuid": "b93e709e-73e0-4c3b-94cc-e34a93055133",
         "name": "file",
         "deleted": false,
+        "meta-category": "file",
         "template_uuid": "688c46fb-5edb-40a3-8273-1af7923e2215",
-        "timestamp": "1592558108",
+        "uuid": "b93e709e-73e0-4c3b-94cc-e34a93055133",
+        "description": "File object describing a file with meta-information",
         "Attribute": [
           {
+            "to_ids": true,
             "comment": "",
-            "type": "md5",
+            "timestamp": "1592558108",
             "object_relation": "md5",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "md5",
+            "category": "Payload delivery",
             "value": "1fe851d029451f73f9e9687589714b0a",
-            "timestamp": "1592558108",
             "uuid": "32654659-149e-4cc7-aaf4-268d9bcaecac",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha1",
+            "timestamp": "1592558108",
             "object_relation": "sha1",
+            "deleted": false,
+            "disable_correlation": false,
+            "type": "sha1",
+            "category": "Payload delivery",
             "value": "bb4938fbf8b220af6fcd5b03ad5dbf8f3537b954",
-            "timestamp": "1592558108",
             "uuid": "856544f8-fcd1-4c3d-b2a9-ec13f8f9313c",
-            "deleted": false,
-            "to_ids": true,
-            "disable_correlation": false,
-            "category": "Payload delivery",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
+            "to_ids": true,
             "comment": "",
-            "type": "sha256",
+            "timestamp": "1592558108",
             "object_relation": "sha256",
-            "value": "dcaa811f442813400352eb414d57261fabc80e239f621a56cb2fe38dcfceded0",
-            "timestamp": "1592558108",
-            "uuid": "8f3ec06d-d966-4c77-bd12-16cb835c9d4c",
             "deleted": false,
-            "to_ids": true,
             "disable_correlation": false,
+            "type": "sha256",
             "category": "Payload delivery",
+            "value": "dcaa811f442813400352eb414d57261fabc80e239f621a56cb2fe38dcfceded0",
+            "uuid": "8f3ec06d-d966-4c77-bd12-16cb835c9d4c",
             "Tag": [
               {
-                "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "colour": "#c5008e"
               }
             ]
           },
           {
-            "comment": "",
-            "type": "size-in-bytes",
-            "object_relation": "size-in-bytes",
-            "value": "207872",
-            "timestamp": "1592558108",
-            "uuid": "5eec821c-6480-4766-a282-9ab40aba047c",
-            "deleted": false,
             "to_ids": false,
+            "comment": "",
+            "timestamp": "1592558108",
+            "object_relation": "size-in-bytes",
+            "deleted": false,
             "disable_correlation": false,
-            "category": "Other"
+            "type": "size-in-bytes",
+            "category": "Other",
+            "value": "207872",
+            "uuid": "5eec821c-6480-4766-a282-9ab40aba047c"
           }
         ]
       }
