@@ -242,7 +242,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -254,7 +254,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -1010,7 +1010,7 @@
     {
         "ip_address": "174.69.215.101",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip174-69-215-101.lf.br.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
@@ -1042,6 +1042,18 @@
         "first_seen": "2022-03-23 07:15:57",
         "last_online": "2022-09-13",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "37.34.253.233",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 42961,
+        "as_name": "GPRS-AS ZAIN",
+        "country": "KW",
+        "first_seen": "2022-04-04 16:58:21",
+        "last_online": "2022-09-13",
+        "malware": "QakBot"
     },
     {
         "ip_address": "149.56.131.28",
@@ -1094,7 +1106,7 @@
     {
         "ip_address": "104.34.212.7",
         "port": 32103,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-104-34-212-7.socal.res.rr.com",
         "as_number": 20001,
         "as_name": "TWC-20001-PACWEST",
@@ -1728,18 +1740,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "98.50.153.207",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 7922,
-        "as_name": "COMCAST-7922",
-        "country": "US",
-        "first_seen": "2022-07-18 16:33:31",
-        "last_online": "2022-09-13",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "51.77.41.66",
         "port": 443,
         "status": "online",
@@ -2078,7 +2078,7 @@
     {
         "ip_address": "89.211.219.157",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
@@ -2102,24 +2102,12 @@
     {
         "ip_address": "175.110.231.67",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 25019,
         "as_name": "SAUDINETSTC-AS",
         "country": "SA",
         "first_seen": "2022-09-12 16:03:10",
-        "last_online": "2022-09-13",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "186.50.245.74",
-        "port": 995,
-        "status": "offline",
-        "hostname": "r186-50-245-74.dialup.adsl.anteldata.net.uy",
-        "as_number": 6057,
-        "as_name": "Administracion Nacional de Telecomunicaciones",
-        "country": "UY",
-        "first_seen": "2022-09-12 16:03:31",
         "last_online": "2022-09-13",
         "malware": "QakBot"
     },
