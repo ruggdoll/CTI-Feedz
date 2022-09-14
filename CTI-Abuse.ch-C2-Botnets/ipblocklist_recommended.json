@@ -134,7 +134,7 @@
     {
         "ip_address": "103.253.107.198",
         "port": 7443,
-        "status": "online",
+        "status": "offline",
         "hostname": "sa1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -242,7 +242,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -266,7 +266,7 @@
     {
         "ip_address": "73.140.38.124",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "c-73-140-38-124.hsd1.wa.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -320,6 +320,18 @@
         "as_name": "FASTWEB",
         "country": "IT",
         "first_seen": "2021-10-26 13:13:20",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "117.248.109.38",
+        "port": 21,
+        "status": "online",
+        "hostname": "ho.sansui.co.in",
+        "as_number": 9829,
+        "as_name": "BSNL-NIB National Internet Backbone",
+        "country": "IN",
+        "first_seen": "2021-10-26 16:03:21",
         "last_online": "2022-09-14",
         "malware": "QakBot"
     },
@@ -1056,6 +1068,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "85.104.122.231",
+        "port": 443,
+        "status": "online",
+        "hostname": "85.104.122.231.dynamic.ttnet.com.tr",
+        "as_number": 9121,
+        "as_name": "TTNET",
+        "country": "TR",
+        "first_seen": "2022-04-16 08:29:29",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "94.23.45.86",
         "port": 4143,
         "status": "online",
@@ -1390,18 +1414,6 @@
         "first_seen": "2022-06-15 13:17:25",
         "last_online": "2022-09-14",
         "malware": "Emotet"
-    },
-    {
-        "ip_address": "51.210.158.156",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 16276,
-        "as_name": "OVH",
-        "country": "FR",
-        "first_seen": "2022-06-16 15:52:08",
-        "last_online": "2022-09-13",
-        "malware": "BumbleBee"
     },
     {
         "ip_address": "145.239.30.73",
@@ -1944,6 +1956,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "197.94.210.133",
+        "port": 443,
+        "status": "online",
+        "hostname": "197-94-210-133.hff.mweb.co.za",
+        "as_number": 10474,
+        "as_name": "OPTINET",
+        "country": "ZA",
+        "first_seen": "2022-09-08 12:14:20",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "217.165.77.134",
         "port": 995,
         "status": "online",
@@ -1970,7 +1994,7 @@
     {
         "ip_address": "37.210.148.30",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
@@ -2088,21 +2112,9 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "95.136.41.50",
-        "port": 443,
-        "status": "offline",
-        "hostname": "50.41.136.95.rev.vodafone.pt",
-        "as_number": 12353,
-        "as_name": "VODAFONE-PT Vodafone Portugal",
-        "country": "PT",
-        "first_seen": "2022-09-13 22:33:27",
-        "last_online": "2022-09-13",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "109.158.159.179",
         "port": 993,
-        "status": "online",
+        "status": "offline",
         "hostname": "host109-158-159-179.range109-158.btcentralplus.com",
         "as_number": 2856,
         "as_name": "BT-UK-AS BTnet UK Regional network",
