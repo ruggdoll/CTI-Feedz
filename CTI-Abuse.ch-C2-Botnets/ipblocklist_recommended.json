@@ -240,9 +240,21 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "217.17.56.163",
+        "ip_address": "24.139.72.117",
         "port": 443,
         "status": "online",
+        "hostname": null,
+        "as_number": 14638,
+        "as_name": "LCPRL",
+        "country": "PR",
+        "first_seen": "2021-09-29 12:05:05",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "217.17.56.163",
+        "port": 443,
+        "status": "offline",
         "hostname": "56-163.radnet-kendal.kencomp.net",
         "as_number": 25585,
         "as_name": "KENCOMP",
@@ -662,7 +674,7 @@
     {
         "ip_address": "208.107.221.224",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "208-107-221-224-dynamic.midco.net",
         "as_number": 11232,
         "as_name": "MIDCO-NET",
@@ -752,6 +764,18 @@
         "as_name": "France Telecom - Orange",
         "country": "FR",
         "first_seen": "2022-02-28 15:14:34",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "24.55.67.176",
+        "port": 443,
+        "status": "online",
+        "hostname": "dynamic.libertypr.net",
+        "as_number": 14638,
+        "as_name": "LCPRL",
+        "country": "PR",
+        "first_seen": "2022-03-01 14:15:11",
         "last_online": "2022-09-14",
         "malware": "QakBot"
     },
@@ -1018,18 +1042,6 @@
         "first_seen": "2022-03-16 15:47:21",
         "last_online": "2022-09-14",
         "malware": "Emotet"
-    },
-    {
-        "ip_address": "174.69.215.101",
-        "port": 443,
-        "status": "offline",
-        "hostname": "ip174-69-215-101.lf.br.cox.net",
-        "as_number": 22773,
-        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
-        "country": "US",
-        "first_seen": "2022-03-16 19:54:01",
-        "last_online": "2022-09-14",
-        "malware": "QakBot"
     },
     {
         "ip_address": "188.166.229.148",
@@ -2016,9 +2028,21 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "37.210.148.30",
+        "ip_address": "173.189.167.21",
         "port": 995,
         "status": "online",
+        "hostname": "h21.167.189.173.dynamic.ip.windstream.net",
+        "as_number": 7029,
+        "as_name": "WINDSTREAM",
+        "country": "US",
+        "first_seen": "2022-09-08 12:43:34",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "37.210.148.30",
+        "port": 995,
+        "status": "offline",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
@@ -2124,18 +2148,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "78.100.254.17",
-        "port": 2222,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 42298,
-        "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
-        "country": "QA",
-        "first_seen": "2022-09-13 13:24:15",
-        "last_online": "2022-09-14",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "205.185.123.115",
         "port": 443,
         "status": "online",
@@ -2146,5 +2158,65 @@
         "first_seen": "2022-09-13 17:42:41",
         "last_online": "2022-09-14",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "99.253.251.74",
+        "port": 443,
+        "status": "online",
+        "hostname": "cpef81d0f85c0e3-cmf81d0f85c0e0.sdns.net.rogers.com",
+        "as_number": 812,
+        "as_name": "ROGERS-COMMUNICATIONS",
+        "country": "CA",
+        "first_seen": "2022-09-14 12:24:55",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "134.35.10.122",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30873,
+        "as_name": "PTC-YEMENNET",
+        "country": "YE",
+        "first_seen": "2022-09-14 12:24:55",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "154.181.203.230",
+        "port": 995,
+        "status": "online",
+        "hostname": "host-154.181.230.203-static.tedata.net",
+        "as_number": 8452,
+        "as_name": "TE-AS TE-AS",
+        "country": "EG",
+        "first_seen": "2022-09-14 12:24:55",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "78.100.225.34",
+        "port": 2222,
+        "status": "online",
+        "hostname": null,
+        "as_number": 42298,
+        "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
+        "country": "QA",
+        "first_seen": "2022-09-14 12:24:55",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "217.165.85.223",
+        "port": 993,
+        "status": "online",
+        "hostname": "bba190469.alshamil.net.ae",
+        "as_number": 5384,
+        "as_name": "EMIRATES-INTERNET Emirates Internet",
+        "country": "AE",
+        "first_seen": "2022-09-14 12:24:56",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
     }
 ]
