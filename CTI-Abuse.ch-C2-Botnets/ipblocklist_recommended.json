@@ -134,7 +134,7 @@
     {
         "ip_address": "103.253.107.198",
         "port": 7443,
-        "status": "offline",
+        "status": "online",
         "hostname": "sa1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -674,7 +674,7 @@
     {
         "ip_address": "208.107.221.224",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "208-107-221-224-dynamic.midco.net",
         "as_number": 11232,
         "as_name": "MIDCO-NET",
@@ -704,6 +704,18 @@
         "as_name": "AS-CHOOPA",
         "country": "US",
         "first_seen": "2022-02-21 15:35:32",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "196.203.37.215",
+        "port": 80,
+        "status": "online",
+        "hostname": null,
+        "as_number": 37719,
+        "as_name": "Hexabyte-AS",
+        "country": "TN",
+        "first_seen": "2022-02-23 07:25:23",
         "last_online": "2022-09-14",
         "malware": "QakBot"
     },
@@ -1452,18 +1464,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "81.193.30.90",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 3243,
-        "as_name": "MEO-RESIDENCIAL",
-        "country": "PT",
-        "first_seen": "2022-06-21 23:23:13",
-        "last_online": "2022-09-14",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "51.83.255.232",
         "port": 443,
         "status": "online",
@@ -1944,6 +1944,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "81.131.161.131",
+        "port": 2078,
+        "status": "online",
+        "hostname": "host81-131-161-131.range81-131.btcentralplus.com",
+        "as_number": 2856,
+        "as_name": "BT-UK-AS BTnet UK Regional network",
+        "country": "GB",
+        "first_seen": "2022-09-08 12:14:16",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "99.232.140.205",
         "port": 2222,
         "status": "online",
@@ -2096,18 +2108,6 @@
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
         "country": "QA",
         "first_seen": "2022-09-13 13:24:15",
-        "last_online": "2022-09-14",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "191.84.204.214",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 22927,
-        "as_name": "Telefonica de Argentina",
-        "country": "AR",
-        "first_seen": "2022-09-13 13:24:17",
         "last_online": "2022-09-14",
         "malware": "QakBot"
     },
