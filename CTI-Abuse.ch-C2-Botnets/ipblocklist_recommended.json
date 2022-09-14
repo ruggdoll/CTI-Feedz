@@ -1022,7 +1022,7 @@
     {
         "ip_address": "174.69.215.101",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip174-69-215-101.lf.br.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
@@ -1054,6 +1054,18 @@
         "first_seen": "2022-03-23 07:15:57",
         "last_online": "2022-09-14",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "37.34.253.233",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 42961,
+        "as_name": "GPRS-AS ZAIN",
+        "country": "KW",
+        "first_seen": "2022-04-04 16:58:21",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
     },
     {
         "ip_address": "149.56.131.28",
@@ -2078,7 +2090,7 @@
     {
         "ip_address": "78.100.254.17",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
@@ -2120,18 +2132,6 @@
         "as_name": "BT-UK-AS BTnet UK Regional network",
         "country": "GB",
         "first_seen": "2022-09-13 22:33:38",
-        "last_online": "2022-09-14",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "190.44.40.48",
-        "port": 995,
-        "status": "offline",
-        "hostname": "pc-48-40-44-190.cm.vtr.net",
-        "as_number": 22047,
-        "as_name": "VTR BANDA ANCHA S.A.",
-        "country": "CL",
-        "first_seen": "2022-09-13 22:43:30",
         "last_online": "2022-09-14",
         "malware": "QakBot"
     }
