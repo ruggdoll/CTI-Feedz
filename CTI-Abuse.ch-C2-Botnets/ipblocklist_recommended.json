@@ -134,7 +134,7 @@
     {
         "ip_address": "103.253.107.198",
         "port": 7443,
-        "status": "online",
+        "status": "offline",
         "hostname": "sa1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -260,6 +260,18 @@
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
         "country": "US",
         "first_seen": "2021-09-29 14:05:04",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.46.53.140",
+        "port": 2222,
+        "status": "online",
+        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2021-09-29 14:35:05",
         "last_online": "2022-09-14",
         "malware": "QakBot"
     },
@@ -1118,7 +1130,7 @@
     {
         "ip_address": "85.104.122.231",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "85.104.122.231.dynamic.ttnet.com.tr",
         "as_number": 9121,
         "as_name": "TTNET",
@@ -2090,7 +2102,7 @@
     {
         "ip_address": "37.210.148.30",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
@@ -2194,6 +2206,18 @@
         "first_seen": "2022-09-12 17:52:40",
         "last_online": "2022-09-14",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "78.182.113.80",
+        "port": 443,
+        "status": "online",
+        "hostname": "78.182.113.80.dynamic.ttnet.com.tr",
+        "as_number": 47331,
+        "as_name": "TTNET",
+        "country": "TR",
+        "first_seen": "2022-09-12 17:52:51",
+        "last_online": "2022-09-14",
+        "malware": "QakBot"
     },
     {
         "ip_address": "146.59.116.49",
