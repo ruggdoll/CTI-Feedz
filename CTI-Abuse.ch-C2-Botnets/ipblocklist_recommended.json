@@ -1068,6 +1068,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "85.104.122.231",
+        "port": 443,
+        "status": "online",
+        "hostname": "85.104.122.231.dynamic.ttnet.com.tr",
+        "as_number": 9121,
+        "as_name": "TTNET",
+        "country": "TR",
+        "first_seen": "2022-04-16 08:29:29",
+        "last_online": "2022-09-15",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "94.23.45.86",
         "port": 4143,
         "status": "online",
@@ -1982,7 +1994,7 @@
     {
         "ip_address": "37.210.148.30",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
@@ -2013,18 +2025,6 @@
         "country": "TW",
         "first_seen": "2022-09-08 19:54:11",
         "last_online": "2022-09-15",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "191.97.234.238",
-        "port": 995,
-        "status": "offline",
-        "hostname": "238-234-97-191.fibertel.com.ar",
-        "as_number": 7303,
-        "as_name": "Telecom Argentina S.A.",
-        "country": "AR",
-        "first_seen": "2022-09-08 22:54:15",
-        "last_online": "2022-09-14",
         "malware": "QakBot"
     },
     {
@@ -2074,18 +2074,6 @@
         "first_seen": "2022-09-13 03:57:38",
         "last_online": "2022-09-15",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "191.84.204.214",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 22927,
-        "as_name": "Telefonica de Argentina",
-        "country": "AR",
-        "first_seen": "2022-09-13 13:24:17",
-        "last_online": "2022-09-14",
-        "malware": "QakBot"
     },
     {
         "ip_address": "205.185.123.115",
@@ -2146,5 +2134,17 @@
         "first_seen": "2022-09-14 17:42:40",
         "last_online": "2022-09-15",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "70.81.121.237",
+        "port": 2222,
+        "status": "online",
+        "hostname": "modemcable237.121-81-70.mc.videotron.ca",
+        "as_number": 5769,
+        "as_name": "VIDEOTRON",
+        "country": "CA",
+        "first_seen": "2022-09-15 05:54:08",
+        "last_online": "2022-09-15",
+        "malware": "QakBot"
     }
 ]
