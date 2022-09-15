@@ -134,7 +134,7 @@
     {
         "ip_address": "103.253.107.198",
         "port": 7443,
-        "status": "offline",
+        "status": "online",
         "hostname": "sa1.lacak-mobil.com",
         "as_number": 45298,
         "as_name": "INTERLINK-TECH-AS-ID INTERLINK TECHNOLOGY, PT",
@@ -338,7 +338,7 @@
     {
         "ip_address": "93.48.80.198",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 12874,
         "as_name": "FASTWEB",
@@ -548,18 +548,6 @@
         "as_name": "CHARTER-20115",
         "country": "US",
         "first_seen": "2021-12-17 22:33:06",
-        "last_online": "2022-09-15",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "182.191.92.203",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 17557,
-        "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
-        "country": "PK",
-        "first_seen": "2021-12-18 04:08:16",
         "last_online": "2022-09-15",
         "malware": "QakBot"
     },
@@ -1076,6 +1064,18 @@
         "as_name": "TWC-20001-PACWEST",
         "country": "US",
         "first_seen": "2022-03-16 19:53:57",
+        "last_online": "2022-09-15",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "174.69.215.101",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip174-69-215-101.lf.br.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-03-16 19:54:01",
         "last_online": "2022-09-15",
         "malware": "QakBot"
     },
@@ -2088,30 +2088,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "37.210.148.30",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 42298,
-        "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
-        "country": "QA",
-        "first_seen": "2022-09-08 13:03:32",
-        "last_online": "2022-09-15",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "86.213.191.206",
-        "port": 2078,
-        "status": "offline",
-        "hostname": "lfbn-bor-1-488-206.w86-213.abo.wanadoo.fr",
-        "as_number": 3215,
-        "as_name": "France Telecom - Orange",
-        "country": "FR",
-        "first_seen": "2022-09-08 16:44:07",
-        "last_online": "2022-09-15",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "200.161.62.126",
         "port": 32101,
         "status": "online",
@@ -2228,6 +2204,42 @@
         "as_name": "PONYNET",
         "country": "US",
         "first_seen": "2022-09-15 17:42:41",
+        "last_online": "2022-09-15",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "146.19.173.61",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 213373,
+        "as_name": "IPCONNECT",
+        "country": "CZ",
+        "first_seen": "2022-09-15 18:17:39",
+        "last_online": "2022-09-15",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "45.61.185.65",
+        "port": 443,
+        "status": "online",
+        "hostname": "exitrelay40.medvideos-tor.org",
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "US",
+        "first_seen": "2022-09-15 18:17:40",
+        "last_online": "2022-09-15",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "198.98.55.214",
+        "port": 443,
+        "status": "online",
+        "hostname": "mta12.sofortpillen-at-ch.de",
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "US",
+        "first_seen": "2022-09-15 18:17:40",
         "last_online": "2022-09-15",
         "malware": "BumbleBee"
     }
