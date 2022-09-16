@@ -242,13 +242,13 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
         "country": "US",
         "first_seen": "2021-09-29 14:05:04",
-        "last_online": "2022-09-15",
+        "last_online": "2022-09-16",
         "malware": "QakBot"
     },
     {
@@ -286,6 +286,18 @@
         "first_seen": "2021-10-13 13:35:12",
         "last_online": "2022-09-16",
         "malware": "Dridex"
+    },
+    {
+        "ip_address": "96.37.113.36",
+        "port": 993,
+        "status": "online",
+        "hostname": "096-037-113-036.res.spectrum.com",
+        "as_number": 20115,
+        "as_name": "CHARTER-20115",
+        "country": "US",
+        "first_seen": "2021-10-13 17:30:14",
+        "last_online": "2022-09-16",
+        "malware": "QakBot"
     },
     {
         "ip_address": "207.246.112.221",
@@ -705,18 +717,6 @@
         "country": "FR",
         "first_seen": "2022-02-28 15:14:34",
         "last_online": "2022-09-16",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "24.55.67.176",
-        "port": 443,
-        "status": "offline",
-        "hostname": "dynamic.libertypr.net",
-        "as_number": 14638,
-        "as_name": "LCPRL",
-        "country": "PR",
-        "first_seen": "2022-03-01 14:15:11",
-        "last_online": "2022-09-15",
         "malware": "QakBot"
     },
     {
@@ -1222,30 +1222,6 @@
         "first_seen": "2022-05-24 09:53:39",
         "last_online": "2022-09-16",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "72.252.157.93",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 30689,
-        "as_name": "FLOW-NET",
-        "country": "JM",
-        "first_seen": "2022-05-24 12:40:06",
-        "last_online": "2022-09-15",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "72.252.157.93",
-        "port": 990,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 30689,
-        "as_name": "FLOW-NET",
-        "country": "JM",
-        "first_seen": "2022-05-24 13:39:52",
-        "last_online": "2022-09-15",
-        "malware": "QakBot"
     },
     {
         "ip_address": "168.119.40.176",
@@ -1956,18 +1932,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "173.189.167.21",
-        "port": 995,
-        "status": "offline",
-        "hostname": "h21.167.189.173.dynamic.ip.windstream.net",
-        "as_number": 7029,
-        "as_name": "WINDSTREAM",
-        "country": "US",
-        "first_seen": "2022-09-08 12:43:34",
-        "last_online": "2022-09-15",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "200.161.62.126",
         "port": 32101,
         "status": "online",
@@ -2132,6 +2096,42 @@
         "as_name": "UNIVISION-AS-AP UNIVISION LLC",
         "country": "MN",
         "first_seen": "2022-09-16 01:04:59",
+        "last_online": "2022-09-16",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "146.59.116.54",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 16276,
+        "as_name": "OVH",
+        "country": "FR",
+        "first_seen": "2022-09-16 03:47:41",
+        "last_online": "2022-09-16",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "154.56.0.101",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 60602,
+        "as_name": "INOVARE-AS str. Uzinelor 21 of. 37",
+        "country": "RO",
+        "first_seen": "2022-09-16 03:47:41",
+        "last_online": "2022-09-16",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "119.82.111.158",
+        "port": 443,
+        "status": "online",
+        "hostname": "119.82.111.158.reverse.spectranet.in",
+        "as_number": 10029,
+        "as_name": "SHYAMSPECTRA-AS SHYAM SPECTRA PVT LTD",
+        "country": "IN",
+        "first_seen": "2022-09-16 03:54:59",
         "last_online": "2022-09-16",
         "malware": "QakBot"
     }
