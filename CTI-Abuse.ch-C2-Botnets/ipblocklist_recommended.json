@@ -240,30 +240,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "173.21.10.71",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "173-21-10-71.client.mchsi.com",
-        "as_number": 30036,
-        "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
-        "country": "US",
-        "first_seen": "2021-09-29 14:05:04",
-        "last_online": "2022-09-17",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "45.46.53.140",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
-        "as_number": 11351,
-        "as_name": "TWC-11351-NORTHEAST",
-        "country": "US",
-        "first_seen": "2021-09-29 14:35:05",
-        "last_online": "2022-09-17",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "212.112.86.37",
         "port": 9676,
         "status": "online",
@@ -518,7 +494,7 @@
     {
         "ip_address": "31.35.28.29",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "i15-les04-th2-31-35-28-29.sfr.lns.abo.bbox.fr",
         "as_number": 5410,
         "as_name": "BOUYGTEL-ISP",
@@ -586,6 +562,18 @@
         "first_seen": "2022-01-28 16:05:14",
         "last_online": "2022-09-17",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "41.230.62.211",
+        "port": 993,
+        "status": "online",
+        "hostname": null,
+        "as_number": 37705,
+        "as_name": "TOPNET",
+        "country": "TN",
+        "first_seen": "2022-02-01 08:02:50",
+        "last_online": "2022-09-17",
+        "malware": "QakBot"
     },
     {
         "ip_address": "180.250.21.2",
@@ -2006,7 +1994,7 @@
     {
         "ip_address": "119.82.111.158",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "119.82.111.158.reverse.spectranet.in",
         "as_number": 10029,
         "as_name": "SHYAMSPECTRA-AS SHYAM SPECTRA PVT LTD",
