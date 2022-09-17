@@ -36,6 +36,18 @@
         "malware": "Dridex"
     },
     {
+        "ip_address": "203.114.109.124",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 131293,
+        "as_name": "TOT-LLI-AS-AP TOT Public Company Limited",
+        "country": "TH",
+        "first_seen": "2021-05-10 14:56:04",
+        "last_online": "2021-05-21",
+        "malware": "Dridex"
+    },
+    {
         "ip_address": "1.234.21.73",
         "port": 6601,
         "status": "online",
@@ -286,18 +298,6 @@
         "first_seen": "2021-10-13 13:35:12",
         "last_online": "2022-09-17",
         "malware": "Dridex"
-    },
-    {
-        "ip_address": "96.37.113.36",
-        "port": 993,
-        "status": "offline",
-        "hostname": "096-037-113-036.res.spectrum.com",
-        "as_number": 20115,
-        "as_name": "CHARTER-20115",
-        "country": "US",
-        "first_seen": "2021-10-13 17:30:14",
-        "last_online": "2022-09-17",
-        "malware": "QakBot"
     },
     {
         "ip_address": "207.246.112.221",
@@ -792,6 +792,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "203.114.109.124",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 131293,
+        "as_name": "TOT-LLI-AS-AP TOT Public Company Limited",
+        "country": "TH",
+        "first_seen": "2022-03-04 09:40:19",
+        "last_online": "2022-09-17",
+        "malware": "Emotet"
+    },
+    {
         "ip_address": "47.23.89.61",
         "port": 993,
         "status": "online",
@@ -998,7 +1010,7 @@
     {
         "ip_address": "172.115.177.204",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-172-115-177-204.socal.res.rr.com",
         "as_number": 20001,
         "as_name": "TWC-20001-PACWEST",
@@ -1034,7 +1046,7 @@
     {
         "ip_address": "37.34.253.233",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42961,
         "as_name": "GPRS-AS ZAIN",
@@ -1920,6 +1932,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "100.1.5.250",
+        "port": 995,
+        "status": "offline",
+        "hostname": "pool-100-1-5-250.nwrknj.fios.verizon.net",
+        "as_number": 701,
+        "as_name": "UUNET",
+        "country": "US",
+        "first_seen": "2022-09-12 16:23:30",
+        "last_online": "2022-09-17",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "209.141.42.230",
         "port": 443,
         "status": "online",
@@ -2122,5 +2146,29 @@
         "first_seen": "2022-09-17 08:40:44",
         "last_online": "2022-09-17",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "154.56.0.196",
+        "port": 443,
+        "status": "offline",
+        "hostname": null,
+        "as_number": 60602,
+        "as_name": "INOVARE-AS str. Uzinelor 21 of. 37",
+        "country": "RO",
+        "first_seen": "2022-09-17 16:07:46",
+        "last_online": "2022-09-17",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "104.168.243.178",
+        "port": 443,
+        "status": "offline",
+        "hostname": "hwsrv-1001809.hostwindsdns.com",
+        "as_number": 54290,
+        "as_name": "HOSTWINDS",
+        "country": "US",
+        "first_seen": "2022-09-17 16:07:47",
+        "last_online": "2022-09-17",
+        "malware": "BumbleBee"
     }
 ]
