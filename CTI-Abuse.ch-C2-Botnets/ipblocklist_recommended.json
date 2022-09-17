@@ -254,7 +254,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -1008,6 +1008,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "37.34.253.233",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 42961,
+        "as_name": "GPRS-AS ZAIN",
+        "country": "KW",
+        "first_seen": "2022-04-04 16:58:21",
+        "last_online": "2022-09-17",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "149.56.131.28",
         "port": 8080,
         "status": "online",
@@ -1354,30 +1366,6 @@
         "first_seen": "2022-06-15 13:17:25",
         "last_online": "2022-09-17",
         "malware": "Emotet"
-    },
-    {
-        "ip_address": "51.83.254.3",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 16276,
-        "as_name": "OVH",
-        "country": "FR",
-        "first_seen": "2022-06-21 17:47:39",
-        "last_online": "2022-09-16",
-        "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "51.83.255.232",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 16276,
-        "as_name": "OVH",
-        "country": "FR",
-        "first_seen": "2022-06-22 17:47:39",
-        "last_online": "2022-09-16",
-        "malware": "BumbleBee"
     },
     {
         "ip_address": "54.38.136.111",
@@ -2066,7 +2054,7 @@
     {
         "ip_address": "78.100.228.93",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
