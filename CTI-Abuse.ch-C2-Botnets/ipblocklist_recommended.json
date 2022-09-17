@@ -290,7 +290,7 @@
     {
         "ip_address": "117.248.109.38",
         "port": 21,
-        "status": "online",
+        "status": "offline",
         "hostname": "ho.sansui.co.in",
         "as_number": 9829,
         "as_name": "BSNL-NIB National Internet Backbone",
@@ -566,7 +566,7 @@
     {
         "ip_address": "41.230.62.211",
         "port": 993,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 37705,
         "as_name": "TOPNET",
@@ -1980,6 +1980,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "72.88.245.71",
+        "port": 443,
+        "status": "online",
+        "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
+        "as_number": 701,
+        "as_name": "UUNET",
+        "country": "US",
+        "first_seen": "2022-09-15 20:24:57",
+        "last_online": "2022-09-17",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "146.59.116.54",
         "port": 443,
         "status": "online",
@@ -2072,18 +2084,6 @@
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
         "country": "QA",
         "first_seen": "2022-09-17 05:40:27",
-        "last_online": "2022-09-17",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "217.165.68.125",
-        "port": 993,
-        "status": "offline",
-        "hostname": "bba185545.alshamil.net.ae",
-        "as_number": 5384,
-        "as_name": "EMIRATES-INTERNET Emirates Internet",
-        "country": "AE",
-        "first_seen": "2022-09-17 07:40:29",
         "last_online": "2022-09-17",
         "malware": "QakBot"
     },
