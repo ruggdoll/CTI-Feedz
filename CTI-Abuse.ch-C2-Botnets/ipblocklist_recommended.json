@@ -36,18 +36,6 @@
         "malware": "Dridex"
     },
     {
-        "ip_address": "203.114.109.124",
-        "port": 443,
-        "status": "online",
-        "hostname": null,
-        "as_number": 131293,
-        "as_name": "TOT-LLI-AS-AP TOT Public Company Limited",
-        "country": "TH",
-        "first_seen": "2021-05-10 14:56:04",
-        "last_online": "2021-05-21",
-        "malware": "Dridex"
-    },
-    {
         "ip_address": "1.234.21.73",
         "port": 6601,
         "status": "online",
@@ -254,7 +242,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -746,7 +734,7 @@
     {
         "ip_address": "203.114.109.124",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 131293,
         "as_name": "TOT-LLI-AS-AP TOT Public Company Limited",
@@ -1006,6 +994,18 @@
         "first_seen": "2022-03-23 07:15:57",
         "last_online": "2022-09-18",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "37.34.253.233",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 42961,
+        "as_name": "GPRS-AS ZAIN",
+        "country": "KW",
+        "first_seen": "2022-04-04 16:58:21",
+        "last_online": "2022-09-18",
+        "malware": "QakBot"
     },
     {
         "ip_address": "149.56.131.28",
@@ -1934,7 +1934,7 @@
     {
         "ip_address": "78.100.225.34",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
@@ -2054,7 +2054,7 @@
     {
         "ip_address": "78.100.228.93",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 42298,
         "as_name": "GCC-MPLS-PEERING GCC MPLS peering",
