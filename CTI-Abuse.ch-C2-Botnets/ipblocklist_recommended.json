@@ -746,7 +746,7 @@
     {
         "ip_address": "193.253.44.249",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "lputeaux-658-1-95-249.w193-253.abo.wanadoo.fr",
         "as_number": 3215,
         "as_name": "France Telecom - Orange",
@@ -1058,7 +1058,7 @@
     {
         "ip_address": "37.34.253.233",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42961,
         "as_name": "GPRS-AS ZAIN",
@@ -1478,7 +1478,7 @@
     {
         "ip_address": "47.156.129.52",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "47-156-129-52.lsan.ca.frontiernet.net",
         "as_number": 5650,
         "as_name": "FRONTIER-FRTR",
@@ -1958,7 +1958,7 @@
     {
         "ip_address": "193.3.19.37",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 50340,
         "as_name": "SELECTEL-MSK",
@@ -2018,36 +2018,12 @@
     {
         "ip_address": "191.97.234.238",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "238-234-97-191.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
         "country": "AR",
         "first_seen": "2022-09-08 22:54:15",
-        "last_online": "2022-09-19",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "121.7.223.38",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "bb121-7-223-38.singnet.com.sg",
-        "as_number": 9506,
-        "as_name": "SINGTEL-FIBRE Singtel Fibre Broadband",
-        "country": "SG",
-        "first_seen": "2022-09-09 00:33:44",
-        "last_online": "2022-09-19",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "64.207.215.69",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 45178,
-        "as_name": "ROSHAN-AF Main Street, House No. 13 Wazir Akbar Khan",
-        "country": "AF",
-        "first_seen": "2022-09-11 04:44:14",
         "last_online": "2022-09-19",
         "malware": "QakBot"
     },
@@ -2246,7 +2222,7 @@
     {
         "ip_address": "68.53.110.74",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "c-68-53-110-74.hsd1.tn.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -2266,5 +2242,41 @@
         "first_seen": "2022-09-19 14:00:31",
         "last_online": "2022-09-19",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "108.177.235.29",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 395954,
+        "as_name": "LEASEWEB-USA-LAX",
+        "country": "US",
+        "first_seen": "2022-09-19 16:03:09",
+        "last_online": "2022-09-19",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "45.153.243.126",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30823,
+        "as_name": "COMBAHTON combahton GmbH",
+        "country": "DE",
+        "first_seen": "2022-09-19 16:31:36",
+        "last_online": "2022-09-19",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "172.93.193.42",
+        "port": 443,
+        "status": "online",
+        "hostname": "42-193-93-172.reverse-dns",
+        "as_number": 20278,
+        "as_name": "NEXEON",
+        "country": "US",
+        "first_seen": "2022-09-19 16:31:37",
+        "last_online": "2022-09-19",
+        "malware": "BumbleBee"
     }
 ]
