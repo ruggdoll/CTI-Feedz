@@ -242,12 +242,24 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
         "country": "US",
         "first_seen": "2021-09-29 14:05:04",
+        "last_online": "2022-09-20",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.46.53.140",
+        "port": 2222,
+        "status": "offline",
+        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2021-09-29 14:35:05",
         "last_online": "2022-09-20",
         "malware": "QakBot"
     },
@@ -278,7 +290,7 @@
     {
         "ip_address": "96.37.113.36",
         "port": 993,
-        "status": "online",
+        "status": "offline",
         "hostname": "096-037-113-036.res.spectrum.com",
         "as_number": 20115,
         "as_name": "CHARTER-20115",
@@ -296,6 +308,18 @@
         "as_name": "AS-CHOOPA",
         "country": "US",
         "first_seen": "2021-10-22 18:22:30",
+        "last_online": "2022-09-20",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "93.48.80.198",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 12874,
+        "as_name": "FASTWEB",
+        "country": "IT",
+        "first_seen": "2021-10-26 13:13:20",
         "last_online": "2022-09-20",
         "malware": "QakBot"
     },
@@ -986,7 +1010,7 @@
     {
         "ip_address": "172.115.177.204",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "cpe-172-115-177-204.socal.res.rr.com",
         "as_number": 20001,
         "as_name": "TWC-20001-PACWEST",
@@ -1030,6 +1054,18 @@
         "first_seen": "2022-03-23 07:15:57",
         "last_online": "2022-09-20",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "37.34.253.233",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 42961,
+        "as_name": "GPRS-AS ZAIN",
+        "country": "KW",
+        "first_seen": "2022-04-04 16:58:21",
+        "last_online": "2022-09-20",
+        "malware": "QakBot"
     },
     {
         "ip_address": "149.56.131.28",
@@ -1402,30 +1438,6 @@
         "first_seen": "2022-06-15 13:17:25",
         "last_online": "2022-09-20",
         "malware": "Emotet"
-    },
-    {
-        "ip_address": "47.156.129.52",
-        "port": 443,
-        "status": "offline",
-        "hostname": "47-156-129-52.lsan.ca.frontiernet.net",
-        "as_number": 5650,
-        "as_name": "FRONTIER-FRTR",
-        "country": "US",
-        "first_seen": "2022-06-23 12:53:24",
-        "last_online": "2022-09-19",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "54.38.136.111",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 16276,
-        "as_name": "OVH",
-        "country": "FR",
-        "first_seen": "2022-06-23 17:37:40",
-        "last_online": "2022-09-19",
-        "malware": "BumbleBee"
     },
     {
         "ip_address": "51.83.253.131",
@@ -1920,18 +1932,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "191.97.234.238",
-        "port": 995,
-        "status": "offline",
-        "hostname": "238-234-97-191.fibertel.com.ar",
-        "as_number": 7303,
-        "as_name": "Telecom Argentina S.A.",
-        "country": "AR",
-        "first_seen": "2022-09-08 22:54:15",
-        "last_online": "2022-09-20",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "121.7.223.38",
         "port": 2222,
         "status": "online",
@@ -1992,21 +1992,9 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "190.44.40.48",
-        "port": 995,
-        "status": "offline",
-        "hostname": "pc-48-40-44-190.cm.vtr.net",
-        "as_number": 22047,
-        "as_name": "VTR BANDA ANCHA S.A.",
-        "country": "CL",
-        "first_seen": "2022-09-13 22:43:30",
-        "last_online": "2022-09-20",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "198.98.48.141",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 53667,
         "as_name": "PONYNET",
@@ -2030,7 +2018,7 @@
     {
         "ip_address": "198.98.55.214",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "mta12.sofortpillen-at-ch.de",
         "as_number": 53667,
         "as_name": "PONYNET",
