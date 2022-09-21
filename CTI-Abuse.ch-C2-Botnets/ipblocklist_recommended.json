@@ -194,12 +194,24 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
         "country": "US",
         "first_seen": "2021-09-29 14:05:04",
+        "last_online": "2022-09-21",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.46.53.140",
+        "port": 2222,
+        "status": "online",
+        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2021-09-29 14:35:05",
         "last_online": "2022-09-21",
         "malware": "QakBot"
     },
@@ -2054,7 +2066,7 @@
     {
         "ip_address": "31.54.39.153",
         "port": 2078,
-        "status": "online",
+        "status": "offline",
         "hostname": "host31-54-39-153.range31-54.btcentralplus.com",
         "as_number": 2856,
         "as_name": "BT-UK-AS BTnet UK Regional network",
@@ -2122,5 +2134,17 @@
         "first_seen": "2022-09-21 09:11:47",
         "last_online": "2022-09-21",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.153.243.130",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30823,
+        "as_name": "COMBAHTON combahton GmbH",
+        "country": "DE",
+        "first_seen": "2022-09-21 17:47:41",
+        "last_online": "2022-09-21",
+        "malware": "BumbleBee"
     }
 ]
