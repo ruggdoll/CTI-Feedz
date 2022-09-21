@@ -746,7 +746,7 @@
     {
         "ip_address": "203.114.109.124",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 131293,
         "as_name": "TOT-LLI-AS-AP TOT Public Company Limited",
@@ -968,18 +968,6 @@
         "as_name": "TWC-20001-PACWEST",
         "country": "US",
         "first_seen": "2022-03-16 19:53:57",
-        "last_online": "2022-09-21",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "174.69.215.101",
-        "port": 443,
-        "status": "offline",
-        "hostname": "ip174-69-215-101.lf.br.cox.net",
-        "as_number": 22773,
-        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
-        "country": "US",
-        "first_seen": "2022-03-16 19:54:01",
         "last_online": "2022-09-21",
         "malware": "QakBot"
     },
@@ -2112,6 +2100,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "189.19.189.222",
+        "port": 32101,
+        "status": "online",
+        "hostname": "189-19-189-222.dsl.telesp.net.br",
+        "as_number": 27699,
+        "as_name": "TELEFONICA BRASIL S.A",
+        "country": "BR",
+        "first_seen": "2022-09-20 14:11:10",
+        "last_online": "2022-09-21",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "45.153.241.245",
         "port": 443,
         "status": "online",
@@ -2146,5 +2146,17 @@
         "first_seen": "2022-09-21 02:48:07",
         "last_online": "2022-09-21",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "217.165.146.41",
+        "port": 993,
+        "status": "online",
+        "hostname": "bba143297.alshamil.net.ae",
+        "as_number": 5384,
+        "as_name": "EMIRATES-INTERNET Emirates Internet",
+        "country": "AE",
+        "first_seen": "2022-09-21 09:11:47",
+        "last_online": "2022-09-21",
+        "malware": "QakBot"
     }
 ]
