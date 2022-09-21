@@ -638,7 +638,7 @@
     {
         "ip_address": "196.203.37.215",
         "port": 80,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 37719,
         "as_name": "Hexabyte-AS",
@@ -950,12 +950,24 @@
     {
         "ip_address": "172.115.177.204",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "cpe-172-115-177-204.socal.res.rr.com",
         "as_number": 20001,
         "as_name": "TWC-20001-PACWEST",
         "country": "US",
         "first_seen": "2022-03-16 19:53:57",
+        "last_online": "2022-09-21",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "174.69.215.101",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip174-69-215-101.lf.br.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-03-16 19:54:01",
         "last_online": "2022-09-21",
         "malware": "QakBot"
     },
@@ -986,7 +998,7 @@
     {
         "ip_address": "37.34.253.233",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42961,
         "as_name": "GPRS-AS ZAIN",
@@ -1220,18 +1232,6 @@
         "as_name": "PONYNET",
         "country": "LU",
         "first_seen": "2022-06-02 08:31:48",
-        "last_online": "2022-09-21",
-        "malware": "Emotet"
-    },
-    {
-        "ip_address": "157.245.111.0",
-        "port": 8080,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 14061,
-        "as_name": "DIGITALOCEAN-ASN",
-        "country": "IN",
-        "first_seen": "2022-06-02 08:31:50",
         "last_online": "2022-09-21",
         "malware": "Emotet"
     },
@@ -1594,18 +1594,6 @@
         "first_seen": "2022-07-06 15:07:09",
         "last_online": "2022-09-21",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "45.55.44.204",
-        "port": 7080,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 14061,
-        "as_name": "DIGITALOCEAN-ASN",
-        "country": "US",
-        "first_seen": "2022-07-07 05:30:26",
-        "last_online": "2022-09-21",
-        "malware": "Emotet"
     },
     {
         "ip_address": "51.68.144.13",
@@ -2120,18 +2108,6 @@
         "as_name": "COMBAHTON combahton GmbH",
         "country": "DE",
         "first_seen": "2022-09-21 02:48:06",
-        "last_online": "2022-09-21",
-        "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "146.70.147.16",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 9009,
-        "as_name": "M247",
-        "country": "US",
-        "first_seen": "2022-09-21 02:48:07",
         "last_online": "2022-09-21",
         "malware": "BumbleBee"
     },
