@@ -252,6 +252,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "93.48.80.198",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 12874,
+        "as_name": "FASTWEB",
+        "country": "IT",
+        "first_seen": "2021-10-26 13:13:20",
+        "last_online": "2022-09-22",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "117.248.109.38",
         "port": 21,
         "status": "online",
@@ -644,18 +656,6 @@
         "as_name": "DIGITALOCEAN-ASN",
         "country": "US",
         "first_seen": "2022-02-23 18:55:48",
-        "last_online": "2022-09-22",
-        "malware": "Emotet"
-    },
-    {
-        "ip_address": "150.95.20.209",
-        "port": 8080,
-        "status": "offline",
-        "hostname": "v150-95-20-209.b001.g.bkk1.static.cnode.io",
-        "as_number": 135161,
-        "as_name": "GMO-Z-COM-TH GMO-Z com NetDesign Holdings Co., Ltd.",
-        "country": "TH",
-        "first_seen": "2022-02-23 18:55:51",
         "last_online": "2022-09-22",
         "malware": "Emotet"
     },
@@ -1490,7 +1490,7 @@
     {
         "ip_address": "193.3.19.37",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 50340,
         "as_name": "SELECTEL-MSK",
