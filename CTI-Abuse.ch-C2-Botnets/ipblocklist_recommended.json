@@ -182,7 +182,7 @@
     {
         "ip_address": "120.150.218.241",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "shi2588758.lnk.telstra.net",
         "as_number": 1221,
         "as_name": "ASN-TELSTRA Telstra Corporation Ltd",
@@ -398,7 +398,7 @@
     {
         "ip_address": "91.207.181.106",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 48275,
         "as_name": "TSMS-ABKHAZIA-AS",
@@ -972,6 +972,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "174.69.215.101",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip174-69-215-101.lf.br.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-03-16 19:54:01",
+        "last_online": "2022-09-22",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "188.166.229.148",
         "port": 443,
         "status": "online",
@@ -998,7 +1010,7 @@
     {
         "ip_address": "37.34.253.233",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42961,
         "as_name": "GPRS-AS ZAIN",
@@ -1524,6 +1536,66 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "51.68.145.40",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 16276,
+        "as_name": "OVH",
+        "country": "FR",
+        "first_seen": "2022-08-30 17:36:05",
+        "last_online": "2022-09-22",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "104.244.72.215",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "LU",
+        "first_seen": "2022-08-31 16:36:05",
+        "last_online": "2022-09-22",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "205.185.121.162",
+        "port": 443,
+        "status": "online",
+        "hostname": "kap7.nirbak.us",
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "US",
+        "first_seen": "2022-08-31 16:36:05",
+        "last_online": "2022-09-22",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "51.83.249.204",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 16276,
+        "as_name": "OVH",
+        "country": "FR",
+        "first_seen": "2022-08-31 17:41:06",
+        "last_online": "2022-09-22",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "198.98.49.201",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "US",
+        "first_seen": "2022-09-03 17:37:11",
+        "last_online": "2022-09-22",
+        "malware": "BumbleBee"
+    },
+    {
         "ip_address": "107.189.1.156",
         "port": 443,
         "status": "online",
@@ -1694,7 +1766,7 @@
     {
         "ip_address": "72.88.245.71",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
         "as_number": 701,
         "as_name": "UUNET",
@@ -1795,18 +1867,6 @@
         "as_number": 19108,
         "as_name": "SUDDENLINK-COMMUNICATIONS",
         "country": "US",
-        "first_seen": "2022-09-20 14:11:09",
-        "last_online": "2022-09-22",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "181.118.183.123",
-        "port": 443,
-        "status": "offline",
-        "hostname": "host123.181-118-183.nodosud.com.ar",
-        "as_number": 27953,
-        "as_name": "NODOSUD S.A",
-        "country": "AR",
         "first_seen": "2022-09-20 14:11:09",
         "last_online": "2022-09-22",
         "malware": "QakBot"
