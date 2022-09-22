@@ -494,7 +494,7 @@
     {
         "ip_address": "69.14.172.24",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "d14-69-24-172.try.wideopenwest.com",
         "as_number": 12083,
         "as_name": "WOW-INTERNET",
@@ -668,6 +668,18 @@
         "as_name": "DIGITALOCEAN-ASN",
         "country": "US",
         "first_seen": "2022-02-23 18:55:48",
+        "last_online": "2022-09-22",
+        "malware": "Emotet"
+    },
+    {
+        "ip_address": "136.243.32.168",
+        "port": 443,
+        "status": "online",
+        "hostname": "saprizo.com",
+        "as_number": 24940,
+        "as_name": "HETZNER-AS",
+        "country": "DE",
+        "first_seen": "2022-02-25 23:40:49",
         "last_online": "2022-09-22",
         "malware": "Emotet"
     },
@@ -1488,6 +1500,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "144.91.92.120",
+        "port": 8080,
+        "status": "online",
+        "hostname": "srv.oho.ge",
+        "as_number": 51167,
+        "as_name": "CONTABO",
+        "country": "DE",
+        "first_seen": "2022-07-05 14:00:49",
+        "last_online": "2022-09-22",
+        "malware": "Emotet"
+    },
+    {
         "ip_address": "164.90.222.65",
         "port": 443,
         "status": "online",
@@ -1640,18 +1664,6 @@
         "as_name": "Claro NXT Telecomunicacoes Ltda",
         "country": "BR",
         "first_seen": "2022-09-08 12:14:26",
-        "last_online": "2022-09-22",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "100.1.5.250",
-        "port": 995,
-        "status": "offline",
-        "hostname": "pool-100-1-5-250.nwrknj.fios.verizon.net",
-        "as_number": 701,
-        "as_name": "UUNET",
-        "country": "US",
-        "first_seen": "2022-09-12 16:23:30",
         "last_online": "2022-09-22",
         "malware": "QakBot"
     },
