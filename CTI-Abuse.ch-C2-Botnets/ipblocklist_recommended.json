@@ -180,6 +180,18 @@
         "malware": "Dridex"
     },
     {
+        "ip_address": "120.150.218.241",
+        "port": 995,
+        "status": "online",
+        "hostname": "shi2588758.lnk.telstra.net",
+        "as_number": 1221,
+        "as_name": "ASN-TELSTRA Telstra Corporation Ltd",
+        "country": "AU",
+        "first_seen": "2021-09-29 08:42:51",
+        "last_online": "2022-09-23",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "41.228.22.180",
         "port": 443,
         "status": "online",
@@ -260,18 +272,6 @@
         "as_name": "FASTWEB",
         "country": "IT",
         "first_seen": "2021-10-26 13:13:20",
-        "last_online": "2022-09-23",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "117.248.109.38",
-        "port": 21,
-        "status": "offline",
-        "hostname": "ho.sansui.co.in",
-        "as_number": 9829,
-        "as_name": "BSNL-NIB National Internet Backbone",
-        "country": "IN",
-        "first_seen": "2021-10-26 16:03:21",
         "last_online": "2022-09-23",
         "malware": "QakBot"
     },
@@ -1778,7 +1778,7 @@
     {
         "ip_address": "68.224.229.42",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip68-224-229-42.lv.lv.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
@@ -1834,5 +1834,17 @@
         "first_seen": "2022-09-23 14:40:47",
         "last_online": "2022-09-23",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "198.98.56.9",
+        "port": 443,
+        "status": "online",
+        "hostname": "mx.ukraine.blackstone-investmentgroup.xyz",
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "US",
+        "first_seen": "2022-09-23 19:17:46",
+        "last_online": "2022-09-23",
+        "malware": "BumbleBee"
     }
 ]
