@@ -218,7 +218,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -452,18 +452,6 @@
         "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
         "country": "PK",
         "first_seen": "2021-12-18 04:08:16",
-        "last_online": "2022-09-24",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "31.35.28.29",
-        "port": 443,
-        "status": "offline",
-        "hostname": "i15-les04-th2-31-35-28-29.sfr.lns.abo.bbox.fr",
-        "as_number": 5410,
-        "as_name": "BOUYGTEL-ISP",
-        "country": "FR",
-        "first_seen": "2021-12-21 16:18:43",
         "last_online": "2022-09-24",
         "malware": "QakBot"
     },
@@ -898,6 +886,18 @@
         "first_seen": "2022-03-16 15:47:21",
         "last_online": "2022-09-24",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "174.69.215.101",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip174-69-215-101.lf.br.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-03-16 19:54:01",
+        "last_online": "2022-09-24",
+        "malware": "QakBot"
     },
     {
         "ip_address": "188.166.229.148",
