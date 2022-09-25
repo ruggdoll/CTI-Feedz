@@ -206,12 +206,24 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
         "country": "US",
         "first_seen": "2021-09-29 14:05:04",
+        "last_online": "2022-09-25",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.46.53.140",
+        "port": 2222,
+        "status": "online",
+        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2021-09-29 14:35:05",
         "last_online": "2022-09-25",
         "malware": "QakBot"
     },
@@ -350,7 +362,7 @@
     {
         "ip_address": "103.109.247.10",
         "port": 10443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 136883,
         "as_name": "IDNIC-UNUSA-AS-ID Universitas Nahdlatul Ulama Surabaya",
@@ -898,18 +910,6 @@
         "first_seen": "2022-03-23 07:15:57",
         "last_online": "2022-09-25",
         "malware": "Emotet"
-    },
-    {
-        "ip_address": "37.34.253.233",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 42961,
-        "as_name": "GPRS-AS ZAIN",
-        "country": "KW",
-        "first_seen": "2022-04-04 16:58:21",
-        "last_online": "2022-09-25",
-        "malware": "QakBot"
     },
     {
         "ip_address": "149.56.131.28",
@@ -1694,7 +1694,7 @@
     {
         "ip_address": "177.255.14.99",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "Dinamic-Tigo-177-255-14-99.tigo.com.co",
         "as_number": 27831,
         "as_name": "Colombia Movil",
