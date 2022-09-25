@@ -1,447 +1,447 @@
 {
   "Event": {
-    "analysis": "2",
-    "extends_uuid": "",
-    "published": true,
-    "info": "Maze ransomware IOCs (OSINT)",
-    "timestamp": "1588488939",
     "date": "2020-01-10",
+    "timestamp": "1588488939",
+    "info": "Maze ransomware IOCs (OSINT)",
+    "analysis": "2",
+    "publish_timestamp": "1639051578",
+    "extends_uuid": "",
     "uuid": "5e396a1e-68e4-4db5-8810-ca350aba047c",
     "threat_level_id": "2",
-    "publish_timestamp": "1639051578",
+    "published": true,
     "Orgc": {
-      "uuid": "56bdf779-46f8-4353-bdf9-2bb95bce2212",
-      "name": "CERT-FR"
+      "name": "CERT-FR",
+      "uuid": "56bdf779-46f8-4353-bdf9-2bb95bce2212"
     },
     "Tag": [
       {
-        "colour": "#f89595",
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
+        "colour": "#f89595"
       },
       {
-        "colour": "#ffffff",
-        "name": "cossi:TLP=\"white\""
+        "name": "cossi:TLP=\"white\"",
+        "colour": "#ffffff"
       },
       {
-        "colour": "#008e63",
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
+        "name": "cossi:RechercheSourceOuverte=\"Autorisee\"",
+        "colour": "#008e63"
       },
       {
-        "colour": "#00714f",
-        "name": "cossi:fiabilite=\"Bonne\""
+        "name": "cossi:fiabilite=\"Bonne\"",
+        "colour": "#00714f"
       },
       {
-        "colour": "#ffffff",
-        "name": "tlp:white"
+        "name": "tlp:white",
+        "colour": "#ffffff"
       }
     ],
     "Attribute": [
       {
-        "disable_correlation": false,
-        "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "bf69ad31-caac-446b-8e5c-149f06df51bf",
-        "value": "104.168.174.32",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "104.168.174.32"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "8f0c4c7d-2a6c-4604-bd02-54f92af3d5ee",
-        "value": "104.168.198.208",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "104.168.198.208"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "bf78b9ca-9501-4301-9a22-633e9befbbdf",
-        "value": "104.168.198.230",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "104.168.198.230"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "35fffac0-b8b3-412e-860a-4e2973645ae2",
-        "value": "104.168.215.54",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "104.168.215.54"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "62711f04-037b-43d5-a157-e040bd694d3d",
-        "value": "108.174.199.10",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "108.174.199.10"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "452537c7-421d-40b3-93ab-198a5f31cea9",
-        "value": "185.147.15.22",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "185.147.15.22"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "43c18512-2b79-4a88-bbd2-2481873f5b66",
-        "value": "192.119.106.235",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "192.119.106.235"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "927b81d0-5ccf-4909-aa1b-4483b1b59204",
-        "value": "192.119.68.225",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "192.119.68.225"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "2dd85e49-334e-4eca-88b2-29c6e3cb0cef",
-        "value": "192.236.210.142",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "192.236.210.142"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "06cab359-4435-4a7b-bf9d-184ae538ad96",
-        "value": "198.50.168.67",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "198.50.168.67"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "416ce8d4-963f-4063-846e-5c1097236da0",
-        "value": "5.199.167.188",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "5.199.167.188"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "e0a2664c-a75c-4364-b71c-c93341c75716",
-        "value": "54.39.233.131",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "54.39.233.131"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "33932f28-9a13-4878-8c01-7df243cf442b",
-        "value": "54.39.233.175",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "54.39.233.175"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "648dd42f-3b57-4f82-ae2e-46f8837701ad",
-        "value": "91.218.114.11",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.11"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "a6a2a8c0-5c10-4593-b5f0-643f412154e3",
-        "value": "91.218.114.25",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.25"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "c1adfd47-5d01-43a4-963e-160609ccbcbc",
-        "value": "91.218.114.26",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.26"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "bae38e16-32a1-45fe-b72a-8d0760bef0fc",
-        "value": "91.218.114.31",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.31"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "37c28d29-0e20-4a5f-baca-cd49dc375472",
-        "value": "91.218.114.32",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.32"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "28b097f7-bcc8-4402-b77e-cc28b5c5f9b3",
-        "value": "91.218.114.37",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.37"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "a8129fe6-79cc-4cbe-84ed-1d6ed3bffa3e",
-        "value": "91.218.114.38",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.38"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "05115905-162a-43a9-956f-0a3547bf3fe3",
-        "value": "91.218.114.4",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.4"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "418d9cce-f004-4ead-b5b0-5c42b02184df",
-        "value": "91.218.114.77",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.77"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "25ba2970-0fcb-4893-95cc-40aedb4f66f7",
-        "value": "91.218.114.79",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "91.218.114.79"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "3f238066-263a-4ea0-a66b-69ed77a6e6f2",
-        "value": "92.63.11.151",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.11.151"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "9037b363-9a5d-4f01-b470-e92e634cc1c8",
-        "value": "92.63.15.56",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.15.56"
+      },
+      {
         "timestamp": "1580821022",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "124b0efa-b5b4-4e84-b483-7532a3888e23",
-        "value": "92.63.15.6",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.15.6"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "5f829743-47ff-48ce-9f8c-3e5e6b32d9c9",
-        "value": "92.63.15.8",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.15.8"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "8b649a4a-7daf-4521-99bd-0d10bd285276",
-        "value": "92.63.17.245",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.17.245"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "38dab85c-0360-4a8c-a6dc-5430ff9cb4e2",
-        "value": "92.63.194.20",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.194.20"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "991d0464-d9e5-479f-ab08-a1beec3d35cd",
-        "value": "92.63.194.3",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.194.3"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "a9727ad4-9923-4f72-9661-020310125bda",
-        "value": "92.63.29.137",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.29.137"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "166f7564-35c9-4c76-95b9-bc81bedc9715",
-        "value": "92.63.32.2",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.32.2"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "43574d57-7241-4c1f-87ac-6f0d8542fe99",
-        "value": "92.63.32.52",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.32.52"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "439f3244-628f-4419-ac5c-92c2883c4e8e",
-        "value": "92.63.32.55",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.32.55"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "67eb920a-703f-4a60-a88d-f568c6e344d5",
-        "value": "92.63.32.57",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.32.57"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "80146f94-d51b-4936-a016-e7a7e4df629e",
-        "value": "92.63.37.100",
-        "deleted": false
-      },
-      {
         "disable_correlation": false,
         "comment": "Adresses IP reli\u00e9es",
-        "type": "ip-src",
+        "value": "92.63.37.100"
+      },
+      {
         "timestamp": "1580821023",
+        "deleted": false,
         "category": "Network activity",
         "to_ids": true,
+        "type": "ip-src",
         "uuid": "009c4044-e484-4ccf-9c5b-238f2137d49c",
-        "value": "92.63.8.47",
-        "deleted": false
+        "disable_correlation": false,
+        "comment": "Adresses IP reli\u00e9es",
+        "value": "92.63.8.47"
       }
     ]
   }
