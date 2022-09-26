@@ -410,7 +410,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -584,6 +584,18 @@
         "as_name": "France Telecom - Orange",
         "country": "FR",
         "first_seen": "2022-02-16 14:14:24",
+        "last_online": "2022-09-26",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "208.107.221.224",
+        "port": 443,
+        "status": "online",
+        "hostname": "208-107-221-224-dynamic.midco.net",
+        "as_number": 11232,
+        "as_name": "MIDCO-NET",
+        "country": "US",
+        "first_seen": "2022-02-16 16:34:43",
         "last_online": "2022-09-26",
         "malware": "QakBot"
     },
@@ -972,6 +984,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "72.252.157.93",
+        "port": 990,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30689,
+        "as_name": "FLOW-NET",
+        "country": "JM",
+        "first_seen": "2022-05-24 13:39:52",
+        "last_online": "2022-09-26",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "168.119.40.176",
         "port": 443,
         "status": "online",
@@ -998,7 +1022,7 @@
     {
         "ip_address": "103.224.241.74",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": "cosshope.com",
         "as_number": 133296,
         "as_name": "WEBWERKS-AS-IN Web Werks India Pvt. Ltd.",
@@ -1150,6 +1174,18 @@
         "first_seen": "2022-06-15 13:17:25",
         "last_online": "2022-09-26",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "47.156.129.52",
+        "port": 443,
+        "status": "online",
+        "hostname": "47-156-129-52.lsan.ca.frontiernet.net",
+        "as_number": 5650,
+        "as_name": "FRONTIER-FRTR",
+        "country": "US",
+        "first_seen": "2022-06-23 12:53:24",
+        "last_online": "2022-09-26",
+        "malware": "QakBot"
     },
     {
         "ip_address": "213.239.212.5",
@@ -1406,7 +1442,7 @@
     {
         "ip_address": "99.232.140.205",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe382c4a6694b0-cmac202e0e1cb0.sdns.net.rogers.com",
         "as_number": 812,
         "as_name": "ROGERS-COMMUNICATIONS",
@@ -1498,6 +1534,18 @@
         "first_seen": "2022-09-13 03:57:38",
         "last_online": "2022-09-26",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "70.51.132.197",
+        "port": 2222,
+        "status": "online",
+        "hostname": "bras-vprn-ckvlon0127w-lp130-02-70-51-132-197.dsl.bell.ca",
+        "as_number": 577,
+        "as_name": "BACOM",
+        "country": "CA",
+        "first_seen": "2022-09-13 13:44:16",
+        "last_online": "2022-09-26",
+        "malware": "QakBot"
     },
     {
         "ip_address": "205.185.123.115",
@@ -1620,18 +1668,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "177.255.14.99",
-        "port": 995,
-        "status": "offline",
-        "hostname": "Dinamic-Tigo-177-255-14-99.tigo.com.co",
-        "as_number": 27831,
-        "as_name": "Colombia Movil",
-        "country": "CO",
-        "first_seen": "2022-09-19 22:40:35",
-        "last_online": "2022-09-26",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "173.218.180.91",
         "port": 443,
         "status": "online",
@@ -1706,7 +1742,7 @@
     {
         "ip_address": "86.132.13.105",
         "port": 2078,
-        "status": "online",
+        "status": "offline",
         "hostname": "host86-132-13-105.range86-132.btcentralplus.com",
         "as_number": 2856,
         "as_name": "BT-UK-AS BTnet UK Regional network",
@@ -1838,12 +1874,24 @@
     {
         "ip_address": "88.237.6.72",
         "port": 53,
-        "status": "online",
+        "status": "offline",
         "hostname": "88.237.6.72.dynamic.ttnet.com.tr",
         "as_number": 9121,
         "as_name": "TTNET",
         "country": "TR",
         "first_seen": "2022-09-26 12:51:47",
+        "last_online": "2022-09-26",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "115.247.12.66",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 55836,
+        "as_name": "RELIANCEJIO-IN Reliance Jio Infocomm Limited",
+        "country": "IN",
+        "first_seen": "2022-09-26 13:41:52",
         "last_online": "2022-09-26",
         "malware": "QakBot"
     }
