@@ -254,7 +254,7 @@
     {
         "ip_address": "117.248.109.38",
         "port": 21,
-        "status": "offline",
+        "status": "online",
         "hostname": "ho.sansui.co.in",
         "as_number": 9829,
         "as_name": "BSNL-NIB National Internet Backbone",
@@ -800,6 +800,18 @@
         "as_name": "OVH",
         "country": "FR",
         "first_seen": "2022-04-18 10:10:35",
+        "last_online": "2022-09-26",
+        "malware": "Emotet"
+    },
+    {
+        "ip_address": "139.59.44.48",
+        "port": 8080,
+        "status": "offline",
+        "hostname": null,
+        "as_number": 14061,
+        "as_name": "DIGITALOCEAN-ASN",
+        "country": "IN",
+        "first_seen": "2022-04-22 16:40:50",
         "last_online": "2022-09-26",
         "malware": "Emotet"
     },
