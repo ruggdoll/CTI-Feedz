@@ -17,3 +17,5 @@ __TODO__ :
   - [CISA AIS Ressources](https://www.cisa.gov/ais)
   - [MISP-CIRCL](https://www.circl.lu/doc/misp/feed-osint/) (but I have to deal with the 100Mb cap here)
 
+__BUGFIX__:
+- hashes.csv was not updated
