@@ -254,7 +254,7 @@
     {
         "ip_address": "93.48.80.198",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 12874,
         "as_name": "FASTWEB",
@@ -480,18 +480,6 @@
         "malware": "Emotet"
     },
     {
-        "ip_address": "69.14.172.24",
-        "port": 443,
-        "status": "offline",
-        "hostname": "d14-69-24-172.try.wideopenwest.com",
-        "as_number": 12083,
-        "as_name": "WOW-INTERNET",
-        "country": "US",
-        "first_seen": "2021-12-24 15:59:14",
-        "last_online": "2022-09-27",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "103.9.36.172",
         "port": 443,
         "status": "online",
@@ -550,6 +538,18 @@
         "first_seen": "2022-01-28 16:05:14",
         "last_online": "2022-09-27",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "41.230.62.211",
+        "port": 993,
+        "status": "online",
+        "hostname": null,
+        "as_number": 37705,
+        "as_name": "TOPNET",
+        "country": "TN",
+        "first_seen": "2022-02-01 08:02:50",
+        "last_online": "2022-09-27",
+        "malware": "QakBot"
     },
     {
         "ip_address": "185.184.25.78",
@@ -830,7 +830,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1604,18 +1604,6 @@
         "as_name": "BACOM",
         "country": "CA",
         "first_seen": "2022-09-17 05:40:27",
-        "last_online": "2022-09-27",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "187.205.222.100",
-        "port": 443,
-        "status": "offline",
-        "hostname": "dsl-187-205-222-100-dyn.prod-infinitum.com.mx",
-        "as_number": 8151,
-        "as_name": "Uninet S.A. de C.V.",
-        "country": "MX",
-        "first_seen": "2022-09-19 00:48:32",
         "last_online": "2022-09-27",
         "malware": "QakBot"
     },
