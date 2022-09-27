@@ -218,7 +218,7 @@
     {
         "ip_address": "76.25.142.196",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "c-76-25-142-196.hsd1.co.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -250,6 +250,18 @@
         "first_seen": "2021-10-13 13:35:12",
         "last_online": "2022-09-27",
         "malware": "Dridex"
+    },
+    {
+        "ip_address": "93.48.80.198",
+        "port": 995,
+        "status": "offline",
+        "hostname": null,
+        "as_number": 12874,
+        "as_name": "FASTWEB",
+        "country": "IT",
+        "first_seen": "2021-10-26 13:13:20",
+        "last_online": "2022-09-27",
+        "malware": "QakBot"
     },
     {
         "ip_address": "117.248.109.38",
@@ -1784,18 +1796,6 @@
         "as_name": "AS-CHOOPA",
         "country": "US",
         "first_seen": "2022-09-26 12:51:27",
-        "last_online": "2022-09-27",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "134.35.10.30",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 30873,
-        "as_name": "PTC-YEMENNET",
-        "country": "YE",
-        "first_seen": "2022-09-26 12:51:28",
         "last_online": "2022-09-27",
         "malware": "QakBot"
     },
