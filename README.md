@@ -18,4 +18,4 @@ __TODO__ :
   - [MISP-CIRCL](https://www.circl.lu/doc/misp/feed-osint/) (but I have to deal with the 100Mb cap here)
 
 __BUGFIX__:
-- hashes.csv was not updated
+- [28/09/2022] hashes.csv was not updated
