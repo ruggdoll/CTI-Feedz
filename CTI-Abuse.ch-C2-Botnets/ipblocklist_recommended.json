@@ -206,7 +206,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -230,7 +230,7 @@
     {
         "ip_address": "76.25.142.196",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "c-76-25-142-196.hsd1.co.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -338,7 +338,7 @@
     {
         "ip_address": "185.184.25.237",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": "host-185.184.25.237.routergate.com",
         "as_number": 209711,
         "as_name": "MUVHOST",
@@ -554,7 +554,7 @@
     {
         "ip_address": "185.184.25.78",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": "host-185.184.25.78.routergate.com",
         "as_number": 209711,
         "as_name": "MUVHOST",
@@ -634,6 +634,18 @@
         "first_seen": "2022-03-01 15:16:05",
         "last_online": "2022-09-28",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "89.249.215.26",
+        "port": 61202,
+        "status": "online",
+        "hostname": "host-ip26-215-249-89.wise.net.lb",
+        "as_number": 41833,
+        "as_name": "MOSCANET",
+        "country": "LB",
+        "first_seen": "2022-03-03 06:15:41",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
     },
     {
         "ip_address": "103.75.201.2",
@@ -792,6 +804,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "85.104.122.231",
+        "port": 443,
+        "status": "online",
+        "hostname": "85.104.122.231.dynamic.ttnet.com.tr",
+        "as_number": 9121,
+        "as_name": "TTNET",
+        "country": "TR",
+        "first_seen": "2022-04-16 08:29:29",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "94.23.45.86",
         "port": 4143,
         "status": "online",
@@ -806,7 +830,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -986,7 +1010,7 @@
     {
         "ip_address": "103.224.241.74",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": "cosshope.com",
         "as_number": 133296,
         "as_name": "WEBWERKS-AS-IN Web Werks India Pvt. Ltd.",
@@ -1138,18 +1162,6 @@
         "first_seen": "2022-06-15 13:17:25",
         "last_online": "2022-09-28",
         "malware": "Emotet"
-    },
-    {
-        "ip_address": "81.193.30.90",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 3243,
-        "as_name": "MEO-RESIDENCIAL",
-        "country": "PT",
-        "first_seen": "2022-06-21 23:23:13",
-        "last_online": "2022-09-27",
-        "malware": "QakBot"
     },
     {
         "ip_address": "47.156.129.52",
@@ -1778,7 +1790,7 @@
     {
         "ip_address": "86.176.180.223",
         "port": 993,
-        "status": "online",
+        "status": "offline",
         "hostname": "host86-176-180-223.range86-176.btcentralplus.com",
         "as_number": 2856,
         "as_name": "BT-UK-AS BTnet UK Regional network",
@@ -1832,6 +1844,18 @@
         "as_name": "CABLELITE-AS-AP Atria Convergence Technologies Pvt. Ltd. Broadband Internet Service Provider INDIA",
         "country": "IN",
         "first_seen": "2022-09-28 04:36:56",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "103.173.121.17",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 138296,
+        "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
+        "country": "IN",
+        "first_seen": "2022-09-28 05:06:56",
         "last_online": "2022-09-28",
         "malware": "QakBot"
     }
