@@ -266,7 +266,7 @@
     {
         "ip_address": "93.48.80.198",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 12874,
         "as_name": "FASTWEB",
@@ -686,7 +686,7 @@
     {
         "ip_address": "196.203.37.215",
         "port": 80,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 37719,
         "as_name": "Hexabyte-AS",
@@ -742,18 +742,6 @@
         "first_seen": "2022-03-01 15:16:05",
         "last_online": "2022-09-28",
         "malware": "Emotet"
-    },
-    {
-        "ip_address": "89.249.215.26",
-        "port": 61202,
-        "status": "offline",
-        "hostname": "host-ip26-215-249-89.wise.net.lb",
-        "as_number": 41833,
-        "as_name": "MOSCANET",
-        "country": "LB",
-        "first_seen": "2022-03-03 06:15:41",
-        "last_online": "2022-09-28",
-        "malware": "QakBot"
     },
     {
         "ip_address": "103.75.201.2",
@@ -876,6 +864,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "172.115.177.204",
+        "port": 2222,
+        "status": "online",
+        "hostname": "cpe-172-115-177-204.socal.res.rr.com",
+        "as_number": 20001,
+        "as_name": "TWC-20001-PACWEST",
+        "country": "US",
+        "first_seen": "2022-03-16 19:53:57",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "80.211.107.116",
         "port": 8080,
         "status": "online",
@@ -926,7 +926,7 @@
     {
         "ip_address": "37.34.253.233",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 42961,
         "as_name": "GPRS-AS ZAIN",
@@ -1046,7 +1046,7 @@
     {
         "ip_address": "50.2.217.16",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": "srv2.sintetix.com",
         "as_number": 62904,
         "as_name": "AS62904",
@@ -1680,18 +1680,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "121.7.223.38",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "bb121-7-223-38.singnet.com.sg",
-        "as_number": 9506,
-        "as_name": "SINGTEL-FIBRE Singtel Fibre Broadband",
-        "country": "SG",
-        "first_seen": "2022-09-09 00:33:44",
-        "last_online": "2022-09-28",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "209.141.42.230",
         "port": 443,
         "status": "online",
@@ -2162,7 +2150,7 @@
     {
         "ip_address": "134.35.12.0",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 30873,
         "as_name": "PTC-YEMENNET",
@@ -2192,6 +2180,90 @@
         "as_name": "CANTV Servicios, Venezuela",
         "country": "VE",
         "first_seen": "2022-09-28 15:17:25",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "185.233.79.238",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 3339,
+        "as_name": "TELEELDA-AS",
+        "country": "ES",
+        "first_seen": "2022-09-28 16:16:51",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "200.175.173.80",
+        "port": 443,
+        "status": "online",
+        "hostname": "200.175.173.80.static.host.gvt.net.br",
+        "as_number": 18881,
+        "as_name": "TELEFONICA BRASIL S.A",
+        "country": "BR",
+        "first_seen": "2022-09-28 16:27:29",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "86.132.13.49",
+        "port": 2078,
+        "status": "online",
+        "hostname": "host86-132-13-49.range86-132.btcentralplus.com",
+        "as_number": 2856,
+        "as_name": "BT-UK-AS BTnet UK Regional network",
+        "country": "GB",
+        "first_seen": "2022-09-28 16:27:37",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "41.104.80.233",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 36947,
+        "as_name": "ALGTEL-AS",
+        "country": "DZ",
+        "first_seen": "2022-09-28 16:27:40",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "154.237.60.254",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 36992,
+        "as_name": "ETISALAT-MISR",
+        "country": "EG",
+        "first_seen": "2022-09-28 16:28:09",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "197.203.50.195",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 36947,
+        "as_name": "ALGTEL-AS",
+        "country": "DZ",
+        "first_seen": "2022-09-28 16:47:16",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "181.177.156.209",
+        "port": 443,
+        "status": "online",
+        "hostname": "host-181-177-156-209.supernet.com.bo",
+        "as_number": 27839,
+        "as_name": "Comteco Ltda",
+        "country": "BO",
+        "first_seen": "2022-09-28 16:47:32",
         "last_online": "2022-09-28",
         "malware": "QakBot"
     }
