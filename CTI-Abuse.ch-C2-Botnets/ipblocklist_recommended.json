@@ -206,7 +206,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -218,7 +218,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -278,7 +278,7 @@
     {
         "ip_address": "93.48.80.198",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 12874,
         "as_name": "FASTWEB",
@@ -1872,6 +1872,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "197.94.84.128",
+        "port": 443,
+        "status": "offline",
+        "hostname": "197-94-84-128.hff.mweb.co.za",
+        "as_number": 10474,
+        "as_name": "OPTINET",
+        "country": "ZA",
+        "first_seen": "2022-09-20 14:11:10",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "198.98.56.9",
         "port": 443,
         "status": "online",
@@ -2028,18 +2040,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "39.121.226.109",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 9318,
-        "as_name": "SKB-AS SK Broadband Co Ltd",
-        "country": "KR",
-        "first_seen": "2022-09-26 18:01:29",
-        "last_online": "2022-09-28",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "85.143.218.249",
         "port": 443,
         "status": "online",
@@ -2078,7 +2078,7 @@
     {
         "ip_address": "189.189.89.32",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "dsl-189-189-89-32-dyn.prod-infinitum.com.mx",
         "as_number": 8151,
         "as_name": "Uninet S.A. de C.V.",
@@ -2108,30 +2108,6 @@
         "as_name": "CABLELITE-AS-AP Atria Convergence Technologies Pvt. Ltd. Broadband Internet Service Provider INDIA",
         "country": "IN",
         "first_seen": "2022-09-28 04:36:56",
-        "last_online": "2022-09-28",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "103.173.121.17",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 138296,
-        "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
-        "country": "IN",
-        "first_seen": "2022-09-28 05:06:56",
-        "last_online": "2022-09-28",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "139.228.33.176",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "fm-dyn-139-228-33-176.fast.net.id",
-        "as_number": 23700,
-        "as_name": "FASTNET-AS-ID Linknet-Fastnet ASN",
-        "country": "ID",
-        "first_seen": "2022-09-28 08:46:19",
         "last_online": "2022-09-28",
         "malware": "QakBot"
     },
@@ -2210,7 +2186,7 @@
     {
         "ip_address": "185.233.79.238",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 3339,
         "as_name": "TELEELDA-AS",
@@ -2246,7 +2222,7 @@
     {
         "ip_address": "41.104.80.233",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 36947,
         "as_name": "ALGTEL-AS",
@@ -2324,6 +2300,42 @@
         "as_name": "France Telecom - Orange",
         "country": "FR",
         "first_seen": "2022-09-28 17:47:31",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "102.190.190.242",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 24835,
+        "as_name": "RAYA-AS",
+        "country": "EG",
+        "first_seen": "2022-09-28 18:07:30",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "131.100.40.13",
+        "port": 995,
+        "status": "online",
+        "hostname": "131-100-40-13.infornetnetwork.net.br",
+        "as_number": 61754,
+        "as_name": "I3 Telecomunicacoes - EIRELI",
+        "country": "BR",
+        "first_seen": "2022-09-28 18:17:14",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "151.231.60.200",
+        "port": 2083,
+        "status": "online",
+        "hostname": "97e73cc8.skybroadband.com",
+        "as_number": 5607,
+        "as_name": "BSKYB-BROADBAND-AS",
+        "country": "GB",
+        "first_seen": "2022-09-28 18:37:37",
         "last_online": "2022-09-28",
         "malware": "QakBot"
     }
