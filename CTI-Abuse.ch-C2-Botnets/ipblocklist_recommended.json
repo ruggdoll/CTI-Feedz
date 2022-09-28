@@ -758,7 +758,7 @@
     {
         "ip_address": "89.249.215.26",
         "port": 61202,
-        "status": "online",
+        "status": "offline",
         "hostname": "host-ip26-215-249-89.wise.net.lb",
         "as_number": 41833,
         "as_name": "MOSCANET",
@@ -1190,7 +1190,7 @@
     {
         "ip_address": "103.224.241.74",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": "cosshope.com",
         "as_number": 133296,
         "as_name": "WEBWERKS-AS-IN Web Werks India Pvt. Ltd.",
@@ -1680,9 +1680,21 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "191.97.234.238",
+        "port": 995,
+        "status": "online",
+        "hostname": "238-234-97-191.fibertel.com.ar",
+        "as_number": 7303,
+        "as_name": "Telecom Argentina S.A.",
+        "country": "AR",
+        "first_seen": "2022-09-08 22:54:15",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "121.7.223.38",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "bb121-7-223-38.singnet.com.sg",
         "as_number": 9506,
         "as_name": "SINGTEL-FIBRE Singtel Fibre Broadband",
@@ -2023,6 +2035,18 @@
         "as_number": 50340,
         "as_name": "SELECTEL-MSK",
         "country": "RU",
+        "first_seen": "2022-09-27 17:21:47",
+        "last_online": "2022-09-28",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "85.245.143.94",
+        "port": 443,
+        "status": "online",
+        "hostname": "bl12-143-94.dsl.telepac.pt",
+        "as_number": 3243,
+        "as_name": "MEO-RESIDENCIAL",
+        "country": "PT",
         "first_seen": "2022-09-27 17:21:47",
         "last_online": "2022-09-28",
         "malware": "QakBot"
