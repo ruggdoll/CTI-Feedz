@@ -194,7 +194,7 @@
     {
         "ip_address": "41.228.22.180",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 37693,
         "as_name": "TUNISIANA",
@@ -386,7 +386,7 @@
     {
         "ip_address": "122.129.203.163",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 38763,
         "as_name": "CYBERBINTAN-AS-ID PT. Cyber Bintan",
@@ -494,7 +494,7 @@
     {
         "ip_address": "182.191.92.203",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17557,
         "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
@@ -518,7 +518,7 @@
     {
         "ip_address": "69.14.172.24",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "d14-69-24-172.try.wideopenwest.com",
         "as_number": 12083,
         "as_name": "WOW-INTERNET",
@@ -804,18 +804,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "174.69.215.101",
-        "port": 443,
-        "status": "offline",
-        "hostname": "ip174-69-215-101.lf.br.cox.net",
-        "as_number": 22773,
-        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
-        "country": "US",
-        "first_seen": "2022-03-16 19:54:01",
-        "last_online": "2022-09-30",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "80.211.107.116",
         "port": 8080,
         "status": "online",
@@ -902,7 +890,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1524,9 +1512,21 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "179.158.103.236",
+        "port": 443,
+        "status": "online",
+        "hostname": "b39e67ec.virtua.com.br",
+        "as_number": 28573,
+        "as_name": "Claro NXT Telecomunicacoes Ltda",
+        "country": "BR",
+        "first_seen": "2022-09-08 12:14:26",
+        "last_online": "2022-09-30",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "121.7.223.38",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "bb121-7-223-38.singnet.com.sg",
         "as_number": 9506,
         "as_name": "SINGTEL-FIBRE Singtel Fibre Broadband",
@@ -1946,7 +1946,7 @@
     {
         "ip_address": "73.252.27.208",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "c-73-252-27-208.hsd1.ms.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -1958,7 +1958,7 @@
     {
         "ip_address": "39.44.5.104",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17557,
         "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
@@ -1976,6 +1976,66 @@
         "as_name": "FPT-AS-AP FPT Telecom Company",
         "country": "VN",
         "first_seen": "2022-09-29 06:47:34",
+        "last_online": "2022-09-30",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "216.238.83.82",
+        "port": 443,
+        "status": "online",
+        "hostname": "216.238.83.82.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "MX",
+        "first_seen": "2022-09-30 10:53:10",
+        "last_online": "2022-09-30",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "139.84.167.18",
+        "port": 995,
+        "status": "online",
+        "hostname": "139.84.167.18.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "US",
+        "first_seen": "2022-09-30 10:53:10",
+        "last_online": "2022-09-30",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "139.84.167.18",
+        "port": 443,
+        "status": "online",
+        "hostname": "139.84.167.18.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "US",
+        "first_seen": "2022-09-30 10:53:10",
+        "last_online": "2022-09-30",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "216.238.108.61",
+        "port": 995,
+        "status": "online",
+        "hostname": "216.238.108.61.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "BR",
+        "first_seen": "2022-09-30 10:53:10",
+        "last_online": "2022-09-30",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "216.238.108.61",
+        "port": 443,
+        "status": "online",
+        "hostname": "216.238.108.61.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "BR",
+        "first_seen": "2022-09-30 10:53:12",
         "last_online": "2022-09-30",
         "malware": "QakBot"
     }
