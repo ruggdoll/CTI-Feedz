@@ -458,7 +458,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -866,13 +866,13 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
         "country": "IN",
         "first_seen": "2022-04-22 16:40:50",
-        "last_online": "2022-09-30",
+        "last_online": "2022-10-01",
         "malware": "Emotet"
     },
     {
@@ -1502,13 +1502,25 @@
     {
         "ip_address": "191.97.234.238",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "238-234-97-191.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
         "country": "AR",
         "first_seen": "2022-09-08 22:54:15",
-        "last_online": "2022-09-30",
+        "last_online": "2022-10-01",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "121.7.223.38",
+        "port": 2222,
+        "status": "online",
+        "hostname": "bb121-7-223-38.singnet.com.sg",
+        "as_number": 9506,
+        "as_name": "SINGTEL-FIBRE Singtel Fibre Broadband",
+        "country": "SG",
+        "first_seen": "2022-09-09 00:33:44",
+        "last_online": "2022-10-01",
         "malware": "QakBot"
     },
     {
