@@ -458,7 +458,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -866,7 +866,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -878,7 +878,7 @@
     {
         "ip_address": "104.34.212.7",
         "port": 32103,
-        "status": "offline",
+        "status": "online",
         "hostname": "cpe-104-34-212-7.socal.res.rr.com",
         "as_number": 20001,
         "as_name": "TWC-20001-PACWEST",
@@ -1630,6 +1630,18 @@
         "first_seen": "2022-09-19 16:31:36",
         "last_online": "2022-10-02",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "177.255.14.99",
+        "port": 995,
+        "status": "offline",
+        "hostname": "Dinamic-Tigo-177-255-14-99.tigo.com.co",
+        "as_number": 27831,
+        "as_name": "Colombia Movil",
+        "country": "CO",
+        "first_seen": "2022-09-19 22:40:35",
+        "last_online": "2022-10-02",
+        "malware": "QakBot"
     },
     {
         "ip_address": "173.218.180.91",
