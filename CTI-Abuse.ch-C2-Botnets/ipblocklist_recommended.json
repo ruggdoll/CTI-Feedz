@@ -204,18 +204,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "173.21.10.71",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "173-21-10-71.client.mchsi.com",
-        "as_number": 30036,
-        "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
-        "country": "US",
-        "first_seen": "2021-09-29 14:05:04",
-        "last_online": "2022-10-03",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "41.86.42.158",
         "port": 995,
         "status": "online",
@@ -446,7 +434,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -482,7 +470,7 @@
     {
         "ip_address": "182.191.92.203",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17557,
         "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
@@ -502,6 +490,18 @@
         "first_seen": "2021-12-23 21:31:07",
         "last_online": "2022-10-03",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "69.14.172.24",
+        "port": 443,
+        "status": "online",
+        "hostname": "d14-69-24-172.try.wideopenwest.com",
+        "as_number": 12083,
+        "as_name": "WOW-INTERNET",
+        "country": "US",
+        "first_seen": "2021-12-24 15:59:14",
+        "last_online": "2022-10-03",
+        "malware": "QakBot"
     },
     {
         "ip_address": "103.9.36.172",
@@ -644,6 +644,18 @@
         "as_name": "France Telecom - Orange",
         "country": "FR",
         "first_seen": "2022-02-28 15:14:34",
+        "last_online": "2022-10-03",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "24.55.67.176",
+        "port": 443,
+        "status": "online",
+        "hostname": "dynamic.libertypr.net",
+        "as_number": 14638,
+        "as_name": "LCPRL",
+        "country": "PR",
+        "first_seen": "2022-03-01 14:15:11",
         "last_online": "2022-10-03",
         "malware": "QakBot"
     },
@@ -866,7 +878,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1670,7 +1682,7 @@
     {
         "ip_address": "177.255.14.99",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "Dinamic-Tigo-177-255-14-99.tigo.com.co",
         "as_number": 27831,
         "as_name": "Colombia Movil",
@@ -1892,18 +1904,6 @@
         "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
         "country": "IN",
         "first_seen": "2022-09-28 05:06:56",
-        "last_online": "2022-10-03",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "181.177.156.209",
-        "port": 443,
-        "status": "offline",
-        "hostname": "host-181-177-156-209.supernet.com.bo",
-        "as_number": 27839,
-        "as_name": "Comteco Ltda",
-        "country": "BO",
-        "first_seen": "2022-09-28 16:47:32",
         "last_online": "2022-10-03",
         "malware": "QakBot"
     },
