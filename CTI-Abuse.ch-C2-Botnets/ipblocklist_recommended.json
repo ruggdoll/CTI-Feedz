@@ -206,7 +206,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -262,6 +262,18 @@
         "first_seen": "2021-10-13 13:35:12",
         "last_online": "2022-10-04",
         "malware": "Dridex"
+    },
+    {
+        "ip_address": "117.248.109.38",
+        "port": 21,
+        "status": "online",
+        "hostname": "ho.sansui.co.in",
+        "as_number": 9829,
+        "as_name": "BSNL-NIB National Internet Backbone",
+        "country": "IN",
+        "first_seen": "2021-10-26 16:03:21",
+        "last_online": "2022-10-04",
+        "malware": "QakBot"
     },
     {
         "ip_address": "104.248.155.133",
@@ -806,7 +818,7 @@
     {
         "ip_address": "174.69.215.101",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip174-69-215-101.lf.br.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
@@ -902,7 +914,7 @@
     {
         "ip_address": "104.34.212.7",
         "port": 32103,
-        "status": "offline",
+        "status": "online",
         "hostname": "cpe-104-34-212-7.socal.res.rr.com",
         "as_number": 20001,
         "as_name": "TWC-20001-PACWEST",
@@ -1844,6 +1856,18 @@
         "as_name": "SELECTEL-MSK",
         "country": "RU",
         "first_seen": "2022-09-27 17:21:47",
+        "last_online": "2022-10-04",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "103.173.121.17",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 138296,
+        "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
+        "country": "IN",
+        "first_seen": "2022-09-28 05:06:56",
         "last_online": "2022-10-04",
         "malware": "QakBot"
     },
