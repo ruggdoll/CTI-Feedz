@@ -206,7 +206,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -446,7 +446,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -902,7 +902,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1956,18 +1956,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "103.144.139.145",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 55720,
-        "as_name": "GIGABIT-MY Gigabit Hosting Sdn Bhd",
-        "country": "MY",
-        "first_seen": "2022-10-03 17:01:17",
-        "last_online": "2022-10-04",
-        "malware": "BumbleBee"
-    },
-    {
         "ip_address": "146.70.149.14",
         "port": 443,
         "status": "online",
@@ -2054,7 +2042,7 @@
     {
         "ip_address": "134.35.11.71",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 30873,
         "as_name": "PTC-YEMENNET",
@@ -2066,7 +2054,7 @@
     {
         "ip_address": "23.225.104.250",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 40065,
         "as_name": "CNSERVERS",
@@ -2098,5 +2086,17 @@
         "first_seen": "2022-10-04 05:56:13",
         "last_online": "2022-10-04",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "41.108.175.56",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 36947,
+        "as_name": "ALGTEL-AS",
+        "country": "DZ",
+        "first_seen": "2022-10-04 07:22:23",
+        "last_online": "2022-10-04",
+        "malware": "QakBot"
     }
 ]
