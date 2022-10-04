@@ -890,7 +890,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -902,7 +902,7 @@
     {
         "ip_address": "104.34.212.7",
         "port": 32103,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-104-34-212-7.socal.res.rr.com",
         "as_number": 20001,
         "as_name": "TWC-20001-PACWEST",
@@ -1524,6 +1524,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "121.7.223.38",
+        "port": 2222,
+        "status": "online",
+        "hostname": "bb121-7-223-38.singnet.com.sg",
+        "as_number": 9506,
+        "as_name": "SINGTEL-FIBRE Singtel Fibre Broadband",
+        "country": "SG",
+        "first_seen": "2022-09-09 00:33:44",
+        "last_online": "2022-10-04",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "209.141.42.230",
         "port": 443,
         "status": "online",
@@ -1594,18 +1606,6 @@
         "first_seen": "2022-09-15 18:17:40",
         "last_online": "2022-10-04",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "72.88.245.71",
-        "port": 443,
-        "status": "offline",
-        "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
-        "as_number": 701,
-        "as_name": "UUNET",
-        "country": "US",
-        "first_seen": "2022-09-15 20:24:57",
-        "last_online": "2022-10-03",
-        "malware": "QakBot"
     },
     {
         "ip_address": "146.59.116.54",
@@ -2086,5 +2086,41 @@
         "first_seen": "2022-10-03 17:01:19",
         "last_online": "2022-10-04",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "46.10.105.160",
+        "port": 443,
+        "status": "online",
+        "hostname": "46-10-105-160.ip.btc-net.bg",
+        "as_number": 8866,
+        "as_name": "BTC-AS BULGARIA",
+        "country": "BG",
+        "first_seen": "2022-10-04 00:37:17",
+        "last_online": "2022-10-04",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "134.35.11.71",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30873,
+        "as_name": "PTC-YEMENNET",
+        "country": "YE",
+        "first_seen": "2022-10-04 00:37:21",
+        "last_online": "2022-10-04",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "23.225.104.250",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 40065,
+        "as_name": "CNSERVERS",
+        "country": "US",
+        "first_seen": "2022-10-04 01:22:29",
+        "last_online": "2022-10-04",
+        "malware": "QakBot"
     }
 ]
