@@ -1046,7 +1046,7 @@
     {
         "ip_address": "72.252.157.93",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 30689,
         "as_name": "FLOW-NET",
@@ -1058,7 +1058,7 @@
     {
         "ip_address": "72.252.157.93",
         "port": 990,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 30689,
         "as_name": "FLOW-NET",
@@ -1694,7 +1694,7 @@
     {
         "ip_address": "115.247.12.66",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 55836,
         "as_name": "RELIANCEJIO-IN Reliance Jio Infocomm Limited",
@@ -1920,18 +1920,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "188.156.85.37",
-        "port": 443,
-        "status": "offline",
-        "hostname": "BC9C5525.catv.pool.telekom.hu",
-        "as_number": 5483,
-        "as_name": "MAGYAR-TELEKOM-MAIN-AS Magyar Telekom Nyrt.",
-        "country": "HU",
-        "first_seen": "2022-10-04 15:07:53",
-        "last_online": "2022-10-04",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "149.3.170.62",
         "port": 443,
         "status": "offline",
@@ -1942,5 +1930,17 @@
         "first_seen": "2022-10-04 17:56:34",
         "last_online": "2022-10-04",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "186.86.212.138",
+        "port": 443,
+        "status": "online",
+        "hostname": "dynamic-ip-18686212138.cable.net.co",
+        "as_number": 10620,
+        "as_name": "Telmex Colombia S.A.",
+        "country": "CO",
+        "first_seen": "2022-10-04 21:37:54",
+        "last_online": "2022-10-04",
+        "malware": "QakBot"
     }
 ]
