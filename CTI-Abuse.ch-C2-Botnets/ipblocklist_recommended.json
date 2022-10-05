@@ -492,6 +492,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "182.191.92.203",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 17557,
+        "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
+        "country": "PK",
+        "first_seen": "2021-12-18 04:08:16",
+        "last_online": "2022-10-05",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "51.38.71.0",
         "port": 443,
         "status": "online",
@@ -514,18 +526,6 @@
         "first_seen": "2021-12-24 15:59:14",
         "last_online": "2022-10-04",
         "malware": "QakBot"
-    },
-    {
-        "ip_address": "103.9.36.172",
-        "port": 443,
-        "status": "offline",
-        "hostname": "k8s-worker1.asyst.co.id",
-        "as_number": 131710,
-        "as_name": "IDNIC-AERONET-AS-ID PT Aero Systems Indonesia",
-        "country": "ID",
-        "first_seen": "2021-12-31 03:47:39",
-        "last_online": "2022-10-04",
-        "malware": "Dridex"
     },
     {
         "ip_address": "139.99.30.176",
@@ -794,7 +794,7 @@
     {
         "ip_address": "174.69.215.101",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip174-69-215-101.lf.br.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
@@ -1454,7 +1454,7 @@
     {
         "ip_address": "66.181.164.43",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17882,
         "as_name": "UNIVISION-AS-AP UNIVISION LLC",
@@ -1532,6 +1532,18 @@
         "as_name": "SUDDENLINK-COMMUNICATIONS",
         "country": "US",
         "first_seen": "2022-09-20 14:11:09",
+        "last_online": "2022-10-05",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "111.125.157.230",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 45178,
+        "as_name": "ROSHAN-AF Main Street, House No. 13 Wazir Akbar Khan",
+        "country": "AF",
+        "first_seen": "2022-09-26 08:21:19",
         "last_online": "2022-10-05",
         "malware": "QakBot"
     },
@@ -1822,5 +1834,17 @@
         "first_seen": "2022-10-04 21:37:54",
         "last_online": "2022-10-05",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "192.255.188.11",
+        "port": 443,
+        "status": "offline",
+        "hostname": "hwsrv-1005667.hostwindsdns.com",
+        "as_number": 54290,
+        "as_name": "HOSTWINDS",
+        "country": "US",
+        "first_seen": "2022-10-05 04:16:36",
+        "last_online": "2022-10-05",
+        "malware": "BumbleBee"
     }
 ]
