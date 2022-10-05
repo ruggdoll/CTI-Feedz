@@ -422,7 +422,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -974,7 +974,7 @@
     {
         "ip_address": "72.252.157.93",
         "port": 990,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 30689,
         "as_name": "FLOW-NET",
@@ -1394,7 +1394,7 @@
     {
         "ip_address": "179.158.103.236",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "b39e67ec.virtua.com.br",
         "as_number": 28573,
         "as_name": "Claro NXT Telecomunicacoes Ltda",
@@ -1406,7 +1406,7 @@
     {
         "ip_address": "191.97.234.238",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "238-234-97-191.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -1426,18 +1426,6 @@
         "first_seen": "2022-09-13 03:57:38",
         "last_online": "2022-10-05",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "72.88.245.71",
-        "port": 443,
-        "status": "offline",
-        "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
-        "as_number": 701,
-        "as_name": "UUNET",
-        "country": "US",
-        "first_seen": "2022-09-15 20:24:57",
-        "last_online": "2022-10-05",
-        "malware": "QakBot"
     },
     {
         "ip_address": "146.59.116.54",
@@ -1656,18 +1644,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "109.128.221.164",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 5432,
-        "as_name": "PROXIMUS-ISP-AS",
-        "country": "BE",
-        "first_seen": "2022-09-29 06:37:43",
-        "last_online": "2022-10-05",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "216.238.83.82",
         "port": 443,
         "status": "online",
@@ -1800,6 +1776,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "94.52.127.44",
+        "port": 443,
+        "status": "online",
+        "hostname": "94-52-127-44.next-gen.ro",
+        "as_number": 48161,
+        "as_name": "NG-AS Sos. Bucuresti - Ploiesti nr. 42-44",
+        "country": "RO",
+        "first_seen": "2022-10-04 13:52:55",
+        "last_online": "2022-10-05",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "216.238.83.82",
         "port": 995,
         "status": "online",
@@ -1858,5 +1846,53 @@
         "first_seen": "2022-10-05 17:56:35",
         "last_online": "2022-10-05",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "82.12.196.197",
+        "port": 443,
+        "status": "online",
+        "hostname": "cpc158705-smal21-2-0-cust196.19-1.cable.virginm.net",
+        "as_number": 5089,
+        "as_name": "NTL",
+        "country": "GB",
+        "first_seen": "2022-10-05 20:24:16",
+        "last_online": "2022-10-05",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "186.64.67.6",
+        "port": 443,
+        "status": "online",
+        "hostname": "host6.186-64-67.nodosud.com.ar",
+        "as_number": 27953,
+        "as_name": "NODOSUD S.A",
+        "country": "AR",
+        "first_seen": "2022-10-05 20:24:17",
+        "last_online": "2022-10-05",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "190.193.180.228",
+        "port": 443,
+        "status": "online",
+        "hostname": "228-180-193-190.cab.prima.net.ar",
+        "as_number": 7303,
+        "as_name": "Telecom Argentina S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-05 20:24:21",
+        "last_online": "2022-10-05",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "105.69.155.85",
+        "port": 995,
+        "status": "offline",
+        "hostname": null,
+        "as_number": 36884,
+        "as_name": "MAROCCONNECT",
+        "country": "MA",
+        "first_seen": "2022-10-05 20:24:23",
+        "last_online": "2022-10-05",
+        "malware": "QakBot"
     }
 ]
