@@ -300,18 +300,6 @@
         "malware": "Emotet"
     },
     {
-        "ip_address": "196.44.98.190",
-        "port": 8080,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 327814,
-        "as_name": "Ecoband",
-        "country": "GH",
-        "first_seen": "2021-11-15 19:25:02",
-        "last_online": "2022-10-05",
-        "malware": "Emotet"
-    },
-    {
         "ip_address": "93.188.167.97",
         "port": 443,
         "status": "online",
@@ -434,7 +422,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -776,6 +764,18 @@
         "as_name": "TWC-20001-PACWEST",
         "country": "US",
         "first_seen": "2022-03-16 19:53:57",
+        "last_online": "2022-10-05",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "174.69.215.101",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip174-69-215-101.lf.br.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-03-16 19:54:01",
         "last_online": "2022-10-05",
         "malware": "QakBot"
     },
@@ -1418,7 +1418,7 @@
     {
         "ip_address": "191.97.234.238",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "238-234-97-191.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -1500,18 +1500,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "177.255.14.99",
-        "port": 995,
-        "status": "offline",
-        "hostname": "Dinamic-Tigo-177-255-14-99.tigo.com.co",
-        "as_number": 27831,
-        "as_name": "Colombia Movil",
-        "country": "CO",
-        "first_seen": "2022-09-19 22:40:35",
-        "last_online": "2022-10-05",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "173.218.180.91",
         "port": 443,
         "status": "online",
@@ -1520,18 +1508,6 @@
         "as_name": "SUDDENLINK-COMMUNICATIONS",
         "country": "US",
         "first_seen": "2022-09-20 14:11:09",
-        "last_online": "2022-10-05",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "111.125.157.230",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 45178,
-        "as_name": "ROSHAN-AF Main Street, House No. 13 Wazir Akbar Khan",
-        "country": "AF",
-        "first_seen": "2022-09-26 08:21:19",
         "last_online": "2022-10-05",
         "malware": "QakBot"
     },
@@ -1844,6 +1820,18 @@
         "as_name": "NG-AS Sos. Bucuresti - Ploiesti nr. 42-44",
         "country": "RO",
         "first_seen": "2022-10-04 13:52:55",
+        "last_online": "2022-10-05",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "216.238.83.82",
+        "port": 995,
+        "status": "online",
+        "hostname": "216.238.83.82.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "MX",
+        "first_seen": "2022-10-05 16:31:09",
         "last_online": "2022-10-05",
         "malware": "QakBot"
     }
