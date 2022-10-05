@@ -422,7 +422,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -854,7 +854,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1742,7 +1742,7 @@
     {
         "ip_address": "149.126.159.254",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "BSN-126-159-254.dynamic.siol.net",
         "as_number": 5603,
         "as_name": "SIOL-NET Telekom Slovenije d.d.",
@@ -1826,7 +1826,7 @@
     {
         "ip_address": "45.66.151.193",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 43043,
         "as_name": "FASTPIPE fastpipe.io Cloud Infrastructure",
@@ -1856,6 +1856,18 @@
         "as_name": "BANDWIDTH-AS",
         "country": "GB",
         "first_seen": "2022-10-05 17:06:34",
+        "last_online": "2022-10-05",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "146.70.149.45",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 9009,
+        "as_name": "M247",
+        "country": "SG",
+        "first_seen": "2022-10-05 17:56:35",
         "last_online": "2022-10-05",
         "malware": "BumbleBee"
     }
