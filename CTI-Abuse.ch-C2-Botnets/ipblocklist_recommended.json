@@ -194,7 +194,7 @@
     {
         "ip_address": "41.86.42.158",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 36958,
         "as_name": "CWSeychelles-AS",
@@ -410,7 +410,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -458,7 +458,7 @@
     {
         "ip_address": "182.191.92.203",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17557,
         "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
@@ -620,6 +620,18 @@
         "as_name": "France Telecom - Orange",
         "country": "FR",
         "first_seen": "2022-02-28 15:14:34",
+        "last_online": "2022-10-06",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "24.55.67.176",
+        "port": 443,
+        "status": "online",
+        "hostname": "dynamic.libertypr.net",
+        "as_number": 14638,
+        "as_name": "LCPRL",
+        "country": "PR",
+        "first_seen": "2022-03-01 14:15:11",
         "last_online": "2022-10-06",
         "malware": "QakBot"
     },
@@ -830,7 +842,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1404,6 +1416,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "72.88.245.71",
+        "port": 443,
+        "status": "online",
+        "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
+        "as_number": 701,
+        "as_name": "UUNET",
+        "country": "US",
+        "first_seen": "2022-09-15 20:24:57",
+        "last_online": "2022-10-06",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "146.59.116.54",
         "port": 443,
         "status": "online",
@@ -1622,12 +1646,24 @@
     {
         "ip_address": "103.173.121.17",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 138296,
         "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
         "country": "IN",
         "first_seen": "2022-09-28 05:06:56",
+        "last_online": "2022-10-06",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "181.177.156.209",
+        "port": 443,
+        "status": "online",
+        "hostname": "host-181-177-156-209.supernet.com.bo",
+        "as_number": 27839,
+        "as_name": "Comteco Ltda",
+        "country": "BO",
+        "first_seen": "2022-09-28 16:47:32",
         "last_online": "2022-10-06",
         "malware": "QakBot"
     },
@@ -1786,18 +1822,6 @@
         "first_seen": "2022-10-05 17:06:34",
         "last_online": "2022-10-06",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "82.12.196.197",
-        "port": 443,
-        "status": "offline",
-        "hostname": "cpc158705-smal21-2-0-cust196.19-1.cable.virginm.net",
-        "as_number": 5089,
-        "as_name": "NTL",
-        "country": "GB",
-        "first_seen": "2022-10-05 20:24:16",
-        "last_online": "2022-10-06",
-        "malware": "QakBot"
     },
     {
         "ip_address": "186.64.67.6",
