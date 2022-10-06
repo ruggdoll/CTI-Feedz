@@ -204,30 +204,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "45.46.53.140",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
-        "as_number": 11351,
-        "as_name": "TWC-11351-NORTHEAST",
-        "country": "US",
-        "first_seen": "2021-09-29 14:35:05",
-        "last_online": "2022-10-06",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "76.25.142.196",
-        "port": 443,
-        "status": "offline",
-        "hostname": "c-76-25-142-196.hsd1.co.comcast.net",
-        "as_number": 7922,
-        "as_name": "COMCAST-7922",
-        "country": "US",
-        "first_seen": "2021-09-29 16:45:05",
-        "last_online": "2022-10-06",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "41.86.42.158",
         "port": 995,
         "status": "online",
@@ -446,7 +422,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -890,7 +866,7 @@
     {
         "ip_address": "104.34.212.7",
         "port": 32103,
-        "status": "offline",
+        "status": "online",
         "hostname": "cpe-104-34-212-7.socal.res.rr.com",
         "as_number": 20001,
         "as_name": "TWC-20001-PACWEST",
@@ -1502,7 +1478,7 @@
     {
         "ip_address": "111.125.157.230",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 45178,
         "as_name": "ROSHAN-AF Main Street, House No. 13 Wazir Akbar Khan",
@@ -1858,5 +1834,41 @@
         "first_seen": "2022-10-05 20:24:21",
         "last_online": "2022-10-06",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "51.83.250.102",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 16276,
+        "as_name": "OVH",
+        "country": "RU",
+        "first_seen": "2022-10-06 08:56:34",
+        "last_online": "2022-10-06",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "192.119.77.44",
+        "port": 443,
+        "status": "offline",
+        "hostname": "hwsrv-1007148.hostwindsdns.com",
+        "as_number": 54290,
+        "as_name": "HOSTWINDS",
+        "country": "US",
+        "first_seen": "2022-10-06 08:56:35",
+        "last_online": "2022-10-06",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "208.115.216.246",
+        "port": 443,
+        "status": "online",
+        "hostname": "246-216-115-208.static.reverse.lstn.net",
+        "as_number": 46475,
+        "as_name": "LIMESTONENETWORKS",
+        "country": "US",
+        "first_seen": "2022-10-06 08:56:36",
+        "last_online": "2022-10-06",
+        "malware": "BumbleBee"
     }
 ]
