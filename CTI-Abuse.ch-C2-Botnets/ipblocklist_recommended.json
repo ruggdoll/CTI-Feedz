@@ -446,7 +446,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -866,7 +866,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -992,6 +992,18 @@
         "as_name": "CONTABO",
         "country": "DE",
         "first_seen": "2022-05-24 09:53:39",
+        "last_online": "2022-10-06",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "23.88.117.246",
+        "port": 443,
+        "status": "online",
+        "hostname": "static.246.117.88.23.clients.your-server.de",
+        "as_number": 24940,
+        "as_name": "HETZNER-AS",
+        "country": "DE",
+        "first_seen": "2022-05-24 09:54:09",
         "last_online": "2022-10-06",
         "malware": "BumbleBee"
     },
@@ -1640,18 +1652,6 @@
         "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
         "country": "IN",
         "first_seen": "2022-09-28 05:06:56",
-        "last_online": "2022-10-06",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "181.177.156.209",
-        "port": 443,
-        "status": "offline",
-        "hostname": "host-181-177-156-209.supernet.com.bo",
-        "as_number": 27839,
-        "as_name": "Comteco Ltda",
-        "country": "BO",
-        "first_seen": "2022-09-28 16:47:32",
         "last_online": "2022-10-06",
         "malware": "QakBot"
     },
