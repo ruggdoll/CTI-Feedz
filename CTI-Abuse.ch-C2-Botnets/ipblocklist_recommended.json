@@ -890,7 +890,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1716,18 +1716,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "103.173.121.17",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 138296,
-        "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
-        "country": "IN",
-        "first_seen": "2022-09-28 05:06:56",
-        "last_online": "2022-10-06",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "185.233.79.238",
         "port": 995,
         "status": "offline",
@@ -1970,7 +1958,7 @@
     {
         "ip_address": "134.35.6.76",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 30873,
         "as_name": "PTC-YEMENNET",
@@ -1978,5 +1966,41 @@
         "first_seen": "2022-10-06 16:14:19",
         "last_online": "2022-10-06",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.147.231.156",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30823,
+        "as_name": "COMBAHTON combahton GmbH",
+        "country": "DE",
+        "first_seen": "2022-10-06 18:16:35",
+        "last_online": "2022-10-06",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "45.61.186.18",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "US",
+        "first_seen": "2022-10-06 18:16:36",
+        "last_online": "2022-10-06",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "23.29.115.164",
+        "port": 443,
+        "status": "online",
+        "hostname": "23-29-115-164.static.hvvc.us",
+        "as_number": 29802,
+        "as_name": "HVC-AS",
+        "country": "US",
+        "first_seen": "2022-10-06 18:16:36",
+        "last_online": "2022-10-06",
+        "malware": "BumbleBee"
     }
 ]
