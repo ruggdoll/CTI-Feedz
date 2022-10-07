@@ -434,7 +434,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -502,6 +502,18 @@
         "first_seen": "2021-12-23 21:31:07",
         "last_online": "2022-10-07",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "103.9.36.172",
+        "port": 443,
+        "status": "online",
+        "hostname": "k8s-worker1.asyst.co.id",
+        "as_number": 131710,
+        "as_name": "IDNIC-AERONET-AS-ID PT Aero Systems Indonesia",
+        "country": "ID",
+        "first_seen": "2021-12-31 03:47:39",
+        "last_online": "2022-10-07",
+        "malware": "Dridex"
     },
     {
         "ip_address": "139.99.30.176",
@@ -1808,18 +1820,6 @@
         "as_name": "NODOSUD S.A",
         "country": "AR",
         "first_seen": "2022-10-05 20:24:17",
-        "last_online": "2022-10-07",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "190.193.180.228",
-        "port": 443,
-        "status": "offline",
-        "hostname": "228-180-193-190.cab.prima.net.ar",
-        "as_number": 7303,
-        "as_name": "Telecom Argentina S.A.",
-        "country": "AR",
-        "first_seen": "2022-10-05 20:24:21",
         "last_online": "2022-10-07",
         "malware": "QakBot"
     },
