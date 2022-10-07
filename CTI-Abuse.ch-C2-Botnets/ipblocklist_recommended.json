@@ -410,7 +410,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -614,12 +614,24 @@
     {
         "ip_address": "193.253.44.249",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "lputeaux-658-1-95-249.w193-253.abo.wanadoo.fr",
         "as_number": 3215,
         "as_name": "France Telecom - Orange",
         "country": "FR",
         "first_seen": "2022-02-28 15:14:34",
+        "last_online": "2022-10-07",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "24.55.67.176",
+        "port": 443,
+        "status": "online",
+        "hostname": "dynamic.libertypr.net",
+        "as_number": 14638,
+        "as_name": "LCPRL",
+        "country": "PR",
+        "first_seen": "2022-03-01 14:15:11",
         "last_online": "2022-10-07",
         "malware": "QakBot"
     },
@@ -1310,7 +1322,7 @@
     {
         "ip_address": "203.217.140.239",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 45293,
         "as_name": "UT-AS-ID Universitas Terbuka",
@@ -1730,7 +1742,7 @@
     {
         "ip_address": "94.52.127.44",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "94-52-127-44.next-gen.ro",
         "as_number": 48161,
         "as_name": "NG-AS Sos. Bucuresti - Ploiesti nr. 42-44",
@@ -1834,17 +1846,5 @@
         "first_seen": "2022-10-06 18:16:36",
         "last_online": "2022-10-07",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "118.216.99.232",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 9318,
-        "as_name": "SKB-AS SK Broadband Co Ltd",
-        "country": "KR",
-        "first_seen": "2022-10-06 23:41:27",
-        "last_online": "2022-10-07",
-        "malware": "QakBot"
     }
 ]
