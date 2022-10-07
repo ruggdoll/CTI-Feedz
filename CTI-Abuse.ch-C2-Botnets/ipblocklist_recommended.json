@@ -194,7 +194,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -854,7 +854,7 @@
     {
         "ip_address": "85.104.122.231",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "85.104.122.231.dynamic.ttnet.com.tr",
         "as_number": 9121,
         "as_name": "TTNET",
@@ -1918,5 +1918,17 @@
         "first_seen": "2022-10-07 13:22:36",
         "last_online": "2022-10-07",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "96.234.66.76",
+        "port": 995,
+        "status": "offline",
+        "hostname": "pool-96-234-66-76.nwrknj.fios.verizon.net",
+        "as_number": 701,
+        "as_name": "UUNET",
+        "country": "US",
+        "first_seen": "2022-10-07 15:09:49",
+        "last_online": "2022-10-07",
+        "malware": "QakBot"
     }
 ]
