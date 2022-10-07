@@ -434,7 +434,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -862,18 +862,6 @@
         "first_seen": "2022-04-22 16:40:50",
         "last_online": "2022-10-07",
         "malware": "Emotet"
-    },
-    {
-        "ip_address": "104.34.212.7",
-        "port": 32103,
-        "status": "offline",
-        "hostname": "cpe-104-34-212-7.socal.res.rr.com",
-        "as_number": 20001,
-        "as_name": "TWC-20001-PACWEST",
-        "country": "US",
-        "first_seen": "2022-04-26 13:19:01",
-        "last_online": "2022-10-06",
-        "malware": "QakBot"
     },
     {
         "ip_address": "178.62.112.199",
@@ -1658,7 +1646,7 @@
     {
         "ip_address": "181.177.156.209",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "host-181-177-156-209.supernet.com.bo",
         "as_number": 27839,
         "as_name": "Comteco Ltda",
@@ -1788,18 +1776,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "94.52.127.44",
-        "port": 443,
-        "status": "offline",
-        "hostname": "94-52-127-44.next-gen.ro",
-        "as_number": 48161,
-        "as_name": "NG-AS Sos. Bucuresti - Ploiesti nr. 42-44",
-        "country": "RO",
-        "first_seen": "2022-10-04 13:52:55",
-        "last_online": "2022-10-06",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "216.238.83.82",
         "port": 995,
         "status": "online",
@@ -1844,6 +1820,18 @@
         "as_name": "NODOSUD S.A",
         "country": "AR",
         "first_seen": "2022-10-05 20:24:17",
+        "last_online": "2022-10-07",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "190.193.180.228",
+        "port": 443,
+        "status": "online",
+        "hostname": "228-180-193-190.cab.prima.net.ar",
+        "as_number": 7303,
+        "as_name": "Telecom Argentina S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-05 20:24:21",
         "last_online": "2022-10-07",
         "malware": "QakBot"
     },
