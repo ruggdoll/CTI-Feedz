@@ -422,7 +422,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -506,7 +506,7 @@
     {
         "ip_address": "139.99.30.176",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "service.srv.co.id",
         "as_number": 16276,
         "as_name": "OVH",
@@ -1580,6 +1580,18 @@
         "as_name": "SELECTEL-MSK",
         "country": "RU",
         "first_seen": "2022-09-27 17:21:47",
+        "last_online": "2022-10-08",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "86.196.181.62",
+        "port": 2222,
+        "status": "online",
+        "hostname": "lfbn-orl-1-477-62.w86-196.abo.wanadoo.fr",
+        "as_number": 3215,
+        "as_name": "France Telecom - Orange",
+        "country": "FR",
+        "first_seen": "2022-09-28 17:47:31",
         "last_online": "2022-10-08",
         "malware": "QakBot"
     },
