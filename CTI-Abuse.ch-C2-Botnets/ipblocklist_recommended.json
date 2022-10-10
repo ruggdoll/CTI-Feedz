@@ -206,7 +206,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -446,7 +446,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -478,18 +478,6 @@
         "first_seen": "2021-12-17 20:48:59",
         "last_online": "2022-10-10",
         "malware": "Dridex"
-    },
-    {
-        "ip_address": "182.191.92.203",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 17557,
-        "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
-        "country": "PK",
-        "first_seen": "2021-12-18 04:08:16",
-        "last_online": "2022-10-10",
-        "malware": "QakBot"
     },
     {
         "ip_address": "51.38.71.0",
@@ -902,7 +890,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1776,6 +1764,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "181.177.156.209",
+        "port": 443,
+        "status": "online",
+        "hostname": "host-181-177-156-209.supernet.com.bo",
+        "as_number": 27839,
+        "as_name": "Comteco Ltda",
+        "country": "BO",
+        "first_seen": "2022-09-28 16:47:32",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "86.196.181.62",
         "port": 2222,
         "status": "offline",
@@ -1910,7 +1910,7 @@
     {
         "ip_address": "94.52.127.44",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "94-52-127-44.next-gen.ro",
         "as_number": 48161,
         "as_name": "NG-AS Sos. Bucuresti - Ploiesti nr. 42-44",
@@ -2078,7 +2078,7 @@
     {
         "ip_address": "134.35.4.128",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 30873,
         "as_name": "PTC-YEMENNET",
@@ -2150,7 +2150,7 @@
     {
         "ip_address": "41.97.127.116",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 36947,
         "as_name": "ALGTEL-AS",
@@ -2158,5 +2158,17 @@
         "first_seen": "2022-10-10 15:05:39",
         "last_online": "2022-10-10",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "146.70.53.139",
+        "port": 443,
+        "status": "offline",
+        "hostname": null,
+        "as_number": 9009,
+        "as_name": "M247",
+        "country": "BG",
+        "first_seen": "2022-10-10 17:57:04",
+        "last_online": "2022-10-10",
+        "malware": "BumbleBee"
     }
 ]
