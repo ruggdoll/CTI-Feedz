@@ -276,18 +276,6 @@
         "malware": "Dridex"
     },
     {
-        "ip_address": "117.248.109.38",
-        "port": 21,
-        "status": "offline",
-        "hostname": "ho.sansui.co.in",
-        "as_number": 9829,
-        "as_name": "BSNL-NIB National Internet Backbone",
-        "country": "IN",
-        "first_seen": "2021-10-26 16:03:21",
-        "last_online": "2022-10-10",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "104.248.155.133",
         "port": 443,
         "status": "online",
@@ -768,18 +756,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "119.193.124.41",
-        "port": 7080,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 4766,
-        "as_name": "KIXS-AS-KR Korea Telecom",
-        "country": "KR",
-        "first_seen": "2022-03-15 19:01:08",
-        "last_online": "2022-10-10",
-        "malware": "Emotet"
-    },
-    {
         "ip_address": "165.22.61.235",
         "port": 443,
         "status": "online",
@@ -890,7 +866,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1790,7 +1766,7 @@
     {
         "ip_address": "58.186.75.42",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "58-186-75-xxx-dynamic.hcm.fpt.vn",
         "as_number": 18403,
         "as_name": "FPT-AS-AP FPT Telecom Company",
@@ -1910,7 +1886,7 @@
     {
         "ip_address": "94.52.127.44",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "94-52-127-44.next-gen.ro",
         "as_number": 48161,
         "as_name": "NG-AS Sos. Bucuresti - Ploiesti nr. 42-44",
@@ -2170,5 +2146,17 @@
         "first_seen": "2022-10-10 17:57:04",
         "last_online": "2022-10-10",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "181.44.34.172",
+        "port": 443,
+        "status": "offline",
+        "hostname": "cpe-181-44-34-172.telecentro-reversos.com.ar",
+        "as_number": 27747,
+        "as_name": "Telecentro S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-10 19:05:47",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
     }
 ]
