@@ -266,7 +266,7 @@
     {
         "ip_address": "117.248.109.38",
         "port": 21,
-        "status": "online",
+        "status": "offline",
         "hostname": "ho.sansui.co.in",
         "as_number": 9829,
         "as_name": "BSNL-NIB National Internet Backbone",
@@ -434,7 +434,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1008,6 +1008,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "72.252.157.93",
+        "port": 990,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30689,
+        "as_name": "FLOW-NET",
+        "country": "JM",
+        "first_seen": "2022-05-24 13:39:52",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "168.119.40.176",
         "port": 443,
         "status": "online",
@@ -1394,7 +1406,7 @@
     {
         "ip_address": "54.37.70.105",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "105.ip-54-37-70.eu",
         "as_number": 16276,
         "as_name": "OVH",
@@ -1412,6 +1424,18 @@
         "as_name": "DIGITALOCEAN-ASN",
         "country": "SG",
         "first_seen": "2022-07-07 05:10:21",
+        "last_online": "2022-10-10",
+        "malware": "Emotet"
+    },
+    {
+        "ip_address": "165.22.211.113",
+        "port": 8081,
+        "status": "offline",
+        "hostname": null,
+        "as_number": 14061,
+        "as_name": "DIGITALOCEAN-ASN",
+        "country": "IN",
+        "first_seen": "2022-07-07 05:10:23",
         "last_online": "2022-10-10",
         "malware": "Emotet"
     },
@@ -1740,6 +1764,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "189.189.89.32",
+        "port": 443,
+        "status": "online",
+        "hostname": "dsl-189-189-89-32-dyn.prod-infinitum.com.mx",
+        "as_number": 8151,
+        "as_name": "Uninet S.A. de C.V.",
+        "country": "MX",
+        "first_seen": "2022-09-27 17:21:48",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "86.196.181.62",
         "port": 2222,
         "status": "online",
@@ -1908,6 +1944,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "82.12.196.197",
+        "port": 443,
+        "status": "offline",
+        "hostname": "cpc158705-smal21-2-0-cust196.19-1.cable.virginm.net",
+        "as_number": 5089,
+        "as_name": "NTL",
+        "country": "GB",
+        "first_seen": "2022-10-05 20:24:16",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "186.64.67.6",
         "port": 443,
         "status": "online",
@@ -2026,5 +2074,77 @@
         "first_seen": "2022-10-09 17:42:06",
         "last_online": "2022-10-10",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "134.35.4.128",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30873,
+        "as_name": "PTC-YEMENNET",
+        "country": "YE",
+        "first_seen": "2022-10-10 14:05:41",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "197.92.143.218",
+        "port": 443,
+        "status": "online",
+        "hostname": "197-92-143-218.hff.mweb.co.za",
+        "as_number": 10474,
+        "as_name": "OPTINET",
+        "country": "ZA",
+        "first_seen": "2022-10-10 14:05:42",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "42.189.2.151",
+        "port": 80,
+        "status": "online",
+        "hostname": null,
+        "as_number": 4788,
+        "as_name": "TMNET-AS-AP TM Net, Internet Service Provider",
+        "country": "MY",
+        "first_seen": "2022-10-10 14:05:42",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "197.204.78.120",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 36947,
+        "as_name": "ALGTEL-AS",
+        "country": "DZ",
+        "first_seen": "2022-10-10 14:05:45",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "190.100.149.122",
+        "port": 995,
+        "status": "online",
+        "hostname": "pc-122-149-100-190.cm.vtr.net",
+        "as_number": 22047,
+        "as_name": "VTR BANDA ANCHA S.A.",
+        "country": "CL",
+        "first_seen": "2022-10-10 14:05:45",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "190.73.190.235",
+        "port": 443,
+        "status": "offline",
+        "hostname": "190.73-190-235.dyn.dsl.cantv.net",
+        "as_number": 8048,
+        "as_name": "CANTV Servicios, Venezuela",
+        "country": "VE",
+        "first_seen": "2022-10-10 14:05:53",
+        "last_online": "2022-10-10",
+        "malware": "QakBot"
     }
 ]
