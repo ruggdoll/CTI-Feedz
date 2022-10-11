@@ -1,362 +1,362 @@
 {
   "Event": {
-    "extends_uuid": "",
+    "publish_timestamp": "1656918311",
+    "published": true,
     "analysis": "0",
     "threat_level_id": "4",
+    "extends_uuid": "",
+    "timestamp": "1656512219",
     "uuid": "5eec7d77-302c-45b8-ade6-c3d20aba047c",
-    "published": true,
     "date": "2020-06-19",
     "info": "[CERT-FR] Le groupe cybercriminel TA505",
-    "publish_timestamp": "1656918311",
-    "timestamp": "1656512219",
     "Orgc": {
-      "name": "CERT-FR",
-      "uuid": "56bdf779-46f8-4353-bdf9-2bb95bce2212"
+      "uuid": "56bdf779-46f8-4353-bdf9-2bb95bce2212",
+      "name": "CERT-FR"
     },
     "Tag": [
       {
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
-        "colour": "#f89595"
+        "colour": "#f89595",
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
       },
       {
-        "name": "cossi:TLP=\"white\"",
-        "colour": "#ffffff"
+        "colour": "#ffffff",
+        "name": "cossi:TLP=\"white\""
       },
       {
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\"",
-        "colour": "#008e63"
+        "colour": "#008e63",
+        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
       },
       {
-        "name": "cossi:fiabilite=\"Bonne\"",
-        "colour": "#00714f"
+        "colour": "#00714f",
+        "name": "cossi:fiabilite=\"Bonne\""
       },
       {
-        "name": "misp-galaxy:threat-actor=\"TA505\"",
-        "colour": "#0088cc"
+        "colour": "#0088cc",
+        "name": "misp-galaxy:threat-actor=\"TA505\""
       },
       {
-        "name": "tlp:white",
-        "colour": "#ffffff"
+        "colour": "#ffffff",
+        "name": "tlp:white"
       }
     ],
     "Attribute": [
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Other",
-        "disable_correlation": false,
-        "comment": "",
         "type": "comment",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556919",
+        "comment": "",
         "uuid": "942729f1-dc11-4e13-8887-9f282f1352a8",
         "value": "Domaines de hame\u00e7onnage et de C2 utilis\u00e9s par TA505 entre mars 2020 et juin 2020",
-        "timestamp": "1592556919",
+        "category": "Other",
         "Tag": [
           {
-            "name": "DescriptionTechnique",
-            "colour": "#00af7a"
+            "colour": "#00af7a",
+            "name": "DescriptionTechnique"
           }
         ]
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "uuid": "b68359d9-9301-4ba4-b9df-096853e1b735",
         "value": "sl-downloads.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "uuid": "6b02bf27-2a6c-4fb5-b45e-76fc760665f6",
         "value": "downloads-links.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "uuid": "6fbf93a2-2066-4c56-83e4-c72131e2a652",
         "value": "eu-download.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "uuid": "818d0170-bbdf-4661-925d-986aa753c282",
         "value": "store-downloads.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "uuid": "2dec0b08-0cdc-4ad4-8f2d-a5053407d657",
         "value": "fasts-downloads.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "uuid": "ce5e1872-b8ee-4eaf-aec5-102a9adda7bd",
         "value": "rmt-downloads.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "C2 Get2 - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "C2 Get2 - Juin 2020",
         "uuid": "d7539fc4-b16a-48e9-8f21-c47084c72e10",
         "value": "filessz.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "C2 Get2 - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "C2 Get2 - Juin 2020",
         "uuid": "b6afe9b1-40d7-40f5-8ab9-373d4c18c260",
         "value": "def-update.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "C2 Get2 - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "C2 Get2 - Juin 2020",
         "uuid": "0935cdcd-8c07-4a65-aaa1-22c177013537",
         "value": "sdff-corp.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "C2 Get2 - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "C2 Get2 - Juin 2020",
         "uuid": "51a1e547-2308-45c4-b7be-c3bbd1361ada",
         "value": "shr-links.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "C2 Get2 - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "C2 Get2 - Juin 2020",
         "uuid": "520b590e-d193-4931-b97e-40ef4041277e",
         "value": "sharefileszz.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "C2 Get2 - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "C2 Get2 - Juin 2020",
         "uuid": "9bcab7bd-5287-4921-ae32-0b2f4e978b10",
         "value": "corp-storage.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Possible domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Possible domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "uuid": "fd4e509d-b05d-44b9-a728-10f962c73b71",
         "value": "s89065339-onedrive.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Possible domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Possible domaine de page d\u2019hame\u00e7onnage - Juin 2020",
         "uuid": "5a68a0e0-f5df-4532-9878-9d4c8e2c18ae",
         "value": "s77657453-onedrive.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Potentiel C2 SDBBot - Avril-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Potentiel C2 SDBBot - Avril-mai 2020",
         "uuid": "7d50e7e4-903d-46de-8a53-1de5f6db2601",
         "value": "us-microsoft-store.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Avril-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Avril-mai 2020",
         "uuid": "a58b493d-ced0-41a5-8a8d-6e584a41be03",
         "value": "mslinks-downloads.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Avril-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Avril-mai 2020",
         "uuid": "d76e40ae-0275-4aac-a7c6-45d166f0640f",
         "value": "corp-downloads.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "uuid": "18e400bc-f511-468d-b6b2-b38f72c73048",
         "value": "dyn-downloads.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "uuid": "8bb64ada-2d3f-450f-a180-4faa37c955ac",
         "value": "getlink-service.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "uuid": "53843925-9719-4b03-8d16-23b1671a5d8b",
         "value": "clients-share.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "uuid": "d811bcbf-b58e-43e7-bb7a-8ebdb31343cd",
         "value": "static-downloads.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "uuid": "07adf0c2-9369-416e-b847-37263b8cadcd",
         "value": "clietns-download.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "uuid": "c0312cf9-3bd5-4024-9fa4-a2e0751e31cf",
         "value": "sharespoint-en.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Domaine de page d\u2019hame\u00e7onnage - Mars-mai 2020",
         "uuid": "dbf6ed60-4aa0-4c8e-90eb-33996c1ddd70",
         "value": "get-downloads.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "C2 CobaltStrike - Mars 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "C2 CobaltStrike - Mars 2020",
         "uuid": "333f47ea-d40f-4cd7-b307-ddd3951bbc87",
         "value": "dysoool.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Network activity",
-        "disable_correlation": false,
-        "comment": "Potentiel C2 SDBBot - Mars-mai 2020",
         "type": "domain",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592556920",
+        "comment": "Potentiel C2 SDBBot - Mars-mai 2020",
         "uuid": "f940c56f-246a-496e-a560-148e67c6dc9b",
         "value": "rdmsom.com",
-        "timestamp": "1592556920"
+        "category": "Network activity"
       },
       {
         "to_ids": true,
-        "deleted": false,
-        "category": "Other",
-        "disable_correlation": false,
-        "comment": "",
         "type": "comment",
+        "disable_correlation": false,
+        "deleted": false,
+        "timestamp": "1592557098",
+        "comment": "",
         "uuid": "508cdcfc-57d7-43cf-9ae0-242f83107fdd",
         "value": "2020-03-01",
-        "timestamp": "1592557098",
+        "category": "Other",
         "Tag": [
           {
-            "name": "cossi:relevantTimespan=\"from\"",
-            "colour": "#000000"
+            "colour": "#000000",
+            "name": "cossi:relevantTimespan=\"from\""
           }
         ]
       }
