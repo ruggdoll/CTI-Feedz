@@ -422,7 +422,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -614,7 +614,7 @@
     {
         "ip_address": "196.203.37.215",
         "port": 80,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 37719,
         "as_name": "Hexabyte-AS",
@@ -636,18 +636,6 @@
         "malware": "Emotet"
     },
     {
-        "ip_address": "136.243.32.168",
-        "port": 443,
-        "status": "offline",
-        "hostname": "saprizo.com",
-        "as_number": 24940,
-        "as_name": "HETZNER-AS",
-        "country": "DE",
-        "first_seen": "2022-02-25 23:40:49",
-        "last_online": "2022-10-11",
-        "malware": "Emotet"
-    },
-    {
         "ip_address": "193.253.44.249",
         "port": 2222,
         "status": "online",
@@ -656,6 +644,18 @@
         "as_name": "France Telecom - Orange",
         "country": "FR",
         "first_seen": "2022-02-28 15:14:34",
+        "last_online": "2022-10-11",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "24.55.67.176",
+        "port": 443,
+        "status": "online",
+        "hostname": "dynamic.libertypr.net",
+        "as_number": 14638,
+        "as_name": "LCPRL",
+        "country": "PR",
+        "first_seen": "2022-03-01 14:15:11",
         "last_online": "2022-10-11",
         "malware": "QakBot"
     },
@@ -722,7 +722,7 @@
     {
         "ip_address": "167.86.122.137",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "the-overlords.de",
         "as_number": 51167,
         "as_name": "CONTABO",
@@ -854,7 +854,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1322,7 +1322,7 @@
     {
         "ip_address": "203.217.140.239",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 45293,
         "as_name": "UT-AS-ID Universitas Terbuka",
@@ -1694,7 +1694,7 @@
     {
         "ip_address": "86.196.181.62",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "lfbn-orl-1-477-62.w86-196.abo.wanadoo.fr",
         "as_number": 3215,
         "as_name": "France Telecom - Orange",
@@ -1834,18 +1834,6 @@
         "first_seen": "2022-10-05 17:06:34",
         "last_online": "2022-10-11",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "82.12.196.197",
-        "port": 443,
-        "status": "offline",
-        "hostname": "cpc158705-smal21-2-0-cust196.19-1.cable.virginm.net",
-        "as_number": 5089,
-        "as_name": "NTL",
-        "country": "GB",
-        "first_seen": "2022-10-05 20:24:16",
-        "last_online": "2022-10-11",
-        "malware": "QakBot"
     },
     {
         "ip_address": "186.64.67.6",
