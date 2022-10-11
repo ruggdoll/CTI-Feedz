@@ -194,7 +194,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -422,7 +422,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1824,6 +1824,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "82.12.196.197",
+        "port": 443,
+        "status": "online",
+        "hostname": "cpc158705-smal21-2-0-cust196.19-1.cable.virginm.net",
+        "as_number": 5089,
+        "as_name": "NTL",
+        "country": "GB",
+        "first_seen": "2022-10-05 20:24:16",
+        "last_online": "2022-10-11",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "186.64.67.6",
         "port": 443,
         "status": "online",
@@ -1942,17 +1954,5 @@
         "first_seen": "2022-10-09 17:42:06",
         "last_online": "2022-10-11",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "41.97.127.116",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 36947,
-        "as_name": "ALGTEL-AS",
-        "country": "DZ",
-        "first_seen": "2022-10-10 15:05:39",
-        "last_online": "2022-10-10",
-        "malware": "QakBot"
     }
 ]
