@@ -744,6 +744,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "119.193.124.41",
+        "port": 7080,
+        "status": "online",
+        "hostname": null,
+        "as_number": 4766,
+        "as_name": "KIXS-AS-KR Korea Telecom",
+        "country": "KR",
+        "first_seen": "2022-03-15 19:01:08",
+        "last_online": "2022-10-12",
+        "malware": "Emotet"
+    },
+    {
         "ip_address": "165.22.61.235",
         "port": 443,
         "status": "online",
@@ -1058,7 +1070,7 @@
     {
         "ip_address": "51.161.73.194",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip194.ip-51-161-73.net",
         "as_number": 16276,
         "as_name": "OVH",
@@ -1370,7 +1382,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1430,7 +1442,7 @@
     {
         "ip_address": "99.232.140.205",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "cpe382c4a6694b0-cmac202e0e1cb0.sdns.net.rogers.com",
         "as_number": 812,
         "as_name": "ROGERS-COMMUNICATIONS",
@@ -1848,6 +1860,30 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "82.12.196.197",
+        "port": 443,
+        "status": "online",
+        "hostname": "cpc158705-smal21-2-0-cust196.19-1.cable.virginm.net",
+        "as_number": 5089,
+        "as_name": "NTL",
+        "country": "GB",
+        "first_seen": "2022-10-05 20:24:16",
+        "last_online": "2022-10-12",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "186.64.67.6",
+        "port": 443,
+        "status": "online",
+        "hostname": "host6.186-64-67.nodosud.com.ar",
+        "as_number": 27953,
+        "as_name": "NODOSUD S.A",
+        "country": "AR",
+        "first_seen": "2022-10-05 20:24:17",
+        "last_online": "2022-10-12",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "51.83.250.102",
         "port": 443,
         "status": "online",
@@ -1946,7 +1982,7 @@
     {
         "ip_address": "190.11.198.76",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "host76.190-11-198.nodosud.com.ar",
         "as_number": 27953,
         "as_name": "NODOSUD S.A",
@@ -1964,18 +2000,6 @@
         "as_name": "TELEFONICA BRASIL S.A",
         "country": "BR",
         "first_seen": "2022-10-11 17:06:19",
-        "last_online": "2022-10-12",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "41.104.109.190",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 36947,
-        "as_name": "ALGTEL-AS",
-        "country": "DZ",
-        "first_seen": "2022-10-12 07:31:44",
         "last_online": "2022-10-12",
         "malware": "QakBot"
     }
