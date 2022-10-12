@@ -218,7 +218,7 @@
     {
         "ip_address": "41.86.42.158",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 36958,
         "as_name": "CWSeychelles-AS",
@@ -830,7 +830,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1114,6 +1114,18 @@
         "first_seen": "2022-06-15 14:13:25",
         "last_online": "2022-10-12",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "81.193.30.90",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 3243,
+        "as_name": "MEO-RESIDENCIAL",
+        "country": "PT",
+        "first_seen": "2022-06-21 23:23:13",
+        "last_online": "2022-10-12",
+        "malware": "QakBot"
     },
     {
         "ip_address": "213.239.212.5",
@@ -1632,9 +1644,21 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "86.196.181.62",
+        "port": 2222,
+        "status": "online",
+        "hostname": "lfbn-orl-1-477-62.w86-196.abo.wanadoo.fr",
+        "as_number": 3215,
+        "as_name": "France Telecom - Orange",
+        "country": "FR",
+        "first_seen": "2022-09-28 17:47:31",
+        "last_online": "2022-10-12",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "58.186.75.42",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "58-186-75-xxx-dynamic.hcm.fpt.vn",
         "as_number": 18403,
         "as_name": "FPT-AS-AP FPT Telecom Company",
