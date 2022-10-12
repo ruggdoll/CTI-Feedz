@@ -194,12 +194,24 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
         "country": "US",
         "first_seen": "2021-09-29 14:05:04",
+        "last_online": "2022-10-12",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.46.53.140",
+        "port": 2222,
+        "status": "offline",
+        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2021-09-29 14:35:05",
         "last_online": "2022-10-12",
         "malware": "QakBot"
     },
@@ -276,18 +288,6 @@
         "malware": "Dridex"
     },
     {
-        "ip_address": "117.248.109.38",
-        "port": 21,
-        "status": "offline",
-        "hostname": "ho.sansui.co.in",
-        "as_number": 9829,
-        "as_name": "BSNL-NIB National Internet Backbone",
-        "country": "IN",
-        "first_seen": "2021-10-26 16:03:21",
-        "last_online": "2022-10-12",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "104.248.155.133",
         "port": 443,
         "status": "online",
@@ -332,6 +332,18 @@
         "as_name": "SSERV-AS",
         "country": "DE",
         "first_seen": "2021-11-15 19:24:59",
+        "last_online": "2022-10-12",
+        "malware": "Emotet"
+    },
+    {
+        "ip_address": "196.44.98.190",
+        "port": 8080,
+        "status": "online",
+        "hostname": null,
+        "as_number": 327814,
+        "as_name": "Ecoband",
+        "country": "GH",
+        "first_seen": "2021-11-15 19:25:02",
         "last_online": "2022-10-12",
         "malware": "Emotet"
     },
@@ -446,7 +458,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -818,7 +830,7 @@
     {
         "ip_address": "174.69.215.101",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip174-69-215-101.lf.br.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
@@ -890,7 +902,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1106,7 +1118,7 @@
     {
         "ip_address": "51.161.73.194",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip194.ip-51-161-73.net",
         "as_number": 16276,
         "as_name": "OVH",
@@ -1836,6 +1848,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "94.52.127.44",
+        "port": 443,
+        "status": "online",
+        "hostname": "94-52-127-44.next-gen.ro",
+        "as_number": 48161,
+        "as_name": "NG-AS Sos. Bucuresti - Ploiesti nr. 42-44",
+        "country": "RO",
+        "first_seen": "2022-10-04 13:52:55",
+        "last_online": "2022-10-12",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "216.238.83.82",
         "port": 995,
         "status": "online",
@@ -1980,6 +2004,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "181.44.34.172",
+        "port": 443,
+        "status": "online",
+        "hostname": "cpe-181-44-34-172.telecentro-reversos.com.ar",
+        "as_number": 27747,
+        "as_name": "Telecentro S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-10 19:05:47",
+        "last_online": "2022-10-12",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "190.11.198.76",
         "port": 443,
         "status": "offline",
@@ -1987,6 +2023,18 @@
         "as_number": 27953,
         "as_name": "NODOSUD S.A",
         "country": "AR",
+        "first_seen": "2022-10-11 17:06:16",
+        "last_online": "2022-10-12",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "134.35.2.138",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30873,
+        "as_name": "PTC-YEMENNET",
+        "country": "YE",
         "first_seen": "2022-10-11 17:06:16",
         "last_online": "2022-10-12",
         "malware": "QakBot"
