@@ -194,7 +194,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -624,18 +624,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "24.55.67.176",
-        "port": 443,
-        "status": "offline",
-        "hostname": "dynamic.libertypr.net",
-        "as_number": 14638,
-        "as_name": "LCPRL",
-        "country": "PR",
-        "first_seen": "2022-03-01 14:15:11",
-        "last_online": "2022-10-12",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "162.244.80.68",
         "port": 443,
         "status": "online",
@@ -670,6 +658,18 @@
         "first_seen": "2022-03-03 18:06:08",
         "last_online": "2022-10-13",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "51.75.33.122",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip122.ip-51-75-33.eu",
+        "as_number": 16276,
+        "as_name": "OVH",
+        "country": "PL",
+        "first_seen": "2022-03-07 18:00:27",
+        "last_online": "2022-10-13",
+        "malware": "Emotet"
     },
     {
         "ip_address": "47.23.89.61",
@@ -842,7 +842,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1442,7 +1442,7 @@
     {
         "ip_address": "66.181.164.43",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17882,
         "as_name": "UNIVISION-AS-AP UNIVISION LLC",
@@ -1508,6 +1508,18 @@
         "as_name": "SUDDENLINK-COMMUNICATIONS",
         "country": "US",
         "first_seen": "2022-09-20 14:11:09",
+        "last_online": "2022-10-13",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "111.125.157.230",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 45178,
+        "as_name": "ROSHAN-AF Main Street, House No. 13 Wazir Akbar Khan",
+        "country": "AF",
+        "first_seen": "2022-09-26 08:21:19",
         "last_online": "2022-10-13",
         "malware": "QakBot"
     },
@@ -1778,7 +1790,7 @@
     {
         "ip_address": "82.12.196.197",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "cpc158705-smal21-2-0-cust196.19-1.cable.virginm.net",
         "as_number": 5089,
         "as_name": "NTL",
@@ -1802,7 +1814,7 @@
     {
         "ip_address": "190.193.180.228",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "228-180-193-190.cab.prima.net.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
