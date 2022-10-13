@@ -206,7 +206,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -274,18 +274,6 @@
         "first_seen": "2021-10-13 13:35:12",
         "last_online": "2022-10-13",
         "malware": "Dridex"
-    },
-    {
-        "ip_address": "117.248.109.38",
-        "port": 21,
-        "status": "offline",
-        "hostname": "ho.sansui.co.in",
-        "as_number": 9829,
-        "as_name": "BSNL-NIB National Internet Backbone",
-        "country": "IN",
-        "first_seen": "2021-10-26 16:03:21",
-        "last_online": "2022-10-13",
-        "malware": "QakBot"
     },
     {
         "ip_address": "104.248.155.133",
@@ -470,7 +458,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -502,18 +490,6 @@
         "first_seen": "2021-12-17 20:48:59",
         "last_online": "2022-10-13",
         "malware": "Dridex"
-    },
-    {
-        "ip_address": "182.191.92.203",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 17557,
-        "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
-        "country": "PK",
-        "first_seen": "2021-12-18 04:08:16",
-        "last_online": "2022-10-13",
-        "malware": "QakBot"
     },
     {
         "ip_address": "51.38.71.0",
@@ -1742,7 +1718,7 @@
     {
         "ip_address": "115.247.12.66",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 55836,
         "as_name": "RELIANCEJIO-IN Reliance Jio Infocomm Limited",
@@ -1778,7 +1754,7 @@
     {
         "ip_address": "86.196.181.62",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "lfbn-orl-1-477-62.w86-196.abo.wanadoo.fr",
         "as_number": 3215,
         "as_name": "France Telecom - Orange",
@@ -2146,5 +2122,17 @@
         "first_seen": "2022-10-13 17:57:05",
         "last_online": "2022-10-13",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "197.94.79.39",
+        "port": 443,
+        "status": "offline",
+        "hostname": "197-94-79-39.hff.mweb.co.za",
+        "as_number": 10474,
+        "as_name": "OPTINET",
+        "country": "ZA",
+        "first_seen": "2022-10-13 19:11:26",
+        "last_online": "2022-10-13",
+        "malware": "QakBot"
     }
 ]
