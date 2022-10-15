@@ -204,18 +204,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "45.46.53.140",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
-        "as_number": 11351,
-        "as_name": "TWC-11351-NORTHEAST",
-        "country": "US",
-        "first_seen": "2021-09-29 14:35:05",
-        "last_online": "2022-10-15",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "41.86.42.158",
         "port": 995,
         "status": "offline",
@@ -266,7 +254,7 @@
     {
         "ip_address": "117.248.109.38",
         "port": 21,
-        "status": "online",
+        "status": "offline",
         "hostname": "ho.sansui.co.in",
         "as_number": 9829,
         "as_name": "BSNL-NIB National Internet Backbone",
@@ -830,7 +818,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1394,7 +1382,7 @@
     {
         "ip_address": "179.158.103.236",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "b39e67ec.virtua.com.br",
         "as_number": 28573,
         "as_name": "Claro NXT Telecomunicacoes Ltda",
@@ -1414,6 +1402,18 @@
         "first_seen": "2022-09-13 03:57:38",
         "last_online": "2022-10-15",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "72.88.245.71",
+        "port": 443,
+        "status": "online",
+        "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
+        "as_number": 701,
+        "as_name": "UUNET",
+        "country": "US",
+        "first_seen": "2022-09-15 20:24:57",
+        "last_online": "2022-10-15",
+        "malware": "QakBot"
     },
     {
         "ip_address": "146.59.116.54",
@@ -1752,30 +1752,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "82.12.196.197",
-        "port": 443,
-        "status": "offline",
-        "hostname": "cpc158705-smal21-2-0-cust196.19-1.cable.virginm.net",
-        "as_number": 5089,
-        "as_name": "NTL",
-        "country": "GB",
-        "first_seen": "2022-10-05 20:24:16",
-        "last_online": "2022-10-15",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "190.193.180.228",
-        "port": 443,
-        "status": "offline",
-        "hostname": "228-180-193-190.cab.prima.net.ar",
-        "as_number": 7303,
-        "as_name": "Telecom Argentina S.A.",
-        "country": "AR",
-        "first_seen": "2022-10-05 20:24:21",
-        "last_online": "2022-10-15",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "51.83.250.102",
         "port": 443,
         "status": "online",
@@ -1992,9 +1968,21 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "181.197.41.173",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 18809,
+        "as_name": "Cable Onda",
+        "country": "PA",
+        "first_seen": "2022-10-14 21:56:52",
+        "last_online": "2022-10-15",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "167.58.235.5",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "r167-58-235-5.dialup.adsl.anteldata.net.uy",
         "as_number": 6057,
         "as_name": "Administracion Nacional de Telecomunicaciones",
@@ -2006,7 +1994,7 @@
     {
         "ip_address": "109.177.128.182",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 5384,
         "as_name": "EMIRATES-INTERNET Emirates Internet",
