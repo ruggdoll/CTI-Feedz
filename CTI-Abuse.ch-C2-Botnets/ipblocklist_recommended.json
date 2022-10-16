@@ -194,7 +194,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -398,7 +398,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -794,7 +794,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1740,6 +1740,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "190.193.180.228",
+        "port": 443,
+        "status": "online",
+        "hostname": "228-180-193-190.cab.prima.net.ar",
+        "as_number": 7303,
+        "as_name": "Telecom Argentina S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-05 20:24:21",
+        "last_online": "2022-10-15",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "51.83.250.102",
         "port": 443,
         "status": "online",
@@ -1838,7 +1850,7 @@
     {
         "ip_address": "190.100.149.122",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "pc-122-149-100-190.cm.vtr.net",
         "as_number": 22047,
         "as_name": "VTR BANDA ANCHA S.A.",
