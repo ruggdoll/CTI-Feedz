@@ -194,7 +194,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -1824,18 +1824,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "190.100.149.122",
-        "port": 995,
-        "status": "offline",
-        "hostname": "pc-122-149-100-190.cm.vtr.net",
-        "as_number": 22047,
-        "as_name": "VTR BANDA ANCHA S.A.",
-        "country": "CL",
-        "first_seen": "2022-10-10 14:05:45",
-        "last_online": "2022-10-15",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "51.83.250.153",
         "port": 443,
         "status": "online",
@@ -1990,5 +1978,17 @@
         "first_seen": "2022-10-15 15:22:04",
         "last_online": "2022-10-16",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "54.38.136.144",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 16276,
+        "as_name": "OVH",
+        "country": "FR",
+        "first_seen": "2022-10-16 05:17:09",
+        "last_online": "2022-10-16",
+        "malware": "BumbleBee"
     }
 ]
