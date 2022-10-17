@@ -1358,7 +1358,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1430,7 +1430,7 @@
     {
         "ip_address": "191.97.234.238",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "238-234-97-191.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -1454,7 +1454,7 @@
     {
         "ip_address": "72.88.245.71",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
         "as_number": 701,
         "as_name": "UUNET",
@@ -1896,6 +1896,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "190.11.198.76",
+        "port": 443,
+        "status": "online",
+        "hostname": "host76.190-11-198.nodosud.com.ar",
+        "as_number": 27953,
+        "as_name": "NODOSUD S.A",
+        "country": "AR",
+        "first_seen": "2022-10-11 17:06:16",
+        "last_online": "2022-10-17",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "179.113.97.4",
         "port": 32101,
         "status": "online",
@@ -2030,7 +2042,7 @@
     {
         "ip_address": "31.166.182.166",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 35819,
         "as_name": "MOBILY-AS Etihad Etisalat Company Mobily",
@@ -2078,7 +2090,7 @@
     {
         "ip_address": "219.71.108.177",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "host-219-71-108-177.dynamic.kbtelecom.net",
         "as_number": 9416,
         "as_name": "MULTIMEDIA-AS-AP Hoshin Multimedia Center Inc.",
@@ -2162,7 +2174,7 @@
     {
         "ip_address": "190.74.4.20",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "190.74-4-20.dyn.dsl.cantv.net",
         "as_number": 8048,
         "as_name": "CANTV Servicios, Venezuela",
@@ -2216,6 +2228,66 @@
         "as_name": "TE-AS TE-AS",
         "country": "EG",
         "first_seen": "2022-10-17 16:26:58",
+        "last_online": "2022-10-17",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "181.141.3.126",
+        "port": 443,
+        "status": "online",
+        "hostname": "hfc-181-141-3-126.une.net.co",
+        "as_number": 13489,
+        "as_name": "EPM Telecomunicaciones S.A. E.S.P.",
+        "country": "CO",
+        "first_seen": "2022-10-17 17:05:14",
+        "last_online": "2022-10-17",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "102.188.91.158",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 24835,
+        "as_name": "RAYA-AS",
+        "country": "EG",
+        "first_seen": "2022-10-17 17:07:46",
+        "last_online": "2022-10-17",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "78.179.135.247",
+        "port": 443,
+        "status": "online",
+        "hostname": "78.179.135.247.dynamic.ttnet.com.tr",
+        "as_number": 9121,
+        "as_name": "TTNET",
+        "country": "TR",
+        "first_seen": "2022-10-17 17:31:56",
+        "last_online": "2022-10-17",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "70.173.248.13",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip70-173-248-13.lv.lv.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-10-17 17:51:28",
+        "last_online": "2022-10-17",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "85.242.200.96",
+        "port": 443,
+        "status": "online",
+        "hostname": "bl9-200-96.dsl.telepac.pt",
+        "as_number": 3243,
+        "as_name": "MEO-RESIDENCIAL",
+        "country": "PT",
+        "first_seen": "2022-10-17 17:51:45",
         "last_online": "2022-10-17",
         "malware": "QakBot"
     }
