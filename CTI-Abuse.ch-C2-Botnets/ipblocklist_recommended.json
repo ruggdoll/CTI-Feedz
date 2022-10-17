@@ -216,6 +216,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "45.46.53.140",
+        "port": 2222,
+        "status": "online",
+        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2021-09-29 14:35:05",
+        "last_online": "2022-10-17",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "217.17.56.163",
         "port": 443,
         "status": "offline",
@@ -262,18 +274,6 @@
         "first_seen": "2021-10-13 13:35:12",
         "last_online": "2022-10-17",
         "malware": "Dridex"
-    },
-    {
-        "ip_address": "117.248.109.38",
-        "port": 21,
-        "status": "offline",
-        "hostname": "ho.sansui.co.in",
-        "as_number": 9829,
-        "as_name": "BSNL-NIB National Internet Backbone",
-        "country": "IN",
-        "first_seen": "2021-10-26 16:03:21",
-        "last_online": "2022-10-17",
-        "malware": "QakBot"
     },
     {
         "ip_address": "104.248.155.133",
@@ -422,7 +422,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1358,7 +1358,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1898,7 +1898,7 @@
     {
         "ip_address": "190.11.198.76",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "host76.190-11-198.nodosud.com.ar",
         "as_number": 27953,
         "as_name": "NODOSUD S.A",
@@ -2042,7 +2042,7 @@
     {
         "ip_address": "31.166.182.166",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 35819,
         "as_name": "MOBILY-AS Etihad Etisalat Company Mobily",
@@ -2114,7 +2114,7 @@
     {
         "ip_address": "134.35.3.85",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 30873,
         "as_name": "PTC-YEMENNET",
@@ -2174,7 +2174,7 @@
     {
         "ip_address": "190.74.4.20",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "190.74-4-20.dyn.dsl.cantv.net",
         "as_number": 8048,
         "as_name": "CANTV Servicios, Venezuela",
@@ -2234,7 +2234,7 @@
     {
         "ip_address": "181.141.3.126",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "hfc-181-141-3-126.une.net.co",
         "as_number": 13489,
         "as_name": "EPM Telecomunicaciones S.A. E.S.P.",
@@ -2290,5 +2290,17 @@
         "first_seen": "2022-10-17 17:51:45",
         "last_online": "2022-10-17",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "64.44.135.197",
+        "port": 443,
+        "status": "online",
+        "hostname": "197-135-44-64.reverse-dns",
+        "as_number": 20278,
+        "as_name": "NEXEON",
+        "country": "US",
+        "first_seen": "2022-10-17 18:02:09",
+        "last_online": "2022-10-17",
+        "malware": "BumbleBee"
     }
 ]
