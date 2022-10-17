@@ -398,7 +398,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -806,7 +806,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1298,7 +1298,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1378,6 +1378,18 @@
         "first_seen": "2022-09-13 03:57:38",
         "last_online": "2022-10-17",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "66.181.164.43",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 17882,
+        "as_name": "UNIVISION-AS-AP UNIVISION LLC",
+        "country": "MN",
+        "first_seen": "2022-09-16 01:04:59",
+        "last_online": "2022-10-17",
+        "malware": "QakBot"
     },
     {
         "ip_address": "146.59.116.54",
@@ -1692,18 +1704,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "94.52.127.44",
-        "port": 443,
-        "status": "offline",
-        "hostname": "94-52-127-44.next-gen.ro",
-        "as_number": 48161,
-        "as_name": "NG-AS Sos. Bucuresti - Ploiesti nr. 42-44",
-        "country": "RO",
-        "first_seen": "2022-10-04 13:52:55",
-        "last_online": "2022-10-16",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "216.238.83.82",
         "port": 995,
         "status": "online",
@@ -2013,18 +2013,6 @@
         "country": "FR",
         "first_seen": "2022-10-16 05:17:09",
         "last_online": "2022-10-17",
-        "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "64.44.135.134",
-        "port": 443,
-        "status": "offline",
-        "hostname": "134-135-44-64.reverse-dns",
-        "as_number": 20278,
-        "as_name": "NEXEON",
-        "country": "US",
-        "first_seen": "2022-10-16 17:42:07",
-        "last_online": "2022-10-16",
         "malware": "BumbleBee"
     }
 ]
