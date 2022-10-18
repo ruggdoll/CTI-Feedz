@@ -398,7 +398,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1310,7 +1310,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1646,7 +1646,7 @@
     {
         "ip_address": "216.238.108.61",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "216.238.108.61.vultrusercontent.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
@@ -1658,7 +1658,7 @@
     {
         "ip_address": "216.238.108.61",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "216.238.108.61.vultrusercontent.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
@@ -1896,6 +1896,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "220.123.29.76",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 4766,
+        "as_name": "KIXS-AS-KR Korea Telecom",
+        "country": "KR",
+        "first_seen": "2022-10-13 23:31:36",
+        "last_online": "2022-10-17",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "51.81.134.202",
         "port": 443,
         "status": "online",
@@ -1922,7 +1934,7 @@
     {
         "ip_address": "190.26.159.133",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "dynamic-190-26-159-133.dynamic.etb.net.co",
         "as_number": 19429,
         "as_name": "ETB - Colombia",
@@ -1952,18 +1964,6 @@
         "as_name": "RACKFOREST-AS",
         "country": "HU",
         "first_seen": "2022-10-14 18:36:55",
-        "last_online": "2022-10-17",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "31.166.182.166",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 35819,
-        "as_name": "MOBILY-AS Etihad Etisalat Company Mobily",
-        "country": "SA",
-        "first_seen": "2022-10-14 18:37:11",
         "last_online": "2022-10-17",
         "malware": "QakBot"
     },
@@ -2000,18 +2000,6 @@
         "as_name": "MULTIMEDIA-AS-AP Hoshin Multimedia Center Inc.",
         "country": "TW",
         "first_seen": "2022-10-17 14:28:18",
-        "last_online": "2022-10-17",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "134.35.3.85",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 30873,
-        "as_name": "PTC-YEMENNET",
-        "country": "YE",
-        "first_seen": "2022-10-17 14:28:19",
         "last_online": "2022-10-17",
         "malware": "QakBot"
     },
