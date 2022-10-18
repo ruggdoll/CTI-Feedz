@@ -122,7 +122,7 @@
     {
         "ip_address": "97.107.134.115",
         "port": 10172,
-        "status": "online",
+        "status": "offline",
         "hostname": "li64-115.members.linode.com",
         "as_number": 63949,
         "as_name": "LINODE-AP Linode, LLC",
@@ -188,18 +188,6 @@
         "as_name": "TUNISIANA",
         "country": "TN",
         "first_seen": "2021-09-29 08:42:51",
-        "last_online": "2022-10-18",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "45.46.53.140",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
-        "as_number": 11351,
-        "as_name": "TWC-11351-NORTHEAST",
-        "country": "US",
-        "first_seen": "2021-09-29 14:35:05",
         "last_online": "2022-10-18",
         "malware": "QakBot"
     },
@@ -410,7 +398,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -598,6 +586,18 @@
         "first_seen": "2022-02-23 18:55:48",
         "last_online": "2022-10-18",
         "malware": "Emotet"
+    },
+    {
+        "ip_address": "24.55.67.176",
+        "port": 443,
+        "status": "online",
+        "hostname": "dynamic.libertypr.net",
+        "as_number": 14638,
+        "as_name": "LCPRL",
+        "country": "PR",
+        "first_seen": "2022-03-01 14:15:11",
+        "last_online": "2022-10-18",
+        "malware": "QakBot"
     },
     {
         "ip_address": "162.244.80.68",
@@ -806,7 +806,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1404,6 +1404,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "72.88.245.71",
+        "port": 443,
+        "status": "online",
+        "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
+        "as_number": 701,
+        "as_name": "UUNET",
+        "country": "US",
+        "first_seen": "2022-09-15 20:24:57",
+        "last_online": "2022-10-18",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "66.181.164.43",
         "port": 443,
         "status": "offline",
@@ -1622,7 +1634,7 @@
     {
         "ip_address": "103.173.121.17",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 138296,
         "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
@@ -1862,7 +1874,7 @@
     {
         "ip_address": "179.113.97.4",
         "port": 32101,
-        "status": "online",
+        "status": "offline",
         "hostname": "179-113-97-4.user.vivozap.com.br",
         "as_number": 26599,
         "as_name": "TELEFONICA BRASIL S.A",
@@ -1958,7 +1970,7 @@
     {
         "ip_address": "181.197.41.173",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 18809,
         "as_name": "Cable Onda",
@@ -2098,17 +2110,5 @@
         "first_seen": "2022-10-17 17:51:45",
         "last_online": "2022-10-18",
         "malware": "QakBot"
-    },
-    {
-        "ip_address": "64.44.135.197",
-        "port": 443,
-        "status": "offline",
-        "hostname": "197-135-44-64.reverse-dns",
-        "as_number": 20278,
-        "as_name": "NEXEON",
-        "country": "US",
-        "first_seen": "2022-10-17 18:02:09",
-        "last_online": "2022-10-18",
-        "malware": "BumbleBee"
     }
 ]
