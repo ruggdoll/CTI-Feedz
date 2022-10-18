@@ -206,7 +206,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -1958,7 +1958,7 @@
     {
         "ip_address": "31.166.182.166",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 35819,
         "as_name": "MOBILY-AS Etihad Etisalat Company Mobily",
@@ -2072,6 +2072,18 @@
         "as_name": "TISCALI-",
         "country": "IT",
         "first_seen": "2022-10-17 14:48:32",
+        "last_online": "2022-10-18",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "102.47.218.41",
+        "port": 443,
+        "status": "online",
+        "hostname": "host-102.47.218.41.tedata.net",
+        "as_number": 8452,
+        "as_name": "TE-AS TE-AS",
+        "country": "EG",
+        "first_seen": "2022-10-17 16:26:58",
         "last_online": "2022-10-18",
         "malware": "QakBot"
     },
