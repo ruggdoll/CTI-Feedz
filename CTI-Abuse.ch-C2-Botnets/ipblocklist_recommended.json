@@ -182,7 +182,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -422,7 +422,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1490,7 +1490,7 @@
     {
         "ip_address": "72.88.245.71",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
         "as_number": 701,
         "as_name": "UUNET",
@@ -2090,12 +2090,24 @@
     {
         "ip_address": "94.36.5.31",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "94-36-5-31.adsl-ull.clienti.tiscali.it",
         "as_number": 8612,
         "as_name": "TISCALI-",
         "country": "IT",
         "first_seen": "2022-10-17 14:48:32",
+        "last_online": "2022-10-19",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "78.179.135.247",
+        "port": 443,
+        "status": "online",
+        "hostname": "78.179.135.247.dynamic.ttnet.com.tr",
+        "as_number": 9121,
+        "as_name": "TTNET",
+        "country": "TR",
+        "first_seen": "2022-10-17 17:31:56",
         "last_online": "2022-10-19",
         "malware": "QakBot"
     },
@@ -2158,5 +2170,29 @@
         "first_seen": "2022-10-18 18:12:37",
         "last_online": "2022-10-19",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "146.19.173.148",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 213373,
+        "as_name": "IPCONNECT",
+        "country": "CZ",
+        "first_seen": "2022-10-19 16:57:04",
+        "last_online": "2022-10-19",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "198.98.59.245",
+        "port": 443,
+        "status": "online",
+        "hostname": "ny01.sleepless.tech",
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "US",
+        "first_seen": "2022-10-19 16:57:05",
+        "last_online": "2022-10-19",
+        "malware": "BumbleBee"
     }
 ]
