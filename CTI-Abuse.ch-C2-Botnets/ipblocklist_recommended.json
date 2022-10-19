@@ -398,7 +398,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1310,7 +1310,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1574,7 +1574,7 @@
     {
         "ip_address": "103.173.121.17",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 138296,
         "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
@@ -1946,24 +1946,12 @@
     {
         "ip_address": "31.166.182.166",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 35819,
         "as_name": "MOBILY-AS Etihad Etisalat Company Mobily",
         "country": "SA",
         "first_seen": "2022-10-14 18:37:11",
-        "last_online": "2022-10-19",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "181.197.41.173",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 18809,
-        "as_name": "Cable Onda",
-        "country": "PA",
-        "first_seen": "2022-10-14 21:56:52",
         "last_online": "2022-10-19",
         "malware": "QakBot"
     },
@@ -2028,6 +2016,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "190.74.4.20",
+        "port": 443,
+        "status": "online",
+        "hostname": "190.74-4-20.dyn.dsl.cantv.net",
+        "as_number": 8048,
+        "as_name": "CANTV Servicios, Venezuela",
+        "country": "VE",
+        "first_seen": "2022-10-17 14:28:46",
+        "last_online": "2022-10-19",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "85.242.200.96",
         "port": 443,
         "status": "offline",
@@ -2072,18 +2072,6 @@
         "as_name": "SAUDINETSTC-AS",
         "country": "SA",
         "first_seen": "2022-10-18 19:02:30",
-        "last_online": "2022-10-19",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "181.168.145.94",
-        "port": 443,
-        "status": "offline",
-        "hostname": "94-145-168-181.fibertel.com.ar",
-        "as_number": 7303,
-        "as_name": "Telecom Argentina S.A.",
-        "country": "AR",
-        "first_seen": "2022-10-18 20:41:52",
         "last_online": "2022-10-19",
         "malware": "QakBot"
     },
