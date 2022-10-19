@@ -194,7 +194,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -890,7 +890,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1200,6 +1200,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "81.193.30.90",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 3243,
+        "as_name": "MEO-RESIDENCIAL",
+        "country": "PT",
+        "first_seen": "2022-06-21 23:23:13",
+        "last_online": "2022-10-19",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "213.239.212.5",
         "port": 443,
         "status": "online",
@@ -1466,7 +1478,7 @@
     {
         "ip_address": "191.97.234.238",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "238-234-97-191.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -1688,18 +1700,6 @@
         "as_name": "SELECTEL-MSK",
         "country": "RU",
         "first_seen": "2022-09-27 17:21:47",
-        "last_online": "2022-10-19",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "103.173.121.17",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 138296,
-        "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
-        "country": "IN",
-        "first_seen": "2022-09-28 05:06:56",
         "last_online": "2022-10-19",
         "malware": "QakBot"
     },
@@ -2192,6 +2192,18 @@
         "as_name": "PONYNET",
         "country": "US",
         "first_seen": "2022-10-19 16:57:05",
+        "last_online": "2022-10-19",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "146.19.173.26",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 213373,
+        "as_name": "IPCONNECT",
+        "country": "CZ",
+        "first_seen": "2022-10-19 18:02:06",
         "last_online": "2022-10-19",
         "malware": "BumbleBee"
     }
