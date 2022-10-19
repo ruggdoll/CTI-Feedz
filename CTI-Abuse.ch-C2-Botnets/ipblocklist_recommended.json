@@ -386,7 +386,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -590,7 +590,7 @@
     {
         "ip_address": "196.203.37.215",
         "port": 80,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 37719,
         "as_name": "Hexabyte-AS",
@@ -1368,6 +1368,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "179.158.103.236",
+        "port": 443,
+        "status": "online",
+        "hostname": "b39e67ec.virtua.com.br",
+        "as_number": 28573,
+        "as_name": "Claro NXT Telecomunicacoes Ltda",
+        "country": "BR",
+        "first_seen": "2022-09-08 12:14:26",
+        "last_online": "2022-10-19",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "146.59.116.49",
         "port": 443,
         "status": "online",
@@ -1884,18 +1896,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "220.123.29.76",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 4766,
-        "as_name": "KIXS-AS-KR Korea Telecom",
-        "country": "KR",
-        "first_seen": "2022-10-13 23:31:36",
-        "last_online": "2022-10-19",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "51.81.134.202",
         "port": 443,
         "status": "online",
@@ -2052,38 +2052,14 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "5.163.177.234",
-        "port": 443,
-        "status": "offline",
+        "ip_address": "206.1.208.223",
+        "port": 2087,
+        "status": "online",
         "hostname": null,
-        "as_number": 25019,
-        "as_name": "SAUDINETSTC-AS",
-        "country": "SA",
-        "first_seen": "2022-10-18 19:02:30",
-        "last_online": "2022-10-19",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "200.93.11.28",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "200.93.11-28.dyn.dsl.cantv.net",
-        "as_number": 8048,
-        "as_name": "CANTV Servicios, Venezuela",
+        "as_number": 61461,
+        "as_name": "Airtek Solutions C.A.",
         "country": "VE",
-        "first_seen": "2022-10-18 22:47:36",
-        "last_online": "2022-10-19",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "181.56.171.3",
-        "port": 995,
-        "status": "offline",
-        "hostname": "static-ip-181561713.cable.net.co",
-        "as_number": 10620,
-        "as_name": "Telmex Colombia S.A.",
-        "country": "CO",
-        "first_seen": "2022-10-19 03:21:23",
+        "first_seen": "2022-10-18 18:12:37",
         "last_online": "2022-10-19",
         "malware": "QakBot"
     }
