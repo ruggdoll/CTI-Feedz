@@ -408,6 +408,18 @@
         "malware": "Dridex"
     },
     {
+        "ip_address": "182.191.92.203",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 17557,
+        "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
+        "country": "PK",
+        "first_seen": "2021-12-18 04:08:16",
+        "last_online": "2022-10-20",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "31.35.28.29",
         "port": 443,
         "status": "online",
@@ -588,18 +600,6 @@
         "malware": "Emotet"
     },
     {
-        "ip_address": "24.55.67.176",
-        "port": 443,
-        "status": "offline",
-        "hostname": "dynamic.libertypr.net",
-        "as_number": 14638,
-        "as_name": "LCPRL",
-        "country": "PR",
-        "first_seen": "2022-03-01 14:15:11",
-        "last_online": "2022-10-19",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "162.244.80.68",
         "port": 443,
         "status": "online",
@@ -746,7 +746,7 @@
     {
         "ip_address": "174.69.215.101",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip174-69-215-101.lf.br.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
@@ -818,7 +818,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1358,13 +1358,13 @@
     {
         "ip_address": "66.181.164.43",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 17882,
         "as_name": "UNIVISION-AS-AP UNIVISION LLC",
         "country": "MN",
         "first_seen": "2022-09-16 01:04:59",
-        "last_online": "2022-10-19",
+        "last_online": "2022-10-20",
         "malware": "QakBot"
     },
     {
@@ -1412,6 +1412,18 @@
         "as_name": "SUDDENLINK-COMMUNICATIONS",
         "country": "US",
         "first_seen": "2022-09-20 14:11:09",
+        "last_online": "2022-10-20",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "111.125.157.230",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 45178,
+        "as_name": "ROSHAN-AF Main Street, House No. 13 Wazir Akbar Khan",
+        "country": "AF",
+        "first_seen": "2022-09-26 08:21:19",
         "last_online": "2022-10-20",
         "malware": "QakBot"
     },
@@ -1548,9 +1560,21 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "58.186.75.42",
+        "ip_address": "103.173.121.17",
         "port": 443,
         "status": "online",
+        "hostname": null,
+        "as_number": 138296,
+        "as_name": "STARNET7-AS Juweriyah Networks Private Limited",
+        "country": "IN",
+        "first_seen": "2022-09-28 05:06:56",
+        "last_online": "2022-10-20",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "58.186.75.42",
+        "port": 443,
+        "status": "offline",
         "hostname": "58-186-75-xxx-dynamic.hcm.fpt.vn",
         "as_number": 18403,
         "as_name": "FPT-AS-AP FPT Telecom Company",
@@ -1946,7 +1970,7 @@
     {
         "ip_address": "94.36.5.31",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "94-36-5-31.adsl-ull.clienti.tiscali.it",
         "as_number": 8612,
         "as_name": "TISCALI-",
@@ -1970,25 +1994,13 @@
     {
         "ip_address": "70.173.248.13",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "ip70-173-248-13.lv.lv.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
         "country": "US",
         "first_seen": "2022-10-17 17:51:28",
         "last_online": "2022-10-20",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "85.242.200.96",
-        "port": 443,
-        "status": "offline",
-        "hostname": "bl9-200-96.dsl.telepac.pt",
-        "as_number": 3243,
-        "as_name": "MEO-RESIDENCIAL",
-        "country": "PT",
-        "first_seen": "2022-10-17 17:51:45",
-        "last_online": "2022-10-19",
         "malware": "QakBot"
     },
     {
@@ -2054,7 +2066,7 @@
     {
         "ip_address": "200.93.11.28",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "200.93.11-28.dyn.dsl.cantv.net",
         "as_number": 8048,
         "as_name": "CANTV Servicios, Venezuela",
@@ -2096,6 +2108,18 @@
         "as_name": "PONYNET",
         "country": "US",
         "first_seen": "2022-10-19 16:57:05",
+        "last_online": "2022-10-20",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "45.153.242.242",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 30823,
+        "as_name": "COMBAHTON combahton GmbH",
+        "country": "DE",
+        "first_seen": "2022-10-20 04:06:58",
         "last_online": "2022-10-20",
         "malware": "BumbleBee"
     }
