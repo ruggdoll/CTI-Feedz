@@ -50,7 +50,7 @@
     {
         "ip_address": "45.46.53.140",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-45-46-53-140.maine.res.rr.com",
         "as_number": 11351,
         "as_name": "TWC-11351-NORTHEAST",
@@ -384,22 +384,10 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "45.63.10.144",
-        "port": 443,
-        "status": "online",
-        "hostname": "45.63.10.144.vultrusercontent.com",
-        "as_number": 20473,
-        "as_name": "AS-CHOOPA",
-        "country": "US",
-        "first_seen": "2022-09-26 12:51:26",
-        "last_online": "2022-10-21",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "45.63.10.144",
+        "ip_address": "149.28.63.197",
         "port": 995,
         "status": "online",
-        "hostname": "45.63.10.144.vultrusercontent.com",
+        "hostname": "149.28.63.197.vultrusercontent.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
         "country": "US",
@@ -420,10 +408,22 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "149.28.63.197",
+        "ip_address": "45.63.10.144",
+        "port": 443,
+        "status": "online",
+        "hostname": "45.63.10.144.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "US",
+        "first_seen": "2022-09-26 12:51:26",
+        "last_online": "2022-10-21",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.63.10.144",
         "port": 995,
         "status": "online",
-        "hostname": "149.28.63.197.vultrusercontent.com",
+        "hostname": "45.63.10.144.vultrusercontent.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
         "country": "US",
@@ -912,6 +912,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "163.182.177.80",
+        "port": 443,
+        "status": "online",
+        "hostname": "163-182-177-80-cstmr.msfiber.net",
+        "as_number": 18615,
+        "as_name": "MAINSTREAM-FIBER",
+        "country": "US",
+        "first_seen": "2022-10-18 21:54:57",
+        "last_online": "2022-10-21",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "198.98.59.245",
         "port": 443,
         "status": "online",
@@ -1064,6 +1076,30 @@
         "as_name": "LEASEWEB-USA-SFO",
         "country": "US",
         "first_seen": "2022-10-21 17:47:06",
+        "last_online": "2022-10-21",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "146.59.116.146",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 16276,
+        "as_name": "OVH",
+        "country": "FR",
+        "first_seen": "2022-10-21 19:22:01",
+        "last_online": "2022-10-21",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "172.93.193.220",
+        "port": 443,
+        "status": "online",
+        "hostname": "220-193-93-172.reverse-dns",
+        "as_number": 20278,
+        "as_name": "NEXEON",
+        "country": "US",
+        "first_seen": "2022-10-21 19:22:02",
         "last_online": "2022-10-21",
         "malware": "BumbleBee"
     }
