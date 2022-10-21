@@ -144,18 +144,6 @@
         "malware": "Dridex"
     },
     {
-        "ip_address": "89.101.97.139",
-        "port": 443,
-        "status": "offline",
-        "hostname": "089-101-097139.ntlworld.ie",
-        "as_number": 6830,
-        "as_name": "LIBERTYGLOBAL Liberty Global formerly UPC Broadband Holding, aka AORTA",
-        "country": "IE",
-        "first_seen": "2021-09-29 08:42:47",
-        "last_online": "2022-10-20",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "120.150.218.241",
         "port": 995,
         "status": "online",
@@ -226,6 +214,18 @@
         "first_seen": "2021-10-13 13:35:12",
         "last_online": "2022-10-20",
         "malware": "Dridex"
+    },
+    {
+        "ip_address": "96.37.113.36",
+        "port": 993,
+        "status": "online",
+        "hostname": "096-037-113-036.res.spectrum.com",
+        "as_number": 20115,
+        "as_name": "CHARTER-20115",
+        "country": "US",
+        "first_seen": "2021-10-13 17:30:14",
+        "last_online": "2022-10-21",
+        "malware": "QakBot"
     },
     {
         "ip_address": "104.248.155.133",
@@ -1886,7 +1886,7 @@
     {
         "ip_address": "190.74.4.20",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "190.74-4-20.dyn.dsl.cantv.net",
         "as_number": 8048,
         "as_name": "CANTV Servicios, Venezuela",
@@ -1958,7 +1958,7 @@
     {
         "ip_address": "181.168.145.94",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "94-145-168-181.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -2030,7 +2030,7 @@
     {
         "ip_address": "156.217.185.90",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "host-156.217.90.185-static.tedata.net",
         "as_number": 8452,
         "as_name": "TE-AS TE-AS",
@@ -2061,30 +2061,6 @@
         "country": "PS",
         "first_seen": "2022-10-20 16:47:50",
         "last_online": "2022-10-21",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "187.143.131.190",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "dsl-187-143-131-190-dyn.prod-infinitum.com.mx",
-        "as_number": 8151,
-        "as_name": "Uninet S.A. de C.V.",
-        "country": "MX",
-        "first_seen": "2022-10-20 16:48:02",
-        "last_online": "2022-10-20",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "105.158.71.149",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 36903,
-        "as_name": "MT-MPLS",
-        "country": "MA",
-        "first_seen": "2022-10-20 18:03:16",
-        "last_online": "2022-10-20",
         "malware": "QakBot"
     },
     {
@@ -2144,6 +2120,18 @@
         "as_name": "RELIANCEJIO-IN Reliance Jio Infocomm Limited",
         "country": "IN",
         "first_seen": "2022-10-21 02:48:21",
+        "last_online": "2022-10-21",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "42.116.54.220",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 18403,
+        "as_name": "FPT-AS-AP FPT Telecom Company",
+        "country": "VN",
+        "first_seen": "2022-10-21 03:38:37",
         "last_online": "2022-10-21",
         "malware": "QakBot"
     }
