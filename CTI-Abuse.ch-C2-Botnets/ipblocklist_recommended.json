@@ -86,7 +86,7 @@
     {
         "ip_address": "66.230.104.103",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "66-230-104-103-dsl-rb1.nwc.acsalaska.net",
         "as_number": 7782,
         "as_name": "ALSK-7782",
@@ -218,7 +218,7 @@
     {
         "ip_address": "179.158.103.236",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "b39e67ec.virtua.com.br",
         "as_number": 28573,
         "as_name": "Claro NXT Telecomunicacoes Ltda",
@@ -313,7 +313,7 @@
     },
     {
         "ip_address": "45.77.159.252",
-        "port": 995,
+        "port": 443,
         "status": "online",
         "hostname": "45.77.159.252.vultrusercontent.com",
         "as_number": 20473,
@@ -325,7 +325,7 @@
     },
     {
         "ip_address": "45.77.159.252",
-        "port": 443,
+        "port": 995,
         "status": "online",
         "hostname": "45.77.159.252.vultrusercontent.com",
         "as_number": 20473,
@@ -336,22 +336,10 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "45.63.10.144",
-        "port": 443,
-        "status": "online",
-        "hostname": "45.63.10.144.vultrusercontent.com",
-        "as_number": 20473,
-        "as_name": "AS-CHOOPA",
-        "country": "US",
-        "first_seen": "2022-09-26 12:51:26",
-        "last_online": "2022-10-22",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "45.63.10.144",
+        "ip_address": "149.28.63.197",
         "port": 995,
         "status": "online",
-        "hostname": "45.63.10.144.vultrusercontent.com",
+        "hostname": "149.28.63.197.vultrusercontent.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
         "country": "US",
@@ -372,10 +360,22 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "149.28.63.197",
+        "ip_address": "45.63.10.144",
+        "port": 443,
+        "status": "online",
+        "hostname": "45.63.10.144.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "US",
+        "first_seen": "2022-09-26 12:51:26",
+        "last_online": "2022-10-22",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.63.10.144",
         "port": 995,
         "status": "online",
-        "hostname": "149.28.63.197.vultrusercontent.com",
+        "hostname": "45.63.10.144.vultrusercontent.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
         "country": "US",
@@ -408,6 +408,30 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "216.238.108.61",
+        "port": 995,
+        "status": "online",
+        "hostname": "216.238.108.61.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "BR",
+        "first_seen": "2022-09-30 10:53:10",
+        "last_online": "2022-10-22",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "139.84.167.18",
+        "port": 443,
+        "status": "online",
+        "hostname": "139.84.167.18.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "US",
+        "first_seen": "2022-09-30 10:53:10",
+        "last_online": "2022-10-22",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "216.238.83.82",
         "port": 443,
         "status": "online",
@@ -427,30 +451,6 @@
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
         "country": "US",
-        "first_seen": "2022-09-30 10:53:10",
-        "last_online": "2022-10-22",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "139.84.167.18",
-        "port": 443,
-        "status": "online",
-        "hostname": "139.84.167.18.vultrusercontent.com",
-        "as_number": 20473,
-        "as_name": "AS-CHOOPA",
-        "country": "US",
-        "first_seen": "2022-09-30 10:53:10",
-        "last_online": "2022-10-22",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "216.238.108.61",
-        "port": 995,
-        "status": "online",
-        "hostname": "216.238.108.61.vultrusercontent.com",
-        "as_number": 20473,
-        "as_name": "AS-CHOOPA",
-        "country": "BR",
         "first_seen": "2022-09-30 10:53:10",
         "last_online": "2022-10-22",
         "malware": "QakBot"
@@ -526,18 +526,6 @@
         "first_seen": "2022-10-05 17:06:34",
         "last_online": "2022-10-22",
         "malware": "BumbleBee"
-    },
-    {
-        "ip_address": "190.193.180.228",
-        "port": 443,
-        "status": "offline",
-        "hostname": "228-180-193-190.cab.prima.net.ar",
-        "as_number": 7303,
-        "as_name": "Telecom Argentina S.A.",
-        "country": "AR",
-        "first_seen": "2022-10-05 20:24:21",
-        "last_online": "2022-10-22",
-        "malware": "QakBot"
     },
     {
         "ip_address": "51.83.250.102",
@@ -656,6 +644,18 @@
         "as_name": "TWC-20001-PACWEST",
         "country": "US",
         "first_seen": "2022-10-13 14:31:18",
+        "last_online": "2022-10-22",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "186.18.210.16",
+        "port": 443,
+        "status": "online",
+        "hostname": "cpe-186-18-210-16.telecentro-reversos.com.ar",
+        "as_number": 27747,
+        "as_name": "Telecentro S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-13 14:31:20",
         "last_online": "2022-10-22",
         "malware": "QakBot"
     },
@@ -792,18 +792,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "167.58.254.85",
-        "port": 443,
-        "status": "offline",
-        "hostname": "r167-58-254-85.dialup.adsl.anteldata.net.uy",
-        "as_number": 6057,
-        "as_name": "Administracion Nacional de Telecomunicaciones",
-        "country": "UY",
-        "first_seen": "2022-10-18 22:47:25",
-        "last_online": "2022-10-22",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "198.98.59.245",
         "port": 443,
         "status": "online",
@@ -866,7 +854,7 @@
     {
         "ip_address": "42.116.54.220",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 18403,
         "as_name": "FPT-AS-AP FPT Telecom Company",
@@ -878,7 +866,7 @@
     {
         "ip_address": "220.134.54.185",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "220-134-54-185.hinet-ip.hinet.net",
         "as_number": 3462,
         "as_name": "HINET Data Communication Business Group",
@@ -902,7 +890,7 @@
     {
         "ip_address": "200.233.108.153",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 22689,
         "as_name": "SERCOMTEL SA TELECOMUNICACOES",
