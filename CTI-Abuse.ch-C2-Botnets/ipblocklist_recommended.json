@@ -337,7 +337,7 @@
     },
     {
         "ip_address": "45.63.10.144",
-        "port": 443,
+        "port": 995,
         "status": "online",
         "hostname": "45.63.10.144.vultrusercontent.com",
         "as_number": 20473,
@@ -349,7 +349,7 @@
     },
     {
         "ip_address": "45.63.10.144",
-        "port": 995,
+        "port": 443,
         "status": "online",
         "hostname": "45.63.10.144.vultrusercontent.com",
         "as_number": 20473,
@@ -830,7 +830,7 @@
     {
         "ip_address": "156.217.185.90",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "host-156.217.90.185-static.tedata.net",
         "as_number": 8452,
         "as_name": "TE-AS TE-AS",
@@ -864,9 +864,21 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "42.116.54.220",
+        "ip_address": "190.33.241.216",
         "port": 443,
         "status": "online",
+        "hostname": null,
+        "as_number": 11556,
+        "as_name": "Cable & Wireless Panama",
+        "country": "PA",
+        "first_seen": "2022-10-21 00:19:14",
+        "last_online": "2022-10-22",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "42.116.54.220",
+        "port": 443,
+        "status": "offline",
         "hostname": null,
         "as_number": 18403,
         "as_name": "FPT-AS-AP FPT Telecom Company",
