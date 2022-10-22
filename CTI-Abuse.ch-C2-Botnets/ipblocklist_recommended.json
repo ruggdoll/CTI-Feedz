@@ -48,6 +48,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "45.46.53.140",
+        "port": 2222,
+        "status": "online",
+        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2021-09-29 14:35:05",
+        "last_online": "2022-10-22",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "63.143.92.99",
         "port": 995,
         "status": "online",
@@ -188,18 +200,6 @@
         "as_name": "ROGERS-COMMUNICATIONS",
         "country": "CA",
         "first_seen": "2022-09-08 12:14:17",
-        "last_online": "2022-10-22",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "179.158.103.236",
-        "port": 443,
-        "status": "offline",
-        "hostname": "b39e67ec.virtua.com.br",
-        "as_number": 28573,
-        "as_name": "Claro NXT Telecomunicacoes Ltda",
-        "country": "BR",
-        "first_seen": "2022-09-08 12:14:26",
         "last_online": "2022-10-22",
         "malware": "QakBot"
     },
@@ -624,18 +624,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "186.18.210.16",
-        "port": 443,
-        "status": "offline",
-        "hostname": "cpe-186-18-210-16.telecentro-reversos.com.ar",
-        "as_number": 27747,
-        "as_name": "Telecentro S.A.",
-        "country": "AR",
-        "first_seen": "2022-10-13 14:31:20",
-        "last_online": "2022-10-22",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "45.61.186.51",
         "port": 443,
         "status": "online",
@@ -662,7 +650,7 @@
     {
         "ip_address": "45.230.169.132",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 266742,
         "as_name": "SOLUCIONES DCN NETWORK C.A",
@@ -696,21 +684,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "200.155.61.245",
-        "port": 995,
-        "status": "offline",
-        "hostname": "200-155-61-245.sercomtel.com.br",
-        "as_number": 22689,
-        "as_name": "SERCOMTEL SA TELECOMUNICACOES",
-        "country": "BR",
-        "first_seen": "2022-10-17 14:28:21",
-        "last_online": "2022-10-22",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "94.36.5.31",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "94-36-5-31.adsl-ull.clienti.tiscali.it",
         "as_number": 8612,
         "as_name": "TISCALI-",
@@ -854,7 +830,7 @@
     {
         "ip_address": "200.233.108.153",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 22689,
         "as_name": "SERCOMTEL SA TELECOMUNICACOES",
@@ -874,5 +850,17 @@
         "first_seen": "2022-10-22 17:42:06",
         "last_online": "2022-10-22",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "189.110.3.60",
+        "port": 2222,
+        "status": "online",
+        "hostname": "189-110-3-60.dsl.telesp.net.br",
+        "as_number": 27699,
+        "as_name": "TELEFONICA BRASIL S.A",
+        "country": "BR",
+        "first_seen": "2022-10-22 21:53:27",
+        "last_online": "2022-10-22",
+        "malware": "QakBot"
     }
 ]
