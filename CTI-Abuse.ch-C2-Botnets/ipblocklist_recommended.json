@@ -313,7 +313,7 @@
     },
     {
         "ip_address": "45.77.159.252",
-        "port": 995,
+        "port": 443,
         "status": "online",
         "hostname": "45.77.159.252.vultrusercontent.com",
         "as_number": 20473,
@@ -325,7 +325,7 @@
     },
     {
         "ip_address": "45.77.159.252",
-        "port": 443,
+        "port": 995,
         "status": "online",
         "hostname": "45.77.159.252.vultrusercontent.com",
         "as_number": 20473,
@@ -530,7 +530,7 @@
     {
         "ip_address": "190.193.180.228",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "228-180-193-190.cab.prima.net.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -782,7 +782,7 @@
     {
         "ip_address": "167.58.254.85",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "r167-58-254-85.dialup.adsl.anteldata.net.uy",
         "as_number": 6057,
         "as_name": "Administracion Nacional de Telecomunicaciones",
@@ -818,7 +818,7 @@
     {
         "ip_address": "156.217.185.90",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": "host-156.217.90.185-static.tedata.net",
         "as_number": 8452,
         "as_name": "TE-AS TE-AS",
@@ -854,12 +854,24 @@
     {
         "ip_address": "42.116.54.220",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 18403,
         "as_name": "FPT-AS-AP FPT Telecom Company",
         "country": "VN",
         "first_seen": "2022-10-21 03:38:37",
+        "last_online": "2022-10-22",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "220.134.54.185",
+        "port": 2222,
+        "status": "online",
+        "hostname": "220-134-54-185.hinet-ip.hinet.net",
+        "as_number": 3462,
+        "as_name": "HINET Data Communication Business Group",
+        "country": "TW",
+        "first_seen": "2022-10-21 12:54:00",
         "last_online": "2022-10-22",
         "malware": "QakBot"
     },
