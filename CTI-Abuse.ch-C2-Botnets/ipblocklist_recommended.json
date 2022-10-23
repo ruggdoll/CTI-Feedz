@@ -301,7 +301,7 @@
     },
     {
         "ip_address": "45.77.159.252",
-        "port": 995,
+        "port": 443,
         "status": "online",
         "hostname": "45.77.159.252.vultrusercontent.com",
         "as_number": 20473,
@@ -313,7 +313,7 @@
     },
     {
         "ip_address": "45.77.159.252",
-        "port": 443,
+        "port": 995,
         "status": "online",
         "hostname": "45.77.159.252.vultrusercontent.com",
         "as_number": 20473,
@@ -638,7 +638,7 @@
     {
         "ip_address": "190.100.149.122",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "pc-122-149-100-190.cm.vtr.net",
         "as_number": 22047,
         "as_name": "VTR BANDA ANCHA S.A.",
@@ -734,7 +734,7 @@
     {
         "ip_address": "78.179.135.247",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "78.179.135.247.dynamic.ttnet.com.tr",
         "as_number": 9121,
         "as_name": "TTNET",
@@ -754,6 +754,18 @@
         "first_seen": "2022-10-18 17:57:05",
         "last_online": "2022-10-23",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "167.58.254.85",
+        "port": 443,
+        "status": "online",
+        "hostname": "r167-58-254-85.dialup.adsl.anteldata.net.uy",
+        "as_number": 6057,
+        "as_name": "Administracion Nacional de Telecomunicaciones",
+        "country": "UY",
+        "first_seen": "2022-10-18 22:47:25",
+        "last_online": "2022-10-23",
+        "malware": "QakBot"
     },
     {
         "ip_address": "198.98.59.245",
@@ -818,7 +830,7 @@
     {
         "ip_address": "200.233.108.153",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 22689,
         "as_name": "SERCOMTEL SA TELECOMUNICACOES",
@@ -850,5 +862,17 @@
         "first_seen": "2022-10-23 17:41:42",
         "last_online": "2022-10-23",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "186.18.77.99",
+        "port": 443,
+        "status": "offline",
+        "hostname": "cpe-186-18-77-99.telecentro-reversos.com.ar",
+        "as_number": 27747,
+        "as_name": "Telecentro S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-23 19:06:03",
+        "last_online": "2022-10-23",
+        "malware": "QakBot"
     }
 ]
