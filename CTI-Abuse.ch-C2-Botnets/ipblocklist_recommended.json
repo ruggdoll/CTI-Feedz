@@ -830,7 +830,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1118,7 +1118,7 @@
     {
         "ip_address": "45.55.191.130",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1262,7 +1262,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1802,7 +1802,7 @@
     {
         "ip_address": "186.18.210.16",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-186-18-210-16.telecentro-reversos.com.ar",
         "as_number": 27747,
         "as_name": "Telecentro S.A.",
@@ -1872,6 +1872,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "78.179.135.247",
+        "port": 443,
+        "status": "online",
+        "hostname": "78.179.135.247.dynamic.ttnet.com.tr",
+        "as_number": 9121,
+        "as_name": "TTNET",
+        "country": "TR",
+        "first_seen": "2022-10-17 17:31:56",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "45.61.185.227",
         "port": 443,
         "status": "online",
@@ -1910,7 +1922,7 @@
     {
         "ip_address": "152.170.17.136",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "136-17-170-152.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -1982,7 +1994,7 @@
     {
         "ip_address": "190.201.145.155",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "190-201-145-155.dyn.dsl.cantv.net",
         "as_number": 8048,
         "as_name": "CANTV Servicios, Venezuela",
@@ -1994,7 +2006,7 @@
     {
         "ip_address": "90.165.109.4",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "4.pool90-165-109.dynamic.orange.es",
         "as_number": 12479,
         "as_name": "UNI2-AS",
@@ -2090,7 +2102,7 @@
     {
         "ip_address": "98.207.190.55",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "c-98-207-190-55.hsd1.ca.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -2102,7 +2114,7 @@
     {
         "ip_address": "41.98.239.92",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 36947,
         "as_name": "ALGTEL-AS",
@@ -2122,5 +2134,29 @@
         "first_seen": "2022-10-24 17:51:44",
         "last_online": "2022-10-24",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "105.111.81.57",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 36947,
+        "as_name": "ALGTEL-AS",
+        "country": "DZ",
+        "first_seen": "2022-10-24 18:04:39",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "105.158.78.156",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 36903,
+        "as_name": "MT-MPLS",
+        "country": "MA",
+        "first_seen": "2022-10-24 18:30:02",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
     }
 ]
