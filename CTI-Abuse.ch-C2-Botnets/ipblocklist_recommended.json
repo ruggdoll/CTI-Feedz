@@ -36,18 +36,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "173.21.10.71",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "173-21-10-71.client.mchsi.com",
-        "as_number": 30036,
-        "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
-        "country": "US",
-        "first_seen": "2021-09-29 14:05:04",
-        "last_online": "2022-10-24",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "45.46.53.140",
         "port": 2222,
         "status": "offline",
@@ -194,7 +182,7 @@
     {
         "ip_address": "81.193.30.90",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 3243,
         "as_name": "MEO-RESIDENCIAL",
@@ -236,6 +224,18 @@
         "as_name": "ROGERS-COMMUNICATIONS",
         "country": "CA",
         "first_seen": "2022-09-08 12:14:17",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "191.97.234.238",
+        "port": 995,
+        "status": "online",
+        "hostname": "238-234-97-191.fibertel.com.ar",
+        "as_number": 7303,
+        "as_name": "Telecom Argentina S.A.",
+        "country": "AR",
+        "first_seen": "2022-09-08 22:54:15",
         "last_online": "2022-10-24",
         "malware": "QakBot"
     },
@@ -337,7 +337,7 @@
     },
     {
         "ip_address": "45.77.159.252",
-        "port": 995,
+        "port": 443,
         "status": "online",
         "hostname": "45.77.159.252.vultrusercontent.com",
         "as_number": 20473,
@@ -349,7 +349,7 @@
     },
     {
         "ip_address": "45.77.159.252",
-        "port": 443,
+        "port": 995,
         "status": "online",
         "hostname": "45.77.159.252.vultrusercontent.com",
         "as_number": 20473,
@@ -432,14 +432,14 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "58.186.75.42",
-        "port": 443,
-        "status": "offline",
-        "hostname": "58-186-75-xxx-dynamic.hcm.fpt.vn",
-        "as_number": 18403,
-        "as_name": "FPT-AS-AP FPT Telecom Company",
-        "country": "VN",
-        "first_seen": "2022-09-29 06:47:34",
+        "ip_address": "216.238.108.61",
+        "port": 995,
+        "status": "online",
+        "hostname": "216.238.108.61.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "BR",
+        "first_seen": "2022-09-30 10:53:10",
         "last_online": "2022-10-24",
         "malware": "QakBot"
     },
@@ -463,18 +463,6 @@
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
         "country": "MX",
-        "first_seen": "2022-09-30 10:53:10",
-        "last_online": "2022-10-24",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "216.238.108.61",
-        "port": 995,
-        "status": "online",
-        "hostname": "216.238.108.61.vultrusercontent.com",
-        "as_number": 20473,
-        "as_name": "AS-CHOOPA",
-        "country": "BR",
         "first_seen": "2022-09-30 10:53:10",
         "last_online": "2022-10-24",
         "malware": "QakBot"
@@ -818,7 +806,7 @@
     {
         "ip_address": "14.54.83.15",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 4766,
         "as_name": "KIXS-AS-KR Korea Telecom",
@@ -842,7 +830,7 @@
     {
         "ip_address": "200.233.108.153",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 22689,
         "as_name": "SERCOMTEL SA TELECOMUNICACOES",
@@ -872,6 +860,42 @@
         "as_name": "TELECABLE Spain",
         "country": "ES",
         "first_seen": "2022-10-24 08:25:20",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "172.117.139.142",
+        "port": 995,
+        "status": "online",
+        "hostname": "cpe-172-117-139-142.socal.res.rr.com",
+        "as_number": 20001,
+        "as_name": "TWC-20001-PACWEST",
+        "country": "US",
+        "first_seen": "2022-10-24 10:09:01",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "208.78.220.120",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 13354,
+        "as_name": "ZC38-AS1",
+        "country": "US",
+        "first_seen": "2022-10-24 10:09:01",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "190.201.145.155",
+        "port": 443,
+        "status": "online",
+        "hostname": "190-201-145-155.dyn.dsl.cantv.net",
+        "as_number": 8048,
+        "as_name": "CANTV Servicios, Venezuela",
+        "country": "VE",
+        "first_seen": "2022-10-24 10:34:08",
         "last_online": "2022-10-24",
         "malware": "QakBot"
     }
