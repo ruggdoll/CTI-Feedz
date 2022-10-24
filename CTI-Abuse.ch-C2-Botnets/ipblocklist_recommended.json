@@ -26,7 +26,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -48,6 +48,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "182.191.92.203",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 17557,
+        "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
+        "country": "PK",
+        "first_seen": "2021-12-18 04:08:16",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "66.230.104.103",
         "port": 443,
         "status": "online",
@@ -62,7 +74,7 @@
     {
         "ip_address": "208.107.221.224",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "208-107-221-224-dynamic.midco.net",
         "as_number": 11232,
         "as_name": "MIDCO-NET",
@@ -336,34 +348,34 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "144.202.15.58",
-        "port": 443,
-        "status": "online",
-        "hostname": "144.202.15.58.vultrusercontent.com",
-        "as_number": 20473,
-        "as_name": "AS-CHOOPA",
-        "country": "US",
-        "first_seen": "2022-09-26 12:51:26",
-        "last_online": "2022-10-24",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "45.63.10.144",
-        "port": 443,
-        "status": "online",
-        "hostname": "45.63.10.144.vultrusercontent.com",
-        "as_number": 20473,
-        "as_name": "AS-CHOOPA",
-        "country": "US",
-        "first_seen": "2022-09-26 12:51:26",
-        "last_online": "2022-10-24",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "45.63.10.144",
         "port": 995,
         "status": "online",
         "hostname": "45.63.10.144.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "US",
+        "first_seen": "2022-09-26 12:51:26",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.63.10.144",
+        "port": 443,
+        "status": "online",
+        "hostname": "45.63.10.144.vultrusercontent.com",
+        "as_number": 20473,
+        "as_name": "AS-CHOOPA",
+        "country": "US",
+        "first_seen": "2022-09-26 12:51:26",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "144.202.15.58",
+        "port": 443,
+        "status": "online",
+        "hostname": "144.202.15.58.vultrusercontent.com",
         "as_number": 20473,
         "as_name": "AS-CHOOPA",
         "country": "US",
@@ -398,7 +410,7 @@
     {
         "ip_address": "58.186.75.42",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "58-186-75-xxx-dynamic.hcm.fpt.vn",
         "as_number": 18403,
         "as_name": "FPT-AS-AP FPT Telecom Company",
@@ -421,7 +433,7 @@
     },
     {
         "ip_address": "139.84.167.18",
-        "port": 443,
+        "port": 995,
         "status": "online",
         "hostname": "139.84.167.18.vultrusercontent.com",
         "as_number": 20473,
@@ -445,7 +457,7 @@
     },
     {
         "ip_address": "139.84.167.18",
-        "port": 995,
+        "port": 443,
         "status": "online",
         "hostname": "139.84.167.18.vultrusercontent.com",
         "as_number": 20473,
@@ -861,18 +873,6 @@
         "country": "BR",
         "first_seen": "2022-10-22 21:53:27",
         "last_online": "2022-10-24",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "186.18.77.99",
-        "port": 443,
-        "status": "offline",
-        "hostname": "cpe-186-18-77-99.telecentro-reversos.com.ar",
-        "as_number": 27747,
-        "as_name": "Telecentro S.A.",
-        "country": "AR",
-        "first_seen": "2022-10-23 19:06:03",
-        "last_online": "2022-10-23",
         "malware": "QakBot"
     }
 ]
