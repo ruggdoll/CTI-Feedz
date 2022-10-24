@@ -386,7 +386,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -422,7 +422,7 @@
     {
         "ip_address": "182.191.92.203",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17557,
         "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
@@ -572,6 +572,18 @@
         "as_name": "ALSK-7782",
         "country": "US",
         "first_seen": "2022-02-15 14:14:04",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "208.107.221.224",
+        "port": 443,
+        "status": "online",
+        "hostname": "208-107-221-224-dynamic.midco.net",
+        "as_number": 11232,
+        "as_name": "MIDCO-NET",
+        "country": "US",
+        "first_seen": "2022-02-16 16:34:43",
         "last_online": "2022-10-24",
         "malware": "QakBot"
     },
@@ -1238,7 +1250,7 @@
     {
         "ip_address": "54.37.70.105",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "105.ip-54-37-70.eu",
         "as_number": 16276,
         "as_name": "OVH",
@@ -1346,7 +1358,7 @@
     {
         "ip_address": "191.97.234.238",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "238-234-97-191.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -1946,24 +1958,12 @@
     {
         "ip_address": "200.233.108.153",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 22689,
         "as_name": "SERCOMTEL SA TELECOMUNICACOES",
         "country": "BR",
         "first_seen": "2022-10-22 14:22:02",
-        "last_online": "2022-10-24",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "93.156.96.171",
-        "port": 443,
-        "status": "offline",
-        "hostname": "cm-93-156-96-171.telecable.es",
-        "as_number": 12946,
-        "as_name": "TELECABLE Spain",
-        "country": "ES",
-        "first_seen": "2022-10-24 08:25:20",
         "last_online": "2022-10-24",
         "malware": "QakBot"
     },
@@ -2006,7 +2006,7 @@
     {
         "ip_address": "90.165.109.4",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "4.pool90-165-109.dynamic.orange.es",
         "as_number": 12479,
         "as_name": "UNI2-AS",
@@ -2060,6 +2060,18 @@
         "as_name": "CANTV Servicios, Venezuela",
         "country": "VE",
         "first_seen": "2022-10-24 13:29:52",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "102.157.250.192",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 37705,
+        "as_name": "TOPNET",
+        "country": "TN",
+        "first_seen": "2022-10-24 14:44:34",
         "last_online": "2022-10-24",
         "malware": "QakBot"
     }
