@@ -768,6 +768,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "174.69.215.101",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip174-69-215-101.lf.br.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-03-16 19:54:01",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "80.211.107.116",
         "port": 8080,
         "status": "online",
@@ -830,7 +842,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1090,18 +1102,6 @@
         "first_seen": "2022-06-15 14:13:25",
         "last_online": "2022-10-24",
         "malware": "Emotet"
-    },
-    {
-        "ip_address": "81.193.30.90",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 3243,
-        "as_name": "MEO-RESIDENCIAL",
-        "country": "PT",
-        "first_seen": "2022-06-21 23:23:13",
-        "last_online": "2022-10-24",
-        "malware": "QakBot"
     },
     {
         "ip_address": "213.239.212.5",
@@ -1622,7 +1622,7 @@
     {
         "ip_address": "196.207.146.151",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 15399,
         "as_name": "WANANCHI-",
@@ -1808,6 +1808,18 @@
         "as_name": "TWC-20001-PACWEST",
         "country": "US",
         "first_seen": "2022-10-13 14:31:18",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "186.18.210.16",
+        "port": 443,
+        "status": "online",
+        "hostname": "cpe-186-18-210-16.telecentro-reversos.com.ar",
+        "as_number": 27747,
+        "as_name": "Telecentro S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-13 14:31:20",
         "last_online": "2022-10-24",
         "malware": "QakBot"
     },
@@ -2078,12 +2090,36 @@
     {
         "ip_address": "160.176.137.80",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 36903,
         "as_name": "MT-MPLS",
         "country": "MA",
         "first_seen": "2022-10-24 15:34:51",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "72.217.105.238",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip72-217-105-238.ph.ph.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-10-24 15:59:03",
+        "last_online": "2022-10-24",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "98.207.190.55",
+        "port": 443,
+        "status": "online",
+        "hostname": "c-98-207-190-55.hsd1.ca.comcast.net",
+        "as_number": 7922,
+        "as_name": "COMCAST-7922",
+        "country": "US",
+        "first_seen": "2022-10-24 16:25:14",
         "last_online": "2022-10-24",
         "malware": "QakBot"
     }
