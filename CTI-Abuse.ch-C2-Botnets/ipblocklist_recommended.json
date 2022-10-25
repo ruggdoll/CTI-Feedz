@@ -386,7 +386,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -830,7 +830,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1118,7 +1118,7 @@
     {
         "ip_address": "45.55.191.130",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1262,7 +1262,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1526,7 +1526,7 @@
     {
         "ip_address": "115.247.12.66",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 55836,
         "as_name": "RELIANCEJIO-IN Reliance Jio Infocomm Limited",
@@ -1824,6 +1824,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "186.188.96.197",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 21826,
+        "as_name": "Corporacion Telemic C.A.",
+        "country": "VE",
+        "first_seen": "2022-10-14 01:51:39",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "51.81.134.202",
         "port": 443,
         "status": "online",
@@ -1934,7 +1946,7 @@
     {
         "ip_address": "152.170.17.136",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "136-17-170-152.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -1946,7 +1958,7 @@
     {
         "ip_address": "216.131.22.236",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 33616,
         "as_name": "CO-MO-COMM",
@@ -2016,6 +2028,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "90.165.109.4",
+        "port": 2222,
+        "status": "online",
+        "hostname": "4.pool90-165-109.dynamic.orange.es",
+        "as_number": 12479,
+        "as_name": "UNI2-AS",
+        "country": "ES",
+        "first_seen": "2022-10-24 12:38:59",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "190.74.248.136",
         "port": 443,
         "status": "online",
@@ -2030,7 +2054,7 @@
     {
         "ip_address": "98.207.190.55",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "c-98-207-190-55.hsd1.ca.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -2148,21 +2172,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "43.241.159.238",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 12975,
-        "as_name": "PALTEL-AS PALTEL Autonomous System",
-        "country": "PS",
-        "first_seen": "2022-10-25 12:05:32",
-        "last_online": "2022-10-25",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "197.202.196.43",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 36947,
         "as_name": "ALGTEL-AS",
@@ -2222,7 +2234,7 @@
     {
         "ip_address": "64.123.103.123",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "64-123-103-123.tisd.net",
         "as_number": 17064,
         "as_name": "TISD-VIC",
@@ -2254,5 +2266,17 @@
         "first_seen": "2022-10-25 15:50:37",
         "last_online": "2022-10-25",
         "malware": "QakBot"
+    },
+    {
+        "ip_address": "107.189.14.8",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 53667,
+        "as_name": "PONYNET",
+        "country": "LU",
+        "first_seen": "2022-10-25 18:11:42",
+        "last_online": "2022-10-25",
+        "malware": "BumbleBee"
     }
 ]
