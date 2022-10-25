@@ -170,7 +170,7 @@
     {
         "ip_address": "41.228.22.180",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 37693,
         "as_name": "TUNISIANA",
@@ -374,7 +374,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -410,7 +410,7 @@
     {
         "ip_address": "182.191.92.203",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17557,
         "as_name": "PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
@@ -818,7 +818,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1080,18 +1080,6 @@
         "malware": "Emotet"
     },
     {
-        "ip_address": "81.193.30.90",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 3243,
-        "as_name": "MEO-RESIDENCIAL",
-        "country": "PT",
-        "first_seen": "2022-06-21 23:23:13",
-        "last_online": "2022-10-25",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "213.239.212.5",
         "port": 443,
         "status": "online",
@@ -1262,7 +1250,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1800,6 +1788,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "186.18.210.16",
+        "port": 443,
+        "status": "online",
+        "hostname": "cpe-186-18-210-16.telecentro-reversos.com.ar",
+        "as_number": 27747,
+        "as_name": "Telecentro S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-13 14:31:20",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "45.61.186.51",
         "port": 443,
         "status": "online",
@@ -1994,7 +1994,7 @@
     {
         "ip_address": "2.88.206.121",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 25019,
         "as_name": "SAUDINETSTC-AS",
@@ -2126,7 +2126,7 @@
     {
         "ip_address": "197.202.196.43",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 36947,
         "as_name": "ALGTEL-AS",
@@ -2162,7 +2162,7 @@
     {
         "ip_address": "24.207.97.117",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "host-24-207-97-117.public.eastlink.ca",
         "as_number": 22799,
         "as_name": "DCC",
@@ -2180,6 +2180,18 @@
         "as_name": "ETB - Colombia",
         "country": "CO",
         "first_seen": "2022-10-25 13:45:51",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "64.123.103.123",
+        "port": 443,
+        "status": "online",
+        "hostname": "64-123-103-123.tisd.net",
+        "as_number": 17064,
+        "as_name": "TISD-VIC",
+        "country": "US",
+        "first_seen": "2022-10-25 14:10:31",
         "last_online": "2022-10-25",
         "malware": "QakBot"
     }
