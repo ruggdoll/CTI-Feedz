@@ -194,7 +194,7 @@
     {
         "ip_address": "217.17.56.163",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "56-163.radnet-kendal.kencomp.net",
         "as_number": 25585,
         "as_name": "KENCOMP",
@@ -386,7 +386,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -584,6 +584,18 @@
         "as_name": "MIDCO-NET",
         "country": "US",
         "first_seen": "2022-02-16 16:34:43",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "196.203.37.215",
+        "port": 80,
+        "status": "online",
+        "hostname": null,
+        "as_number": 37719,
+        "as_name": "Hexabyte-AS",
+        "country": "TN",
+        "first_seen": "2022-02-23 07:25:23",
         "last_online": "2022-10-25",
         "malware": "QakBot"
     },
@@ -960,18 +972,6 @@
         "malware": "Emotet"
     },
     {
-        "ip_address": "58.96.74.42",
-        "port": 443,
-        "status": "offline",
-        "hostname": "42.74.96.58.static.exetel.com.au",
-        "as_number": 10143,
-        "as_name": "EXETEL-AS-AP Exetel Pty Ltd",
-        "country": "AU",
-        "first_seen": "2022-06-04 21:24:57",
-        "last_online": "2022-10-25",
-        "malware": "Emotet"
-    },
-    {
         "ip_address": "218.38.121.17",
         "port": 443,
         "status": "online",
@@ -1094,7 +1094,7 @@
     {
         "ip_address": "81.193.30.90",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 3243,
         "as_name": "MEO-RESIDENCIAL",
@@ -1130,7 +1130,7 @@
     {
         "ip_address": "45.55.191.130",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1944,6 +1944,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "190.74.248.136",
+        "port": 443,
+        "status": "online",
+        "hostname": "190.74-248-136.dyn.dsl.cantv.net",
+        "as_number": 8048,
+        "as_name": "CANTV Servicios, Venezuela",
+        "country": "VE",
+        "first_seen": "2022-10-24 13:29:52",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "104.219.233.30",
         "port": 443,
         "status": "online",
@@ -1958,7 +1970,7 @@
     {
         "ip_address": "2.88.206.121",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 25019,
         "as_name": "SAUDINETSTC-AS",
@@ -1982,7 +1994,7 @@
     {
         "ip_address": "58.247.115.126",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17621,
         "as_name": "CNCGROUP-SH China Unicom Shanghai network",
