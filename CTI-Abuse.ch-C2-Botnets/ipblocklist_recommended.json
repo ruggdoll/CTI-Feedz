@@ -372,6 +372,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "91.207.181.106",
+        "port": 8080,
+        "status": "online",
+        "hostname": null,
+        "as_number": 48275,
+        "as_name": "TSMS-ABKHAZIA-AS",
+        "country": "RU",
+        "first_seen": "2021-12-03 00:05:09",
+        "last_online": "2022-10-25",
+        "malware": "Emotet"
+    },
+    {
         "ip_address": "129.232.146.250",
         "port": 443,
         "status": "online",
@@ -386,7 +398,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1164,6 +1176,30 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "96.125.171.165",
+        "port": 7080,
+        "status": "online",
+        "hostname": "server.fdcteam.com",
+        "as_number": 46606,
+        "as_name": "UNIFIEDLAYER-AS-1",
+        "country": "US",
+        "first_seen": "2022-06-30 21:01:08",
+        "last_online": "2022-10-25",
+        "malware": "Emotet"
+    },
+    {
+        "ip_address": "103.159.224.46",
+        "port": 7080,
+        "status": "online",
+        "hostname": null,
+        "as_number": 141147,
+        "as_name": "IDNIC-SKNET-AS-ID PT Arkananta Global Media",
+        "country": "ID",
+        "first_seen": "2022-06-30 21:01:21",
+        "last_online": "2022-10-25",
+        "malware": "Emotet"
+    },
+    {
         "ip_address": "178.128.23.9",
         "port": 8081,
         "status": "online",
@@ -1322,7 +1358,7 @@
     {
         "ip_address": "179.158.103.236",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "b39e67ec.virtua.com.br",
         "as_number": 28573,
         "as_name": "Claro NXT Telecomunicacoes Ltda",
@@ -1790,7 +1826,7 @@
     {
         "ip_address": "186.18.210.16",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "cpe-186-18-210-16.telecentro-reversos.com.ar",
         "as_number": 27747,
         "as_name": "Telecentro S.A.",
@@ -1946,7 +1982,7 @@
     {
         "ip_address": "216.131.22.236",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 33616,
         "as_name": "CO-MO-COMM",
@@ -1994,7 +2030,7 @@
     {
         "ip_address": "200.233.108.153",
         "port": 995,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 22689,
         "as_name": "SERCOMTEL SA TELECOMUNICACOES",
@@ -2112,18 +2148,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "70.115.104.126",
-        "port": 443,
-        "status": "offline",
-        "hostname": "070-115-104-126.res.spectrum.com",
-        "as_number": 11427,
-        "as_name": "TWC-11427-TEXAS",
-        "country": "US",
-        "first_seen": "2022-10-25 12:05:31",
-        "last_online": "2022-10-25",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "24.9.220.167",
         "port": 443,
         "status": "online",
@@ -2184,6 +2208,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "24.207.97.117",
+        "port": 443,
+        "status": "online",
+        "hostname": "host-24-207-97-117.public.eastlink.ca",
+        "as_number": 22799,
+        "as_name": "DCC",
+        "country": "CA",
+        "first_seen": "2022-10-25 13:45:47",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "186.154.189.162",
         "port": 995,
         "status": "offline",
@@ -2198,7 +2234,7 @@
     {
         "ip_address": "64.123.103.123",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "64-123-103-123.tisd.net",
         "as_number": 17064,
         "as_name": "TISD-VIC",
@@ -2242,5 +2278,41 @@
         "first_seen": "2022-10-25 18:11:42",
         "last_online": "2022-10-25",
         "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "197.2.193.4",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 37705,
+        "as_name": "TOPNET",
+        "country": "TN",
+        "first_seen": "2022-10-25 20:00:50",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "47.14.229.4",
+        "port": 443,
+        "status": "online",
+        "hostname": "047-014-229-004.res.spectrum.com",
+        "as_number": 20115,
+        "as_name": "CHARTER-20115",
+        "country": "US",
+        "first_seen": "2022-10-25 20:25:42",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "41.47.249.185",
+        "port": 443,
+        "status": "online",
+        "hostname": "host-41.47.249.185.tedata.net",
+        "as_number": 8452,
+        "as_name": "TE-AS TE-AS",
+        "country": "EG",
+        "first_seen": "2022-10-25 20:50:42",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
     }
 ]
