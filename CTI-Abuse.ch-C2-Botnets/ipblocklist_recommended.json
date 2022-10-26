@@ -806,7 +806,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1262,7 +1262,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1680,6 +1680,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "190.193.180.228",
+        "port": 443,
+        "status": "online",
+        "hostname": "228-180-193-190.cab.prima.net.ar",
+        "as_number": 7303,
+        "as_name": "Telecom Argentina S.A.",
+        "country": "AR",
+        "first_seen": "2022-10-05 20:24:21",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "51.83.250.102",
         "port": 443,
         "status": "online",
@@ -1898,7 +1910,7 @@
     {
         "ip_address": "181.56.171.3",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "static-ip-181561713.cable.net.co",
         "as_number": 10620,
         "as_name": "Telmex Colombia S.A.",
@@ -1946,7 +1958,7 @@
     {
         "ip_address": "216.131.22.236",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 33616,
         "as_name": "CO-MO-COMM",
@@ -1964,6 +1976,18 @@
         "as_name": "TELEFONICA BRASIL S.A",
         "country": "BR",
         "first_seen": "2022-10-20 16:47:49",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "175.205.2.54",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 4766,
+        "as_name": "KIXS-AS-KR Korea Telecom",
+        "country": "KR",
+        "first_seen": "2022-10-20 23:28:03",
         "last_online": "2022-10-25",
         "malware": "QakBot"
     },
@@ -1994,7 +2018,7 @@
     {
         "ip_address": "200.233.108.153",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 22689,
         "as_name": "SERCOMTEL SA TELECOMUNICACOES",
@@ -2076,9 +2100,21 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "27.110.134.202",
+        "port": 995,
+        "status": "online",
+        "hostname": null,
+        "as_number": 9299,
+        "as_name": "IPG-AS-AP Philippine Long Distance Telephone Company",
+        "country": "PH",
+        "first_seen": "2022-10-24 23:04:10",
+        "last_online": "2022-10-25",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "71.199.168.185",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "c-71-199-168-185.hsd1.ga.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -2144,18 +2180,6 @@
         "as_name": "COMCAST-7922",
         "country": "US",
         "first_seen": "2022-10-25 12:05:32",
-        "last_online": "2022-10-25",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "197.202.196.43",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 36947,
-        "as_name": "ALGTEL-AS",
-        "country": "DZ",
-        "first_seen": "2022-10-25 12:05:33",
         "last_online": "2022-10-25",
         "malware": "QakBot"
     },
@@ -2258,7 +2282,7 @@
     {
         "ip_address": "41.47.249.185",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "host-41.47.249.185.tedata.net",
         "as_number": 8452,
         "as_name": "TE-AS TE-AS",
