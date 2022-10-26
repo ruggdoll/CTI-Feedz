@@ -182,12 +182,24 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
         "country": "US",
         "first_seen": "2021-09-29 14:05:04",
+        "last_online": "2022-10-26",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "45.46.53.140",
+        "port": 2222,
+        "status": "online",
+        "hostname": "cpe-45-46-53-140.maine.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2021-09-29 14:35:05",
         "last_online": "2022-10-26",
         "malware": "QakBot"
     },
@@ -386,7 +398,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -768,6 +780,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "174.69.215.101",
+        "port": 443,
+        "status": "online",
+        "hostname": "ip174-69-215-101.lf.br.cox.net",
+        "as_number": 22773,
+        "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
+        "country": "US",
+        "first_seen": "2022-03-16 19:54:01",
+        "last_online": "2022-10-26",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "188.166.229.148",
         "port": 443,
         "status": "online",
@@ -818,7 +842,7 @@
     {
         "ip_address": "139.59.44.48",
         "port": 8080,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1118,7 +1142,7 @@
     {
         "ip_address": "45.55.191.130",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1286,7 +1310,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -2018,7 +2042,7 @@
     {
         "ip_address": "24.9.220.167",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "c-24-9-220-167.hsd1.co.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -2054,7 +2078,7 @@
     {
         "ip_address": "191.33.187.192",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "191.33.187.192.dynamic.adsl.gvt.net.br",
         "as_number": 18881,
         "as_name": "TELEFONICA BRASIL S.A",
@@ -2186,12 +2210,36 @@
     {
         "ip_address": "70.60.142.214",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "mail.carfagnas.com",
         "as_number": 10796,
         "as_name": "TWC-10796-MIDWEST",
         "country": "US",
         "first_seen": "2022-10-26 16:02:51",
+        "last_online": "2022-10-26",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "69.46.15.158",
+        "port": 443,
+        "status": "offline",
+        "hostname": "69-46-15-158.static.hvvc.us",
+        "as_number": 29802,
+        "as_name": "HVC-AS",
+        "country": "US",
+        "first_seen": "2022-10-26 17:36:38",
+        "last_online": "2022-10-26",
+        "malware": "BumbleBee"
+    },
+    {
+        "ip_address": "105.106.60.149",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 36947,
+        "as_name": "ALGTEL-AS",
+        "country": "DZ",
+        "first_seen": "2022-10-26 17:42:52",
         "last_online": "2022-10-26",
         "malware": "QakBot"
     }
