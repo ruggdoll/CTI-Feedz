@@ -386,7 +386,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1286,7 +1286,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1910,7 +1910,7 @@
     {
         "ip_address": "175.205.2.54",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 4766,
         "as_name": "KIXS-AS-KR Korea Telecom",
@@ -1952,18 +1952,6 @@
         "as_name": "TWC-20001-PACWEST",
         "country": "US",
         "first_seen": "2022-10-24 10:09:01",
-        "last_online": "2022-10-26",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "190.74.248.136",
-        "port": 443,
-        "status": "offline",
-        "hostname": "190.74-248-136.dyn.dsl.cantv.net",
-        "as_number": 8048,
-        "as_name": "CANTV Servicios, Venezuela",
-        "country": "VE",
-        "first_seen": "2022-10-24 13:29:52",
         "last_online": "2022-10-26",
         "malware": "QakBot"
     },
@@ -2018,7 +2006,7 @@
     {
         "ip_address": "156.197.230.148",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "host-156.197.148.230-static.tedata.net",
         "as_number": 8452,
         "as_name": "TE-AS TE-AS",
@@ -2100,6 +2088,18 @@
         "malware": "BumbleBee"
     },
     {
+        "ip_address": "41.47.249.185",
+        "port": 443,
+        "status": "online",
+        "hostname": "host-41.47.249.185.tedata.net",
+        "as_number": 8452,
+        "as_name": "TE-AS TE-AS",
+        "country": "EG",
+        "first_seen": "2022-10-25 20:50:42",
+        "last_online": "2022-10-26",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "190.37.174.11",
         "port": 2222,
         "status": "offline",
@@ -2120,6 +2120,18 @@
         "as_name": "UUNET",
         "country": "US",
         "first_seen": "2022-10-26 02:15:47",
+        "last_online": "2022-10-26",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "186.188.80.134",
+        "port": 443,
+        "status": "online",
+        "hostname": null,
+        "as_number": 21826,
+        "as_name": "Corporacion Telemic C.A.",
+        "country": "VE",
+        "first_seen": "2022-10-26 08:05:15",
         "last_online": "2022-10-26",
         "malware": "QakBot"
     }
