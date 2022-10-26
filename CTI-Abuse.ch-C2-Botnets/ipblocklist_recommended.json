@@ -182,13 +182,13 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "offline",
+        "status": "online",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
         "country": "US",
         "first_seen": "2021-09-29 14:05:04",
-        "last_online": "2022-10-25",
+        "last_online": "2022-10-26",
         "malware": "QakBot"
     },
     {
@@ -386,7 +386,7 @@
     {
         "ip_address": "139.59.56.73",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -948,6 +948,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "58.96.74.42",
+        "port": 443,
+        "status": "online",
+        "hostname": "42.74.96.58.static.exetel.com.au",
+        "as_number": 10143,
+        "as_name": "EXETEL-AS-AP Exetel Pty Ltd",
+        "country": "AU",
+        "first_seen": "2022-06-04 21:24:57",
+        "last_online": "2022-10-26",
+        "malware": "Emotet"
+    },
+    {
         "ip_address": "218.38.121.17",
         "port": 443,
         "status": "online",
@@ -1262,7 +1274,7 @@
     {
         "ip_address": "165.22.211.113",
         "port": 8081,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -1332,21 +1344,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "179.158.103.236",
-        "port": 443,
-        "status": "offline",
-        "hostname": "b39e67ec.virtua.com.br",
-        "as_number": 28573,
-        "as_name": "Claro NXT Telecomunicacoes Ltda",
-        "country": "BR",
-        "first_seen": "2022-09-08 12:14:26",
-        "last_online": "2022-10-25",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "191.97.234.238",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "238-234-97-191.fibertel.com.ar",
         "as_number": 7303,
         "as_name": "Telecom Argentina S.A.",
@@ -1800,18 +1800,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "186.18.210.16",
-        "port": 443,
-        "status": "offline",
-        "hostname": "cpe-186-18-210-16.telecentro-reversos.com.ar",
-        "as_number": 27747,
-        "as_name": "Telecentro S.A.",
-        "country": "AR",
-        "first_seen": "2022-10-13 14:31:20",
-        "last_online": "2022-10-25",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "45.61.186.51",
         "port": 443,
         "status": "online",
@@ -1922,7 +1910,7 @@
     {
         "ip_address": "216.131.22.236",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 33616,
         "as_name": "CO-MO-COMM",
@@ -2018,7 +2006,7 @@
     {
         "ip_address": "190.74.248.136",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "190.74-248-136.dyn.dsl.cantv.net",
         "as_number": 8048,
         "as_name": "CANTV Servicios, Venezuela",
@@ -2240,6 +2228,18 @@
         "as_name": "CANTV Servicios, Venezuela",
         "country": "VE",
         "first_seen": "2022-10-26 01:25:10",
+        "last_online": "2022-10-26",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "173.49.74.62",
+        "port": 443,
+        "status": "online",
+        "hostname": "pool-173-49-74-62.phlapa.fios.verizon.net",
+        "as_number": 701,
+        "as_name": "UUNET",
+        "country": "US",
+        "first_seen": "2022-10-26 02:15:47",
         "last_online": "2022-10-26",
         "malware": "QakBot"
     }
