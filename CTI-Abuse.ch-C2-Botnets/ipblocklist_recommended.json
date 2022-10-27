@@ -144,6 +144,18 @@
         "malware": "Dridex"
     },
     {
+        "ip_address": "89.101.97.139",
+        "port": 443,
+        "status": "online",
+        "hostname": "089-101-097139.ntlworld.ie",
+        "as_number": 6830,
+        "as_name": "LIBERTYGLOBAL Liberty Global formerly UPC Broadband Holding, aka AORTA",
+        "country": "IE",
+        "first_seen": "2021-09-29 08:42:47",
+        "last_online": "2022-10-27",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "120.150.218.241",
         "port": 995,
         "status": "online",
@@ -170,7 +182,7 @@
     {
         "ip_address": "173.21.10.71",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-21-10-71.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -420,18 +432,6 @@
         "malware": "Emotet"
     },
     {
-        "ip_address": "69.14.172.24",
-        "port": 443,
-        "status": "offline",
-        "hostname": "d14-69-24-172.try.wideopenwest.com",
-        "as_number": 12083,
-        "as_name": "WOW-INTERNET",
-        "country": "US",
-        "first_seen": "2021-12-24 15:59:14",
-        "last_online": "2022-10-27",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "103.124.107.109",
         "port": 443,
         "status": "online",
@@ -566,12 +566,24 @@
     {
         "ip_address": "208.107.221.224",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "208-107-221-224-dynamic.midco.net",
         "as_number": 11232,
         "as_name": "MIDCO-NET",
         "country": "US",
         "first_seen": "2022-02-16 16:34:43",
+        "last_online": "2022-10-27",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "196.203.37.215",
+        "port": 80,
+        "status": "online",
+        "hostname": null,
+        "as_number": 37719,
+        "as_name": "Hexabyte-AS",
+        "country": "TN",
+        "first_seen": "2022-02-23 07:25:23",
         "last_online": "2022-10-27",
         "malware": "QakBot"
     },
@@ -1068,6 +1080,18 @@
         "malware": "Emotet"
     },
     {
+        "ip_address": "81.193.30.90",
+        "port": 443,
+        "status": "offline",
+        "hostname": null,
+        "as_number": 3243,
+        "as_name": "MEO-RESIDENCIAL",
+        "country": "PT",
+        "first_seen": "2022-06-21 23:23:13",
+        "last_online": "2022-10-27",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "213.239.212.5",
         "port": 443,
         "status": "online",
@@ -1502,7 +1526,7 @@
     {
         "ip_address": "85.143.218.249",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "85-143-218-249.simplecloud.ru",
         "as_number": 201848,
         "as_name": "TRADERSOFT",
@@ -1776,18 +1800,6 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "45.230.169.132",
-        "port": 995,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 266742,
-        "as_name": "SOLUCIONES DCN NETWORK C.A",
-        "country": "VE",
-        "first_seen": "2022-10-14 18:36:52",
-        "last_online": "2022-10-27",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "54.38.136.144",
         "port": 443,
         "status": "online",
@@ -1812,21 +1824,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "181.141.3.126",
-        "port": 443,
-        "status": "offline",
-        "hostname": "hfc-181-141-3-126.une.net.co",
-        "as_number": 13489,
-        "as_name": "EPM Telecomunicaciones S.A. E.S.P.",
-        "country": "CO",
-        "first_seen": "2022-10-17 17:05:14",
-        "last_online": "2022-10-27",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "167.58.254.85",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "r167-58-254-85.dialup.adsl.anteldata.net.uy",
         "as_number": 6057,
         "as_name": "Administracion Nacional de Telecomunicaciones",
@@ -1862,7 +1862,7 @@
     {
         "ip_address": "201.68.209.47",
         "port": 32101,
-        "status": "online",
+        "status": "offline",
         "hostname": "201-68-209-47.dsl.telesp.net.br",
         "as_number": 27699,
         "as_name": "TELEFONICA BRASIL S.A",
@@ -1908,33 +1908,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "208.78.220.120",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 13354,
-        "as_name": "ZC38-AS1",
-        "country": "US",
-        "first_seen": "2022-10-24 10:09:01",
-        "last_online": "2022-10-27",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "189.129.38.158",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "dsl-189-129-38-158-dyn.prod-infinitum.com.mx",
-        "as_number": 8151,
-        "as_name": "Uninet S.A. de C.V.",
-        "country": "MX",
-        "first_seen": "2022-10-24 13:29:48",
-        "last_online": "2022-10-27",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "190.74.248.136",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "190.74-248-136.dyn.dsl.cantv.net",
         "as_number": 8048,
         "as_name": "CANTV Servicios, Venezuela",
@@ -1958,7 +1934,7 @@
     {
         "ip_address": "27.110.134.202",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 9299,
         "as_name": "IPG-AS-AP Philippine Long Distance Telephone Company",
@@ -1970,7 +1946,7 @@
     {
         "ip_address": "58.247.115.126",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17621,
         "as_name": "CNCGROUP-SH China Unicom Shanghai network",
@@ -2016,42 +1992,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "190.24.45.24",
-        "port": 995,
-        "status": "offline",
-        "hostname": "estatico-190-24-45-24.static.etb.net.co",
-        "as_number": 19429,
-        "as_name": "ETB - Colombia",
-        "country": "CO",
-        "first_seen": "2022-10-25 12:05:32",
-        "last_online": "2022-10-27",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "68.62.199.70",
-        "port": 443,
-        "status": "offline",
-        "hostname": "c-68-62-199-70.hsd1.al.comcast.net",
-        "as_number": 7922,
-        "as_name": "COMCAST-7922",
-        "country": "US",
-        "first_seen": "2022-10-25 12:05:32",
-        "last_online": "2022-10-27",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "186.154.189.162",
-        "port": 995,
-        "status": "offline",
-        "hostname": "dynamic-186-154-189-162.dynamic.etb.net.co",
-        "as_number": 19429,
-        "as_name": "ETB - Colombia",
-        "country": "CO",
-        "first_seen": "2022-10-25 13:45:51",
-        "last_online": "2022-10-27",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "107.189.14.8",
         "port": 443,
         "status": "online",
@@ -2064,14 +2004,14 @@
         "malware": "BumbleBee"
     },
     {
-        "ip_address": "190.37.174.11",
-        "port": 2222,
+        "ip_address": "186.188.80.134",
+        "port": 443,
         "status": "offline",
-        "hostname": "190-37-174-11.dyn.dsl.cantv.net",
-        "as_number": 8048,
-        "as_name": "CANTV Servicios, Venezuela",
+        "hostname": null,
+        "as_number": 21826,
+        "as_name": "Corporacion Telemic C.A.",
         "country": "VE",
-        "first_seen": "2022-10-26 01:25:10",
+        "first_seen": "2022-10-26 08:05:15",
         "last_online": "2022-10-27",
         "malware": "QakBot"
     },
@@ -2100,26 +2040,14 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "190.199.97.108",
-        "port": 993,
+        "ip_address": "70.60.142.214",
+        "port": 2222,
         "status": "offline",
-        "hostname": "190-199-97-108.dyn.dsl.cantv.net",
-        "as_number": 8048,
-        "as_name": "CANTV Servicios, Venezuela",
-        "country": "VE",
-        "first_seen": "2022-10-26 16:02:44",
-        "last_online": "2022-10-27",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "201.223.169.238",
-        "port": 32100,
-        "status": "offline",
-        "hostname": "201-223-169-238.baf.movistar.cl",
-        "as_number": 7418,
-        "as_name": "TELEFONICA CHILE S.A.",
-        "country": "CL",
-        "first_seen": "2022-10-27 01:11:32",
+        "hostname": "mail.carfagnas.com",
+        "as_number": 10796,
+        "as_name": "TWC-10796-MIDWEST",
+        "country": "US",
+        "first_seen": "2022-10-26 16:02:51",
         "last_online": "2022-10-27",
         "malware": "QakBot"
     },
@@ -2132,6 +2060,18 @@
         "as_name": "TOPNET",
         "country": "TN",
         "first_seen": "2022-10-27 04:56:19",
+        "last_online": "2022-10-27",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "149.126.159.224",
+        "port": 443,
+        "status": "offline",
+        "hostname": "BSN-126-159-224.dynamic.siol.net",
+        "as_number": 5603,
+        "as_name": "SIOL-NET Telekom Slovenije d.d.",
+        "country": "SI",
+        "first_seen": "2022-10-27 07:24:15",
         "last_online": "2022-10-27",
         "malware": "QakBot"
     }
