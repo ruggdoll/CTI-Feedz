@@ -5,9 +5,9 @@
     "extends_uuid": "",
     "info": "[CERT-FR] Infrastructure d'attaque du groupe cybercriminel TA505",
     "publish_timestamp": "1639051577",
-    "published": true,
+    "published": false,
     "threat_level_id": "2",
-    "timestamp": "1613041212",
+    "timestamp": "1671006912",
     "uuid": "6021536f-a808-4b9c-8136-d7460aba047c",
     "Orgc": {
       "name": "CERT-FR",
@@ -19,16 +19,8 @@
         "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
       },
       {
-        "colour": "#ffffff",
-        "name": "cossi:TLP=\"white\""
-      },
-      {
-        "colour": "#008e63",
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
-      },
-      {
         "colour": "#00714f",
-        "name": "cossi:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\""
       },
       {
         "colour": "#c60750",
@@ -52,7 +44,11 @@
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:white"
+        "name": "tlp:clear"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "PAP:CLEAR"
       }
     ],
     "Attribute": [
@@ -3419,7 +3415,7 @@
         "Tag": [
           {
             "colour": "#000000",
-            "name": "cossi:relevantTimespan=\"from\""
+            "name": "cert-fr:relevantTimespan=\"from\""
           }
         ]
       }

@@ -5,9 +5,9 @@
     "extends_uuid": "",
     "info": "Publication maqueurs APT31",
     "publish_timestamp": "1656918310",
-    "published": true,
+    "published": false,
     "threat_level_id": "4",
-    "timestamp": "1656512462",
+    "timestamp": "1671006705",
     "uuid": "60f6ea57-5534-4866-9677-44650abe1822",
     "Orgc": {
       "name": "CERT-FR",
@@ -19,20 +19,12 @@
         "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
       },
       {
-        "colour": "#ffffff",
-        "name": "cossi:TLP=\"white\""
-      },
-      {
-        "colour": "#008e63",
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
-      },
-      {
         "colour": "#00714f",
-        "name": "cossi:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\""
       },
       {
         "colour": "#00563d",
-        "name": "cossi:threat_category=\"APT\""
+        "name": "cert-fr:threat_category=\"APT\""
       },
       {
         "colour": "#079fdf",
@@ -40,7 +32,11 @@
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:white"
+        "name": "tlp:clear"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "PAP:CLEAR"
       }
     ],
     "Attribute": [
@@ -1828,7 +1824,7 @@
         "Tag": [
           {
             "colour": "#000000",
-            "name": "cossi:relevantTimespan=\"from\""
+            "name": "cert-fr:relevantTimespan=\"from\""
           }
         ]
       }

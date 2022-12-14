@@ -7,7 +7,7 @@
     "publish_timestamp": "0",
     "published": false,
     "threat_level_id": "4",
-    "timestamp": "1630433729",
+    "timestamp": "1671006840",
     "uuid": "61236bfb-37d8-4a71-a68e-2dbf0abe1822",
     "Orgc": {
       "name": "CERT-FR",
@@ -19,16 +19,16 @@
         "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
       },
       {
-        "colour": "#ffffff",
-        "name": "cossi:TLP=\"white\""
-      },
-      {
-        "colour": "#008e63",
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
-      },
-      {
         "colour": "#00714f",
-        "name": "cossi:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:clear"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "PAP:CLEAR"
       }
     ],
     "Attribute": [
@@ -1206,7 +1206,7 @@
         "Tag": [
           {
             "colour": "#000000",
-            "name": "cossi:relevantTimespan=\"from\""
+            "name": "cert-fr:relevantTimespan=\"from\""
           }
         ]
       }

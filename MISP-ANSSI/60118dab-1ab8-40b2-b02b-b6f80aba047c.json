@@ -7,7 +7,7 @@
     "publish_timestamp": "0",
     "published": false,
     "threat_level_id": "4",
-    "timestamp": "1622552977",
+    "timestamp": "1671006867",
     "uuid": "60118dab-1ab8-40b2-b02b-b6f80aba047c",
     "Orgc": {
       "name": "CERT-FR",
@@ -19,12 +19,8 @@
         "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
       },
       {
-        "colour": "#008e63",
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
-      },
-      {
         "colour": "#00714f",
-        "name": "cossi:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\""
       },
       {
         "colour": "#6d35f2",
@@ -43,10 +39,6 @@
         "name": "misp-galaxy:threat-actor=\"ELECTRUM\""
       },
       {
-        "colour": "#ffffff",
-        "name": "cossi:TLP=\"white\""
-      },
-      {
         "colour": "#004646",
         "name": "type:OSINT"
       },
@@ -57,10 +49,6 @@
       {
         "colour": "#0087e8",
         "name": "osint:certainty=\"50\""
-      },
-      {
-        "colour": "#ffffff",
-        "name": "tlp:white"
       },
       {
         "colour": "#358927",
@@ -81,6 +69,14 @@
       {
         "colour": "#004577",
         "name": "osint:source-type=\"block-or-filter-list\""
+      },
+      {
+        "colour": "#ffffff",
+        "name": "tlp:clear"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "PAP:CLEAR"
       }
     ],
     "Attribute": [
@@ -304,7 +300,7 @@
             "Tag": [
               {
                 "colour": "#00714f",
-                "name": "cossi:fiabilite=\"Bonne\""
+                "name": "cert-fr:fiabilite=\"Bonne\""
               }
             ]
           },
@@ -371,7 +367,7 @@
             "Tag": [
               {
                 "colour": "#00714f",
-                "name": "cossi:fiabilite=\"Bonne\""
+                "name": "cert-fr:fiabilite=\"Bonne\""
               }
             ]
           },
@@ -438,7 +434,7 @@
             "Tag": [
               {
                 "colour": "#00714f",
-                "name": "cossi:fiabilite=\"Bonne\""
+                "name": "cert-fr:fiabilite=\"Bonne\""
               }
             ]
           },
@@ -505,7 +501,7 @@
             "Tag": [
               {
                 "colour": "#00714f",
-                "name": "cossi:fiabilite=\"Bonne\""
+                "name": "cert-fr:fiabilite=\"Bonne\""
               }
             ]
           },

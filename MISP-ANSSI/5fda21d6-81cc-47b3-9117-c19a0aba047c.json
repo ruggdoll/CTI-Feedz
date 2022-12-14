@@ -5,9 +5,9 @@
     "extends_uuid": "",
     "info": "[CERT-FR] Liste d'IP distibuant des dll Egregor",
     "publish_timestamp": "1656918311",
-    "published": true,
+    "published": false,
     "threat_level_id": "4",
-    "timestamp": "1656512280",
+    "timestamp": "1671006731",
     "uuid": "5fda21d6-81cc-47b3-9117-c19a0aba047c",
     "Orgc": {
       "name": "CERT-FR",
@@ -19,20 +19,16 @@
         "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
       },
       {
-        "colour": "#ffffff",
-        "name": "cossi:TLP=\"white\""
-      },
-      {
-        "colour": "#008e63",
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
-      },
-      {
         "colour": "#00714f",
-        "name": "cossi:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\""
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:white"
+        "name": "tlp:clear"
+      },
+      {
+        "colour": "#ffffff",
+        "name": "PAP:CLEAR"
       }
     ],
     "Attribute": [
