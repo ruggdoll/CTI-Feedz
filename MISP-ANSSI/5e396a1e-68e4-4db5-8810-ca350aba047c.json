@@ -4,7 +4,7 @@
     "date": "2020-01-10",
     "extends_uuid": "",
     "info": "Maze ransomware IOCs (OSINT)",
-    "publish_timestamp": "1639051578",
+    "publish_timestamp": "0",
     "published": false,
     "threat_level_id": "2",
     "timestamp": "1671010269",
@@ -16,19 +16,23 @@
     "Tag": [
       {
         "colour": "#f89595",
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
+        "relationship_type": ""
       },
       {
         "colour": "#00714f",
-        "name": "cert-fr:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\"",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:clear"
+        "name": "tlp:clear",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "PAP:CLEAR"
+        "name": "PAP:CLEAR",
+        "relationship_type": ""
       }
     ],
     "Attribute": [

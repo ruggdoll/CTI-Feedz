@@ -4,7 +4,7 @@
     "date": "2022-03-02",
     "extends_uuid": "",
     "info": "[ESET] IsaacWiper and HermeticWizard: New wiper and worm targeting Ukraine",
-    "publish_timestamp": "1665045420",
+    "publish_timestamp": "0",
     "published": false,
     "threat_level_id": "4",
     "timestamp": "1671006635",
@@ -16,15 +16,18 @@
     "Tag": [
       {
         "colour": "#f89595",
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:clear"
+        "name": "tlp:clear",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "PAP:CLEAR"
+        "name": "PAP:CLEAR",
+        "relationship_type": ""
       }
     ],
     "Attribute": [
@@ -41,7 +44,8 @@
         "Tag": [
           {
             "colour": "#00af7a",
-            "name": "DescriptionTechnique"
+            "name": "DescriptionTechnique",
+            "relationship_type": ""
           }
         ]
       }

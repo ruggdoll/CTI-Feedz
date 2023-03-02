@@ -4,7 +4,7 @@
     "date": "2022-02-23",
     "extends_uuid": "",
     "info": "[NCSC-UK] Cyclops blink",
-    "publish_timestamp": "1665045421",
+    "publish_timestamp": "0",
     "published": false,
     "threat_level_id": "4",
     "timestamp": "1671010344",
@@ -16,31 +16,38 @@
     "Tag": [
       {
         "colour": "#f89595",
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
+        "relationship_type": ""
       },
       {
         "colour": "#12e300",
-        "name": "misp-galaxy:threat-actor=\"Sandworm\""
+        "name": "misp-galaxy:threat-actor=\"Sandworm\"",
+        "relationship_type": ""
       },
       {
         "colour": "#6d35f2",
-        "name": "misp-galaxy:threat-actor=\"IRIDIUM\""
+        "name": "misp-galaxy:threat-actor=\"IRIDIUM\"",
+        "relationship_type": ""
       },
       {
         "colour": "#0088cc",
-        "name": "misp-galaxy:threat-actor=\"TeleBots\""
+        "name": "misp-galaxy:threat-actor=\"TeleBots\"",
+        "relationship_type": ""
       },
       {
         "colour": "#0088cc",
-        "name": "misp-galaxy:threat-actor=\"ELECTRUM\""
+        "name": "misp-galaxy:threat-actor=\"ELECTRUM\"",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:clear"
+        "name": "tlp:clear",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "PAP:CLEAR"
+        "name": "PAP:CLEAR",
+        "relationship_type": ""
       }
     ],
     "Attribute": [

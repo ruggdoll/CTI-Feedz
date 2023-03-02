@@ -4,7 +4,7 @@
     "date": "2021-02-08",
     "extends_uuid": "",
     "info": "[CERT-FR] Infrastructure d'attaque du groupe cybercriminel TA505",
-    "publish_timestamp": "1639051577",
+    "publish_timestamp": "0",
     "published": false,
     "threat_level_id": "2",
     "timestamp": "1671006912",
@@ -16,39 +16,48 @@
     "Tag": [
       {
         "colour": "#f89595",
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
+        "relationship_type": ""
       },
       {
         "colour": "#00714f",
-        "name": "cert-fr:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\"",
+        "relationship_type": ""
       },
       {
         "colour": "#c60750",
-        "name": "misp-galaxy:threat-actor=\"FIN11\""
+        "name": "misp-galaxy:threat-actor=\"FIN11\"",
+        "relationship_type": ""
       },
       {
         "colour": "#0088cc",
-        "name": "misp-galaxy:threat-actor=\"TA505\""
+        "name": "misp-galaxy:threat-actor=\"TA505\"",
+        "relationship_type": ""
       },
       {
         "colour": "#004646",
-        "name": "type:OSINT"
+        "name": "type:OSINT",
+        "relationship_type": ""
       },
       {
         "colour": "#0071c3",
-        "name": "osint:lifetime=\"perpetual\""
+        "name": "osint:lifetime=\"perpetual\"",
+        "relationship_type": ""
       },
       {
         "colour": "#0087e8",
-        "name": "osint:certainty=\"50\""
+        "name": "osint:certainty=\"50\"",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:clear"
+        "name": "tlp:clear",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "PAP:CLEAR"
+        "name": "PAP:CLEAR",
+        "relationship_type": ""
       }
     ],
     "Attribute": [
@@ -65,7 +74,8 @@
         "Tag": [
           {
             "colour": "#00af7a",
-            "name": "DescriptionTechnique"
+            "name": "DescriptionTechnique",
+            "relationship_type": ""
           }
         ]
       },
@@ -3415,7 +3425,8 @@
         "Tag": [
           {
             "colour": "#000000",
-            "name": "cert-fr:relevantTimespan=\"from\""
+            "name": "cert-fr:relevantTimespan=\"from\"",
+            "relationship_type": ""
           }
         ]
       }

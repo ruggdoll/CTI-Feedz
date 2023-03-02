@@ -4,7 +4,7 @@
     "date": "2020-06-19",
     "extends_uuid": "",
     "info": "[CERT-FR] Le groupe cybercriminel TA505",
-    "publish_timestamp": "1656918311",
+    "publish_timestamp": "0",
     "published": false,
     "threat_level_id": "4",
     "timestamp": "1671006756",
@@ -16,23 +16,28 @@
     "Tag": [
       {
         "colour": "#f89595",
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
+        "relationship_type": ""
       },
       {
         "colour": "#00714f",
-        "name": "cert-fr:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\"",
+        "relationship_type": ""
       },
       {
         "colour": "#0088cc",
-        "name": "misp-galaxy:threat-actor=\"TA505\""
+        "name": "misp-galaxy:threat-actor=\"TA505\"",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:clear"
+        "name": "tlp:clear",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "PAP:CLEAR"
+        "name": "PAP:CLEAR",
+        "relationship_type": ""
       }
     ],
     "Attribute": [
@@ -49,7 +54,8 @@
         "Tag": [
           {
             "colour": "#00af7a",
-            "name": "DescriptionTechnique"
+            "name": "DescriptionTechnique",
+            "relationship_type": ""
           }
         ]
       },
@@ -352,7 +358,8 @@
         "Tag": [
           {
             "colour": "#000000",
-            "name": "cert-fr:relevantTimespan=\"from\""
+            "name": "cert-fr:relevantTimespan=\"from\"",
+            "relationship_type": ""
           }
         ]
       }

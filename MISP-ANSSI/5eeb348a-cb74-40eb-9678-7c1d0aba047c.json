@@ -4,10 +4,10 @@
     "date": "2020-05-28",
     "extends_uuid": "",
     "info": "[CERT-FR] Le code malveillant Dridex : origines et usages",
-    "publish_timestamp": "1675327476",
-    "published": true,
+    "publish_timestamp": "0",
+    "published": false,
     "threat_level_id": "4",
-    "timestamp": "1674928855",
+    "timestamp": "1677666893",
     "uuid": "5eeb348a-cb74-40eb-9678-7c1d0aba047c",
     "Orgc": {
       "name": "CERT-FR",
@@ -16,39 +16,28 @@
     "Tag": [
       {
         "colour": "#f89595",
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
+        "relationship_type": ""
       },
       {
         "colour": "#00714f",
-        "name": "cert-fr:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\"",
+        "relationship_type": ""
       },
       {
         "colour": "#0088cc",
-        "name": "misp-galaxy:malpedia=\"Dridex\""
+        "name": "misp-galaxy:malpedia=\"Dridex\"",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:clear"
+        "name": "tlp:clear",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "PAP:CLEAR"
-      },
-      {
-        "colour": "#ffffff",
-        "name": "cossi:TLP=\"white\""
-      },
-      {
-        "colour": "#008e63",
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
-      },
-      {
-        "colour": "#00714f",
-        "name": "cossi:fiabilite=\"Bonne\""
-      },
-      {
-        "colour": "#ffffff",
-        "name": "tlp:white"
+        "name": "PAP:CLEAR",
+        "relationship_type": ""
       }
     ],
     "Attribute": [
@@ -65,7 +54,8 @@
         "Tag": [
           {
             "colour": "#00af7a",
-            "name": "DescriptionTechnique"
+            "name": "DescriptionTechnique",
+            "relationship_type": ""
           }
         ]
       },
@@ -82,11 +72,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -103,11 +95,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -124,11 +118,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -145,11 +141,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -166,11 +164,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -187,11 +187,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -208,11 +210,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -229,11 +233,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -250,11 +256,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -271,11 +279,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -292,11 +302,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -313,11 +325,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -334,11 +348,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -355,11 +371,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -376,11 +394,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -397,11 +417,13 @@
         "Tag": [
           {
             "colour": "#8a0064",
-            "name": "kill-chain:Delivery"
+            "name": "kill-chain:Delivery",
+            "relationship_type": ""
           },
           {
             "colour": "#00714f",
-            "name": "cert-fr:fiabilite=\"Bonne\""
+            "name": "cert-fr:fiabilite=\"Bonne\"",
+            "relationship_type": ""
           }
         ]
       },
@@ -858,7 +880,8 @@
         "Tag": [
           {
             "colour": "#000000",
-            "name": "cert-fr:relevantTimespan=\"from\""
+            "name": "cert-fr:relevantTimespan=\"from\"",
+            "relationship_type": ""
           }
         ]
       }
@@ -889,7 +912,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -907,7 +931,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -925,7 +950,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -968,7 +994,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -986,7 +1013,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1004,7 +1032,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1047,7 +1076,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1065,7 +1095,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1083,7 +1114,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1126,7 +1158,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1144,7 +1177,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1162,7 +1196,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1205,7 +1240,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1223,7 +1259,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1241,7 +1278,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1284,7 +1322,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           }
@@ -1315,7 +1354,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1333,7 +1373,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1351,7 +1392,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1394,7 +1436,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1412,7 +1455,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1430,7 +1474,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1473,7 +1518,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1491,7 +1537,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1509,7 +1556,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1552,7 +1600,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1570,7 +1619,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1588,7 +1638,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1631,7 +1682,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1649,7 +1701,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1667,7 +1720,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1710,7 +1764,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1728,7 +1783,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1746,7 +1802,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1789,7 +1846,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1807,7 +1865,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1825,7 +1884,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1868,7 +1928,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1886,7 +1947,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1904,7 +1966,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1947,7 +2010,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1965,7 +2029,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -1983,7 +2048,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -2026,7 +2092,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -2044,7 +2111,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -2062,7 +2130,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -2105,7 +2174,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -2123,7 +2193,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },
@@ -2141,7 +2212,8 @@
             "Tag": [
               {
                 "colour": "#8a0064",
-                "name": "kill-chain:Delivery"
+                "name": "kill-chain:Delivery",
+                "relationship_type": ""
               }
             ]
           },

@@ -4,10 +4,10 @@
     "date": "2020-06-18",
     "extends_uuid": "",
     "info": "[CERT-FR] Le groupe cybercriminel Silence",
-    "publish_timestamp": "1675327477",
-    "published": true,
+    "publish_timestamp": "0",
+    "published": false,
     "threat_level_id": "4",
-    "timestamp": "1674928825",
+    "timestamp": "1677666939",
     "uuid": "5eeb995f-c570-4242-94c6-79870aba047c",
     "Orgc": {
       "name": "CERT-FR",
@@ -16,39 +16,28 @@
     "Tag": [
       {
         "colour": "#f89595",
-        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\""
+        "name": "fr-classif:non-classifiees=\"NON-CLASSIFIEES\"",
+        "relationship_type": ""
       },
       {
         "colour": "#00714f",
-        "name": "cert-fr:fiabilite=\"Bonne\""
+        "name": "cert-fr:fiabilite=\"Bonne\"",
+        "relationship_type": ""
       },
       {
         "colour": "#26d275",
-        "name": "misp-galaxy:threat-actor=\"Silence group\""
+        "name": "misp-galaxy:threat-actor=\"Silence group\"",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "tlp:clear"
+        "name": "tlp:clear",
+        "relationship_type": ""
       },
       {
         "colour": "#ffffff",
-        "name": "PAP:CLEAR"
-      },
-      {
-        "colour": "#ffffff",
-        "name": "cossi:TLP=\"white\""
-      },
-      {
-        "colour": "#008e63",
-        "name": "cossi:RechercheSourceOuverte=\"Autorisee\""
-      },
-      {
-        "colour": "#00714f",
-        "name": "cossi:fiabilite=\"Bonne\""
-      },
-      {
-        "colour": "#ffffff",
-        "name": "tlp:white"
+        "name": "PAP:CLEAR",
+        "relationship_type": ""
       }
     ],
     "Attribute": [
@@ -65,7 +54,8 @@
         "Tag": [
           {
             "colour": "#00af7a",
-            "name": "DescriptionTechnique"
+            "name": "DescriptionTechnique",
+            "relationship_type": ""
           }
         ]
       },
@@ -401,7 +391,8 @@
         "Tag": [
           {
             "colour": "#000000",
-            "name": "cert-fr:relevantTimespan=\"from\""
+            "name": "cert-fr:relevantTimespan=\"from\"",
+            "relationship_type": ""
           }
         ]
       }
@@ -432,7 +423,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -450,7 +442,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -468,7 +461,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -511,7 +505,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -529,7 +524,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -547,7 +543,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -590,7 +587,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -608,7 +606,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -626,7 +625,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -669,7 +669,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -687,7 +688,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -705,7 +707,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -748,7 +751,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -766,7 +770,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -784,7 +789,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -827,7 +833,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -845,7 +852,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -863,7 +871,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -906,7 +915,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -924,7 +934,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -942,7 +953,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -985,7 +997,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1003,7 +1016,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1021,7 +1035,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1064,7 +1079,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1082,7 +1098,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1100,7 +1117,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1143,7 +1161,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1161,7 +1180,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1179,7 +1199,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1222,7 +1243,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1240,7 +1262,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1258,7 +1281,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1301,7 +1325,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1319,7 +1344,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1337,7 +1363,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1380,7 +1407,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1398,7 +1426,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1416,7 +1445,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1459,7 +1489,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1477,7 +1508,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1495,7 +1527,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1538,7 +1571,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1556,7 +1590,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1574,7 +1609,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1617,7 +1653,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1635,7 +1672,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1653,7 +1691,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1696,7 +1735,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1714,7 +1754,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1732,7 +1773,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1775,7 +1817,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1793,7 +1836,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1811,7 +1855,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1854,7 +1899,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1872,7 +1918,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1890,7 +1937,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1933,7 +1981,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1951,7 +2000,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -1969,7 +2019,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -2012,7 +2063,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -2030,7 +2082,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -2048,7 +2101,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -2091,7 +2145,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -2109,7 +2164,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -2127,7 +2183,8 @@
             "Tag": [
               {
                 "colour": "#e200a3",
-                "name": "kill-chain:Command and Control"
+                "name": "kill-chain:Command and Control",
+                "relationship_type": ""
               }
             ]
           },
@@ -2170,7 +2227,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2188,7 +2246,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2206,7 +2265,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2249,7 +2309,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2267,7 +2328,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2285,7 +2347,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2328,7 +2391,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2346,7 +2410,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2364,7 +2429,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2407,7 +2473,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2425,7 +2492,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2443,7 +2511,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2486,7 +2555,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2504,7 +2574,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2522,7 +2593,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2565,7 +2637,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2583,7 +2656,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2601,7 +2675,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2644,7 +2719,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2662,7 +2738,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2680,7 +2757,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2723,7 +2801,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2741,7 +2820,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
@@ -2759,7 +2839,8 @@
             "Tag": [
               {
                 "colour": "#c5008e",
-                "name": "kill-chain:Installation"
+                "name": "kill-chain:Installation",
+                "relationship_type": ""
               }
             ]
           },
