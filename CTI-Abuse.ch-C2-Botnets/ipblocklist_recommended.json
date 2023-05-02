@@ -38,7 +38,7 @@
     {
         "ip_address": "128.199.232.159",
         "port": 6225,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 14061,
         "as_name": "DIGITALOCEAN-ASN",
@@ -62,7 +62,7 @@
     {
         "ip_address": "89.101.97.139",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "089-101-097139.ntlworld.ie",
         "as_number": 6830,
         "as_name": "LIBERTYGLOBAL Liberty Global formerly UPC Broadband Holding, aka AORTA",
@@ -118,18 +118,6 @@
         "first_seen": "2021-10-11 07:48:40",
         "last_online": "2023-05-02",
         "malware": "Dridex"
-    },
-    {
-        "ip_address": "117.248.109.38",
-        "port": 21,
-        "status": "offline",
-        "hostname": "ho.sansui.co.in",
-        "as_number": 9829,
-        "as_name": "BSNL-NIB National Internet Backbone",
-        "country": "IN",
-        "first_seen": "2021-10-26 16:03:21",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
     },
     {
         "ip_address": "104.248.155.133",
@@ -338,7 +326,7 @@
     {
         "ip_address": "72.88.245.71",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "pool-72-88-245-71.nwrknj.fios.verizon.net",
         "as_number": 701,
         "as_name": "UUNET",
@@ -398,7 +386,7 @@
     {
         "ip_address": "27.109.19.90",
         "port": 2078,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 17625,
         "as_name": "BLAZENET-IN-AP BlazeNets Network",
@@ -456,6 +444,18 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "73.88.173.113",
+        "port": 443,
+        "status": "online",
+        "hostname": "c-73-88-173-113.hsd1.ky.comcast.net",
+        "as_number": 7922,
+        "as_name": "COMCAST-7922",
+        "country": "US",
+        "first_seen": "2022-11-01 20:45:37",
+        "last_online": "2023-05-02",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "70.64.77.115",
         "port": 443,
         "status": "online",
@@ -470,7 +470,7 @@
     {
         "ip_address": "62.35.100.38",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "i16-les04-th2-62-35-100-38.sfr.lns.abo.bbox.fr",
         "as_number": 5410,
         "as_name": "BOUYGTEL-ISP",
@@ -560,6 +560,18 @@
         "as_name": "TWC-11351-NORTHEAST",
         "country": "US",
         "first_seen": "2022-11-04 12:29:35",
+        "last_online": "2023-05-02",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "76.185.166.168",
+        "port": 443,
+        "status": "online",
+        "hostname": "cpe-76-185-166-168.satx.res.rr.com",
+        "as_number": 11427,
+        "as_name": "TWC-11427-TEXAS",
+        "country": "US",
+        "first_seen": "2022-11-04 16:18:16",
         "last_online": "2023-05-02",
         "malware": "QakBot"
     },
@@ -660,30 +672,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "87.202.101.164",
-        "port": 50000,
-        "status": "offline",
-        "hostname": "athedsl-25818.home.otenet.gr",
-        "as_number": 6799,
-        "as_name": "OTENET-GR Athens - Greece",
-        "country": "GR",
-        "first_seen": "2022-11-15 08:02:16",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "81.111.108.123",
-        "port": 443,
-        "status": "offline",
-        "hostname": "duns-08-b2-v4wan-161939-cust122.vm32.cable.virginm.net",
-        "as_number": 5089,
-        "as_name": "NTL",
-        "country": "GB",
-        "first_seen": "2022-11-15 10:42:01",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "70.121.198.103",
         "port": 2078,
         "status": "online",
@@ -696,9 +684,21 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "73.22.121.210",
+        "ip_address": "131.106.168.223",
         "port": 443,
         "status": "offline",
+        "hostname": "131-106-168-223.s2782.c3-0.mill-e6k1.mill.md.cable.rcncustomer.com",
+        "as_number": 6079,
+        "as_name": "RCN-AS",
+        "country": "US",
+        "first_seen": "2022-11-15 21:01:09",
+        "last_online": "2023-05-02",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "73.22.121.210",
+        "port": 443,
+        "status": "online",
         "hostname": "c-73-22-121-210.hsd1.il.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -794,23 +794,11 @@
     {
         "ip_address": "98.187.21.2",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "wsip-98-187-21-2.ri.ri.cox.net",
         "as_number": 22773,
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
         "country": "US",
-        "first_seen": "2022-11-17 18:49:32",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "82.36.36.76",
-        "port": 443,
-        "status": "offline",
-        "hostname": "nmal-24-b2-v4wan-166357-cust1099.vm24.cable.virginm.net",
-        "as_number": 5089,
-        "as_name": "NTL",
-        "country": "GB",
         "first_seen": "2022-11-17 18:49:32",
         "last_online": "2023-05-02",
         "malware": "QakBot"
@@ -840,21 +828,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "89.79.229.50",
-        "port": 443,
-        "status": "offline",
-        "hostname": "89-79-229-50.dynamic.chello.pl",
-        "as_number": 6830,
-        "as_name": "LIBERTYGLOBAL Liberty Global formerly UPC Broadband Holding, aka AORTA",
-        "country": "PL",
-        "first_seen": "2022-11-18 13:25:17",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "92.186.69.229",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "229.pool92-186-69.dynamic.orange.es",
         "as_number": 12479,
         "as_name": "UNI2-AS",
@@ -866,24 +842,12 @@
     {
         "ip_address": "176.133.4.230",
         "port": 995,
-        "status": "online",
+        "status": "offline",
         "hostname": "gas45-h05-176-133-4-230.dsl.sta.abo.bbox.fr",
         "as_number": 5410,
         "as_name": "BOUYGTEL-ISP",
         "country": "FR",
         "first_seen": "2022-11-30 17:46:34",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "82.11.242.219",
-        "port": 443,
-        "status": "offline",
-        "hostname": "cpc82785-midd19-2-0-cust730.11-1.cable.virginm.net",
-        "as_number": 5089,
-        "as_name": "NTL",
-        "country": "GB",
-        "first_seen": "2022-12-02 15:57:18",
         "last_online": "2023-05-02",
         "malware": "QakBot"
     },
@@ -926,7 +890,7 @@
     {
         "ip_address": "208.180.17.32",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 19108,
         "as_name": "SUDDENLINK-COMMUNICATIONS",
@@ -984,9 +948,21 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "144.64.226.144",
+        "port": 443,
+        "status": "offline",
+        "hostname": "bl23-226-144.dsl.telepac.pt",
+        "as_number": 3243,
+        "as_name": "MEO-RESIDENCIAL",
+        "country": "PT",
+        "first_seen": "2022-12-20 09:06:05",
+        "last_online": "2023-05-02",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "173.178.151.233",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "modemcable233.151-178-173.mc.videotron.ca",
         "as_number": 5769,
         "as_name": "VIDEOTRON",
@@ -1068,18 +1044,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "47.6.243.7",
-        "port": 443,
-        "status": "offline",
-        "hostname": "047-006-243-007.res.spectrum.com",
-        "as_number": 20115,
-        "as_name": "CHARTER-20115",
-        "country": "US",
-        "first_seen": "2023-02-06 13:57:59",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "47.21.51.138",
         "port": 443,
         "status": "online",
@@ -1106,7 +1070,7 @@
     {
         "ip_address": "86.208.35.220",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "lfbn-ami-1-314-220.w86-208.abo.wanadoo.fr",
         "as_number": 3215,
         "as_name": "France Telecom - Orange",
@@ -1166,7 +1130,7 @@
     {
         "ip_address": "98.37.25.99",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": "c-98-37-25-99.hsd1.ca.comcast.net",
         "as_number": 7922,
         "as_name": "COMCAST-7922",
@@ -1202,7 +1166,7 @@
     {
         "ip_address": "72.188.103.221",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "072-188-103-221.res.spectrum.com",
         "as_number": 33363,
         "as_name": "BHN-33363",
@@ -1250,7 +1214,7 @@
     {
         "ip_address": "78.192.109.105",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "ner95-1-78-192-109-105.fbxo.proxad.net",
         "as_number": 12322,
         "as_name": "PROXAD",
@@ -1274,7 +1238,7 @@
     {
         "ip_address": "70.24.104.146",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "bras-base-okvlon0102w-grc-75-70-24-104-146.dsl.bell.ca",
         "as_number": 577,
         "as_name": "BACOM",
@@ -1320,14 +1284,14 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "188.176.171.3",
+        "ip_address": "67.248.21.32",
         "port": 443,
-        "status": "offline",
-        "hostname": "188-176-171-3-dynamic.dk.customer.tdc.net",
-        "as_number": 3292,
-        "as_name": "TDC TDC AS",
-        "country": "DK",
-        "first_seen": "2023-03-15 04:51:17",
+        "status": "online",
+        "hostname": "cpe-67-248-21-32.nycap.res.rr.com",
+        "as_number": 11351,
+        "as_name": "TWC-11351-NORTHEAST",
+        "country": "US",
+        "first_seen": "2023-03-14 20:21:03",
         "last_online": "2023-05-02",
         "malware": "QakBot"
     },
@@ -1356,33 +1320,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "175.156.65.126",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "126.65.156.175.unknown.m1.com.sg",
-        "as_number": 4773,
-        "as_name": "MOBILEONELTD-AS-AP MobileOne Ltd. MobileInternet Service Provider Singapore",
-        "country": "SG",
-        "first_seen": "2023-03-20 23:31:58",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "157.119.85.203",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 132573,
-        "as_name": "SAINGN-AS-IN SAI NGN Network Services",
-        "country": "IN",
-        "first_seen": "2023-03-21 03:52:04",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "47.132.248.132",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "047-132-248-132.res.spectrum.com",
         "as_number": 20115,
         "as_name": "CHARTER-20115",
@@ -1392,9 +1332,21 @@
         "malware": "QakBot"
     },
     {
+        "ip_address": "92.149.250.113",
+        "port": 2222,
+        "status": "offline",
+        "hostname": "atoulouse-156-1-15-113.w92-149.abo.wanadoo.fr",
+        "as_number": 3215,
+        "as_name": "France Telecom - Orange",
+        "country": "FR",
+        "first_seen": "2023-03-21 20:31:08",
+        "last_online": "2023-05-02",
+        "malware": "QakBot"
+    },
+    {
         "ip_address": "97.90.245.22",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "097-090-245-022.res.spectrum.com",
         "as_number": 20115,
         "as_name": "CHARTER-20115",
@@ -1404,21 +1356,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "122.186.210.254",
-        "port": 443,
-        "status": "offline",
-        "hostname": "nsg-corporate-254.210.186.122.airtel.in",
-        "as_number": 9498,
-        "as_name": "BBIL-AP BHARTI Airtel Ltd.",
-        "country": "IN",
-        "first_seen": "2023-03-23 12:31:55",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "67.219.197.94",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "ip94-197-219-67.static.metroe.CTSVoice.net",
         "as_number": 19653,
         "as_name": "CTSTELECOM",
@@ -1466,12 +1406,24 @@
     {
         "ip_address": "183.82.107.190",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "183.82.107.190.actcorp.in",
         "as_number": 18209,
         "as_name": "BEAMTELE-AS-AP Atria Convergence Technologies pvt ltd",
         "country": "IN",
         "first_seen": "2023-03-23 15:01:50",
+        "last_online": "2023-05-02",
+        "malware": "QakBot"
+    },
+    {
+        "ip_address": "90.211.192.113",
+        "port": 443,
+        "status": "offline",
+        "hostname": "5ad3c071.bb.sky.com",
+        "as_number": 5607,
+        "as_name": "BSKYB-BROADBAND-AS",
+        "country": "GB",
+        "first_seen": "2023-03-24 11:08:54",
         "last_online": "2023-05-02",
         "malware": "QakBot"
     },
@@ -1538,7 +1490,7 @@
     {
         "ip_address": "47.199.241.39",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": null,
         "as_number": 5650,
         "as_name": "FRONTIER-FRTR",
@@ -1556,30 +1508,6 @@
         "as_name": "PROXAD",
         "country": "FR",
         "first_seen": "2023-03-30 15:51:52",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "125.99.76.102",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 17488,
-        "as_name": "HATHWAY-NET-AP Hathway IP Over Cable Internet",
-        "country": "IN",
-        "first_seen": "2023-04-01 04:42:02",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "27.99.32.26",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "n27-99-32-26.mrk1.qld.optusnet.com.au",
-        "as_number": 4804,
-        "as_name": "MPX-AS Microplex PTY LTD",
-        "country": "AU",
-        "first_seen": "2023-04-01 12:02:12",
         "last_online": "2023-05-02",
         "malware": "QakBot"
     },
@@ -1610,7 +1538,7 @@
     {
         "ip_address": "47.149.134.231",
         "port": 443,
-        "status": "offline",
+        "status": "online",
         "hostname": null,
         "as_number": 5650,
         "as_name": "FRONTIER-FRTR",
@@ -1692,18 +1620,6 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "41.186.88.38",
-        "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 36890,
-        "as_name": "MTNRW-ASN",
-        "country": "RW",
-        "first_seen": "2023-04-13 07:12:04",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "68.229.150.95",
         "port": 443,
         "status": "online",
@@ -1712,18 +1628,6 @@
         "as_name": "ASN-CXA-ALL-CCI-22773-RDC",
         "country": "US",
         "first_seen": "2023-04-13 17:52:15",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "103.144.201.56",
-        "port": 2078,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 139762,
-        "as_name": "MSSOLUTION-AS-AP Solution",
-        "country": "BD",
-        "first_seen": "2023-04-15 04:02:13",
         "last_online": "2023-05-02",
         "malware": "QakBot"
     },
@@ -1788,21 +1692,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "109.153.252.176",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "host109-153-252-176.range109-153.btcentralplus.com",
-        "as_number": 2856,
-        "as_name": "BT-UK-AS BTnet UK Regional network",
-        "country": "GB",
-        "first_seen": "2023-04-19 16:11:29",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "173.18.122.24",
         "port": 443,
-        "status": "online",
+        "status": "offline",
         "hostname": "173-18-122-24.client.mchsi.com",
         "as_number": 30036,
         "as_name": "MEDIACOM-ENTERPRISE-BUSINESS",
@@ -1826,7 +1718,7 @@
     {
         "ip_address": "96.56.197.26",
         "port": 2083,
-        "status": "offline",
+        "status": "online",
         "hostname": "ool-6038c51a.static.optonline.net",
         "as_number": 6128,
         "as_name": "CABLE-NET-1",
@@ -1850,7 +1742,7 @@
     {
         "ip_address": "70.28.50.223",
         "port": 2078,
-        "status": "online",
+        "status": "offline",
         "hostname": "ipagstaticip-3d433af4-1f00-2a69-93e0-eb56017d6c84.sdsl.bell.ca",
         "as_number": 577,
         "as_name": "BACOM",
@@ -1920,21 +1812,9 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "96.56.197.26",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "ool-6038c51a.static.optonline.net",
-        "as_number": 6128,
-        "as_name": "CABLE-NET-1",
-        "country": "US",
-        "first_seen": "2023-04-20 21:31:30",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
         "ip_address": "2.36.64.159",
         "port": 2078,
-        "status": "online",
+        "status": "offline",
         "hostname": "net-2-36-64-159.cust.vodafonedsl.it",
         "as_number": 30722,
         "as_name": "VODAFONE-IT-ASN",
@@ -1970,7 +1850,7 @@
     {
         "ip_address": "147.147.30.126",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "126.30.147.147.dyn.plus.net",
         "as_number": 6871,
         "as_name": "PLUSNET UK Internet Service Provider",
@@ -1994,7 +1874,7 @@
     {
         "ip_address": "24.236.90.197",
         "port": 2078,
-        "status": "online",
+        "status": "offline",
         "hostname": "user-24-236-90-197.knology.net",
         "as_number": 12083,
         "as_name": "WOW-INTERNET",
@@ -2036,18 +1916,6 @@
         "as_name": "WINDSTREAM",
         "country": "US",
         "first_seen": "2023-04-27 11:41:19",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "65.94.85.74",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "bas2-montreal02-65-94-85-74.dsl.bell.ca",
-        "as_number": 577,
-        "as_name": "BACOM",
-        "country": "CA",
-        "first_seen": "2023-04-27 11:41:21",
         "last_online": "2023-05-02",
         "malware": "QakBot"
     },
@@ -2150,7 +2018,7 @@
     {
         "ip_address": "86.130.9.128",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "host86-130-9-128.range86-130.btcentralplus.com",
         "as_number": 2856,
         "as_name": "BT-UK-AS BTnet UK Regional network",
@@ -2174,7 +2042,7 @@
     {
         "ip_address": "31.53.29.198",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "host31-53-29-198.range31-53.btcentralplus.com",
         "as_number": 2856,
         "as_name": "BT-UK-AS BTnet UK Regional network",
@@ -2198,7 +2066,7 @@
     {
         "ip_address": "109.218.108.3",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "arennes-655-1-29-3.w109-218.abo.wanadoo.fr",
         "as_number": 3215,
         "as_name": "France Telecom - Orange",
@@ -2210,24 +2078,12 @@
     {
         "ip_address": "87.220.204.177",
         "port": 2222,
-        "status": "online",
+        "status": "offline",
         "hostname": "177.204.220.87.dynamic.jazztel.es",
         "as_number": 12479,
         "as_name": "UNI2-AS",
         "country": "ES",
         "first_seen": "2023-05-02 15:15:57",
-        "last_online": "2023-05-02",
-        "malware": "QakBot"
-    },
-    {
-        "ip_address": "92.97.119.138",
-        "port": 2222,
-        "status": "offline",
-        "hostname": "bba-92-97-119-138.alshamil.net.ae",
-        "as_number": 5384,
-        "as_name": "EMIRATES-INTERNET Emirates Internet",
-        "country": "AE",
-        "first_seen": "2023-05-02 15:15:58",
         "last_online": "2023-05-02",
         "malware": "QakBot"
     },
@@ -2244,14 +2100,14 @@
         "malware": "QakBot"
     },
     {
-        "ip_address": "103.123.223.171",
+        "ip_address": "78.16.206.86",
         "port": 443,
-        "status": "offline",
-        "hostname": null,
-        "as_number": 138329,
-        "as_name": "KWS-AS-AP Kenstar Web Solutions Private Limited",
-        "country": "IN",
-        "first_seen": "2023-05-02 15:45:57",
+        "status": "online",
+        "hostname": "sky-78-16-206-86.bas512.cwt.btireland.net",
+        "as_number": 2110,
+        "as_name": "AS-BTIRE BT Ireland was previously known as Esat Net, EUnet Ireland & IEUnet.",
+        "country": "IE",
+        "first_seen": "2023-05-02 18:35:51",
         "last_online": "2023-05-02",
         "malware": "QakBot"
     }
