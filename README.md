@@ -9,6 +9,7 @@ Some _TLP:White_ CTI Feeds
 
 Update is scheduled 6 times a day
 
+__NEWS__ : [2023/06/19] No more updates for now
 
 __TODO__ :
 - Add more feeds
